@@ -14,7 +14,11 @@
   {% include "pagination/06-screenreader.njk" %}
 {% endblock %}
 
-{% block pagination_all %}  
+{% block pagination_all %} 
+   <section class="blog-footer {{ color }} lighten-5">
+          {% include "post/blog-footer.njk" %}
+          {# include "service/disqus-comments.html" #}
+        </section>
   {% include "pagination/01-simple.njk" %}
   {% include "pagination/02-number.njk" %}
   {% include "pagination/03-adjacent.njk" %}
