@@ -5,9 +5,9 @@
   "homepage": "https://gitlab.com/epsi-rns/tutor-11ty-bulma-md#readme",
   "version": "0.7.0",
   "scripts": {
-    "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "debug": "DEBUG=* eleventy"
   },
   "repository": {
     "type": "git",
