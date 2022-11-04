@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include "site/head.njk" %}
+</head>
+
+<body>
+  {% include "site/header.njk" %}
+
+  {% block general %}
+  <div class="columns is-8 layout-base maxwidth">
+    {% block main %}
+    {{ content | safe }}
+    {% endblock %}
+
+    {% block aside %}{% endblock %}
+  </div>
+  {% endblock %}
+
+  {% include "site/footer.njk" %}
+  {% include "site/scripts.njk" %}
+  {% block custom_javascript %}{% endblock %}
+</body>
+
+</html>

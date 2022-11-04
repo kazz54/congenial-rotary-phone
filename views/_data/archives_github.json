@@ -1,0 +1,1431 @@
+{
+  
+
+    "system-2020-02-02-presentation-linux-diversity-html": {
+      "title": "Presentation - Learning Linux Diversity",
+      "url": "/system/2020/02/02/presentation-linux-diversity.html"
+    }
+    ,
+  
+
+    "desktop-2020-01-20-presentation-desktop-customization-html": {
+      "title": "Presentation - Desktop Customization",
+      "url": "/desktop/2020/01/20/presentation-desktop-customization.html"
+    }
+    ,
+  
+
+    "desktop-2019-12-03-awesome-presentation-statusbar-html": {
+      "title": "Awesome WM - Presentation - Statusbar",
+      "url": "/desktop/2019/12/03/awesome-presentation-statusbar.html"
+    }
+    ,
+  
+
+    "desktop-2019-12-02-awesome-presentation-theme-html": {
+      "title": "Awesome WM - Presentation - Theme",
+      "url": "/desktop/2019/12/02/awesome-presentation-theme.html"
+    }
+    ,
+  
+
+    "desktop-2019-12-01-awesome-presentation-modularized-html": {
+      "title": "Awesome WM - Presentation - Modularized",
+      "url": "/desktop/2019/12/01/awesome-presentation-modularized.html"
+    }
+    ,
+  
+
+    "desktop-2019-11-28-awesome-statusbar-arrow-html": {
+      "title": "Awesome WM - Statusbar - Arrow Style",
+      "url": "/desktop/2019/11/28/awesome-statusbar-arrow.html"
+    }
+    ,
+  
+
+    "desktop-2019-11-27-awesome-statusbar-lain-html": {
+      "title": "Awesome WM - Statusbar - Lain Library",
+      "url": "/desktop/2019/11/27/awesome-statusbar-lain.html"
+    }
+    ,
+  
+
+    "desktop-2019-11-26-awesome-statusbar-vicious-html": {
+      "title": "Awesome WM - Statusbar - Vicious Library",
+      "url": "/desktop/2019/11/26/awesome-statusbar-vicious.html"
+    }
+    ,
+  
+
+    "desktop-2019-11-25-awesome-statusbar-stacked-html": {
+      "title": "Awesome WM - Statusbar - Stacked",
+      "url": "/desktop/2019/11/25/awesome-statusbar-stacked.html"
+    }
+    ,
+  
+
+    "desktop-2019-11-24-awesome-statusbar-default-html": {
+      "title": "Awesome WM - Statusbar - Refactoring Default",
+      "url": "/desktop/2019/11/24/awesome-statusbar-default.html"
+    }
+    ,
+  
+
+    "desktop-2019-10-23-awesome-theme-icons-html": {
+      "title": "Awesome WM - Theme - Statusbar Icons",
+      "url": "/desktop/2019/10/23/awesome-theme-icons.html"
+    }
+    ,
+  
+
+    "desktop-2019-10-22-awesome-theme-layout-html": {
+      "title": "Awesome WM - Theme - Layout Icons",
+      "url": "/desktop/2019/10/22/awesome-theme-layout.html"
+    }
+    ,
+  
+
+    "desktop-2019-10-21-awesome-theme-titlebar-html": {
+      "title": "Awesome WM - Theme - Titlebar",
+      "url": "/desktop/2019/10/21/awesome-theme-titlebar.html"
+    }
+    ,
+  
+
+    "desktop-2019-10-20-awesome-theme-main-html": {
+      "title": "Awesome WM - Theme - Main",
+      "url": "/desktop/2019/10/20/awesome-theme-main.html"
+    }
+    ,
+  
+
+    "desktop-2019-06-19-awesome-modularized-statusbar-html": {
+      "title": "Awesome WM - Statusbar Modules",
+      "url": "/desktop/2019/06/19/awesome-modularized-statusbar.html"
+    }
+    ,
+  
+
+    "desktop-2019-06-18-awesome-modularized-binding-html": {
+      "title": "Awesome WM - Binding Modules",
+      "url": "/desktop/2019/06/18/awesome-modularized-binding.html"
+    }
+    ,
+  
+
+    "desktop-2019-06-17-awesome-modularized-main-html": {
+      "title": "Awesome WM - Main Modules",
+      "url": "/desktop/2019/06/17/awesome-modularized-main.html"
+    }
+    ,
+  
+
+    "desktop-2019-06-16-awesome-modularized-structure-html": {
+      "title": "Awesome WM - Modularized Structure",
+      "url": "/desktop/2019/06/16/awesome-modularized-structure.html"
+    }
+    ,
+  
+
+    "desktop-2019-06-15-awesome-overview-html": {
+      "title": "Awesome WM - Overview",
+      "url": "/desktop/2019/06/15/awesome-overview.html"
+    }
+    ,
+  
+
+    "desktop-2019-06-11-modularized-conky-html": {
+      "title": "Conky with Lua Scripting",
+      "url": "/desktop/2019/06/11/modularized-conky.html"
+    }
+    ,
+  
+
+    "system-2019-04-02-ghostbsd-ports-html": {
+      "title": "GhostBSD - Ports",
+      "url": "/system/2019/04/02/ghostbsd-ports.html"
+    }
+    ,
+  
+
+    "system-2019-03-30-ghostbsd-migration-html": {
+      "title": "GhostBSD - Migration from Linux",
+      "url": "/system/2019/03/30/ghostbsd-migration.html"
+    }
+    ,
+  
+
+    "system-2019-03-25-ghostbsd-driver-html": {
+      "title": "GhostBSD - Driver",
+      "url": "/system/2019/03/25/ghostbsd-driver.html"
+    }
+    ,
+  
+
+    "system-2019-03-20-ghostbsd-multiboot-html": {
+      "title": "GhostBSD - Multiboot",
+      "url": "/system/2019/03/20/ghostbsd-multiboot.html"
+    }
+    ,
+  
+
+    "system-2019-01-21-windows-cli-environment-html": {
+      "title": "Windows - Setting up CLI Environment",
+      "url": "/system/2019/01/21/windows-cli-environment.html"
+    }
+    ,
+  
+
+    "system-2019-01-01-gentoo-selective-emerge-html": {
+      "title": "Gentoo - Selective Emerge with Equery",
+      "url": "/system/2019/01/01/gentoo-selective-emerge.html"
+    }
+    ,
+  
+
+    "desktop-2018-08-07-terminal-ricing-html": {
+      "title": "Linux - Terminal Customization",
+      "url": "/desktop/2018/08/07/terminal-ricing.html"
+    }
+    ,
+  
+
+    "desktop-2018-07-18-openbox-install-html": {
+      "title": "Openbox Install - obmenu-generator",
+      "url": "/desktop/2018/07/18/openbox-install.html"
+    }
+    ,
+  
+
+    "desktop-2018-07-17-openbox-install-html": {
+      "title": "Openbox Install - oblogout",
+      "url": "/desktop/2018/07/17/openbox-install.html"
+    }
+    ,
+  
+
+    "desktop-2018-07-16-openbox-install-html": {
+      "title": "Openbox Install - Common Utility",
+      "url": "/desktop/2018/07/16/openbox-install.html"
+    }
+    ,
+  
+
+    "desktop-2018-07-15-openbox-install-html": {
+      "title": "Openbox Install - Basic",
+      "url": "/desktop/2018/07/15/openbox-install.html"
+    }
+    ,
+  
+
+    "system-2018-06-22-audio-command-line-html": {
+      "title": "Audio Command Line, a must have Knowledge",
+      "url": "/system/2018/06/22/audio-command-line.html"
+    }
+    ,
+  
+
+    "system-2018-05-30-distro-slackware-plasma5-html": {
+      "title": "Distribution - Slackware Plasma 5",
+      "url": "/system/2018/05/30/distro-slackware-plasma5.html"
+    }
+    ,
+  
+
+    "system-2018-05-25-linux-samba-html": {
+      "title": "Linux Network - Samba",
+      "url": "/system/2018/05/25/linux-samba.html"
+    }
+    ,
+  
+
+    "system-2018-05-23-linux-multiboot-html": {
+      "title": "Linux Multiboot - chroot",
+      "url": "/system/2018/05/23/linux-multiboot.html"
+    }
+    ,
+  
+
+    "system-2018-05-22-linux-multiboot-html": {
+      "title": "Linux Multiboot - /etc/fstab",
+      "url": "/system/2018/05/22/linux-multiboot.html"
+    }
+    ,
+  
+
+    "system-2018-05-21-linux-multiboot-html": {
+      "title": "Linux Multiboot - Partition Schema",
+      "url": "/system/2018/05/21/linux-multiboot.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-17-tint2-config-html": {
+      "title": "Tint2 - Panel Items",
+      "url": "/desktop/2018/05/17/tint2-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-16-tint2-config-html": {
+      "title": "Tint2 - More Backgrounds",
+      "url": "/desktop/2018/05/16/tint2-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-15-tint2-config-html": {
+      "title": "Tint2 - Simple Taskbar",
+      "url": "/desktop/2018/05/15/tint2-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-12-openbox-exit-html": {
+      "title": "Openbox Utility - Exit",
+      "url": "/desktop/2018/05/12/openbox-exit.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-11-openbox-config-html": {
+      "title": "Openbox Menu - Exit",
+      "url": "/desktop/2018/05/11/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-10-openbox-config-html": {
+      "title": "Openbox Menu - OB Menu Generator",
+      "url": "/desktop/2018/05/10/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-09-openbox-config-html": {
+      "title": "Openbox Menu - XDG Applications",
+      "url": "/desktop/2018/05/09/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-08-openbox-config-html": {
+      "title": "Openbox Menu - Dynamic",
+      "url": "/desktop/2018/05/08/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-07-openbox-config-html": {
+      "title": "Openbox Menu - Static",
+      "url": "/desktop/2018/05/07/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-05-openbox-config-html": {
+      "title": "Openbox Config - Rules",
+      "url": "/desktop/2018/05/05/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-04-openbox-config-html": {
+      "title": "Openbox Config - Key and Mouse Binding",
+      "url": "/desktop/2018/05/04/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-03-openbox-config-html": {
+      "title": "Openbox Config - General rc.xml",
+      "url": "/desktop/2018/05/03/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-05-01-openbox-config-html": {
+      "title": "Openbox Config - Overview",
+      "url": "/desktop/2018/05/01/openbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-18-openbox-theme-html": {
+      "title": "Openbox Theme - Special Trick",
+      "url": "/desktop/2018/04/18/openbox-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-17-openbox-theme-html": {
+      "title": "Openbox Theme - Common Config Trick",
+      "url": "/desktop/2018/04/17/openbox-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-16-openbox-theme-html": {
+      "title": "Openbox Theme - Common Inkscape Trick",
+      "url": "/desktop/2018/04/16/openbox-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-15-openbox-theme-html": {
+      "title": "Openbox Theme - Overview",
+      "url": "/desktop/2018/04/15/openbox-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-07-fluxbox-style-html": {
+      "title": "Fluxbox Theme - Style Part",
+      "url": "/desktop/2018/04/07/fluxbox-style.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-06-fluxbox-style-html": {
+      "title": "Fluxbox Theme - Inkscape Part",
+      "url": "/desktop/2018/04/06/fluxbox-style.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-04-fluxbox-config-html": {
+      "title": "Fluxbox Config - Menu",
+      "url": "/desktop/2018/04/04/fluxbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-03-fluxbox-config-html": {
+      "title": "Fluxbox Config - General",
+      "url": "/desktop/2018/04/03/fluxbox-config.html"
+    }
+    ,
+  
+
+    "desktop-2018-04-01-fluxbox-overview-html": {
+      "title": "Fluxbox Overview",
+      "url": "/desktop/2018/04/01/fluxbox-overview.html"
+    }
+    ,
+  
+
+    "desktop-2018-03-25-xfwm4-theme-html": {
+      "title": "XFWM4 Theme - Part Five",
+      "url": "/desktop/2018/03/25/xfwm4-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-03-24-xfwm4-theme-html": {
+      "title": "XFWM4 Theme - Part Four",
+      "url": "/desktop/2018/03/24/xfwm4-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-03-23-xfwm4-theme-html": {
+      "title": "XFWM4 Theme - Part Three",
+      "url": "/desktop/2018/03/23/xfwm4-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-03-22-xfwm4-theme-html": {
+      "title": "XFWM4 Theme - Part Two",
+      "url": "/desktop/2018/03/22/xfwm4-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-03-21-xfwm4-theme-html": {
+      "title": "XFWM4 Theme - Part One",
+      "url": "/desktop/2018/03/21/xfwm4-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-03-20-xfwm4-theme-html": {
+      "title": "XFWM4 Theme - Overview",
+      "url": "/desktop/2018/03/20/xfwm4-theme.html"
+    }
+    ,
+  
+
+    "desktop-2018-02-04-installing-font-html": {
+      "title": "Linux - Installing Font",
+      "url": "/desktop/2018/02/04/installing-font.html"
+    }
+    ,
+  
+
+    "system-2018-01-18-dbus-window-manager-html": {
+      "title": "dbus in Window Manager",
+      "url": "/system/2018/01/18/dbus-window-manager.html"
+    }
+    ,
+  
+
+    "system-2018-01-17-distro-slackware-post-install-html": {
+      "title": "Distribution - Slackware Post Install Log",
+      "url": "/system/2018/01/17/distro-slackware-post-install.html"
+    }
+    ,
+  
+
+    "opensource-2018-01-15-using-git-html": {
+      "title": "Using Git for Working Between Computer",
+      "url": "/opensource/2018/01/15/using-git.html"
+    }
+    ,
+  
+
+    "opensource-2018-01-09-using-cloud-html": {
+      "title": "Using Cloud for Daily Activity",
+      "url": "/opensource/2018/01/09/using-cloud.html"
+    }
+    ,
+  
+
+    "system-2018-01-07-btrfs-snapper-html": {
+      "title": "File System - Trapped in Snapper Rollback",
+      "url": "/system/2018/01/07/btrfs-snapper.html"
+    }
+    ,
+  
+
+    "desktop-2018-01-02-opensuse-tiling-html": {
+      "title": "openSUSE Tumbleweed Tiling Experience",
+      "url": "/desktop/2018/01/02/opensuse-tiling.html"
+    }
+    ,
+  
+
+    "code-2017-12-30-parse-bash-in-zsh-html": {
+      "title": "Parsing BASH command in ZSH",
+      "url": "/code/2017/12/30/parse-bash-in-zsh.html"
+    }
+    ,
+  
+
+    "desktop-2017-12-26-oh-my-shell-theme-html": {
+      "title": "Iterate Oh My BASH Theme",
+      "url": "/desktop/2017/12/26/oh-my-shell-theme.html"
+    }
+    ,
+  
+
+    "system-2017-08-31-docker-package-summary-html": {
+      "title": "Docker - Package Management Summary",
+      "url": "/system/2017/08/31/docker-package-summary.html"
+    }
+    ,
+  
+
+    "system-2017-08-30-docker-lfs-build-html": {
+      "title": "Docker - LFS Build",
+      "url": "/system/2017/08/30/docker-lfs-build.html"
+    }
+    ,
+  
+
+    "system-2017-08-30-docker-arch-alpm-html": {
+      "title": "Docker - Arch ALPM - Part Four",
+      "url": "/system/2017/08/30/docker-arch-alpm.html"
+    }
+    ,
+  
+
+    "system-2017-08-29-docker-arch-alpm-html": {
+      "title": "Docker - Arch ALPM - Part Three",
+      "url": "/system/2017/08/29/docker-arch-alpm.html"
+    }
+    ,
+  
+
+    "system-2017-08-28-docker-arch-alpm-html": {
+      "title": "Docker - Arch ALPM - Part Two",
+      "url": "/system/2017/08/28/docker-arch-alpm.html"
+    }
+    ,
+  
+
+    "system-2017-08-27-docker-arch-alpm-html": {
+      "title": "Docker - Arch ALPM - Part One",
+      "url": "/system/2017/08/27/docker-arch-alpm.html"
+    }
+    ,
+  
+
+    "system-2017-08-27-docker-debian-apt-html": {
+      "title": "Docker - Debian APT - Part Four",
+      "url": "/system/2017/08/27/docker-debian-apt.html"
+    }
+    ,
+  
+
+    "system-2017-08-26-docker-debian-apt-html": {
+      "title": "Docker - Debian APT - Part Three",
+      "url": "/system/2017/08/26/docker-debian-apt.html"
+    }
+    ,
+  
+
+    "system-2017-08-25-docker-debian-apt-html": {
+      "title": "Docker - Debian APT - Part Two",
+      "url": "/system/2017/08/25/docker-debian-apt.html"
+    }
+    ,
+  
+
+    "system-2017-08-24-docker-debian-apt-html": {
+      "title": "Docker - Debian APT - Part One",
+      "url": "/system/2017/08/24/docker-debian-apt.html"
+    }
+    ,
+  
+
+    "system-2017-08-23-docker-slackware-package-html": {
+      "title": "Docker - Slackware Package - Part Three",
+      "url": "/system/2017/08/23/docker-slackware-package.html"
+    }
+    ,
+  
+
+    "system-2017-08-22-docker-slackware-package-html": {
+      "title": "Docker - Slackware Package - Part Two",
+      "url": "/system/2017/08/22/docker-slackware-package.html"
+    }
+    ,
+  
+
+    "system-2017-08-21-docker-slackware-package-html": {
+      "title": "Docker - Slackware Package - Part One",
+      "url": "/system/2017/08/21/docker-slackware-package.html"
+    }
+    ,
+  
+
+    "system-2017-08-21-docker-fedora-dnf-html": {
+      "title": "Docker - Fedora DNF - Part Four",
+      "url": "/system/2017/08/21/docker-fedora-dnf.html"
+    }
+    ,
+  
+
+    "system-2017-08-20-docker-fedora-dnf-html": {
+      "title": "Docker - Fedora DNF - Part Three",
+      "url": "/system/2017/08/20/docker-fedora-dnf.html"
+    }
+    ,
+  
+
+    "system-2017-08-19-docker-fedora-dnf-html": {
+      "title": "Docker - Fedora DNF - Part Two",
+      "url": "/system/2017/08/19/docker-fedora-dnf.html"
+    }
+    ,
+  
+
+    "system-2017-08-18-docker-fedora-dnf-html": {
+      "title": "Docker - Fedora DNF - Part One",
+      "url": "/system/2017/08/18/docker-fedora-dnf.html"
+    }
+    ,
+  
+
+    "system-2017-08-18-docker-opensuse-zypper-html": {
+      "title": "Docker - openSUSE Zypper - Part Four",
+      "url": "/system/2017/08/18/docker-opensuse-zypper.html"
+    }
+    ,
+  
+
+    "system-2017-08-17-docker-opensuse-zypper-html": {
+      "title": "Docker - openSUSE Zypper - Part Three",
+      "url": "/system/2017/08/17/docker-opensuse-zypper.html"
+    }
+    ,
+  
+
+    "system-2017-08-16-docker-opensuse-zypper-html": {
+      "title": "Docker - openSUSE Zypper - Part Two",
+      "url": "/system/2017/08/16/docker-opensuse-zypper.html"
+    }
+    ,
+  
+
+    "system-2017-08-15-docker-opensuse-zypper-html": {
+      "title": "Docker - openSUSE Zypper - Part One",
+      "url": "/system/2017/08/15/docker-opensuse-zypper.html"
+    }
+    ,
+  
+
+    "system-2017-08-14-docker-void-xbps-html": {
+      "title": "Docker - Void XBPS - Part Two",
+      "url": "/system/2017/08/14/docker-void-xbps.html"
+    }
+    ,
+  
+
+    "system-2017-08-13-docker-void-xbps-html": {
+      "title": "Docker - Void XBPS - Part One",
+      "url": "/system/2017/08/13/docker-void-xbps.html"
+    }
+    ,
+  
+
+    "system-2017-08-13-docker-gentoo-portage-html": {
+      "title": "Docker - Gentoo Portage - Part Three",
+      "url": "/system/2017/08/13/docker-gentoo-portage.html"
+    }
+    ,
+  
+
+    "system-2017-08-12-docker-gentoo-portage-html": {
+      "title": "Docker - Gentoo Portage - Part Two",
+      "url": "/system/2017/08/12/docker-gentoo-portage.html"
+    }
+    ,
+  
+
+    "system-2017-08-11-docker-gentoo-portage-html": {
+      "title": "Docker - Gentoo Portage - Part One",
+      "url": "/system/2017/08/11/docker-gentoo-portage.html"
+    }
+    ,
+  
+
+    "system-2017-08-10-docker-crux-ports-html": {
+      "title": "Docker - Crux Ports",
+      "url": "/system/2017/08/10/docker-crux-ports.html"
+    }
+    ,
+  
+
+    "system-2017-08-08-distro-debian-devuan-migration-html": {
+      "title": "Distribution - Debian to Devuan Migration",
+      "url": "/system/2017/08/08/distro-debian-devuan-migration.html"
+    }
+    ,
+  
+
+    "system-2017-08-07-distro-manjaro-artix-migration-html": {
+      "title": "Distribution - Manjaro OpenRC to Artix Migration",
+      "url": "/system/2017/08/07/distro-manjaro-artix-migration.html"
+    }
+    ,
+  
+
+    "system-2017-08-06-distro-mageia6-upgrade-html": {
+      "title": "Distribution - Mageia 6 Upgrade",
+      "url": "/system/2017/08/06/distro-mageia6-upgrade.html"
+    }
+    ,
+  
+
+    "system-2017-08-05-grub2-btrfs-support-html": {
+      "title": "File System - GRUB2 support for BTRFS",
+      "url": "/system/2017/08/05/grub2-btrfs-support.html"
+    }
+    ,
+  
+
+    "system-2017-08-03-distro-opensuse-install-html": {
+      "title": "Distribution - openSUSE Tumbleweed First Time Install",
+      "url": "/system/2017/08/03/distro-opensuse-install.html"
+    }
+    ,
+  
+
+    "system-2017-08-02-distro-fedora-install-html": {
+      "title": "Distribution - Fedora First Time Install",
+      "url": "/system/2017/08/02/distro-fedora-install.html"
+    }
+    ,
+  
+
+    "system-2017-08-01-distro-manjaro-openrc-html": {
+      "title": "Distribution - Manjaro OpenRC Issues",
+      "url": "/system/2017/08/01/distro-manjaro-openrc.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-30-herbstlustwm-summary-html": {
+      "title": "HerbstluftWM in Seven Languages Summary",
+      "url": "/desktop/2017/06/30/herbstlustwm-summary.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-18-herbstlustwm-event-idle-haskell-html": {
+      "title": "HerbstluftWM Idle Event in Haskell",
+      "url": "/desktop/2017/06/18/herbstlustwm-event-idle-haskell.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-17-herbstlustwm-event-idle-lua-html": {
+      "title": "HerbstluftWM Idle Event in Lua",
+      "url": "/desktop/2017/06/17/herbstlustwm-event-idle-lua.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-16-herbstlustwm-event-idle-php-html": {
+      "title": "HerbstluftWM Idle Event in PHP",
+      "url": "/desktop/2017/06/16/herbstlustwm-event-idle-php.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-15-herbstlustwm-event-idle-ruby-html": {
+      "title": "HerbstluftWM Idle Event in Ruby",
+      "url": "/desktop/2017/06/15/herbstlustwm-event-idle-ruby.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-14-herbstlustwm-event-idle-python-html": {
+      "title": "HerbstluftWM Idle Event in Python",
+      "url": "/desktop/2017/06/14/herbstlustwm-event-idle-python.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-13-herbstlustwm-event-idle-perl-html": {
+      "title": "HerbstluftWM Idle Event in Perl",
+      "url": "/desktop/2017/06/13/herbstlustwm-event-idle-perl.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-12-herbstlustwm-event-idle-bash-html": {
+      "title": "HerbstluftWM Idle Event in BASH",
+      "url": "/desktop/2017/06/12/herbstlustwm-event-idle-bash.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-11-herbstlustwm-event-idle-overview-html": {
+      "title": "HerbstluftWM Idle Event Overview",
+      "url": "/desktop/2017/06/11/herbstlustwm-event-idle-overview.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-09-herbstlustwm-tag-status-global-html": {
+      "title": "HerbstluftWM Tag Status Global Notes",
+      "url": "/desktop/2017/06/09/herbstlustwm-tag-status-global.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-08-herbstlustwm-tag-status-haskell-html": {
+      "title": "HerbstluftWM Tag Status in Haskell",
+      "url": "/desktop/2017/06/08/herbstlustwm-tag-status-haskell.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-07-herbstlustwm-tag-status-lua-html": {
+      "title": "HerbstluftWM Tag Status in Lua",
+      "url": "/desktop/2017/06/07/herbstlustwm-tag-status-lua.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-06-herbstlustwm-tag-status-php-html": {
+      "title": "HerbstluftWM Tag Status in PHP",
+      "url": "/desktop/2017/06/06/herbstlustwm-tag-status-php.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-05-herbstlustwm-tag-status-ruby-html": {
+      "title": "HerbstluftWM Tag Status in Ruby",
+      "url": "/desktop/2017/06/05/herbstlustwm-tag-status-ruby.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-04-herbstlustwm-tag-status-python-html": {
+      "title": "HerbstluftWM Tag Status in Python",
+      "url": "/desktop/2017/06/04/herbstlustwm-tag-status-python.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-03-herbstlustwm-tag-status-perl-html": {
+      "title": "HerbstluftWM Tag Status in Perl",
+      "url": "/desktop/2017/06/03/herbstlustwm-tag-status-perl.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-02-herbstlustwm-tag-status-bash-html": {
+      "title": "HerbstluftWM Tag Status in BASH",
+      "url": "/desktop/2017/06/02/herbstlustwm-tag-status-bash.html"
+    }
+    ,
+  
+
+    "desktop-2017-06-01-herbstlustwm-tag-status-overview-html": {
+      "title": "HerbstluftWM Tag Status Overview",
+      "url": "/desktop/2017/06/01/herbstlustwm-tag-status-overview.html"
+    }
+    ,
+  
+
+    "desktop-2017-05-08-herbstlustwm-modularized-haskell-html": {
+      "title": "Modularized HerbstluftWM in Haskell",
+      "url": "/desktop/2017/05/08/herbstlustwm-modularized-haskell.html"
+    }
+    ,
+  
+
+    "desktop-2017-05-07-herbstlustwm-modularized-lua-html": {
+      "title": "Modularized HerbstluftWM in Lua",
+      "url": "/desktop/2017/05/07/herbstlustwm-modularized-lua.html"
+    }
+    ,
+  
+
+    "desktop-2017-05-06-herbstlustwm-modularized-php-html": {
+      "title": "Modularized HerbstluftWM in PHP",
+      "url": "/desktop/2017/05/06/herbstlustwm-modularized-php.html"
+    }
+    ,
+  
+
+    "desktop-2017-05-05-herbstlustwm-modularized-ruby-html": {
+      "title": "Modularized HerbstluftWM in Ruby",
+      "url": "/desktop/2017/05/05/herbstlustwm-modularized-ruby.html"
+    }
+    ,
+  
+
+    "desktop-2017-05-04-herbstlustwm-modularized-python-html": {
+      "title": "Modularized HerbstluftWM in Python",
+      "url": "/desktop/2017/05/04/herbstlustwm-modularized-python.html"
+    }
+    ,
+  
+
+    "desktop-2017-05-03-herbstlustwm-modularized-perl-html": {
+      "title": "Modularized HerbstluftWM in Perl",
+      "url": "/desktop/2017/05/03/herbstlustwm-modularized-perl.html"
+    }
+    ,
+  
+
+    "desktop-2017-05-02-herbstlustwm-modularized-bash-html": {
+      "title": "Modularized HerbstluftWM in BASH",
+      "url": "/desktop/2017/05/02/herbstlustwm-modularized-bash.html"
+    }
+    ,
+  
+
+    "desktop-2017-05-01-herbstlustwm-modularized-overview-html": {
+      "title": "Modularized HerbstluftWM Overview",
+      "url": "/desktop/2017/05/01/herbstlustwm-modularized-overview.html"
+    }
+    ,
+  
+
+    "code-2017-04-23-overview-pipe-and-fork-html": {
+      "title": "Piping and Forking Overview",
+      "url": "/code/2017/04/23/overview-pipe-and-fork.html"
+    }
+    ,
+  
+
+    "desktop-2017-04-22-debugging-conky-html": {
+      "title": "Debugging Conky",
+      "url": "/desktop/2017/04/22/debugging-conky.html"
+    }
+    ,
+  
+
+    "code-2017-04-21-haskell-pipe-and-fork-html": {
+      "title": "Piping and Forking in Haskell",
+      "url": "/code/2017/04/21/haskell-pipe-and-fork.html"
+    }
+    ,
+  
+
+    "code-2017-04-20-lua-pipe-and-fork-html": {
+      "title": "Piping and Forking in Lua",
+      "url": "/code/2017/04/20/lua-pipe-and-fork.html"
+    }
+    ,
+  
+
+    "code-2017-04-19-php-pipe-and-fork-html": {
+      "title": "Piping and Forking in PHP",
+      "url": "/code/2017/04/19/php-pipe-and-fork.html"
+    }
+    ,
+  
+
+    "code-2017-04-18-ruby-pipe-and-fork-html": {
+      "title": "Piping and Forking in Ruby",
+      "url": "/code/2017/04/18/ruby-pipe-and-fork.html"
+    }
+    ,
+  
+
+    "code-2017-04-17-python-pipe-and-fork-html": {
+      "title": "Piping and Forking in Python",
+      "url": "/code/2017/04/17/python-pipe-and-fork.html"
+    }
+    ,
+  
+
+    "code-2017-04-16-perl-pipe-and-fork-html": {
+      "title": "Piping and Forking in Perl",
+      "url": "/code/2017/04/16/perl-pipe-and-fork.html"
+    }
+    ,
+  
+
+    "code-2017-04-15-bash-pipe-and-fork-html": {
+      "title": "Piping and Forking in BASH",
+      "url": "/code/2017/04/15/bash-pipe-and-fork.html"
+    }
+    ,
+  
+
+    "desktop-2017-04-14-standalone-lemonbar-conky-html": {
+      "title": "Standalone Lemonbar Using Conky",
+      "url": "/desktop/2017/04/14/standalone-lemonbar-conky.html"
+    }
+    ,
+  
+
+    "desktop-2017-04-13-getting-xlfd-font-html": {
+      "title": "Getting XLFD Font",
+      "url": "/desktop/2017/04/13/getting-xlfd-font.html"
+    }
+    ,
+  
+
+    "desktop-2017-04-12-standalone-cli-conky-html": {
+      "title": "Standalone CLI System Monitoring Using Conky",
+      "url": "/desktop/2017/04/12/standalone-cli-conky.html"
+    }
+    ,
+  
+
+    "desktop-2017-04-11-standalone-dzen2-conky-html": {
+      "title": "Standalone Dzen2 Statusbar Using Conky",
+      "url": "/desktop/2017/04/11/standalone-dzen2-conky.html"
+    }
+    ,
+  
+
+    "desktop-2017-04-10-standalone-overview-html": {
+      "title": "Standalone Statusbar Overview",
+      "url": "/desktop/2017/04/10/standalone-overview.html"
+    }
+    ,
+  
+
+    "desktop-2017-04-08-create-xbm-for-dzen2-html": {
+      "title": "Create XBM for your Dzen2",
+      "url": "/desktop/2017/04/08/create-xbm-for-dzen2.html"
+    }
+    ,
+  
+
+    "desktop-2017-04-01-standalone-dzen2-bash-html": {
+      "title": "Standalone Dzen2 Statusbar Using BASH",
+      "url": "/desktop/2017/04/01/standalone-dzen2-bash.html"
+    }
+    ,
+  
+
+    "desktop-2016-11-19-manjaro-logo-html": {
+      "title": "Manjaro Logo on i3WM on Material Wallpaper",
+      "url": "/desktop/2016/11/19/manjaro-logo.html"
+    }
+    ,
+  
+
+    "desktop-2016-09-19-termite-install-html": {
+      "title": "Install Termite",
+      "url": "/desktop/2016/09/19/termite-install.html"
+    }
+    ,
+  
+
+    "desktop-2016-08-03-i3-install-arch-html": {
+      "title": "Install i3 WM in Arch Linux based Distribution",
+      "url": "/desktop/2016/08/03/i3-install-arch.html"
+    }
+    ,
+  
+
+    "desktop-2016-08-02-i3-install-debian-html": {
+      "title": "Install i3 WM in Debian",
+      "url": "/desktop/2016/08/02/i3-install-debian.html"
+    }
+    ,
+  
+
+    "desktop-2016-08-01-modularized-i3status-conky-lua-json-html": {
+      "title": "Modularized Conky Configuration for i3status",
+      "url": "/desktop/2016/08/01/modularized-i3status-conky-lua-json.html"
+    }
+    ,
+  
+
+    "desktop-2016-07-13-modularized-awesome-preparing-html": {
+      "title": "Preparing Modularized Awesome WM Configuration",
+      "url": "/desktop/2016/07/13/modularized-awesome-preparing.html"
+    }
+    ,
+  
+
+    "desktop-2016-07-06-modularized-awesome-structure-html": {
+      "title": "Modularized Awesome WM Configuration Structure",
+      "url": "/desktop/2016/07/06/modularized-awesome-structure.html"
+    }
+    ,
+  
+
+    "system-2016-07-01-apt-compile-source-html": {
+      "title": "Compile .deb Source with apt-src",
+      "url": "/system/2016/07/01/apt-compile-source.html"
+    }
+    ,
+  
+
+    "desktop-2016-06-30-awesome-install-debian-html": {
+      "title": "Install Awesome WM in Debian",
+      "url": "/desktop/2016/06/30/awesome-install-debian.html"
+    }
+    ,
+  
+
+    "desktop-2016-06-29-awesome-install-arch-html": {
+      "title": "Install Awesome WM in Arch Linux based Distribution",
+      "url": "/desktop/2016/06/29/awesome-install-arch.html"
+    }
+    ,
+  
+
+    "system-2016-06-21-install-yaourt-html": {
+      "title": "Install Yaourt, the AUR Helper",
+      "url": "/system/2016/06/21/install-yaourt.html"
+    }
+    ,
+  
+
+    "opensource-2016-06-19-using-git-html": {
+      "title": "Using Git for Daily Repo Updating",
+      "url": "/opensource/2016/06/19/using-git.html"
+    }
+    ,
+  
+
+    "system-2016-06-16-analyze-boot-services-html": {
+      "title": "Analyze Services in Linux Boot Process",
+      "url": "/system/2016/06/16/analyze-boot-services.html"
+    }
+    ,
+  
+
+    "code-2016-06-15-monitoring-script-html": {
+      "title": "Create Your Own Monitoring Script",
+      "url": "/code/2016/06/15/monitoring-script.html"
+    }
+    ,
+  
+
+    "desktop-2016-06-13-de-wm-shell-difference-html": {
+      "title": "The Difference Between DE, Shell, WM and Compositor",
+      "url": "/desktop/2016/06/13/de-wm-shell-difference.html"
+    }
+    ,
+  
+
+    "code-2016-06-03-regular-expression-html": {
+      "title": "Meet Our Friend, Regular Expression",
+      "url": "/code/2016/06/03/regular-expression.html"
+    }
+    ,
+  
+
+    "system-2016-05-19-stuck-on-boot-html": {
+      "title": "What to Do, When the System Stuck, on Boot",
+      "url": "/system/2016/05/19/stuck-on-boot.html"
+    }
+    ,
+  
+
+    "desktop-2016-05-19-midnight-commander-tweaking-html": {
+      "title": "Midnight Commander Tweaking, can Help People Better",
+      "url": "/desktop/2016/05/19/midnight-commander-tweaking.html"
+    }
+    ,
+  
+
+    "opensource-2016-05-18-becoming-geek-html": {
+      "title": "Becoming a Geek, a Weird Story About Nerd",
+      "url": "/opensource/2016/05/18/becoming-geek.html"
+    }
+    ,
+  
+
+    "desktop-2016-05-11-xmonad-with-conkyless-dzen-html": {
+      "title": "XMonad with Conkyless Dzen, Total Control of Theme",
+      "url": "/desktop/2016/05/11/xmonad-with-conkyless-dzen.html"
+    }
+    ,
+  
+
+    "opensource-2016-04-21-introducing-fatrat-cantata-html": {
+      "title": "Introducing FatRat and Cantata",
+      "url": "/opensource/2016/04/21/introducing-fatrat-cantata.html"
+    }
+    ,
+  
+
+    "opensource-2016-04-15-channels-worth-following-html": {
+      "title": "Channels Worth Following",
+      "url": "/opensource/2016/04/15/channels-worth-following.html"
+    }
+    ,
+  
+
+    "opensource-2016-03-29-two-languages-of-the-future-html": {
+      "title": "Two Languages of The Future",
+      "url": "/opensource/2016/03/29/two-languages-of-the-future.html"
+    }
+    ,
+  
+
+    "desktop-2016-03-26-modularized-xmonad-config-html": {
+      "title": "Modularized XMonad Config",
+      "url": "/desktop/2016/03/26/modularized-xmonad-config.html"
+    }
+    ,
+  
+
+    "desktop-2016-03-21-powerline-customizing-html": {
+      "title": "Customizing Shell Prompt with Powerline",
+      "url": "/desktop/2016/03/21/powerline-customizing.html"
+    }
+    ,
+  
+
+    "desktop-2016-03-20-console-pixel-art-html": {
+      "title": "Console Pixel Art, a Collection of Scripts",
+      "url": "/desktop/2016/03/20/console-pixel-art.html"
+    }
+    ,
+  
+
+    "desktop-2016-03-19-refactoring-awesome-lua-configuration-html": {
+      "title": "Refactoring Awesome WM's Lua Configuration Script",
+      "url": "/desktop/2016/03/19/refactoring-awesome-lua-configuration.html"
+    }
+    ,
+  
+
+    "opensource-2016-03-17-learning-stages-html": {
+      "title": "Learning Stages Guidance, from Beginner to Enthusiast",
+      "url": "/opensource/2016/03/17/learning-stages.html"
+    }
+    ,
+  
+
+    "system-2016-03-09-docker-demonstration-debian-html": {
+      "title": "Running Guest OS via Docker on top of Debian for the first time",
+      "url": "/system/2016/03/09/docker-demonstration-debian.html"
+    }
+    ,
+  
+
+    "system-2016-03-03-docker-demonstration-manjaro-html": {
+      "title": "Docker Demonstration (Manjaro), Running Multiple Guest OS",
+      "url": "/system/2016/03/03/docker-demonstration-manjaro.html"
+    }
+    ,
+  
+
+    "system-2016-02-28-lxc-demonstration-html": {
+      "title": "Learn Different Package Management Using LXC",
+      "url": "/system/2016/02/28/lxc-demonstration.html"
+    }
+    ,
+  
+
+    "system-2016-02-08-pacman-ignorepkg-html": {
+      "title": "Update Arch Linux without Unnecessary Bloated Package",
+      "url": "/system/2016/02/08/pacman-ignorepkg.html"
+    }
+    ,
+  
+
+    "system-2015-03-17-apt-pinning-html": {
+      "title": "Control Your Package with APT Pinning",
+      "url": "/system/2015/03/17/apt-pinning.html"
+    }
+    ,
+  
+
+    "desktop-2015-02-13-xfce4-minimalis-tiling-html": {
+      "title": "Minimalist XFCE4 with Limited Tiling Support",
+      "url": "/desktop/2015/02/13/xfce4-minimalis-tiling.html"
+    }
+    ,
+  
+
+    "system-2014-12-27-selectively-install-blackarch-tools-html": {
+      "title": "Selectively Install BlackArch Tools",
+      "url": "/system/2014/12/27/selectively-install-blackarch-tools.html"
+    }
+    ,
+  
+
+    "system-2014-12-26-unbundling-aur-helper-process-html": {
+      "title": "Unbundling AUR Helper Process",
+      "url": "/system/2014/12/26/unbundling-aur-helper-process.html"
+    }
+    ,
+  
+
+    "desktop-2014-12-15-xmonad-menu-bar-html": {
+      "title": "XMonad Menu Bar",
+      "url": "/desktop/2014/12/15/xmonad-menu-bar.html"
+    }
+    ,
+  
+
+    "desktop-2014-12-12-xmonad-tiling-window-manager-html": {
+      "title": "XMonad Tiling Window Manager",
+      "url": "/desktop/2014/12/12/xmonad-tiling-window-manager.html"
+    }
+    ,
+  
+
+    "desktop-2014-12-06-i3-i3bar-html": {
+      "title": "i3 Window manager with i3 Bar",
+      "url": "/desktop/2014/12/06/i3-i3bar.html"
+    }
+    ,
+  
+
+    "desktop-2014-11-30-awesome-html": {
+      "title": "Awesome WM, Tiling WM for beginner",
+      "url": "/desktop/2014/11/30/awesome.html"
+    }
+    ,
+  
+
+    "system-2014-11-28-init-civil-wars-html": {
+      "title": "Init Civil War, The systemd Controversy",
+      "url": "/system/2014/11/28/init-civil-wars.html"
+    }
+    ,
+  
+
+    "desktop-2014-11-08-fluxbox-with-glowing-wallpaper-html": {
+      "title": "Fluxbox Stacking Window Manager",
+      "url": "/desktop/2014/11/08/fluxbox-with-glowing-wallpaper.html"
+    }
+    ,
+  
+
+    "desktop-2014-11-02-openbox-standalone-html": {
+      "title": "Standalone Openbox WM with Tint2 Panel",
+      "url": "/desktop/2014/11/02/openbox-standalone.html"
+    }
+    ,
+  
+
+    "desktop-2014-10-19-lxqt-windowish-looks-html": {
+      "title": "LXQT with Windowish Looks, No Kidding",
+      "url": "/desktop/2014/10/19/lxqt-windowish-looks.html"
+    }
+    ,
+  
+
+    "desktop-2014-05-14-xfce4-hilarious-selfieshoot-html": {
+      "title": "Selfieshoot of Hilarious XFCE4 Customization",
+      "url": "/desktop/2014/05/14/xfce4-hilarious-selfieshoot.html"
+    }
+    ,
+  
+
+    "system-2014-05-09-mageia-experiment-html": {
+      "title": "My Mageia Experiment",
+      "url": "/system/2014/05/09/mageia-experiment.html"
+    }
+    ,
+  
+
+    "system-2014-04-27-install-blackarch-as-repository-html": {
+      "title": "How to Install BlackArch as Repository",
+      "url": "/system/2014/04/27/install-blackarch-as-repository.html"
+    }
+    ,
+  
+
+    "desktop-2014-04-22-gnome-shell-a-very-common-html": {
+      "title": "Is it a Gnome Shell Customization, or Am I just got bored ?",
+      "url": "/desktop/2014/04/22/gnome-shell-a-very-common.html"
+    }
+    ,
+  
+
+    "system-2014-04-02-arch-install-log-html": {
+      "title": "Arch Linux - Install/ Post Install Log",
+      "url": "/system/2014/04/02/arch-install-log.html"
+    }
+    ,
+  
+
+    "system-2014-03-13-wireless-command-line-html": {
+      "title": "Wireless Command Line, a must have Knowledge",
+      "url": "/system/2014/03/13/wireless-command-line.html"
+    }
+    ,
+  
+
+    "system-2014-03-13-linux-multiboot-html": {
+      "title": "Linux Multiboot, Setting up Partitions",
+      "url": "/system/2014/03/13/linux-multiboot.html"
+    }
+    ,
+  
+
+    "opensource-2014-03-12-facebook-linux-groups-html": {
+      "title": "Facebook Groups, Resources for Linux Enthusiast",
+      "url": "/opensource/2014/03/12/facebook-linux-groups.html"
+    }
+    ,
+  
+
+    "system-2014-02-22-gtk3-adoption-rate-html": {
+      "title": "Gtk3 Adoption Rate in Debian.",
+      "url": "/system/2014/02/22/gtk3-adoption-rate.html"
+    }
+    ,
+  
+
+    "system-2014-01-02-debian-post-install-log-html": {
+      "title": "Debian Wheezy - Post Install Log",
+      "url": "/system/2014/01/02/debian-post-install-log.html"
+    }
+    
+  
+}

@@ -1,0 +1,30 @@
+
+{%- set posts = posts | mapdate -%}
+{%- set groupByYear = posts | groupBy('year') | dictsort | reverse -%}
+
+<div class="columns is-multiline p-y-5" id="archive">
+{%- for year, postsInYear in groupByYear -%}
+  <section class="column is-full-mobile
+              is-half-tablet is-one-third-widescreen">
+
+    <div class="widget white z-depth-1 hoverable m-b-10">
+      <div class="widget-header {{ color }} lighten-4">
+
+        <div class ="anchor-target archive-year" 
+             id="{{ year }}">{{ year }}</div>
+
+      </div>
+      <div class="widget-body">
+
+        <div class="archive-list p-y-5">
+          {%- for post in postsInYear | sort(false, true, 'month') -%}
+            {% include "index/each-post.njk" %}
+          {%- endfor -%}
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+{%- endfor -%}
+</div>

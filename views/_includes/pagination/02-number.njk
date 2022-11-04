@@ -1,0 +1,30 @@
+{% set totalPages = pagination.links.length %}
+{% set current    = pagination.pageNumber + 1 %}
+
+{% if totalPages > 1 %}
+<nav class="pagination is-small is-centered" 
+     role="navigation" aria-label="pagination">
+
+    <ul class="pagination-list">
+    {# <!-- Page numbers. --> #}
+    {% for cursor, link in pagination.links | hashIt %}
+      <li>
+      {% if cursor != current  %}
+        <a class="pagination-link hoverable"
+           href="{{ link }}"
+           aria-label="Goto page {{ cursor }}">
+          {{ cursor }}
+        </a>
+       {% else %}
+       <a class="pagination-link is-current {{ color }}" 
+           aria-label="Page {{ cursor }}">
+          {{ cursor }}
+        </a>
+ 
+      {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+
+</nav>
+{% endif %}

@@ -1,0 +1,21 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'orange' %}
+
+{% block widget_header %}
+  <strong>Linux/BSD Desktop Customization</strong>
+  <span class="fas fa-fingerprint is-pulled-right"></span>
+{% endblock %}
+
+{% block widget_body %}
+  {% set archives = archives_github | values %}
+  {% set posts = archives | shuffle | limit(5) %}
+
+  <ul class="widget-list">
+    {%- for post in posts -%}
+    <li><a href="http://epsi-rns.github.io{{ post.url }}"
+      >{{ post.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+{% endblock %}
+

@@ -1,0 +1,44 @@
+{% set totalPages = pagination.links.length %}
+{% set current    = pagination.pageNumber + 1 %}
+{% set adjacentLinks = 2 %}
+
+{% if totalPages > 1 %}
+<nav class="pagination is-small is-centered"
+     role="navigation" aria-label="pagination"> 
+
+  <ul class="pagination-list">
+
+    {# <!-- Page numbers. --> #}
+    {% for cursor, link in pagination.links | hashIt %}
+      {# <!-- Adjacent script based on Glenn Mc Comb. --> #}
+      {% set showCursorFlag = cursor | 
+               isShowAdjacent(current, totalPages, adjacentLinks) %}
+
+      {# <!-- Show Pager. --> #}
+      {% if showCursorFlag %}
+      <li>
+        {% if cursor == current  %}
+
+        <a class="pagination-link is-current {{ color }}"
+           aria-label="Page {{ cursor }}">
+          {{ cursor }}
+        </a>
+
+        {% else %}
+
+        <a class="pagination-link hoverable"
+           href="{{ link }}"
+           aria-label="Goto page {{ cursor }}">
+          {{ cursor }}
+        </a>
+
+        {% endif %}
+      </li>
+      {% endif %}
+
+    {% endfor %}
+
+  </ul>
+</nav>
+{% endif %}
+

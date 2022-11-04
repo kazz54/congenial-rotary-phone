@@ -1,0 +1,43 @@
+  <div class="main_title"> 
+    <h2 class="title is-4" itemprop="name headline">
+      <a href="{{ page.url | url }}">
+        {{ renderData.title or title or metadata.title }}
+      </a></h2>
+  </div>
+
+  <div class="field p-t-5">
+    {% if (author or metadata.author) %}
+    <div class="is-pulled-left">
+    <span class="meta_author tag is-small is-dark
+                 indigo z-depth-1 hoverable">
+        <span class="fa fa-user"></span>
+        &nbsp;
+        <span itemprop="author"
+              itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ author or metadata.author }}</span></span>            
+    </span>
+    &nbsp;
+    </div>
+    {% endif %} 
+
+    <div class="is-pulled-left">
+      <span class="meta-time tag is-small is-dark
+                   green z-depth-1 hoverable">
+      {% include "post/time-elapsed.njk" %}
+      </span>
+      &nbsp;
+    </div>
+
+    <div class="is-pulled-right">
+    {% for tag in tags %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+        <a href="{{ tagUrl | url }}">
+          <span class="tag is-dark is-small teal z-depth-1 hoverable">
+            <span class="fa fa-tag"></span>&nbsp;{{ tag }}</span></a>
+      {% endfor %}
+      &nbsp;
+    </div>
+
+  </div>
+
+  <div class="is-clearfix p-b-5"></div>

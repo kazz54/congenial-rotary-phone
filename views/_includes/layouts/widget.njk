@@ -1,0 +1,19 @@
+
+<section class="aside-wrapper {{ color }}">
+  <div class="widget white z-depth-3 hoverable">
+
+    <div class="widget-header {{ color }} lighten-4">
+    {% block widget_header %}
+      <strong>Side Widget</strong>
+      <span class="fas fa-fingerprint is-pulled-right"></span>
+    {% endblock %}
+    </div>
+    
+    <div class="widget-body">
+    {% block widget_body %}
+    {% endblock %}
+    </div>
+
+  </div>
+</section>
+

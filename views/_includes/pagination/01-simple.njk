@@ -1,0 +1,61 @@
+{% set totalPages = pagination.links.length %}
+{% set current    = pagination.pageNumber + 1 %}
+
+{% if totalPages > 1 %}
+<nav class="pagination is-small is-centered" 
+     role="navigation" aria-label="pagination">
+
+    {# <!-- First Page. --> #}
+    {% if current  > 1 %}
+      <a class="pagination-previous hoverable"
+         href="{{ pagination.firstPageLink }}"
+         rel="first">First</a>
+    {% else %}
+      <a class="pagination-previous"
+         title="This is the first page"
+         disabled>First</a>
+    {% endif %}
+
+    {# <!-- Previous Page. --> #}
+    {% if pagination.previousPageLink %}
+      <a class="pagination-previous hoverable"
+         href="{{ pagination.previousPageLink }}" 
+         rel="prev">Previous</a>
+    {% else %}
+      <a class="pagination-previous"
+         title="This is the first page"
+         disabled>Previous</a>
+    {% endif %}
+
+    {# <!-- Indicator Number. --> #}
+    <a class="pagination-link" 
+       disabled>Page: {{ current }} of {{ totalPages }}</a>
+
+    {# <!-- Next Page. --> #}
+    {% if pagination.nextPageLink %}
+      <a class="pagination-next hoverable"
+         href="{{ pagination.nextPageLink }}"
+         rel="next">Next</a>
+    {% else %}
+      <a class="pagination-next"
+         title="This is the last page"
+         disabled>Next</a>
+    {% endif %}
+
+    {# <!-- Last Page. --> #}
+    {% if current  != totalPages %}
+      <a class="pagination-next hoverable"
+         href="{{ pagination.lastPageLink }}"
+         rel="last">Last</a>
+    {% else %}
+      <a class="pagination-next"
+         title="This is the last page"
+         disabled>Last</a>
+    {% endif %}
+
+    {# <!-- Dummy. Do not delete! --> #}
+    <ul class="pagination-list">
+    </ul>
+
+</nav>
+{% endif %}

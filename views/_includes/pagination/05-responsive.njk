@@ -1,0 +1,154 @@
+{% set totalPages = pagination.links.length %}
+{% set current    = pagination.pageNumber + 1 %}
+
+{# 
+* Pagination links 
+* https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/
+* Adjacent: Number of links either side of the current page
+#}
+
+{% if totalPages > 1 %}
+<nav class="pagination is-small is-centered"
+     role="navigation" aria-label="pagination">
+
+  {% set adjacentLinks = 2 %}
+  {% set maxLinks      = (adjacentLinks * 2) + 1 %}
+
+  <ul class="pagination-list">
+
+      {# <!-- First Page. --> #}
+      <li class="icon-first">
+      {% if current > 1 %}
+        <a class="pagination-previous hoverable"
+           href="{{ pagination.firstPageLink }}"
+           rel="first">
+          <span class="fas fa-step-backward"></span>&nbsp;</a>
+      {% else %}
+        <a class="pagination-previous"
+           title="This is the first page"
+           disabled>
+          <span class="fas fa-step-backward"></span>&nbsp;</a>
+      {% endif %}
+      </li>
+
+      {# <!-- Previous Page. --> #}
+      <li class="icon-previous">
+      {% if pagination.previousPageLink %}
+        <a class="pagination-previous hoverable"
+           href="{{ pagination.previousPageLink }}"
+           rel="prev">
+          <span class="fas fa-backward"></span>&nbsp;</a>
+      {% else %}
+        <a class="pagination-previous"
+           title="This is the first page"
+           disabled>
+          <span class="fas fa-backward"></span>&nbsp;</a>
+      {% endif %}
+      </li>
+
+    {% if (totalPages > maxLinks) %}
+      {# <!-- First Page. --> #}
+      {% if (current - adjacentLinks > 1) %}
+      <li>
+        <a class="pagination-link hoverable"
+           href="{{ pagination.firstPageLink }}"
+           aria-label="Goto page 1">1</a>
+      </li>
+      {% endif %}
+
+      {# <!-- Early (More Pages) Indicator. --> #}
+      {% if (current - adjacentLinks > 2) %}
+      <li class="pages-indicator">
+        <span class="pagination-ellipsis">&hellip;</span>
+      </li>
+      {% endif %}
+    {% endif %}
+
+    {# <!-- Page numbers. --> #}
+    {% for cursor, link in pagination.links | hashIt %}
+
+      {# <!-- Adjacent script based on Glenn Mc Comb. --> #}
+      {% set showCursorFlag = cursor | 
+               isShowAdjacent(current, totalPages, adjacentLinks) %}
+
+      {# <!-- Show Pager. --> #}
+      {% if showCursorFlag %}
+        {# <!-- Calculate Offset Class. --> #}
+        {% set offset = (cursor - current) | abs %}
+        {% set pageOffsetClass = 'pagination--offset-' + offset %}
+
+      <li class="{{ pageOffsetClass }}">
+        {% if cursor == current  %}
+
+        <a class="pagination-link is-current {{ color }}"
+           aria-label="Page {{ cursor }}">
+          {{ cursor }}
+        </a>
+
+        {% else %}
+
+        <a class="pagination-link hoverable"
+           href="{{ link }}"
+           aria-label="Goto page {{ cursor }}">
+          {{ cursor }}
+        </a>
+
+        {% endif %}
+      </li>
+      {% endif %}
+
+    {% endfor %}
+
+    {% if (totalPages > maxLinks) %}
+      {# <!-- Late (More Pages) Indicator. --> #}
+      {% if (current + adjacentLinks < totalPages - 1)  %}
+      <li class="pages-indicator">
+        <span class="pagination-ellipsis">&hellip;</span>
+      </li>
+      {% endif %}
+
+      {# <!-- Last Page. --> #}
+      {% if (current + adjacentLinks < totalPages) %}
+      <li>
+        <a class="pagination-link hoverable" 
+           href="{{ pagination.lastPageLink }}"
+           aria-label="Goto page {{ totalPages }}">
+          {{ totalPages }}</a>
+      </li>
+      {% endif %}
+    {% endif %}
+
+      {# <!-- Next Page. --> #}
+      <li class="icon-next">
+      {% if pagination.nextPageLink %}
+        <a class="pagination-next hoverable"
+           href="{{ pagination.nextPageLink }}"
+           rel="next">&nbsp;
+          <span class="fas fa-forward"></span></a>
+      {% else %}
+        <a class="pagination-next"
+           title="This is the last page"
+           disabled>&nbsp;
+          <span class="fas fa-forward"></span></a>
+      {% endif %}
+      </li>
+
+      {# <!-- Last Page. --> #}
+      <li class="icon-last">
+      {% if current != totalPages %}
+        <a class="pagination-next hoverable"
+           href="{{ pagination.lastPageLink }}"
+           rel="last">&nbsp;
+          <span class="fas fa-step-forward"></span></a>
+      {% else %}
+        <a class="pagination-next"
+           title="This is the last page"
+           disabled>&nbsp;
+          <span class="fas fa-step-forward"></span></a>
+      {% endif %}
+      </li>
+
+  </ul>
+</nav>
+{% endif %}
+

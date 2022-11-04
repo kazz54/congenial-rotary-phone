@@ -1,0 +1,31 @@
+
+  {% set color = color or 'brown' %}
+
+  <div class="post-list">
+  {%- for post in posts  -%}
+    <div class="archive p-b-10">
+    <div class="meta-item p-10 hoverable">
+
+      <strong><a class="meta_link {{ color }}-text text-darken-3" 
+        href="{{ post.url | url }}">{{ post.data.title }}
+      </strong></a>
+
+      {% include "index/blog-each-meta.njk" %}
+
+      <div>
+      {% if post.data.excerpt %}
+        {{ post.data.excerpt }}
+      {% else %}
+        {% excerpt post %}
+      {% endif %}
+      </div>
+
+      <div class="read-more is-light">
+        <a href="{{ post.url | url }}" 
+           class="button is-dark is-small {{ color }} z-depth-1 hoverable"
+          >Soma Zaidi&nbsp;</a>
+      </div>
+
+    </div></div>
+  {%- endfor -%}
+  </div>

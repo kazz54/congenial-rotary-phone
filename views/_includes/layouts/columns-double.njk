@@ -1,0 +1,55 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+{%- set color %}{% block main_color %}blue{% endblock %}{% endset -%}
+
+  <main role="main" 
+        class="column is-two-thirds">
+
+    <section class="main-wrapper {{ color }}">
+      <div class="blog white z-depth-3 hoverable">
+
+        <section class="blog-header {{ color }} lighten-5">
+        {% block blog_header %}
+          {% include "page/blog-header.njk" %}
+        {% endblock %}
+        </section>
+
+        <article class="blog-body" itemprop="articleBody">
+          <div class="blog-content">
+            {{ content | safe }}
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+{% endblock %}
+
+{% block aside %}
+{%- set color %}{% block aside_color %}green{% endblock %}{% endset -%}
+
+  <aside class="column is-one-thirds">
+
+    <section class="aside-wrapper {{ color }}">
+      <div class="widget white z-depth-3 hoverable">
+
+        <div class="widget-header {{ color }} lighten-4">
+        {% block widget_header %}
+          <strong>Side Menu</strong>
+          <span class="fas fa-scroll is-pulled-right"></span>
+        {% endblock %}
+        </div>
+
+        <div class="widget-body">
+        {% block widget_body %}
+          <p>This is a widget body.</p>
+        {% endblock %}
+        </div>
+
+      </div>
+    </section>
+
+  </aside>
+{% endblock %}

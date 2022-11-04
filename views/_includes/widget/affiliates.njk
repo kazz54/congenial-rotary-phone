@@ -1,0 +1,19 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'green' %}
+
+{% block widget_header %}
+  <strong>Affiliates</strong>
+  <span class="fas fa-fingerprint is-pulled-right"></span>
+{% endblock %}
+
+{% block widget_body %}
+  <ul class="widget-list">
+    <li><a href="http://epsi-rns.github.io/"
+          >Linux/BSD Desktop Customization</a></li>
+    <li><a href="http://epsi-rns.gitlab.io/"
+          >Mobile/Web Development Blog</a></li>
+    <li><a href="http://oto-spies.info/"
+          >Car Painting and Body Repair.</a></li>
+  </ul>
+{% endblock %}

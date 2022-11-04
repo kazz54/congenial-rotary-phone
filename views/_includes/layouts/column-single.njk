@@ -1,0 +1,35 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+{%- set color %}{% block main_color %}blue{% endblock %}{% endset -%}
+
+  <main role="main" 
+        class="column is-full">
+    <section class="main-wrapper {{ color }}">
+      <div class="blog white z-depth-3 hoverable">
+
+        <section class="blog-header has-text-centered
+                      {{ color }} lighten-5">
+        {% block blog_header %}
+          <div class="main_title"> 
+            <h2 class="title is-4"
+                itemprop="name headline">
+              {{ renderData.title or title or metadata.title }}</h2>
+          </div>
+        {% endblock %}
+        </section>
+
+        {%- if showPagination -%}
+        <section class="blog-index center-align" itemprop="pagination">
+        {% block pagination %}{% endblock %}
+        </section>
+        {%- endif -%}
+
+        <section class="blog-index" itemprop="ItemList">
+          {{ content | safe }}
+        </section>
+
+      </div>
+    </section>
+  </main>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+  {%- set color %}teal{% endset -%}
+
+  <main role="main" 
+        class="column is-full">
+
+    <section class="main-wrapper {{ color }}">
+      <div class="widget white z-depth-3 hoverable">
+
+        <div class="widget-header {{ color }} lighten-4">
+          <form action="get" id="search_site">
+            <label for="search_box">Search</label>
+            <input type="text" id="search_box" name="query">
+            <input type="submit" value="search">
+          </form>
+        </div>
+    
+        <div class="widget-body">
+          <ul id="search_results" class="list-unstyled"></ul>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+{% endblock %}
+
+{% block custom_javascript %}
+  <script src="{{ "/assets/js/search-native.js" | url }}"></script>
+{% endblock %}

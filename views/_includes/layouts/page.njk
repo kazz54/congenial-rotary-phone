@@ -1,0 +1,10 @@
+{% extends "layouts/columns-double.njk" %}
+
+{% block main_color %}{{ color or 'pink' }}{% endblock %}
+
+{% block aside %}
+  <aside class="column is-one-thirds">
+    {% include "widget/recent-posts.njk" %}
+    {% include "widget/tags.njk" %}
+  </aside>
+{% endblock %}

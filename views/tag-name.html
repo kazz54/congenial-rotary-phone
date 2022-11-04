@@ -1,0 +1,24 @@
+---
+layout    : tag-name
+eleventyExcludeFromCollections: true
+
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+
+permalink : /tags/{{ tag | slug }}/
+
+renderData:
+  title: Tagged “{{ tag }}”
+
+color     : indigo
+---
+
+{% set posts = collections[ tag ] %}
+{# include "index/by-year.njk" #}
+{% include "index/by-month.njk" %}
+
+  <p><a href="{{ '/tags/' | url }}" 
+        class="button is-small"
+       >List of all tags</a></p>

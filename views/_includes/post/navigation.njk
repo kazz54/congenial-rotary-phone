@@ -1,0 +1,26 @@
+{% set posts = collections.postsPrevNext %}
+
+{% for post in posts %}
+  {% if (post.url == page.url) %}
+
+<nav class="pagination is-centered" 
+     role="navigation" aria-label="pagination">
+
+    <!-- Previous Page. -->
+    {% if post.data.previous %}
+      <a class="button is-small pagination-previous post-previous"
+         href="{{ post.data.previous.url | url }}"
+         title="{{ post.data.previous.title }}">
+        <span class="fas fa-chevron-left"></span>&nbsp;&nbsp;</a>
+    {% endif %}
+
+    {% if post.data.next %}
+      <a class="button is-small pagination-next post-next"
+         href="{{ post.data.next.url | url }}" 
+         title="{{ post.data.next.title }}">&nbsp;&nbsp;
+        <span class="fas fa-chevron-right"></span></a>
+    {% endif %}
+</nav>
+
+  {% endif %}
+{% endfor %}

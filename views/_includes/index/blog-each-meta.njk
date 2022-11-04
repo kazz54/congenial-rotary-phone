@@ -1,0 +1,19 @@
+
+      <div class="meta">
+        <div class="meta_time is-pulled-left">
+          <i class="fa fa-calendar"></i>
+          <time datetime="{{ post.date | date() }}">
+          {{ post.date | date('MMM D, Y') }}</time>
+        </div>      
+        <div class="meta_tags is-pulled-right">
+          {%- for tag in post.data.tags  -%}
+            {%- set tagUrl %}/tags/{{ tag }}/{% endset -%}
+            <a class="tag is-small is-dark {{ color }} z-depth-1 hoverable"
+               href="{{ tagUrl | url }}"
+              >{{ tag }}&nbsp;<span class="fa fa-folder"></span>
+            </a>&nbsp;
+          {%- endfor -%}
+        </div>
+      </div> 
+
+      <div class="is-clearfix"></div>

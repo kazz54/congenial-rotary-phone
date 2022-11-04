@@ -1,0 +1,33 @@
+
+  {% set color = color or 'blue' %}
+
+  <section class="columns is-multiline p-y-5" id="archive">
+  {% for tag in collections.tagList %}
+  <div class="column is-full-mobile
+              is-half-tablet is-one-third-widescreen">
+    {%- set postsList = collections[ tag ] -%}
+
+    <div class="widget white z-depth-1 hoverable m-b-10">
+      <div class="widget-header {{ color }} lighten-4">
+
+        <div id="{{ tag | slug }}" class ="anchor-target">
+          <span class="fa fa-tag"></span> 
+          &nbsp; {{ tag }}
+        </div>
+
+      </div>
+      <div class="widget-body">
+
+        <div class="archive-list p-y-5">
+        {%- for post in postsList -%}
+          {% include "index/each-post.njk" %}
+        {%- endfor -%}
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+  {%- endfor -%}
+  </section>
+

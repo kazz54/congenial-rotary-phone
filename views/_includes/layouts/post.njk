@@ -1,0 +1,67 @@
+{% extends "layouts/columns-double.njk" %}
+
+{% block main %}
+  {% set color = color or 'blue' %}
+
+  <main role="main" 
+        class="column is-two-thirds">
+
+    <section class="main-wrapper {{ color }}">
+      <div class="blog white z-depth-3 hoverable">
+
+        <section class="blog-header {{ color }} lighten-5">
+          {% include "post/blog-header.njk" %}
+        </section>
+
+        <article class="blog-body" itemprop="articleBody">
+          {% if toc %}
+            {% include toc %}
+          {% endif %}
+
+          <div class="blog-content">
+            {{ content | safe }}
+          </div>
+
+          {% include "post/navigation.njk" %}
+        </article>
+
+        <section class="blog-footer {{ color }} lighten-5">
+          {% include "post/blog-footer.njk" %}
+          {# include "service/disqus-comments.html" #}
+        </section>
+
+      </div>
+    </section>
+
+  </main>
+{% endblock %}
+
+{% block aside %}
+  <aside class="column is-one-thirds">
+    {%- if related_link_ids -%}
+      {% include "widget/related-posts.njk" %}
+    {%- endif -%}
+
+    {% include "widget/archive-grouped.njk" %}
+    {% include "widget/tags.njk" %}
+  </aside>
+{% endblock %}
+
+{% block aside_widget_all %}
+  <aside class="column is-one-thirds">
+    {% include "widget/tags.njk" %}
+    {% include "widget/archive-grouped.njk" %}
+    {% include "widget/recent-posts.njk" %}
+    
+    {%- if related_link_ids -%}
+      {% include "widget/related-posts.njk" %}
+    {%- endif -%}
+
+    {% include "widget/friends.njk" %}
+    {% include "widget/archive-gitlab.njk" %}
+    {% include "widget/archive-github.njk" %}
+    
+    {% include "widget/oto-spies.njk" %}
+    {% include "widget/affiliates.njk" %}
+  </aside>
+{% endblock %}

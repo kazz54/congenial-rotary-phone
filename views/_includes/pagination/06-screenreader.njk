@@ -1,0 +1,160 @@
+{% set totalPages = pagination.links.length %}
+{% set current    = pagination.pageNumber + 1 %}
+{% set adjacentLinks = 2 %}
+{% set maxLinks      = (adjacentLinks * 2) + 1 %}
+
+{% if totalPages > 1 %}
+<nav class="pagination is-small is-centered"
+     role="navigation" aria-label="pagination">
+
+      {# <!-- First Page. --> #}
+      {% if current > 1 %}
+        <a class="pagination-previous hoverable"
+           href="{{ pagination.firstPageLink }}"
+           aria-label="Go to first page"
+           data-rel="first">
+          <span class="fas fa-step-backward"></span>&nbsp;</a>
+          <span class="sr-only">First</span>
+      {% else %}
+        <a class="pagination-previous"
+           title="This is the first page"
+           aria-label="First page"
+           aria-current="true"
+           disabled>
+          <span class="fas fa-step-backward"></span>&nbsp;</a>
+      {% endif %}
+
+      {# <!-- Previous Page. --> #}
+      {% if pagination.previousPageLink %}
+        <a class="pagination-previous hoverable"
+           href="{{ pagination.previousPageLink }}"
+           aria-label="Go to previous page"
+           rel="prev">
+          <span class="fas fa-backward"></span>&nbsp;</a>
+          <span class="sr-only">Previous</span>
+      {% else %}
+        <a class="pagination-previous"
+           title="This is the first page"
+           aria-label="First page"
+           aria-current="true"
+           disabled>
+          <span class="fas fa-backward"></span>&nbsp;</a>
+      {% endif %}
+
+      {# <!-- Next Page. --> #}
+      {% if pagination.nextPageLink %}
+        <a class="pagination-next hoverable"
+           href="{{ pagination.nextPageLink }}"
+           aria-label="Go to next page"
+           rel="next">&nbsp;
+          <span class="fas fa-forward"></span></a>
+          <span class="sr-only">Next</span>
+      {% else %}
+        <a class="pagination-next"
+           title="This is the last page"
+           aria-label="Last page"
+           aria-current="true"
+           disabled>&nbsp;
+          <span class="fas fa-forward"></span></a>
+      {% endif %}
+
+      {# <!-- Last Page. --> #}
+      {% if current != totalPages %}
+        <a class="pagination-next hoverable"
+           href="{{ pagination.lastPageLink }}"
+           aria-label="Go to last page"
+           data-rel="last">&nbsp;
+          <span class="fas fa-step-forward"></span></a>
+          <span class="sr-only">Last</span>
+      {% else %}
+        <a class="pagination-next"
+           title="This is the last page"
+           aria-label="Last page"
+           aria-current="true"
+           disabled>&nbsp;
+          <span class="fas fa-step-forward"></span></a>
+      {% endif %}
+
+  <ul class="pagination-list">
+
+    {% if (totalPages > maxLinks) %}
+      {# <!-- First Page. --> #}
+      {% if (current - adjacentLinks > 1) %}
+      <li>
+        <a class="pagination-link hoverable"
+           href="{{ pagination.firstPageLink }}"
+           aria-label="Goto page 1">
+          <span class="sr-only">Goto page </span>1
+        </a>
+      </li>
+      {% endif %}
+
+      {# <!-- Early (More Pages) Indicator. --> #}
+      {% if (current - adjacentLinks > 2) %}
+      <li>
+        <span class="pagination-ellipsis">&hellip;</span>
+      </li>
+      {% endif %}
+    {% endif %}
+
+    {# <!-- Page numbers. --> #}
+    {% for cursor, link in pagination.links | hashIt %}
+
+     {#  <!-- Adjacent script based on Glenn Mc Comb. --> #}
+      {% set showCursorFlag = cursor | 
+               isShowAdjacent(current, totalPages, adjacentLinks) %}
+
+      {# <!-- Show Pager. --> #}
+      {% if showCursorFlag %}
+        {# <!-- Calculate Offset Class. --> #}
+        {% set offset = (cursor - current) | abs %}
+        {% set pageOffsetClass = 'pagination--offset-' + offset %}
+
+      <li class="{{ pageOffsetClass }}">
+        {% if cursor == current  %}
+
+        <a class="pagination-link is-current {{ color }}"
+           aria-label="Page {{ cursor }}"
+           aria-current="true">
+          <span class="is-sr-only">Page </span>
+          {{ cursor }}
+        </a>
+
+        {% else %}
+
+        <a class="pagination-link hoverable"
+           href="{{ link }}"
+           aria-label="Goto page {{ cursor }}">
+          <span class="sr-only">Goto page </span>{{ cursor }}
+        </a>
+
+        {% endif %}
+      </li>
+      {% endif %}
+
+    {% endfor %}
+
+    {% if (totalPages > maxLinks) %}
+      {# <!-- Late (More Pages) Indicator. --> #}
+      {% if (current + adjacentLinks < totalPages - 1)  %}
+      <li>
+        <span class="pagination-ellipsis">&hellip;</span>
+      </li>
+      {% endif %}
+
+      {# <!-- Last Page. --> #}
+      {% if (current + adjacentLinks < totalPages) %}
+      <li>
+        <a class="pagination-link hoverable" 
+           href="{{ pagination.lastPageLink }}"
+           aria-label="Goto page {{ totalPages }}">
+          <span class="sr-only">Goto page </span>{{ totalPages }}
+        </a>
+      </li>
+      {% endif %}
+    {% endif %}
+
+  </ul>
+</nav>
+{% endif %}
+

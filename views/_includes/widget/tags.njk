@@ -1,0 +1,21 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'light-blue' %}
+
+{% block widget_header %}
+  <strong>Tags</strong>
+  <span class="fa fa-tag is-pulled-right"></span>
+{% endblock %}
+
+{% block widget_body %}
+  {%- for tag in collections.tagList -%}
+    {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+    <a class="tag is-small is-light
+              {{ color }} z-depth-1 hoverable p-b-5"
+       href="{{ tagUrl | url }}">
+      <span class="fa fa-tag"></span>&nbsp;{{ tag }}
+    </a>&nbsp;
+  {%- endfor -%}
+  
+  <div class="clearfix"></div>
+{% endblock %}

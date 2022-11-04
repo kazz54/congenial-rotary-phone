@@ -1,0 +1,25 @@
+
+  {% include "meta/html.njk" %}
+  <title>{{ renderData.title or title or metadata.title }}</title>
+
+  {# CSS Framework #}
+  <link type="text/css" rel="stylesheet"
+        href="{{ "/assets/css/bulma.css" | url }}">
+  <link type="text/css" rel="stylesheet"
+        href="{{ "/assets/css/fontawesome.css" | url }}">
+  {# Custom CSS #}
+  <link type="text/css" rel="stylesheet"
+        href="{{ "/assets/css/helper.css" | url }}">
+  <link type="text/css" rel="stylesheet"
+        href="{{ "/assets/css/main.css" | url }}">
+  <link type="text/css" rel="stylesheet"
+        href="{{ "/assets/css/prism/themes/prism-xonokai.css" | url }}">
+
+  <link rel="shortcut icon" type="image/x-icon" 
+        href="{{ "/assets/favicon.ico" | url }}"/>
+
+  <script src="{{ "/assets/js/bulma-burger-plain.js" | url }}"></script>
+
+  {% include "meta/seo.njk" %}
+  {% include "meta/opengraph.njk" %}
+  {% include "meta/twitter.njk" %}

@@ -1,0 +1,28 @@
+---
+# with help from okitavera
+# https://www.11ty.io/docs/permalinks/#custom-file-formats
+permalink: pages/index.json
+
+# okitavera said:
+#   use raw to avoid collision with nunjucks
+#   {% raw %}{{% endraw %}
+#   {% raw %}}{% endraw %}
+---
+
+{%- set posts = collections.posts -%}
+{%- set postCount = posts.length -%}
+{%- set cursor = 1 -%}
+
+[
+  {% for post in posts %}
+    {
+      "title": "{{ post.data.title }}",
+      "excerpt": "{{ post.data.excerpt }}",
+      "url":   "{{ post.url }}",
+      "date": "{{ post.date | date('YYMMDDmm') }}"
+    }
+    {%-if cursor != postCount %},{% endif -%}
+    {%-set cursor = cursor + 1 %}
+  {% endfor %}
+]
+
