@@ -1,16 +1,34 @@
 ---
 layout    : post
 title     : Deftones - Be Quiet and Drive
-date      : 2015-03-25 07:35:05
+date      : 2022-11-18 07:35:05
 tags      : ["nu metal", "90s"]
 ---
-
-This town don't feel mine\
-I'm fast to get away, far
-<!--more-->
-
-I dressed you in her clothes\
-Now drive me far away, away, away
+```bash
+apt install bind9 bind9utils bind9-doc dnsutils<br />
+<br />
+```
+root@node1:~# nano /etc/bind/named.conf<br />
+include "/etc/bind/named.conf.options";<br />
+include "/etc/bind/named.conf.local";<br />
+# comment out<br />
+# include "/etc/bind/named.conf.default-zones";<br />
+# add<br />
+include "/etc/bind/named.conf.internal-zones";<br />
+<br />
+root@node1:~# nano /etc/bind/named.conf.internal-zones<br />
+<br />
+# create new<br />
+# define for internal section<br />
+view "internal" {<br />
+&nbsp; &nbsp; &nbsp; &nbsp; match-clients {<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; localhost;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 192.168.100.0/24;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; };<br />
+&nbsp; &nbsp; &nbsp; &nbsp; # set zone for internal<br />
+&nbsp; &nbsp; &nbsp; &nbsp; zone "internal.labnet" {<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; type master;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; file "/etc/bind/node1.internal.labnet";<br />
 
 ```haskell
 -- Layout Hook
