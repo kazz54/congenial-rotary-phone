@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : Deftones - Be Quiet and Drive
-date      : 2022-11-18 07:35:05
+date      : 2022-12-18 07:35:05
 tags      : ["nu metal", "90s"]
 ---
 ```bash
