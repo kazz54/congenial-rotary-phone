@@ -1,16 +1,5 @@
 {% extends "layouts/column-single.njk" %}
 
-
-<section class="main-wrapper {{ color }}">
-      <div class="blog white z-depth-3 hoverable">
-
-        <section class="blog-header {{ color }} lighten-5">
-          {% include "post/blog-header.njk" %}
-        </section>
-       <section class="blog-footer {{ color }} lighten-5">
-          {% include "post/blog-footer.njk" %}
-          {# include "service/disqus-comments.html" #}
-        </section>
 {% block main_color %}{{ color or 'brown' }}{% endblock %}
 
 {% block pagination %}  
@@ -18,14 +7,11 @@
   {% include "pagination/06-screenreader.njk" %}
 {% endblock %}
 
-{% block pagination_all %} 
-   
+{% block pagination_all %}  
   {% include "pagination/01-simple.njk" %}
   {% include "pagination/02-number.njk" %}
   {% include "pagination/03-adjacent.njk" %}
   {% include "pagination/04-indicator.njk" %}
   {% include "pagination/05-responsive.njk" %}
   {% include "pagination/06-screenreader.njk" %}
-
-
 {% endblock %}
