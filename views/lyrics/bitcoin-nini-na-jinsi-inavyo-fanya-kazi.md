@@ -38,11 +38,8 @@ Biyashara na Bitcoin
 
 [Nini maana ya fedha za kidigital](#p1)
 
-- [Big Title](#big-title)
-- [Medium Title](#medium-title) 
-- [Small Title](#small-title) 
 
-**Nini maana ya fedha za kidigitali**<a name="p1"></a>
+## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
-## Big Title
+
 
