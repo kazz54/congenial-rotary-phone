@@ -2,7 +2,7 @@
 // https://github.com/11ty/eleventy/issues/179
 // https://github.com/11ty/eleventy/issues/479
 
-const excerptMinimumLength = 140;
+const excerptMinimumLength = 40;
 const excerptSeparator = '<!--more-->'
 
 /**
