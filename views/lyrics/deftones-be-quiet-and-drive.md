@@ -2,7 +2,7 @@
 layout    : post
 title     : Deftones - Be Quiet and Drive
 date      : 2022-12-18 07:35:05
-tags      : ["nu metal", "90s"]
+tags      : ["metal", "90s"]
 ---
 ```bash
 apt install bind9 bind9utils bind9-doc dnsutils<br />
