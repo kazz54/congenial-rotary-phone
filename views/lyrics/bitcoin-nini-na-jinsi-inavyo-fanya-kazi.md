@@ -43,6 +43,8 @@ Biyashara na Bitcoin
 
 [Nini kinacho fanya Bitcoin kuwa na thamani?](#p3)
 
+[ni kinacho fanya Bitcoin kuwa na thamani?](#p4)
+
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
 Fedha za kidigital "Cryptocurrency" au "crypto" ni aina ya fedha ambazo zina patikana kidigitali tu. Huwezi kuishika kama unavyo fanya kwenye hizi pesa za asili za makaratasi au sarafu ambazo kitaalamu tuna ziita "Fiat".
@@ -72,6 +74,6 @@ Msingi wa tekinologia hii umekuwa ukiwahamasisha wa endelezaji kuibuka na mifumo
 Kuna sababu nyingi zinazo ifanya Bitcoin ionekana yenye thamani. Kwa kawaida fetha zote zilizofanikiwa ziwe za kidigitali au la lazima ziwe navigezo hivi
 **Uhaba**, **mgawanyiko**, **matumizi**, **uhamishaji**, **kutokuwa nauwezo wakuwa bandia**, Bitcoin inakithi vigezo hivi na ndiyo maana inaonekana yenye thamani.
 
-
+## ni kinacho fanya Bitcoin kuwa na thamani?<a name="p4"></a>
 
 
