@@ -2,7 +2,7 @@
 layout    : post
 title     : Bitcoin - ni nini na jinsi inavyo fanya kazi 
 date      : 2022-12-12 10:35:05
-tags      : ["Bitcoin", "2010"]
+tags      : ["bitcoin", "2010"]
 ---
 
 
