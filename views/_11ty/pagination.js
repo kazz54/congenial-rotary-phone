@@ -6,7 +6,7 @@ exports.isShowAdjacent = function(cursor, current, totalPages, adjacentLinks) {
   // initialize variables
   let showCursorFlag = false;
 
-  const maxLinks      = (adjacentLinks * 2) + 1;
+  const maxLinks      = (adjacentLinks * 3) + 1;
   const lowerLimit    = 1 + adjacentLinks;
   const upperLimit    = totalPages - adjacentLinks;
   
