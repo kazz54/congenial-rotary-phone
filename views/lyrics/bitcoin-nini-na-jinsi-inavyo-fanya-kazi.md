@@ -13,7 +13,7 @@ Mambo ambayo tuta ya nzungumzia
 
 
 
--[Nini maana ya fedha za kidigital](#Nini maana ya fedha za kidigital)
+- [Nini maana ya fedha za kidigital](#Nini maana ya fedha za kidigital)
 
 Bitcoin ni nini
 Nini kinacho fanya Bitcoin kuwa na thamani?
@@ -33,3 +33,14 @@ Biyashara na Bitcoin
 
 
 # Nini maana ya fedha za kidigital
+
+
+- [Nini maana ya fedha za kidigital](#nini maana ya fedha za kidigital)
+- [Big Title](#big-title)
+- [Medium Title](#medium-title) 
+- [Small Title](#small-title) 
+
+# Nini maana ya fedha za kidigital
+
+## Big Title
+
