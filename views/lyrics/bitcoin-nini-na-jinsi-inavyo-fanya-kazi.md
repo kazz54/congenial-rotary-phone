@@ -13,7 +13,7 @@ Mambo ambayo tuta ya nzungumzia
 
 
 
-**Nini maana ya fedha za kidigitali**<a name="p1"></a>
+
 
 
 
@@ -42,7 +42,7 @@ Biyashara na Bitcoin
 - [Medium Title](#medium-title) 
 - [Small Title](#small-title) 
 
-# Nini maana ya fedha za kidigital
+**Nini maana ya fedha za kidigitali**<a name="p1"></a>
 
 ## Big Title
 
