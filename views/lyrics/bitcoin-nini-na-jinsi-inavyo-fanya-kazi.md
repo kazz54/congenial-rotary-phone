@@ -13,6 +13,8 @@ Mambo ambayo tuta ya nzungumzia
 
 
 
+**Nini maana ya fedha za kidigitali**<a name="p1"></a>
+
 
 
 Bitcoin ni nini
@@ -34,8 +36,8 @@ Biyashara na Bitcoin
 
 
 
+[Nini maana ya fedha za kidigital](#p1)
 
-- [Nini maana ya fedha za kidigital](#nini-maana-ya-fedha-za-kidigital)
 - [Big Title](#big-title)
 - [Medium Title](#medium-title) 
 - [Small Title](#small-title) 
