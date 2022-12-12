@@ -12,6 +12,9 @@ Kama kichwa cha habari kinavyo jielezea makala haya lengo laka ni kutambulisha k
 Mambo ambayo tuta ya nzungumzia 
 
 Nini maana ya fedha za kidigital
+
+-[Nini maana ya fedha za kidigital](#Nini maana ya fedha za kidigital)
+
 Bitcoin ni nini
 Nini kinacho fanya Bitcoin kuwa na thamani?
 Jinsi Bitcoin zinavyo pimwa
