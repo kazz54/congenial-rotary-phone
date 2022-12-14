@@ -75,9 +75,9 @@ Bitcoin inakithi vigezo hivi na ndiyo maana inaonekana yenye thamani.
 ## Jinsi Bitcoin zinavyo pimwa<a name="p4"></a>
 Bitcoin inagawanyika kwa sehemu nane za desilimali, 
 inamanisha unaweza kununua kiasi cha sehemu. 
-Kiyasi kidogo kabisa kinajulikana kama Satoshi, 
+Kiyasi kidogo kabisa kinajulikana kama **Satoshi**, 
 likiwa jina la mgunduzi wa Bitcoin. 
-Satoshi moja ni sawa na 0.00000001 BTC. 
+**Satoshi** moja ni sawa na **0.00000001 BTC**. 
 ## Jinsi Bitcoin zinavyo fanya kazi<a name="p5"></a>
 
 BTC ni fetha za kidigitali zinafanya kazi moja kwa moja na tekinologia inayo julikana kama blockchain. 
