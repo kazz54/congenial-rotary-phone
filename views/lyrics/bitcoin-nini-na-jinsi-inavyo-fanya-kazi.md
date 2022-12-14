@@ -53,17 +53,17 @@ Kuna maelifu ya fedha za kidigital lakini kwa uchache kabisa baathi ambazo ni ma
 
 ## Bitcoin ni nini?<a name="p2"></a>
 
-Bitcoin (BTC) ilianza kun'gaa kuanzia mwaka 2009 baada ya utambulisho wake kutoka kwa mtu au kundi la watu ambao wali jitambulisha kama Satoshi Nakamoto. Uhalisia haufahamiki nani hasa ali endeleza Bitcoin mpaka naandika makala haya December 2022
+Bitcoin (BTC) ilianza kun'gaa kuanzia mwaka 2009 baada ya utambulisho wake kutoka kwa mtu au kundi la watu ambao wali jitambulisha kama **Satoshi Nakamoto**. Uhalisia haufahamiki nani hasa ali endeleza Bitcoin mpaka naandika makala haya December 2022
 
 
-Bitcoin imetambulishwa kwetu mwaka mmoja baadaye, baada ya matatizo makubwa ya kiuchumi ya mwaka 2008 yaliyo sababishwa hasa na mifumo ya asili ya ki benki iliyo mibovu, huenda Satoshi Nakamoto alikuwa ana tatuwa changamoto hiyo. Imeundwa ili itumike kila siku kwenye ubadilishanaji wa fedha.
+Bitcoin imetambulishwa kwetu mwaka mmoja baadaye, baada ya matatizo makubwa ya kiuchumi ya mwaka 2008 yaliyo sababishwa hasa na mifumo ya asili ya ki benki iliyo mibovu, huenda **Satoshi Nakamoto** alikuwa ana tatuwa changamoto hiyo. Imeundwa ili itumike kila siku kwenye ubadilishanaji wa fedha.
 
 Tangia utambulisho wake mwaka 2009 Bitcoin ndiyo fetha ya kidigitali iliyo kubwa kulikozote kwa mtaji wa soko  (market cap),  tafsiri yake ni kwambwa ujumla wa thamini la soko ni mkubwa kuliko wa pesa nyoyote ile ya kidigitali
 
 Bitcoin imekua na nyakati tamu na chungu kwa vipindi tofauti tofauti mfn mwaka 2017 wafanya biyashara na wawekezaji walishuhudia uongezakaji wa bei kwa asilimia 1,000% jambo lakuzingatia ni kwamba bitcoin bado ni tete kwa sababu mbali mbali ambazo ni nje ya makala haya. 
 Pamoja na hayo inatosha kusema kwamba kila siku Bitcoin inajiuongezea umaarufu na kuwa salama zaidi.
 
-Msingi wa tekinologia hii umekuwa ukiwahamasisha wa endelezaji kuibuka na mifumo mingine ya fetha ambayo imekua ikitoa ushindani kwa Bitcoin na imekua maarufu kama sarafu mbadala "alternative coins, au altcoins". 
+Msingi wa tekinologia hii umekuwa ukiwahamasisha wa endelezaji kuibuka na mifumo mingine ya fetha ambayo imekua ikitoa ushindani kwa Bitcoin na imekua maarufu kama **sarafu mbadala** "alternative coins, au altcoins". 
 
 ## Nini kinacho fanya Bitcoin kuwa na thamani?<a name="p3"></a>
 
