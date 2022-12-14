@@ -7,7 +7,7 @@ tags      : ["bitcoin", "2010"]
 
 
 
-Kama kichwa cha habari kinavyo jielezea makala haya lengo laka ni kutambulisha kwako juu ya tekinologia ya fetha za kidigitali ijulikanayo kama Bitcoin tukiangaliya history yake najinsi ilivyo badili ulimwengu wa uchumi na wala siyo kushawishi au kufundisha juu ya uwekezaji kwenye tekinologia hii.
+Kama kichwa cha habari kinavyo jielezea makala haya lengo laka ni kutambulisha kwako juu ya tekinologia ya **fetha za kidigitali** ijulikanayo kama **Bitcoin** tukiangaliya history yake najinsi ilivyo badili ulimwengu wa uchumi na wala siyo kushawishi au kufundisha juu ya uwekezaji kwenye tekinologia hii.
 
 Mambo ambayo tuta ya nzungumzia 
 
@@ -41,13 +41,13 @@ Mambo ambayo tuta ya nzungumzia
 
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
-Fedha za kidigital "Cryptocurrency" au "crypto" ni aina ya fedha ambazo zina patikana kidigitali tu. 
+Fedha za kidigital **"Cryptocurrency"** au **"crypto"** ni aina ya fedha ambazo zina patikana **kidigitali** tu. 
 Huwezi kuishika kama unavyo fanya kwenye hizi pesa za asili za makaratasi au sarafu ambazo kitaalamu tuna ziita **"Fiat"**.
 
-Fedha hizi za kidigital zina umarufu mkubwa hasa kwa sababu shughuli zake hupewa ulinzi unao tumia "cryptography",
+Fedha hizi za kidigital zina umarufu mkubwa hasa kwa sababu shughuli zake hupewa ulinzi unao tumia **"cryptography"**,
 Ambayo ni mbinu ya kulinda mawasiliano.
 
-Na hakuna chombo chochote kile ambacho kina mamlaka juu yake, mtandao wake ume gatuliwa. 
+Na hakuna chombo chochote kile ambacho kina mamlaka juu yake, mtandao wake ume **gatuliwa**. 
 Kuna maelifu ya fedha za kidigital lakini kwa uchache kabisa baathi ambazo ni maarufu zaidi ni 
 **Bitcoin**, **Ethereum**, **Litecoin** pamoja na **Ripple**.
 
