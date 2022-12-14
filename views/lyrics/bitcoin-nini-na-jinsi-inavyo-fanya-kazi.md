@@ -182,3 +182,38 @@ Mambo yakuzingatia wakati wakutafuta mbadilishaji aliye makini ni pamoja na:
 Hii inaweza ikaonekana kama kazi ya ziada lakini ni mambo muhimu ambayo utahitaji kuyanzingatia kama utahitaji kuingia kwenye soko la fedha za kidigital **"crypto"**.
 
 ## Bitcoin forks ni nini?<a name="p13"></a>
+Kwa lugha rahisi, Bitcoin forks ni pale itifaki ya blockchain itakapo badilika na kuboreshwa na hutokea pale kiwango cha wachimbaji wa kutosha watakapo pitisha kanuni mpya za mtandao. 
+Kuna aina mbili ya forks: **hard forks** na **soft forks**.
+
+**Hard forks**: ni pale kanuni za awali za blockchain na kanuni mpya za blockchain zinapo gawanyika kutokea kwenye moja wapo. 
+Kunapokuwa na **hard fork**, toleo la awali la blockchain huachwa nyuma, na shughuli zote zinafanywa na blockchain iliyo boreshwa. 
+
+Na haziwezi kusomwa na toleo la awali la blockchain. Kwa kutumia **hard fork** wachimbaji wana uwamuzi wa kuchaguwa wa tumie toleo lipi, 
+kwani kwa sasa kutakuwa na matoleo mawili ya fedha za kidigitali.
+
+**Soft forks** Ni ubadilishaji wa itifaki na siyo ubadilishaji wa bithaa utofauti mkubwa kati ya **soft forks** na **hard forks** 
+ni kwamba **soft fork** inaweza kurudi nyuma tafsiri yake itifaki za toleo jipya zinaweza kutambuliwa na node za zamani kwenye mfumo. 
+Ni sisitize tu kwamba hii humanisha hakuna bidhaa mpya inayo tengenenzwa hapa. 
+
+
+Mfano wa **hard forks** nipamoja na: 
+
+**Bitcoin Cash (BCH)**: 
+
+*Kwa msingi kabisa katika hali ya kawaida hizi folks huwa zinatokea kutokana na mitazamo tofauti.*
+
+Bitcoin ilipo zidi kujipatia umaarufu, "technologia ya blockchaini imejengwa kwenye mtandao ambao uko tararibu huo ndiyo muundo wake inje ya boksi".
+Matokeo yake mfumo mzima ukawa siyo wa kutegemea kwani shughuli zilishuhudia kuchelewa na ada zake zikizidi kuwa juu. 
+
+Kutokana na changamoto hii ya mtandao kukosa kasi kwa kiwango hicho ilibidi Bitcoin ije na suluhisho na ndiyo **folks** zilipo azishwa, tukiyo hili la August 1, 2017 ambayo lilikua likisabisha ucheweleshaji wa shughuli ilibidi kubadili kitalu kutoka kwenye kile cha asili cha 1-megabyte nakuongeza hadi 8-megabyte nahapa ndipo ilipo patikana **fork** ya kwanza ambayo ni maarufu kama **Bitcoin Cash (BCH):**
+Nahii ilifanya Bitcoin iendelee kukuwa hatakama watumiaji ambao wana ingiliana na mfumo huu wanaongezeka. 
+
+>>>Kitalu kikubwa kinaweza kushikilia data nyingi zaidi na kuongeza kasi kwenye mchakato mzima wa kununua na kuuza hasa pale watu wengi wanapo ingia kwenye mfumo.
+
+
+
+
+**Bitcoin Gold (BTG)**: hii ni **hard fork** ambayo ili tengenezwa October 2017 kwa lengo la kurudishia kazi za hapo nyuma za uchimbaji. Uchimbaji wa BTG tafsiri yake ni utumiaji wa **graphics processing units (GPUs)** badala ya kutumia hardware na vifaa maalumu marufu kama "**application-specific integrated circuits" (ASICs)**. Kwa msingi, hasa tafsiri yake ni kwamba wachimbaji wanaweza kuchimba BTG wakiwa nyumbani bila kuhitaji kuwa na vfaa vya gharama. 
+
+**LiteCoin (LTC)**: Fork hii inatumia algorithm tufauti na ile ya asili "original" ya Bitcoin algorithm, SHA-256. Shughuli za LTC inasemekana hua zina thibitishwa mapema na zina ada ndogo kulinganisha na zile za Bitcoin asili. 
+
