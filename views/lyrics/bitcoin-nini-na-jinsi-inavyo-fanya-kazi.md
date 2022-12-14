@@ -41,14 +41,15 @@ Mambo ambayo tuta ya nzungumzia
 
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
-Fedha za kidigital "Cryptocurrency" au "crypto" ni aina ya fedha ambazo zina patikana kidigitali tu. Huwezi kuishika kama unavyo fanya kwenye hizi pesa za asili za makaratasi au sarafu ambazo kitaalamu tuna ziita "Fiat".
+Fedha za kidigital "Cryptocurrency" au "crypto" ni aina ya fedha ambazo zina patikana kidigitali tu. 
+Huwezi kuishika kama unavyo fanya kwenye hizi pesa za asili za makaratasi au sarafu ambazo kitaalamu tuna ziita **"Fiat"**.
 
 Fedha hizi za kidigital zina umarufu mkubwa hasa kwa sababu shughuli zake hupewa ulinzi unao tumia "cryptography",
 Ambayo ni mbinu ya kulinda mawasiliano.
 
 Na hakuna chombo chochote kile ambacho kina mamlaka juu yake, mtandao wake ume gatuliwa. 
-Kuna maelifu ya fedha za kidigital lakini kwa uchache kabisa baathi ya maarufu zaidi ni 
-Bitcoin, Ethereum, Litecoin pamoja na Ripple.
+Kuna maelifu ya fedha za kidigital lakini kwa uchache kabisa baathi ambazo ni maarufu zaidi ni 
+**Bitcoin**, **Ethereum**, **Litecoin** pamoja na **Ripple**.
 
 ## Bitcoin ni nini?<a name="p2"></a>
 
