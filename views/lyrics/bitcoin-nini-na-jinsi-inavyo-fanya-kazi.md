@@ -32,6 +32,13 @@ Mambo ambayo tuta ya nzungumzia
 
 [Bitcoin halving](#p10)
 
+[Uchimbaji wa Bitcoin kwenye bwawa](#p11)
+
+[Masoko ya fetha za kidigitali](#p12)
+
+[Bitcoin forks ni nini?](#p13)
+
+
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
 Fedha za kidigital "Cryptocurrency" au "crypto" ni aina ya fedha ambazo zina patikana kidigitali tu. Huwezi kuishika kama unavyo fanya kwenye hizi pesa za asili za makaratasi au sarafu ambazo kitaalamu tuna ziita "Fiat".
@@ -128,3 +135,49 @@ ukizidi hasa pale watuwengi wanapo kuwa wanaingia kwenye uchimbaji.
 Kutokana na hilli wachimbaji hulipwa kutokana na kila kitalu wanacho tatua au kuthibitisha kwenye blockchain, lakini ushindani umekua ukizidi hasa pale watuwengi wanapo kuwa wanaingia kwenye uchimbaji.
 
 ## Bitcoin halving<a name="p10"></a>
+Uchimbaji wa bitcoin ni aina flani ya mashindano
+
+Mwazilishi wa Bitcoin ali programu zawadi ya kitalu igawanywe nusu kwa nusu 
+kwa vipindi vya mara kwa mara 
+
+
+
+Zawadi ya kuchimba kitalu hupungua hadi nusu kwa kila vitalu 210,000 vinavyo ongenzwa. 
+Hadi naandika makala haya inachukua miaka minne kuongeze idadi hiyo ya vitalu na tukio hili huwa linajulikana kama Bitcoin halving.
+Tukio lakwanza likitoke 2012
+
+Tukio lilo tokea mwaka 2020 lilikuwa la tatu tukio jingine linategemewa mwaka 2024
+.
+Kinatharia ni kwamba usambazaji wa Bitcoins ukipugua, ongezeko la uhitaji wa bitcoin hauto badilika, na hivyo kusukuma bei juu.
+
+Tukiangali halving za hivi karibuni tunaona ongezeko la thamani "bullishly" mwaka mzima mara baada ya hili tukio kutokea. Safari hii ikipanda zaidi ya 559% 
+
+
+
+>>>Kama kulivyo na kiasi kidogo cha thahabu arithini, na kiasi kidogi cha Bitcoin kilicho kuwepo ni million 2 bilashaka ndiyo jina la thahabu ya kidigitali lipo ibuka. 
+
+## Uchimbaji wa Bitcoin kwenye bwawa<a name="p11"></a>
+
+Wakati wakuchimba Bitcoin, kuna uwezekano pia wakuchimba kwenye makundi. 
+Na hii hujulikana kama bwawa la wachimba Bitcoin. 
+Bwawa la wachimba Bitcoin ni pale kundi la wachimbaji wanapo fanya kazi kwa pamoja ili kuongeza nafasi yakupata na kuchimba vitalu.
+Wachimbaji wanapo unganisha nguvu zao kwenye mabwawa huongeza nafasi yakupata vitalu. Malipo yanayo patikana hugawanya kwenye kundi na hii inaweza kutafsiriwa kwamba wale wanao chimba kwenye makundi hupata kipato kidogo kuliko moja moja, lina jalidika.
+
+## Masoko ya fetha za kidigitali<a name="p12"></a>
+
+Kama hutaki kuchovya vidole vyako kwenye dimbwi la uchimbaji Bitcoin kuna maelfu ya masoko ya fedha za kidigitali kwenye mtandao wa internet ambapo unaweza kununua BTC. 
+Mambo yakuzingatia wakati wakutafuta mbadilishaji aliye makini ni pamoja na:
+
+**Usalama wenye uhakika** – ni vizuri uka angali jukwaa ambalo linakubali uthibitisho wa two-factor (2FA).
+
+**Mipaka ya kigeographia**  – Mataifa mengine na mamlaka zao bado zinasumbuka kwenye matumizi ya Bitcoin vilivyo tafuta jukwaa litakalo kuwezesha kutumia mali zako za kidigital kwa ukamilifu 
+
+**Wepesi wakugeuza mali kuwa biyashara** – Angalia jukwaa lakubadilishia BTC zako kwa pesa zako za fiat unazo hitaji bila kutoa jasho.
+
+**Malipo ya shughuli**– Ada ya kununulia, kuuza, kuhifadhi au kutoa BTC hutofautiana kati ya mbadilishaji mmoja na mwingine kwa hiyo nijukumu lako kulinganisha nani mwenye ada kidogo.
+
+**Sifa na Uhalisia wa jukwaa** – Hakikisha unafanya utafiti juu ya uhalali wa uwepo wa hilo kampuni kwa kuthibitisha unaweza kutafuta kwenye mtandao wa internt barua pepe na namba za simu ambazo zinaweza kukusaidi kwenye utafiti wako juu ya uhalali wa hiyo kampuni na jukwa lake. 
+
+Hii inaweza ikaonekana kama kazi ya ziada lakini ni mambo muhimu ambayo utahitaji kuyanzingatia kama utahitaji kuingia kwenye soko la fedha za kidigital "crypto".
+
+## Bitcoin forks ni nini?<a name="p13"></a>
