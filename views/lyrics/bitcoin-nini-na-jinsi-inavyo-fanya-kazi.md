@@ -80,8 +80,9 @@ likiwa jina la mgunduzi wa Bitcoin.
 **Satoshi** moja ni sawa na **0.00000001 BTC**. 
 ## Jinsi Bitcoin zinavyo fanya kazi<a name="p5"></a>
 
-BTC ni fetha za kidigitali zinafanya kazi moja kwa moja na tekinologia inayo julikana kama blockchain. 
-Blockchain ni daftari la umma ambalo lina rekodi shughuli zote za bitcoin zilizo thibitishwa 
+BTC ni fetha za kidigitali zinafanya kazi moja kwa moja na tekinologia inayo julikana kama **blockchain**. 
+Blockchain ni daftari la umma ambalo lina rekodi shughuli zote za bitcoin zilizo thibitishwa.
+ 
 Fikiria blockchain kama kile kidaftari cha kidigitali chapasi kutoka kwenye mfumo wa asili wa kibenki ambapo kiasi cha saliyo la akaunti yako na shuhuli hu fatiliwa na ku rekodiwa
 
 Utofauti mkubwa ni kwambwa shughuli zilizo rekodiwa kwenye Bitcoin blockchain zinapatikana kwa yoyote yule kwenye mtandao 
@@ -94,7 +95,7 @@ umma bado unaweza kuona kwamba kunamtu kwenye mtandao anatumu kiasi cha fedha kw
 
 Ili kutounganisha shughuli na mmiliki maalumu, model ya faragha ya Bitcoin inatumia **peya ya funguo**. Hatahivyo, kwa kuwa shughuli nyingi huingia mtandaoni kuunganisha ni kitu kisicho epukika na inaweza kuonyeshe shughuli zimefanywa na kumilikiwa na miliki huyo huyo.
 
-Kurasa nyeupe za Bitcoin zina soma 
+**Kurasa nyeupe** za Bitcoin zina soma 
 "Hatari ni pale mmiliki wa funguo atakapo fichuliwa, kuunganisha kunaweza kufichua taarifa zingine za shughuli za mmiliki huyo huyo" kutokana na hili tunaweza kusema kwamba Bitcoin inatumia jina bandia "**pseudonymous**" nawala siyo kwamba jina "**halijulikani**" "**anonymous**".
 
 
@@ -104,7 +105,8 @@ Tofauti na mabenki na taasisi zingine za kifedha za asili ambazo hufwatiliwa na 
 Mtandao wa Bitcoin hufanya kazi kwa kujitegemea . Tafsiri yake ni kwamba hufanya kazi kwa kutumia shughuli za rika-kwa- rika "**peer-to-peer (P2P) transactions**".
 
 ## Shughuli na funguo za faragha<a name="p7"></a>
-Shughuli za Bitcoin zinafafanuliwa "kama usafirishaji wa thamani baina ya wallets za fedha "**cypto**".” Unapo toa fedha kutoka kwenye ATM au kwenye app ya kwenye simu, unathibitisha utoaji wa fedha kwa kuweka PIN yako. Ni sawa na BTC lakini badala ya kuulinzwa PIN utaulizwa uweke **fuguo zako za faragha**.
+Shughuli za Bitcoin zinafafanuliwa kama "usafirishaji wa thamani baina ya **wallets** za fedha "**cypto**".” 
+Unapo toa fedha kutoka kwenye ATM au kwenye app ya kwenye simu, unathibitisha utoaji wa fedha kwa kuweka **PIN** yako. Ni sawa na BTC lakini badala ya kuulinzwa PIN utaulizwa uweke **fuguo zako za faragha**.
 
 **PIN** kama ilivyo kwenye akauti yako ya benki, **fuguo ya faragha** ni taarifa ya siri ambayo hapaswi kufahamu mtu yoyote yule zaidi yako. Inaruhusu ufikiwaji wa wallet yako ya Bitcoin na kuruhusu fedha zako kutumika, kwa hiyo kuwa makini wasiyo husika kuto pata hiyo funguo. 
 **Funguo za faragha** hua zina hifadhiwa kwenye computer yako au kwenye server iliyoko mbali hii hutegemea na aina gani ya wallet unatumia.
@@ -115,11 +117,12 @@ uchaguzi uliyo nao ni pamoja na **kuchimba**, **kununua kwenye maeneo ya masoko 
 Lakini hebu tuzame na kuangaza kwenye njia hizi mbili. 
 
 ## Kuchimba Bitcoin<a name="p9"></a>
-Kama ilivyo kwenye kipisi cha chuma chenye thamani ya juu kweli kweli kijulikanacho kama dhahabu, 
-basi na Bitcoin hupatikana kwa kuchimba kwa kimombo tunasema "mining". 
+Kama ilivyo kwenye kipisi cha chuma chenye thamani ya juu kweli kweli kijulikanacho kama **dhahabu**, 
+basi na Bitcoin hupatikana kwa **kuchimba** kwa kimombo tunasema **"mining"**. 
+
 Hatahivyo uchimbaji wa Bitcoin ni wa kidigital zaidi hakuna vifaa vya kazi zinto wala kemikali 
-wachimbaji wa bitcoin hutumia computer nzenye nguvu, software maalumu, 
-Internet inayo aminika na imara na umeme wa hali ya juu. 
+wachimbaji wa bitcoin hutumia **computer nzenye nguvu**, **software maalumu**, 
+**Internet inayo aminika na imara na umeme wa hali ya juu**. 
 
 Uchimbaji wa Bitcoin unachukuliwa kama moja ya michakato ya ghali yakupata Bitcoin. 
 Na hutumia algorithms changamano ambazo hutatuliwa na wachimbaji. 
@@ -131,9 +134,6 @@ au kuthibitisha kwenye blockchain, lakini ushindani umekua
 ukizidi hasa pale watuwengi wanapo kuwa wanaingia kwenye uchimbaji.
 
 
-
-
-Kutokana na hilli wachimbaji hulipwa kutokana na kila kitalu wanacho tatua au kuthibitisha kwenye blockchain, lakini ushindani umekua ukizidi hasa pale watuwengi wanapo kuwa wanaingia kwenye uchimbaji.
 
 ## Bitcoin halving<a name="p10"></a>
 Uchimbaji wa bitcoin ni aina flani ya mashindano
