@@ -28,6 +28,10 @@ Mambo ambayo tuta ya nzungumzia
 
 [Jinsi gani na weza kupata Bitcoin?](#p8)
 
+[Kuchimba Bitcoin](#p9)
+
+[Bitcoin halving](#p10)
+
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
 Fedha za kidigital "Cryptocurrency" au "crypto" ni aina ya fedha ambazo zina patikana kidigitali tu. Huwezi kuishika kama unavyo fanya kwenye hizi pesa za asili za makaratasi au sarafu ambazo kitaalamu tuna ziita "Fiat".
@@ -101,3 +105,26 @@ Shughuli za Bitcoin zinafafanuliwa "kama usafirishaji wa thamani baina ya wallet
 Kuna njia nyingi zakuweza kupata sehemu yako ya kwanza ya Bitcoin 
 uchaguzi uliyo nao ni pamoja na **kuchimba**, **kununua kwenye maeneo ya masoko ya fedha za kidigital kwenye mtandao wa internet** na zaidi. 
 Lakini hebu tuzame na kuangaza kwenye njia hizi mbili. 
+
+## Kuchimba Bitcoin<a name="p9"></a>
+Kama ilivyo kwenye kipisi cha chuma chenye thamani ya juu kweli kweli kijulikanacho kama dhahabu, 
+basi na Bitcoin hupatikana kwa kuchimba kwa kimombo tunasema "mining". 
+Hatahivyo uchimbaji wa Bitcoin ni wa kidigital zaidi hakuna vifaa vya kazi zinto wala kemikali 
+wachimbaji wa bitcoin hutumia computer nzenye nguvu, software maalumu, 
+Internet inayo aminika na imara na umeme wa hali ya juu. 
+
+Uchimbaji wa Bitcoin unachukuliwa kama moja ya michakato ya ghali yakupata Bitcoin. 
+Na hutumia algorithms changamano ambazo hutatuliwa na wachimbaji. 
+Mahesebu ni magumu na hayawezi kutatuliwa kwa akili ya kawaida, 
+na hivyo kufanya mchakato kuwa wa ghali na wakutatanisha. 
+
+Kutokana na hilli wachimbaji hulipwa kutokana na kila kitalu wanacho tatua 
+au kuthibitisha kwenye blockchain, lakini ushindani umekua 
+ukizidi hasa pale watuwengi wanapo kuwa wanaingia kwenye uchimbaji.
+
+
+
+
+Kutokana na hilli wachimbaji hulipwa kutokana na kila kitalu wanacho tatua au kuthibitisha kwenye blockchain, lakini ushindani umekua ukizidi hasa pale watuwengi wanapo kuwa wanaingia kwenye uchimbaji.
+
+## Bitcoin halving<a name="p10"></a>
