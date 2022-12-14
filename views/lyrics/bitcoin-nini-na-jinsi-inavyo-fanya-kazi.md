@@ -2,7 +2,7 @@
 layout    : post
 title     : Bitcoin - ni nini na jinsi inavyo fanya kazi 
 date      : 2022-12-12 10:35:05
-tags      : ["bitcoin", "2010"]
+tags      : ["bitcoin", "uchumi"]
 ---
 
 
@@ -179,6 +179,6 @@ Mambo yakuzingatia wakati wakutafuta mbadilishaji aliye makini ni pamoja na:
 
 **Sifa na Uhalisia wa jukwaa** – Hakikisha unafanya utafiti juu ya uhalali wa uwepo wa hilo kampuni kwa kuthibitisha unaweza kutafuta kwenye mtandao wa internt barua pepe na namba za simu ambazo zinaweza kukusaidi kwenye utafiti wako juu ya uhalali wa hiyo kampuni na jukwa lake. 
 
-Hii inaweza ikaonekana kama kazi ya ziada lakini ni mambo muhimu ambayo utahitaji kuyanzingatia kama utahitaji kuingia kwenye soko la fedha za kidigital "crypto".
+Hii inaweza ikaonekana kama kazi ya ziada lakini ni mambo muhimu ambayo utahitaji kuyanzingatia kama utahitaji kuingia kwenye soko la fedha za kidigital **"crypto"**.
 
 ## Bitcoin forks ni nini?<a name="p13"></a>
