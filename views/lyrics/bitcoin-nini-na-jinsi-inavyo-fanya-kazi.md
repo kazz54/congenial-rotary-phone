@@ -187,11 +187,10 @@ Kuna aina mbili ya forks: **hard forks** na **soft forks**.
 
 **Hard forks**: ni pale kanuni za awali za blockchain na kanuni mpya za blockchain zinapo gawanyika kutokea kwenye moja wapo. 
 Kunapokuwa na **hard fork**, toleo la awali la blockchain huachwa nyuma, na shughuli zote zinafanywa na blockchain iliyo boreshwa. 
-
 Na haziwezi kusomwa na toleo la awali la blockchain. Kwa kutumia **hard fork** wachimbaji wana uwamuzi wa kuchaguwa wa tumie toleo lipi, 
 kwani kwa sasa kutakuwa na matoleo mawili ya fedha za kidigitali.
 
-**Soft forks** Ni ubadilishaji wa itifaki na siyo ubadilishaji wa bithaa utofauti mkubwa kati ya **soft forks** na **hard forks** 
+**Soft forks** Ni ubadilishaji wa `itifaki` na siyo ubadilishaji wa `bithaa` utofauti mkubwa kati ya **soft forks** na **hard forks** 
 ni kwamba **soft fork** inaweza kurudi nyuma tafsiri yake itifaki za toleo jipya zinaweza kutambuliwa na node za zamani kwenye mfumo. 
 Ni sisitize tu kwamba hii humanisha hakuna bidhaa mpya inayo tengenenzwa hapa. 
 
