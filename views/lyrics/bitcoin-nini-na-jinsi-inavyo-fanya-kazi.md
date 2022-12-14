@@ -53,7 +53,7 @@ Kuna maelifu ya fedha za kidigital lakini kwa uchache kabisa baathi ambazo ni ma
 
 ## Bitcoin ni nini?<a name="p2"></a>
 
-Bitcoin (BTC) ilianza kun'gaa kuanzia mwaka 2009 baada ya utambulisho wake kutoka kwa mtu au kundi la watu ambao wali jitambulisha kama **Satoshi Nakamoto**. Uhalisia haufahamiki nani hasa ali endeleza Bitcoin mpaka naandika makala haya December 2022
+Bitcoin (BTC) ilianza kung'aa kuanzia mwaka 2009 baada ya utambulisho wake kutoka kwa mtu au kundi la watu ambao wali jitambulisha kama **Satoshi Nakamoto**. Uhalisia haufahamiki nani hasa ali endeleza Bitcoin mpaka naandika makala haya December 2022
 
 
 Bitcoin imetambulishwa kwetu mwaka mmoja baadaye, baada ya matatizo makubwa ya kiuchumi ya mwaka 2008 yaliyo sababishwa hasa na mifumo ya asili ya ki benki iliyo mibovu, huenda **Satoshi Nakamoto** alikuwa ana tatuwa changamoto hiyo. Imeundwa ili itumike kila siku kwenye ubadilishanaji wa fedha.
