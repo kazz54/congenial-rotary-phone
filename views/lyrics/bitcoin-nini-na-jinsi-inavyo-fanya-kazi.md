@@ -42,6 +42,8 @@ Mambo ambayo tuta ya nzungumzia
 
 [Wapi naweza kuhifadhi Bitcoin?](#p15)
 
+[Biyashara na Bitcoin](#p16)
+
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
 Fedha za kidigital **"Cryptocurrency"** au **"crypto"** ni aina ya fedha ambazo zina patikana **kidigitali** tu. 
@@ -253,4 +255,17 @@ Shuhuli za Bitcoin, kwa upande mwingine, hutumia saini za kidigitali. Ni "crypto
 
 Wakati ambapo kila mmoja kwenye mtandao anaweza kuona kwamba saini yako ni sawa na shughuli flani ya Bitcoin, hakuna njia yoyote ile kwa yoyote yule kufahamu fuguo yako ya faragha. Bitcoin inatumia changamano la hali ya juu kwenye michakato na vipengele kufanya kuwa ngumu kufikia muafaka. Kwa hiyo usiwaze kuhusu kuibiwa kwa pesa zako endapo tu ni wewe pekeyako mwenye uthibiti wa fuguo ya faragha. 
 
+## Biyashara na Bitcoin<a name="p16"></a> 
 
+Kama ilivyo kwenye fedha zingine, Bitcoin zina weza kushikiliwa na kuunzwa kwenye fedha zingine au bithaa.
+
+Hatahivyo kuna mikakati maarufu ambayo wenye shauku na fedha za kidigital huwa wanatumia, na kama ilivyo desturi ya mkakati wowote ule huwa na faida na hasara, 
+za kufanya biyashara ya Bitcoin na fedha za kidigital kwa ujumla. 
+
+Tutazama na kuangalia baathi ya mikakati ambayo wafanya biyashara wa Bitcoin hutumia kupata kitu katika ushikiliaji wao wa fedha za kidigital. 
+
+
+
+Soko huwa lina hama kwenye mzunguko, huku likibadilika kwa kupanda na kushuka kutokana na sababu mbali mbali, 
+kama mfanya biyashara tuseme unataka kunufaika na hivi vipindi vifupi na virefu vya mabadiliko au `bembeya` **"swings"** kwenye bei ya mali. 
+Kwenye kisa hiki tunazumgumzia mabadiliko yanayotokea kwa kipindi cha siku chache au wiki chache. Chochote kile kifupi kina julikana kama **biyashara ya siku** tunata izungumzia badaye kidogo chochote kile kirefu ni mkakati ambao hujulikana kama `kushikilia` **"HODLing"** ambayo hasa kwa ufafanuzi siyo biyashara.
