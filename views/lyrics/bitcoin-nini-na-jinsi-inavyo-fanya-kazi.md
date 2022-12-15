@@ -44,6 +44,8 @@ Mambo ambayo tuta ya nzungumzia
 
 [Biyashara na Bitcoin](#p16)
 
+[Biyashara ya bembeya "swing" ni nini?](#p17)
+
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
 Fedha za kidigital **"Cryptocurrency"** au **"crypto"** ni aina ya fedha ambazo zina patikana **kidigitali** tu. 
@@ -269,3 +271,5 @@ Tutazama na kuangalia baathi ya mikakati ambayo wafanya biyashara wa Bitcoin hut
 Soko huwa lina hama kwenye mzunguko, huku likibadilika kwa kupanda na kushuka kutokana na sababu mbali mbali, 
 kama mfanya biyashara tuseme unataka kunufaika na hivi vipindi vifupi na virefu vya mabadiliko au `bembeya` **"swings"** kwenye bei ya mali. 
 Kwenye kisa hiki tunazumgumzia mabadiliko yanayotokea kwa kipindi cha siku chache au wiki chache. Chochote kile kifupi kina julikana kama **biyashara ya siku** tunata izungumzia badaye kidogo chochote kile kirefu ni mkakati ambao hujulikana kama `kushikilia` **"HODLing"** ambayo hasa kwa ufafanuzi siyo biyashara.
+
+**Biyashara ya bembeya "swing" ni nini?**
