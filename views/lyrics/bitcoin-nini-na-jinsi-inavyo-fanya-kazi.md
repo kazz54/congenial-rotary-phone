@@ -40,6 +40,8 @@ Mambo ambayo tuta ya nzungumzia
 
 [Nani anaye fanya uwamuzi kuhusu forks?](#p14)
 
+[Wapi naweza kuhifadhi Bitcoin?](#p15)
+
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
 Fedha za kidigital **"Cryptocurrency"** au **"crypto"** ni aina ya fedha ambazo zina patikana **kidigitali** tu. 
@@ -228,5 +230,27 @@ Wachimbaji huhakikisha ulizi wa kwenye blockchain na huku mfumo ukiendelea kufan
 
 **Watumiaji wa node zima** "Full node users": Watumiaji hawa hutuma, kupokea na kuhalalisha vitalu kwenye blockchain. 
 Huzingatiwa kama sehemu muhimu ya mfumo ili uweze kufaya kazi.
+
+## Wapi naweza kuhifadhi Bitcoin?<a name="p15"></a>
+
+BTC ni fedha za kidigitali. Haina uwepo wa asili. Kuwepo kwake kwa kipekee sana kunategemea matumizi ya tekinogologia hakuna note za BTC zakukunja au coin zakuweka kwenye pochi au wallet yako. 
+Badala yake hutumia hifadhi ijulikanayo kama **Bitcoin Wallet**.
+
+Bitcoin wallet au digital wallet niyakipeke na iliyo salama kama sehemu ya hifadhi. 
+Nayo hutumia blockchain, tekinologia janja nyuma ya mtandao wa fedha za kidigitali. Jambo la kuvutia nikwamba unawezo kufanya mambo mengi sana pamoja nayo. Kama unatumia BTC wallet, unaweza kupokea BTC kutoka kwenye wallets zingine, kutuma fedha au kufanya malipo nakuangalia salio lako kwa mdaa huo huo.
+
+Kuna aina nyingi za wallet za fedha za kidigitali "cryptocurrency", lakini nyingi hudondokea kati ya makundi haya:
+
+**Hot wallets** – Hifadhi inapatikana kupitia mtandao wa internet. Hii ni pamoja na web na mobile wallets. 
+
+**Cold wallets** – Kifaa asili kisicho hitaji internet. Mfano hardware wallets, desktop wallets, na wallets za karatasi. 
+
+Kuna mitandao mingine ya rika-kwa-rika "peer-to-peer" sokoni kwenye mtandao wa internet ambapo unaweza kusajili bure kabisa account yako ya Bitcoin wallet na kuanza kuitumia maramoja baada yaku itengeneza. 
+
+
+
+Shuhuli za Bitcoin, kwa upande mwingine, hutumia saini za kidigitali. Ni "cryptographic" na “ushahidi wa mahesabu” kwamba BTC zinatoka kwa mmiliki wa wallet na siyo kutoko popote pale na mwingine yoyote yule. Saini ya kidigitali pia ina kuruhusu wewe kufahamu kama BTC zimetumwa kwa mtu mwingine.
+
+Wakati ambapo kila mmoja kwenye mtandao anaweza kuona kwamba saini yako ni sawa na shughuli flani ya Bitcoin, hakuna njia yoyote ile kwa yoyote yule kufahamu fuguo yako ya faragha. Bitcoin inatumia changamano la hali ya juu kwenye michakato na vipengele kufanya kuwa ngumu kufikia muafaka. Kwa hiyo usiwaze kuhusu kuibiwa kwa pesa zako endapo tu ni wewe pekeyako mwenye uthibiti wa fuguo ya faragha. 
 
 
