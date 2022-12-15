@@ -272,4 +272,4 @@ Soko huwa lina hama kwenye mzunguko, huku likibadilika kwa kupanda na kushuka ku
 kama mfanya biyashara tuseme unataka kunufaika na hivi vipindi vifupi na virefu vya mabadiliko au `bembeya` **"swings"** kwenye bei ya mali. 
 Kwenye kisa hiki tunazumgumzia mabadiliko yanayotokea kwa kipindi cha siku chache au wiki chache. Chochote kile kifupi kina julikana kama **biyashara ya siku** tunata izungumzia badaye kidogo chochote kile kirefu ni mkakati ambao hujulikana kama `kushikilia` **"HODLing"** ambayo hasa kwa ufafanuzi siyo biyashara.
 
-**Biyashara ya bembeya "swing" ni nini?**
+## Biyashara ya bembeya "swing" ni nini?
