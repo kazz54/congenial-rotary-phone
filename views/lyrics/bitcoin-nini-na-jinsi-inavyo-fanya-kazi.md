@@ -38,6 +38,7 @@ Mambo ambayo tuta ya nzungumzia
 
 [Bitcoin forks ni nini?](#p13)
 
+[Nani anaye fanya uwamuzi kuhusu forks?](#p14)
 
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
@@ -216,3 +217,4 @@ Nahii ilifanya Bitcoin iendelee kukuwa hatakama watumiaji ambao wana ingiliana n
 
 **LiteCoin (LTC)**: Fork hii inatumia algorithm tufauti na ile ya asili "original" ya Bitcoin algorithm, SHA-256. Shughuli za LTC inasemekana hua zina thibitishwa mapema na zina ada ndogo kulinganisha na zile za Bitcoin asili. 
 
+### Nani anaye fanya uwamuzi kuhusu forks?<a name="p14"></a>
