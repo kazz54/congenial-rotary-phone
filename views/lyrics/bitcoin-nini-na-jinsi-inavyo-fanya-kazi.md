@@ -270,6 +270,26 @@ Tutazama na kuangalia baathi ya mikakati ambayo wafanya biyashara wa Bitcoin hut
 
 Soko huwa lina hama kwenye mzunguko, huku likibadilika kwa kupanda na kushuka kutokana na sababu mbali mbali, 
 kama mfanya biyashara tuseme unataka kunufaika na hivi vipindi vifupi na virefu vya mabadiliko au `bembeya` **"swings"** kwenye bei ya mali. 
-Kwenye kisa hiki tunazumgumzia mabadiliko yanayotokea kwa kipindi cha siku chache au wiki chache. Chochote kile kifupi kina julikana kama **biyashara ya siku** tunata izungumzia badaye kidogo chochote kile kirefu ni mkakati ambao hujulikana kama `kushikilia` **"HODLing"** ambayo hasa kwa ufafanuzi siyo biyashara.
+Kwenye kisa hiki tunazumgumzia mabadiliko yanayotokea kwa kipindi cha siku chache au wiki chache. Chochote kile kifupi kina julikana kama **biyashara ya siku** tutaizungumzia badaye kidogo chochote kile kirefu ni mkakati ambao hujulikana kama `kushikilia` **"HODLing"** ambayo hasa kwa ufafanuzi siyo biyashara.
 
 ### Biyashara ya bembeya "swing" ni nini?
+
+Hasa kwavile mabadiliko hayo yabiyashara `"swings"` ni mkakati wa mdaa mfupi wafanyabiyashara 
+huchanganya mbinu ya **uchambuzi wa kiufundi** naile ya **msingi wa uchambuzi** ili kuweza kupata kipimo kilicho bora cha kibiyashara kuweza kuingia na kutoka. 
+Ufunguo ni kuweza kuchanganya uchambuzi wakiufundi na viashiria vyake kuweza kutambua na kutabiri harakati za ingizo la biyashara na kutoka
+
+### Biyashara ya siku ni nini?
+
+Biyashara ya siku ni mkakati wa kipindi kifupi ambayo inahusisha kufanya biyashara kwa wingi kwa siku kwa kutumia kwa ukamilifu mabadiliko ya bei ya mali `"swings"` kwa siku. 
+Wafanya biyashara kwa kawaida hununua mali kwa bei flani na husubiri thamani ya hiyo mali iongezeke mara moja na kama thamani ya hiyo mali ikiongezeka wanaiuza kwa bei ya juu, 
+na hivyo mfanyabiyara hupata faida. Lengo nikutengeneza faida ndogo ndogo nyingi kwenye biyashara
+
+Mbinu hii ni hatari na ina hitaji Uangalizi wa karibu kwani soko husogea kwa kasi
+
+### Ushikiliaji "HODL" ni nini?
+
+`HODLIng` au **Hodl** Ni mkakati wa mda mrefu ambao wawekazeji hutumia pale soko linapokuwa chini. 
+Hatakama soko likiwa chini, wa wekezaji wanao **shikilia** **"HODL"** hawauzi fedha zao za kidigital wakiwa na matumaini kwamba bei zitapanda tena kwa kipindi cha mda mrefu. 
+Hii nitofauti na biyashara ya siku ambayo ni mkakati wa uwekezaji wa mdaa mfupi.
+
+Wale wanao shikilia bitcoin au fedha za kidigital kwa mdaa mrefu lengo lao sio hasa kupata faida bali nikuboresha uwezo wa kubadilika na kufanya fedha zafiat kuwa thaifu kulinganisha na fethadha za kidigital.
