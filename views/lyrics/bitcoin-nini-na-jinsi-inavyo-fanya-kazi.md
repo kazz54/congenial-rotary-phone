@@ -217,4 +217,16 @@ Nahii ilifanya Bitcoin iendelee kukuwa hatakama watumiaji ambao wana ingiliana n
 
 **LiteCoin (LTC)**: Fork hii inatumia algorithm tufauti na ile ya asili "original" ya Bitcoin algorithm, SHA-256. Shughuli za LTC inasemekana hua zina thibitishwa mapema na zina ada ndogo kulinganisha na zile za Bitcoin asili. 
 
-### Nani anaye fanya uwamuzi kuhusu forks?<a name="p14"></a>
+## Nani anaye fanya uwamuzi kuhusu forks?<a name="p14"></a>
+
+Kuna makundi matatu ya watu ambayo huwa yana fanya maamuzi yaliyo mengi ambayo yana husiana na forks:
+
+**Waendelezaji "Developers"**:Kundi hili hutengeneza naku sasisha code. Kama wewe ni developer, unaweza kupendekeza mabadiliko ambayo ma developers wengine wanaweza kuya hakiki. Ma developers "waendelezaji" hurekibisha changamoto "bugs" zinazo jitokeza kwenye mfumo na kuongeza mabadiliko na vipengele vingine.
+
+**Wachimbaji. "Miners"**: Kundi hili huongeza vitalu vipvya kwenye blockchain na huendasha mfumo wa code. 
+Wachimbaji huhakikisha ulizi wa kwenye blockchain na huku mfumo ukiendelea kufanyakazi .
+
+**Watumiaji wa node zima** "Full node users": Watumiaji hawa hutuma, kupokea na kuhalalisha vitalu kwenye blockchain. 
+Huzingatiwa kama sehemu muhimu ya mfumo ili uweze kufaya kazi.
+
+
