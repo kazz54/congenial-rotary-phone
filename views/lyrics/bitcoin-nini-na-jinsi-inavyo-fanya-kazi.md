@@ -192,7 +192,7 @@ kwani kwa sasa kutakuwa na matoleo mawili ya fedha za kidigitali.
 
 **Soft forks** Ni ubadilishaji wa `itifaki` na siyo ubadilishaji wa `bithaa` utofauti mkubwa kati ya **soft forks** na **hard forks** 
 ni kwamba **soft fork** inaweza kurudi nyuma tafsiri yake itifaki za toleo jipya zinaweza kutambuliwa na node za zamani kwenye mfumo. 
-Ni sisitize tu kwamba hii humanisha hakuna bidhaa mpya inayo tengenenzwa hapa. 
+Ni sisitize tu kwamba hii inamanisha hakuna bidhaa mpya inayo tengenenzwa hapa. 
 
 
 Mfano wa **hard forks** nipamoja na: 
@@ -204,7 +204,7 @@ Mfano wa **hard forks** nipamoja na: 
 Bitcoin ilipo zidi kujipatia umaarufu, "technologia ya blockchaini imejengwa kwenye mtandao ambao uko tararibu huo ndiyo muundo wake inje ya boksi".
 Matokeo yake mfumo mzima ukawa siyo wa kutegemea kwani shughuli zilishuhudia kuchelewa na ada zake zikizidi kuwa juu. 
 
-Kutokana na changamoto hii ya mtandao kukosa kasi kwa kiwango hicho ilibidi Bitcoin ije na suluhisho na ndiyo **folks** zilipo azishwa, tukiyo hili la August 1, 2017 ambayo lilikua likisabisha ucheweleshaji wa shughuli ilibidi kubadili kitalu kutoka kwenye kile cha asili cha 1-megabyte nakuongeza hadi 8-megabyte nahapa ndipo ilipo patikana **fork** ya kwanza ambayo ni maarufu kama **Bitcoin Cash (BCH):**
+Kutokana na changamoto hii ya mtandao kukosa kasi kwa kiwango hicho ilibidi Bitcoin ije na suluhisho na ndiyo **folks** zilipo azishwa, tukiyo la August 1, 2017 ambalo lilikua likisabisha ucheweleshaji wa shughuli ilibidi kubadili kitalu kutoka kwenye kile cha asili cha 1-megabyte nakuongeza hadi 8-megabyte nahapa ndipo ilipo patikana **fork** ya kwanza ambayo ni maarufu kama **Bitcoin Cash (BCH):**
 Nahii ilifanya Bitcoin iendelee kukuwa hatakama watumiaji ambao wana ingiliana na mfumo huu wanaongezeka. 
 
 >>>Kitalu kikubwa kinaweza kushikilia data nyingi zaidi na kuongeza kasi kwenye mchakato mzima wa kununua na kuuza hasa pale watu wengi wanapo ingia kwenye mfumo.
