@@ -44,7 +44,8 @@ Mambo ambayo tuta ya nzungumzia
 
 [Biyashara na Bitcoin](#p16)
 
-[Biyashara ya bembeya "swing" ni nini?](#p17)
+[Jinsi Bitcoin inavyo tumika](#p17)
+
 
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
@@ -293,3 +294,28 @@ Hatakama soko likiwa chini, wa wekezaji wanao **shikilia** **"HODL"** hawauzi fe
 Hii nitofauti na biyashara ya siku ambayo ni mkakati wa uwekezaji wa mdaa mfupi.
 
 Wale wanao shikilia bitcoin au fedha za kidigital kwa mdaa mrefu lengo lao sio hasa kupata faida bali nikuboresha uwezo wa kubadilika na kufanya fedha zafiat kuwa thaifu kulinganisha na fethadha za kidigital.
+
+## Jinsi Bitcoin inavyo tumika<a name="p17"></a>
+Mwanzoni, Bitcoin ilikuwa inajulikana zaidi kwa umahiri wa kufanya moja kwa moja malipo yaliyo rahisi na bila mipaka. Lakini ilipo zidi kufahamika, watu kutoka maeneo mbali mbali duniani na makampuni mbali mbali wameanza kugundua matumizi mbali mbali ya hali ya juu. Ambayo ni pamoja na:
+
+
+Malipo ya manunuzi ya kila siku
+
+Michango ya hisani na mipango ya waanzalishi 
+
+Kuhifadhi mali 
+
+Uhamishaji wa fedha ndani na nnje ya nnchi 
+
+
+Zawadi kwa marafiki na familiya 
+
+Lango la biyashara ya mtandaoni 
+
+
+Njia ya kutengeneza hela
+
+*Unaweza kufanya mambo yote haya kwa kubofya bofya kidogo tu kwenye wallet yako ya Bitcoin wakati wowote ule na mahali popote pale.*
+
+
+
