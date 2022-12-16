@@ -46,6 +46,7 @@ Mambo ambayo tuta ya nzungumzia
 
 [Jinsi Bitcoin inavyo tumika](#p17)
 
+[HITIMISHO](#p18)
 
 ## Nini maana ya fedha za kidigitali<a name="p1"></a>
 
@@ -319,3 +320,6 @@ Njia ya kutengeneza hela
 
 
 
+## HITIMISHO<a name="p18"></a>
+
+Niseme tu kwamba uwanda wa fedha zakidigital hususani Bitcoin ni mpana sana kunamengi yakujifunza, kwa ukurasa mmoja nimekupa twaswira. matumaimi yangu kwamba chapisho hili limekupa mwanga wa nini ni Bitcoin na njia mbali mbali ambazo unaweza kujihusisha na Bitcoin pale utakapo ona ni muafaka.
