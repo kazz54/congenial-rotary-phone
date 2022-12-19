@@ -45,7 +45,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
 
   // Layout Alias
-  eleventyConfig.addLayoutAlias("home",     "layouts/home.njk");
+  eleventyConfig.addLayoutAlias("home",     "layouts/blog.njk");
   eleventyConfig.addLayoutAlias("page",     "layouts/page.njk");
   eleventyConfig.addLayoutAlias("post",     "layouts/post.njk");
   eleventyConfig.addLayoutAlias("blog",     "layouts/blog.njk");
