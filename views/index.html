@@ -1,6 +1,15 @@
 ---
 layout    : page
 title     : About Rescue Mission
+
+pagination:
+  data: collections.posts
+  size: 6
+  alias: posts
+
+// permalink: pages/{{ pagination.pageNumber | pagerIt }}
+
+showPagination : true
 ---
 
 <p>This was not a rescue mission!....</p>
@@ -10,3 +19,7 @@ title     : About Rescue Mission
 <p>Let me put to you like this.<br/>
 If the secretary wanted me out of there,<br/>
 then things are really bad out here.</p>
+
+
+
+{% include "index/blog-list.njk" %}
