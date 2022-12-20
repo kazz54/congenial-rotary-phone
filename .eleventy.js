@@ -162,9 +162,9 @@ module.exports = function(eleventyConfig) {
   
   // Defines shortcode for generating post excerpts
   // Copy paste from Jérôme Coupé
-// /  const excerpt = require("./views/_11ty/excerpt");
-// /  eleventyConfig.addShortcode('excerpt',
-// /    post => excerpt.extractExcerpt(post));
+   const excerpt = require("./views/_11ty/excerpt");
+   eleventyConfig.addShortcode('excerpt',
+     post => excerpt.extractExcerpt(post));
 
   // Internal Path
   eleventyConfig.addShortcode("pathPrefix", function() {
@@ -181,12 +181,12 @@ module.exports = function(eleventyConfig) {
 // /  });
 
   // Multiline Content with Parameter
-// /  eleventyConfig.addShortcode("advert", function(src) {
-// /    return `
-// /  <img alt="advertisement" 
-// /       src="${config.pathPrefix}assets/images/adverts/${src}">
-// /    `;
-// /  });
+   eleventyConfig.addShortcode("advert", function(src) {
+   return `
+   <img alt="advertisement" 
+        src="${config.pathPrefix}assets/images/adverts/${src}">
+     `;
+   });
 
   // Done with all stuff
   // -- -- -- -- -- -- --
