@@ -1,12 +1,12 @@
 module.exports = {
-  "title" : "Your mission. Good Luck!",
-  "author": "epsi",
-  "email" : "epsi.nurwijayadi@gmail.com",
+  "title" : "devduara0!",
+  "author": "admin",
+  "email" : "devduara0@gmail.com",
   "site"  : "https://eleventy-step.netlify.com",
   // https://www.webstoemp.com/blog/from-jekyll-to-eleventy/
   now     : new Date(),
   "feed": {
-    "subtitle": "I am not a time traveller.",
+    "subtitle": "I.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "url": "https://myurl.com/feed/feed.xml",
@@ -18,8 +18,8 @@ module.exports = {
     "postimage"    : "/assets/images/authors/broken-person.png",
     "latitude"     : "-6.193665",
     "longitude"    : "106.848558",
-    "locality"     : "Jakarta",
-    "countryName"  : "Indonesia"
+    "locality"     : "Dar es salaam",
+    "countryName"  : "Tanzania"
   },
-  "twitter": "nurwijayadi"
+  "twitter": "devduara0"
 };
