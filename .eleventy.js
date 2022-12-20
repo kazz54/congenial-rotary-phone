@@ -172,9 +172,9 @@ module.exports = function(eleventyConfig) {
   });
 
   // External Path
-// /  eleventyConfig.addShortcode("dotfiles", function() {
-// /    return 'https://gitlab.com/epsi-rns/dotfiles/tree/master';
-// /  });
+   eleventyConfig.addShortcode("dotfiles", function() {
+   return 'https://gitlab.com/epsi-rns/dotfiles/tree/master';
+   });
 
 //  / eleventyConfig.addShortcode("repo", function() {
 // /    return 'https://gitlab.com/epsi-rns/tutor-11ty-bulma-md/tree/master/';
