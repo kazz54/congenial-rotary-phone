@@ -2,7 +2,7 @@
 // to avoid distraction from complex configuration
 const config = {
   // URL Related
-  pathPrefix: "/",
+  pathPrefix: "/pages",
 
   // Templating Engine
   templateFormats: [
