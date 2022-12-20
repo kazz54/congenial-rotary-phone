@@ -48,7 +48,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("home",     "layouts/home.njk");
   eleventyConfig.addLayoutAlias("page",     "layouts/page.njk");
   eleventyConfig.addLayoutAlias("post",     "layouts/post.njk");
-  eleventyConfig.addLayoutAlias("blog",     "layouts/blog.njk");
+//  eleventyConfig.addLayoutAlias("blog",     "layouts/blog.njk");
   eleventyConfig.addLayoutAlias("archive",  "layouts/archive.njk");
   eleventyConfig.addLayoutAlias("tags",     "layouts/tags.njk");
   eleventyConfig.addLayoutAlias("tag-name", "layouts/tag-name.njk");
