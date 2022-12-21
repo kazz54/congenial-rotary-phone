@@ -19,8 +19,6 @@
   </main>
 {% endblock %}
 {% extends "layouts/column-single.njk" %}
-
-{% block main_color %}{{ color or 'brown' }}{% endblock %}
 {% block pagination %}  
   {% set color = color or 'brown' %}
   {% include "pagination/06-screenreader.njk" %}
