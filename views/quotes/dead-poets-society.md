@@ -5,7 +5,7 @@ date      : 2022-12-22 08:15:15
 tags      : ['subtitle', 'story']
 ---
 
-![Crepe](https://i.ibb.co/6NKFG91/Pics-Art-10-08-10-36-29.jpg) 
+![Crepe](https://i.ibb.co/yXQpYCH/Pics-Art-10-08-04-22-27.jpg) 
 So avoid using the word **very** because it's lazy.
 <!--more-->
 
