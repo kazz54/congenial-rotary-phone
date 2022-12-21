@@ -2,7 +2,7 @@
 layout    : post
 title     : Cms bila kichwa ni nini
 date      : 2021-11-22 08:15:15
-tags      : ['react', 'story']
+tags      : ['vercel', 'contentful']
 ---
 
 ## React na vifaa vya mitindo
