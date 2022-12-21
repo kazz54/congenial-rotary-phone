@@ -1,9 +1,9 @@
 ---
 layout    : post
-title     : Dead Poet Society
 date      : 2022-12-22 08:15:15
 tags      : ['subtitle', 'story']
 ---
+## CMS bila kichwa ni nini?
 
 ![Crepe](https://i.ibb.co/yXQpYCH/Pics-Art-10-08-04-22-27.jpg) 
 So avoid using the word **very** because it's lazy.
