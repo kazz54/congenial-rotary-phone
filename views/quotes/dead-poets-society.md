@@ -1,18 +1,18 @@
 ---
 layout    : post
 title     : Cms bila kichwa ni nini
-date      : 2022-12-22 08:15:15
-tags      : ['subtitle', 'story']
+date      : 2021-11-22 08:15:15
+tags      : ['react', 'story']
 ---
-## React na vifaa vya mitindo 
 
-![Crepe](https://i.ibb.co/yXQpYCH/Pics-Art-10-08-04-22-27.jpg) 
-So avoid using the word **very** because it's lazy.
+
+
+Je unajua kwamba unaweza kukata kichwa cha website yako ya WordPress, Drupal Joomla nk
 <!--more-->
 
 
 
-Je unajua kwamba unaweza kukata kichwa cha website yako ya WordPress, Drupal Joomla nk, kwenye makala haya nitakutembeza hatuwa kwa hatua huku tukiangaza kwa nini unaweza kuamua kukata kichwa cha website yako vile vile nakuonyesha jinsi ambavyo na kwenda bila **server** mawinguni na kukata kichwa niki tumia moja ya **maktaba** mashuhuri sana ya **Javascript** inayo julikana kama **Reactjs** kwa urahisi kabisa tuta leta **yaliyomo** kwa kutumia **API** kutokea **Contentful** hadi kwenye application ambayo tutaitengeneza pamoja haitakua chochote ila **theme** siyo template nimesema **theme**. Unaweza [kuiona hapa](https://react-fetch-api-contentful.vercel.app/) chazo chake cha [kodi kipo hapa](https://github.com/devduara0/react-fetch-api-contentful). 
+kwenye makala haya nitakutembeza hatuwa kwa hatua huku tukiangaza kwa nini unaweza kuamua kukata kichwa cha website yako vile vile nakuonyesha jinsi ambavyo na kwenda bila **server** mawinguni na kukata kichwa niki tumia moja ya **maktaba** mashuhuri sana ya **Javascript** inayo julikana kama **Reactjs** kwa urahisi kabisa tuta leta **yaliyomo** kwa kutumia **API** kutokea **Contentful** hadi kwenye application ambayo tutaitengeneza pamoja haitakua chochote ila **theme** siyo template nimesema **theme**. Unaweza [kuiona hapa](https://react-fetch-api-contentful.vercel.app/) chazo chake cha [kodi kipo hapa](https://github.com/devduara0/react-fetch-api-contentful). 
 
 Unaweza kutumia kifaa **chochote** kile na siyo lazima kujuwa **javascript** ilikuweza kufuatili kwani **lengo** lamakala haya **nikukusaidia** kuweza **kuanza** kwa **urahisi** bila vikwanzo, 
 
