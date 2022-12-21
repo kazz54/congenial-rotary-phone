@@ -1,7 +1,17 @@
 ---
-layout    : page
+layout    : home
 title     : About Rescue Mission
+
+eleventyExcludeFromCollections: true
+
+pagination:
+  data: collections.posts
+  size: 3
+  alias: posts
 ---
+
+{% include "index/blog-list.njk" %}
+
 
 <p>This was not a rescue mission!....</p>
 
