@@ -37,17 +37,7 @@
 
 {% block main_color %}{{ color or 'pink' }}{% endblock %}
 
-{% extends "layouts/widget.njk" %}
 
-{% set color = 'lime' %}
-
-{% block widget_header %}
-  <strong>Recent Posts</strong>
-  <span class="fa fa-newspaper is-pulled-right"></span>
-{% endblock %}
-
-
-{% include "index/blog-list.njk" %}
 
 {% block aside %}
   <aside class="column is-one-thirds">
