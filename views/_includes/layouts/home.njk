@@ -1,5 +1,5 @@
-{% extends "layouts/base.njk" %}
 
+{% extends "layouts/column-single.njk" %}
 {% block main %}
   {%- set color %}{{ color or 'blue-grey' }}{% endset -%}
   <main role="main" 
@@ -18,7 +18,7 @@
 
   </main>
 {% endblock %}
-{% extends "layouts/column-single.njk" %}
+
 {% block pagination %}  
   {% set color = color or 'brown' %}
   {% include "pagination/06-screenreader.njk" %}
