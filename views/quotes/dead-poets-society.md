@@ -1,10 +1,10 @@
 ---
 layout    : post
-title     : Dead poets society 
+title     : Cms bila kichwa ni nini
 date      : 2022-12-22 08:15:15
 tags      : ['subtitle', 'story']
 ---
-## CMS bila kichwa ni nini?
+## React na vifaa vya mitindo 
 
 ![Crepe](https://i.ibb.co/yXQpYCH/Pics-Art-10-08-04-22-27.jpg) 
 So avoid using the word **very** because it's lazy.
