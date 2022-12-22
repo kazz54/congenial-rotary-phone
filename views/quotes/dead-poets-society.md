@@ -10,24 +10,31 @@ Kwenye Makala haya nitakumbeza hatuwa kwa hatuwa tukitengeneza webapp pamoja, ha
 <!--more-->
 Tutakayo yapitia
 
-## Utangulizi
+**Utangulizi**
 
 [Kwa nini Javascript na Reactjs](#p1)
+
 [Utambulisho wa Css kwenye JavaScript](#p2) 
 
 
 **Vifaa tutakavyo tumia**
 
 [ECMAScript 6 === ES6](#p3)
+
 [Github ===Git](#p4)
+
 [Vercel](#p5)
+
 [Contentful](#p6)
 
 **Mtiririko wa kazi**
 
 [Contentful kama hifathidata](#p7)
+
 [Github kama sehemu yakuandika nakuhifathi code](#p8)
+
 [Andaa Mazingira ya kuazisha Application ya React](#p9)
+
 [Vercel kama computer ya kuendeshea code](#p10)
 
 [Mitindo na matumizi ya vifaa vya react ulimwenguni](#p11)
