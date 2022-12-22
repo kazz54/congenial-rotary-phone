@@ -123,7 +123,7 @@ Nibure kwajili ya sites za **hobby** na ambazo hazipo **kibiyashara**. Una weza 
 
 ## Mtiririko wa kazi  
 
-### Contentful kama hifathidata  
+### Contentful kama hifathidata <a name="p7"></a>
 
 Kabla yakuandika code nilazima tuwe na yaliyomo ambayo tunataka kuonyesha kwenye webapp yetu hapa ndipo **contentful**  inapo ingia. 
 
@@ -177,7 +177,9 @@ Tunayo yaliyomo ambayo tumeyahifathi mawinguni unaweza kutengeneza timu ambayo u
 
 Jinsi ya kuyachukua hayo yaliyomo naku ya onyesha kwenye **webapp** yetu hilo ndiyo jukumu lililo kuwepo mbele yetu kwa sasa. 
 
-### Github kama sehemu yakuandika nakuhifathi code 
+## Mtiririko wa kazi
+
+### Github kama sehemu yakuandika nakuhifathi code<a name="p8"></a>
 
 Tufunge safari hadi **Github** ilituanze kuweka mambo sawa hapa ndiyo mahali ambapo tutatumia mdamwingi kuandika **code**. 
 
