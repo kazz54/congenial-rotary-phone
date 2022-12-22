@@ -55,7 +55,7 @@ Tutakayo yapitia
 
 ## Utangulizi 
 
-kwa nini Javascript na Reactjs<a name="p1"></a>
+**kwa nini Javascript na Reactjs**<a name="p1"></a>
 
 Tuta tumia moja ya **maktaba** mashuhuri sana ya **Javascript** inayo julikana kama **Reactjs** kwa urahisi kabisa tuta leta **yaliyomo** kwa kutumia **API** kutokea **Contentful** hadi kwenye application ambayo tutaitengeneza pamoja 
 
@@ -72,7 +72,7 @@ Hili ni jambo zuri upande wa ufanyaji kazi na ulizi, nawala haimaninishi kwamba 
 
 ## Utangulizi
 
-Utambulisho wa Css kwenye JavaScript<a name="p2"></a>
+**Utambulisho wa Css kwenye JavaScript**<a name="p2"></a>
 
 
 Wakati una endeleza webapp moja yajambo ambalo utahitaji kulifanyia uwamuzi mapema sana ni jinsi ambavyo utaweka na kuhudumia mitindo hususani ukizingatia kuna njia mbali mbali kama vile **inline CSS** hadi **Sass**, **Less** na zinginezo nyingi tu. 
@@ -93,7 +93,7 @@ Unaweza kutumia css zakawawaida alafu yenyewe itaongeza viambishi awali kutokana
 
 ## Vifaa tutakavyo tumia 
 
-ECMAScript 6 === ES6<a name="p3"></a>
+**ECMAScript 6 === ES6**<a name="p3"></a>
 
 **JavaScript** ni alama ya biyashara ya [Oracle](https://www.oracle.com/id/index.html) ambayo waliirithi kutoka Sun. Kwa hiyo jina lililo rasimi la *javascript* ni **ECMAScript** jina hili linatoka kwenye shirika la kusimami viwango linalojulikana kama **Ecma** ambalo kaziyake nikusimamia viwango vya lugha hii. Tangu kuanzishwa kwa *ECMAScript's* jina la shirika limetoka kwenye kifupi cha ECMA na kua jina kamili la [ecma](https://www.ecma-international.org/) matoleo ya javascript hufafanuliwa kwa vipimo ambayo vinabeba jina la lugha mf toleo la kiwango cha kwanza cha javascript ni ECMAScript 1 tafsiri yake ni "ECMAScript Language Specification, Edition 1”. Unaweza kuandika kwa ufupi Es1  
 
@@ -101,7 +101,7 @@ ECMAScript 6 === ES6<a name="p3"></a>
 
 ## Vifaa tutakavyo tumia
 
-Github ===Git<a name="p4"></a>
+**Github === Git**<a name="p4"></a>
 
 Katika hali yakawaida tunahitaji kuwa na sehemu ya kuandika **code** hapa tutatumia [Github](https://github.com/login) sajili account kama huna ni bure. 
 
@@ -109,7 +109,7 @@ Kwa juu juu github ni tovuti  na huduma ya kwenye mawingu ambayo inasaidia madev
 
 ## Vifaa tutakavyo tumia
 
-`Vercel`<a name="p5"></a>
+**Vercel**<a name="p5"></a>
 
 Baada ya kuandika **code** tunahitaji kuzitekeleza **code** ili kujenga ukurasa wa **html** hapa tutatumia [Vercel](https://vercel.com/) kwa huduma za **computer**. Webpack na Babel. Tayari zimekua installed nakufanyiwa configuration na kufichwa kwa hiyo unaweza kuzingatia ku code. 
 
@@ -117,7 +117,7 @@ Nibure kwajili ya sites za **hobby** na ambazo hazipo **kibiyashara**. Una weza 
 
 ## Vifaa tutakavyo tumia
 
-`Contentful`<a name="p6"></a>
+**Contentful**<a name="p6"></a>
 
 **yaliyomo** hatuta ya changanya na **code** nahatuna **server** usiwaze tutatumia  [Contentful](https://www.contentful.com/ )  cms ambayo iko mawinguni, ichukulie kama **hifathidata** "**database**". Hapa napo natumia account ya github.
 
