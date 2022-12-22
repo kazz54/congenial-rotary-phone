@@ -42,14 +42,12 @@ Tutakayo yapitia
 [Mitindo inayo athiri vifaa mbali mbali vya theme](#p12)
 
 
-
 **React na Contentful**
 
 [GraphQL kuleta kupitia Dirisha](#p13)
 
 
-
-
+[Hitimisho](#p14)
 
 
 
@@ -1075,4 +1073,7 @@ Chazo cha kodi hadi hapa kinapatikana hapa kama [CH3](https://github.com/devduar
 
 Kwa yote na yote niwakati wako waku jipima safari ilikuwaje kwa kuweka footer kutokea contentful hadi kwenye DOM umejaa mbinu na maujanja ambayo yatakuwezesha katika kazi hiyo na kama utakwama kwa namna yoyote ile na zoezi hilo kumbuka chazo cha code mwisho wa application kipo hapa kama [CH4](https://github.com/devduara0/react-fetch-api-contentful/tree/CH4)
 
+## Hitimisho<a name="p14"></a>
+
+Moja ya mambo ambavyo tuliya angalia kwa ukaribu ni jinsi tulivyo kuwa tunatengeneza mitindo kwenye vipengele ambapo tulitumia Es6 <code>``</code> **"template literal notation"** kufafanua kipengele . Mali za CSS zinaweza kuongenzwa pale inapo hitajika. Kama ambavyo ungefanya na CSS. Wakati Js itakapo pitishwa mitindo kwenye kipengele itatengeneza jina la pekee la darasa naku ingiza CSS kwenye DOM
 Kodi mnono.
