@@ -687,9 +687,9 @@ Tutaitumia kwa lengo la kuingiliana na `GraphQL  API` ili ku **rudisha** yaliyom
 Moja ya faida tutakazo zipata kama waendelezaji kwa kuingiliana na **GraphQL  API** ni uwezo wa **kuomba** na **kufafanua data** pamoja na **majibu**, itakuwa dhahri hivi punde. 
 
 Kwa kutumia **kivinjari** chako twende hadi **contentful** ili kuweza kuona ni **data** gani ambazo zina patikana kwenye **point ya mwisho** ya **GraphQL** copy url ambatanisha **Space id** pamoja na **Access token**  yako
-
+```javascript
 https://graphql.contentful.com/content/v1/spaces/[SPACE_ID_YAKO]/explore?access_token=[ACCESS_TOKEN_YAKO]
-
+```
 >>API ya Contentful inakubali uthibitisho kupitia access token au uthibitisho kupitia kichwa cha HTTP 
 
 Sasa tutatumia GraphQL kuandika na kufafanua maswali hii nyenzo itatusaidia kufanya uthibitisho wa ombi kwenye UI
