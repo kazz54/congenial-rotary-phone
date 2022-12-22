@@ -70,6 +70,7 @@ Kwa kutumia react unaweza ku peleka project kuhifathiwa kwa mwenyeji yoyote yule
 
 Hili ni jambo zuri upande wa ufanyaji kazi na ulizi, nawala haimaninishi kwamba tuta changanya **yaliyomo** **"content"** pamoja na **code** kwa maana yaku hardcode hapana kwani react inafahamu kutumia **api**. 
 
+## Utangulizi
 
 Utambulisho wa Css kwenye JavaScript<a name="p2"></a>
 
@@ -90,7 +91,7 @@ Unaweza kutumia css zakawawaida alafu yenyewe itaongeza viambishi awali kutokana
 
 
 
-### Vifaa tutakavyo tumia 
+## Vifaa tutakavyo tumia 
 
 ECMAScript 6 === ES6<a name="p3"></a>
 
@@ -98,19 +99,25 @@ ECMAScript 6 === ES6<a name="p3"></a>
 
 **Es6**(2016) njia mpya yakuandika script iliyo wezeshwa kwenye vivinjari vingi sikuhizi njia hii inakuja na vipengele kedekede kama vile **arrow** **function**, **template string**, **const**, **let**, uwezo waku **Export/import** modules. Nk 
 
-Github ===Git 
+## Vifaa tutakavyo tumia
+
+Github ===Git<a name="p4"></a>
 
 Katika hali yakawaida tunahitaji kuwa na sehemu ya kuandika **code** hapa tutatumia [Github](https://github.com/login) sajili account kama huna ni bure. 
 
 Kwa juu juu github ni tovuti  na huduma ya kwenye mawingu ambayo inasaidia madeveloper au niwaite waendelezaji kuhifathi naku dhibiti **code** pamoja nakua na **kumbukumbu** ya mabadiliko ya **code** zao.  
 
-**Vercel** 
+## Vifaa tutakavyo tumia
+
+`Vercel`<a name="p5"></a>
 
 Baada ya kuandika **code** tunahitaji kuzitekeleza **code** ili kujenga ukurasa wa **html** hapa tutatumia [Vercel](https://vercel.com/) kwa huduma za **computer**. Webpack na Babel. Tayari zimekua installed nakufanyiwa configuration na kufichwa kwa hiyo unaweza kuzingatia ku code. 
 
 Nibure kwajili ya sites za **hobby** na ambazo hazipo **kibiyashara**. Una weza sambaza kutokea kwenye  **CLI** au kutokea kwenye **git** yako, hapa tutatokea **git** kwaku tumia account ya **github**. 
 
-**Contentful** 
+## Vifaa tutakavyo tumia
+
+`Contentful`<a name="p6"></a>
 
 **yaliyomo** hatuta ya changanya na **code** nahatuna **server** usiwaze tutatumia  [Contentful](https://www.contentful.com/ )  cms ambayo iko mawinguni, ichukulie kama **hifathidata** "**database**". Hapa napo natumia account ya github.
 
