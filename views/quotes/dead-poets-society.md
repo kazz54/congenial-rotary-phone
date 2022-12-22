@@ -7,44 +7,20 @@ tags      : ['react', 'vercel']
 
 ## React na vifaa vya mitindo
 
-Je unajua kwamba unaweza kukata kichwa cha website yako ya WordPress, Drupal Joomla nk
+Wakati una endeleza webapp moja yajambo ambalo utahitaji kulifanyia uwamuzi mapema sana ni jinsi ambavyo utaweka na kuhudumia mitindo hususani ukizingatia kuna njia mbali mbali kama vile **inline CSS** hadi **Sass**, **Less** na zinginezo nyingi tu. 
 <!--more-->
+Moja ya hoja zakuvutia ni matumizi ya Css kwenye JavaScript kuondoa css kwenye kipengele chake yenyewe kwa kutumia JavaScript kuelezea mitindo kwa na mnaa ambayo inaweza kudumwisha na kujulikana.
 
+Mitindo kwenye vipengele haiepukiki kirahisi, hasa kutokana na ku kuwa kwa maktba na framework mbali mbali za JavaScript kama vile **React**, **Angular**, na **Vue**. Huku mashirika na makampuni mengi ya kichagua kutumia CSS-kwenye-JS kwenye uzalishishaji.
 
+Mitindo kwenye vipengele ni CSS-kwenye-JS ni chombo kinacho tumika kama daraja kwenye mwanya kati ya mitindo na kipengele.
 
-kwenye makala haya nitakutembeza hatuwa kwa hatua huku tukiangaza kwa nini unaweza kuamua kukata kichwa cha website yako vile vile nakuonyesha jinsi ambavyo na kwenda bila **server** mawinguni na kukata kichwa niki tumia moja ya **maktaba** mashuhuri sana ya **Javascript** inayo julikana kama **Reactjs** kwa urahisi kabisa tuta leta **yaliyomo** kwa kutumia **API** kutokea **Contentful** hadi kwenye application ambayo tutaitengeneza pamoja haitakua chochote ila **theme** siyo template nimesema **theme**. Unaweza [kuiona hapa](https://react-fetch-api-contentful.vercel.app/) chazo chake cha [kodi kipo hapa](https://github.com/devduara0/react-fetch-api-contentful). 
+Vipengele vya mitindo vinajitegemea kwa hivyo huhitaji Kuwaza sana kuhusu majina yake kwani maktaba hushughulikia hilo kwa ajili yako
 
-Unaweza kutumia kifaa **chochote** kile na siyo lazima kujuwa **javascript** ilikuweza kufuatili kwani **lengo** lamakala haya **nikukusaidia** kuweza **kuanza** kwa **urahisi** bila vikwanzo, 
+Mitindo kwenye vipengele inaondoa mitindo isiyo tumika hata kama umeonyesha kwenye code zako.
 
-lakini ingependeza kama unafahamu kidogo **Css**, **Javascript** na **sheria** za **Es6** lakini kama nilivyo kwisha sema **haithuru**. 
+Unaweza kutumia css zakawawaida alafu yenyewe itaongeza viambishi awali kutokana na mchuuzi kama itahitajika 
 
-**Framework** nyingi za kutengeza **static** website  **"SSG"** nyuma ya pazia zinatumia maktaba ya **react** mf [Nextjs](https://nextjs.org), [Gatsby](https://gatsbyjs.com), [Docusaurus](https://docusaurus.io/), [Umijs](https://umijs.org) nk 
-
-Alafu zikaongeza manjonjo yake kwa hiyo kufahamu kwako kutumia **maktaba** hii kutakuweka sehemu zuri pale utakapo amuwa kutumia **framework**, nazaidi yahapo makapuni na mashirika mengi makubwa yanatumia **maktaba** hii nakwenye jamii inafanya vizuri watumiaji niwengi hivyo kufanya iwe na machapisho mengi mazuri hata kwa **kiswahili** :sunglasses:
-Kwa kutumia react unaweza ku peleka project kuhifathiwa kwa mwenyeji yoyote yule anaye hifathidhi static application. 
-
-Hili ni jambo zuri upande wa ufanyaji kazi na ulizi, nawala haimaninishi kwamba tuta changanya **yaliyomo** **"content"** pamoja na **code** kwamana yaku hardcode hapana kwani react inafahamu kutumia **api**. 
-
-Kama tayari unatumia mfumo wowote ule wa usimamizi wa yaliyomo **"cms"** mf [Drupal](https://www.drupal.org), [WordPress](https://wordpress.com) [Django](https://www.djangoproject.com) unaweza kukata kichwa namanisha ukaiweka nyuma ikawa ni sehemu yakuhifathi yaliyomo alafu ukaiunganisha na react au latha yoyote ile ya framework ya **Jamstack** kwa kutumia **API**.  
-
-### Cms bila kichwa ni nini 
-
-Ilikuelewa cms **bila kichwa** ni nini nivizuri tukaangali asili ya mifumo ya usimamizi yaliyomo ikoje ki usimamizi na ili undwa ili ifanye nini?.  
-
-Mifumo hii ya asili ya cms imekuwepo tangu enzi zamwanzoni kabisa za uendelezaji wa mtandao.
-Majukwaa kama yale ya WordPress, Drupal nk yaliundwa kuhifathi na kuwakilisha yaliyomo na vipengele vyake kama vile **maandishi**, **picha**, na **video** mtaandaoni. 
-
-Njia hii ya asili ya kusimamia yaliyomo kwa kuweka kila kitu kwenye **ndoo** moja kubwa, **picha**, **maandishi**, **video**, **HTML**, **CSS** hii ilifanya iwevigumu kuendeleza matumizi yaliyomo kwasababu yali changanywa na **code**. 
-
-Kutokana nakuendelea kwa mifumo ya **kidigitali**. Uhitaji wa suluhisho la njia nyepese  zaidi umeibuka, sikuhizi makapuni yanaendeleza tovuti, display za kidigitali, tovuti za kwenye simu za viganjani, vifaa vyenye muingiliano na vifaa vyenye sauti nk wakati huo cms za asili zikishindwa kwenda na hiyo kasi. Kwa nini? Kwasababu cms zinapangilia yaliyomo kwenye mfumo wa **framework** za kurasa ya wavuti "webpage" kufanya iwengumu kwa nyaliyomo yake kuzoea hayo majukwaa mengine ya **kidigitali**. 
-
-**Mifumo** ya usimamizi wa **yaliyomo** ambayo haina **kichwa**  ni aina ya **mfumo** wa yaliyomo wa **nyuma** ambao **yaliyomo**  hathina  yake **"mwili"** ume **tenganishwa** na safu ya **"kichwa"** yaliyomo ambayo yamehifathiwa kwenye mfumo wa usimamizi wa yaliyomo ambao hauna kichwa hufikishwa kwa kutumia **API** ili kuweza **kuonyesha** kwenye kila **kifaa**. 
-
-Baathi ya majukwaa ya  mifumo ya usimamizi wa yaliyomo yana toa API bila kichwa.  Ambayo inakuwezesha **kupeleka yaliyomo** kwenye safu nyingine ya **uwasilishaji**. Imeitwa hivyo "**bila kichwa**" kwa sababu safu ya **uwasilishaji** imetengwa na **mwili**. 
-
-![Crepe](https://i.ibb.co/6NKFG91/Pics-Art-10-08-10-36-29.jpg) 
-
-Ili tuweze kwenda sawa itabidi mazingira yetu yaufanyaji kazi yawesawa ili kuondoa ule utata **code** "iliku inafanya kazi kwangu"
 
 ### Vifaa tutakavyo tumia 
 
