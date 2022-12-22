@@ -678,7 +678,7 @@ Tukiwa tumetupia naksh naksh zakutosha kwenye vifaa vya mitindo yetu ambayo vita
 
 **GraphQL kuleta kupitia Dirisha**<a name="p13"></a>
 
-Ilikuweza kuleta yaliyomo kutoka contentful hadi kwenye application yetu tunaweza kutumia Restful API  (Content Delivery API, Content Management API na Content Preview API) au GraphQL API. 
+Ilikuweza kuleta yaliyomo kutoka contentful hadi kwenye application yetu tunaweza kutumia **Restful API**  (Content Delivery API, Content Management API na Content Preview API) au **GraphQL API**. 
 
 Wakati ambapo tuna maktaba ya Contentful upande wa  mteja ambayo tunaweza kuitumia hapa nimeamua nianze nakuonyesha jinsi ambavyo nitatumia `window.fetch` hii nayo inafanya kazi kwenye vivinjari vyote. 
 
@@ -688,7 +688,7 @@ Moja ya faida tutakazo zipata kama waendelezaji kwa kuingiliana na **GraphQL  AP
 
 Kwa kutumia **kivinjari** chako twende hadi **contentful** ili kuweza kuona ni **data** gani ambazo zina patikana kwenye **point ya mwisho** ya **GraphQL** copy url ambatanisha **Space id** pamoja na **Access token**  yako
 
-https://graphql.contentful.com/content/v1/spaces/[YOUR_SPACE_ID]/explore?access_token=[YOUR_ACCESS_TOKEN]
+https://graphql.contentful.com/content/v1/spaces/[SPACE_ID_YAKO]/explore?access_token=[ACCESS_TOKEN_YAKO]
 
 >>API ya Contentful inakubali uthibitisho kupitia access token au uthibitisho kupitia kichwa cha HTTP 
 
