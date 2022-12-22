@@ -190,7 +190,8 @@ Kama tayari umesha fungua account ya **github** utaingia nakutengeneza eneo laku
 ![github create newrepo4](https://i.ibb.co/721CMpR/githubcreaterepo5.jpg)
 ![github create newrepo5](https://i.ibb.co/17kdg2R/github-create-repo6.jpg)
 ![github create newrepofinal ](https://i.ibb.co/BL9zf41/githubrepofinalceeate.jpg)
-#### Andaa Mazingira ya kuazisha Application ya React 
+
+### Andaa Mazingira ya kuazisha Application ya React<a name="p9"></a>
 
 Kabla yakuendelea ningependa ufahamuu kwamba mpangilio wa mafaili nitakao tumia ni **flat** "bapa" kwa sababu application ninayo tengeneza ni ndogo, mtindo huu ni mwepesi kueleweka kwa mtu ambaye ana azaa kitu ambacho makala haya yanalenga. Zaidi yahapo ukisha fahamu mpangilio huu nirahisi kupanga vyovyote utakavyo kama unataka uweke kwenye mpangilio kwama **json** nikimanisha **fractal** uwamuzi niwako. 
 
@@ -353,7 +354,7 @@ Wala sisahau kutupia aina flani ya msaidizi **React.StrictMode** ambaye atatusai
 
 >> Tafsiri yake ni kwamba kwenye kitu cha div ambacho kipo kwenye hati ya html ndiyo tunataka tuone hiki kipengele
 
-### Vercel kama computer ya kuendeshea code 
+### Vercel kama computer ya kuendeshea code<a name="p10"></a>
 
 Ili kuweza kukiona hicho kipengele **copy** link ya hathina yako alafu uchanja mbuga na kivinjari chako hadi **Vercel** hapa ndipo tutakapo endeshea code zetu inaingiliana vizuri sana na bomba la kuendeleza usambazaji la **Github**  
 
@@ -372,7 +373,7 @@ Bilashaka umefanikiwa kuona
 Moja kati ya mambo ambayo tumejifuza katika hii safari yetu ni kuhusu **vipengele** "element" (msingi wa hati za html) na jinsi ya kuvionyesha kwenye DOM. **Vipengele** siyo **Vifaa** "components" lakini  kila **kifaa** kina **kipengele**, hatua inayo fwata kwavile sasa unaelewa kuhusu **vipengele** ni kuzama Kwenye **vifaa** 
 Kama uko tayari nipo tayari twende
 
-### Mitindo na matumizi ya vifaa vya react ulimwenguni 
+### Mitindo na matumizi ya vifaa vya react ulimwenguni<a name="p11"></a>
 
 Kuna njia nyingi sana ambazo unaweza kutumia kuweka mitindo na nakshi mbali mbali kwenye vifaa hapa nitatumia maktaba ya react inayo julikana kama **"styled-components"**
 
@@ -541,7 +542,7 @@ sasa niule mdaa wakuandaa vinono kwa kuiboresha application yetu kwa kuzama kwen
 
 Tuna kwenda mdogo mdogo.. tukiwa namsingi mzuri ambao tunaenda kujenga juu yake...badala yakuangalia mwili wa blue hebu tuanze na mchakato wetu wakuleta yaliyomo kutokea **contentful** tukianza na aina yaliyomo ya **Header** hadi kwenye app yetu na kuweka nakshi a.k.a mitindo. 
 
-### Mitindo inayo athiri vifaa mbali mbali vya theme 
+### Mitindo inayo athiri vifaa mbali mbali vya theme<a name="p12"></a>
 
 Kabla ya kusubutu kuleta yaliyomo ya aina ya **Header**  kutokea **contentful** tuanze na kuandaa  vifaa vyenye mitindo mbali mbali ambavyo vitaathiri muonekano wa kifaa cha `Header` pale tutakapo kua tume kitoa. 
 
@@ -669,7 +670,7 @@ Hii inatupa wepesi waku panga vipengele kwa rahisi tukichanganya na mbinu za kuu
 
 Tukiwa tumetupia naksh naksh zakutosha kwenye vifaa vya mitindo yetu ambayo vitakwenda kuathiri vifaa mbali mbali vya theme yetu, tuanze na kutengeneza kifaa cha **Header** 
 
-### React na Contentful GraphQL kuleta kupitia Dirisha 
+### React na Contentful GraphQL kuleta kupitia Dirisha<a name="p13"></a>
 
 Ilikuweza kuleta yaliyomo kutoka contentful hadi kwenye application yetu tunaweza kutumia Restful API  (Content Delivery API, Content Management API na Content Preview API) au GraphQL API. 
 
