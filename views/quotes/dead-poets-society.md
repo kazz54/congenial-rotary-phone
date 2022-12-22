@@ -6,20 +6,8 @@ tags      : ['react', 'vercel']
 ---
 
 ## React na vifaa vya mitindo
-
-Wakati una endeleza webapp moja yajambo ambalo utahitaji kulifanyia uwamuzi mapema sana ni jinsi ambavyo utaweka na kuhudumia mitindo hususani ukizingatia kuna njia mbali mbali kama vile **inline CSS** hadi **Sass**, **Less** na zinginezo nyingi tu. 
+Kwenye Makala haya nitakumbeza hatuwa kwa hatuwa tukitengeneza webapp pamoja, haitakua chochote ila **theme** siyo template nimesema **theme**. Unaweza [kuiona hapa](https://react-fetch-api-contentful.vercel.app/) chazo chake cha [kodi kipo hapa](https://github.com/devduara0/react-fetch-api-contentful). 
 <!--more-->
-Moja ya hoja zakuvutia ni matumizi ya Css kwenye JavaScript kuondoa css kwenye kipengele chake yenyewe kwa kutumia JavaScript kuelezea mitindo kwa na mnaa ambayo inaweza kudumwisha na kujulikana.
-
-Mitindo kwenye vipengele haiepukiki kirahisi, hasa kutokana na ku kuwa kwa maktba na framework mbali mbali za JavaScript kama vile **React**, **Angular**, na **Vue**. Huku mashirika na makampuni mengi ya kichagua kutumia CSS-kwenye-JS kwenye uzalishishaji.
-
-Mitindo kwenye vipengele ni CSS-kwenye-JS ni chombo kinacho tumika kama daraja kwenye mwanya kati ya mitindo na kipengele.
-
-Vipengele vya mitindo vinajitegemea kwa hivyo huhitaji Kuwaza sana kuhusu majina yake kwani maktaba hushughulikia hilo kwa ajili yako
-
-Mitindo kwenye vipengele inaondoa mitindo isiyo tumika hata kama umeonyesha kwenye code zako.
-
-Unaweza kutumia css zakawawaida alafu yenyewe itaongeza viambishi awali kutokana na mchuuzi kama itahitajika 
 
 
 ### Vifaa tutakavyo tumia 
