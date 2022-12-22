@@ -1075,5 +1075,8 @@ Kwa yote na yote niwakati wako waku jipima safari ilikuwaje kwa kuweka footer ku
 
 ## Hitimisho<a name="p14"></a>
 
-Moja ya mambo ambavyo tuliya angalia kwa ukaribu ni jinsi tulivyo kuwa tunatengeneza mitindo kwenye vipengele ambapo tulitumia Es6 <code>``</code> **"template literal notation"** kufafanua kipengele . Mali za CSS zinaweza kuongenzwa pale inapo hitajika. Kama ambavyo ungefanya na CSS. Wakati Js itakapo pitishwa mitindo kwenye kipengele itatengeneza jina la pekee la darasa naku ingiza CSS kwenye DOM
+Moja ya mambo ambavyo tuliya angalia kwa ukaribu ni jinsi tulivyo kuwa tunatengeneza mitindo kwenye vipengele ambapo tulitumia Es6 <code>``</code> **"template literal notation"** kufafanua kipengele. 
+Mali za `CSS` zinaweza kuongenzwa pale inapo hitajika. Kama ambavyo ungefanya na **CSS**. 
+Wakati `Js` itakapo pitishwa mitindo kwenye kipengele itatengeneza jina la pekee la darasa naku ingiza `CSS` kwenye `DOM`
+
 Kodi mnono.
