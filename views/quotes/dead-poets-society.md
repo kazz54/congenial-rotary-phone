@@ -8,11 +8,84 @@ tags      : ['react', 'javaScript']
 ## React na vipengele vya mitindo
 Kwenye Makala haya nitakumbeza hatuwa kwa hatuwa tukitengeneza webapp pamoja, haitakua chochote ila **theme** siyo template nimesema **theme**. Unaweza [kuiona hapa](https://react-fetch-api-contentful.vercel.app/) chazo chake cha [kodi kipo hapa](https://github.com/devduara0/react-fetch-api-contentful). 
 <!--more-->
+Tutakayo yapitia
+
+## Utangulizi
+
+[Kwa nini Javascript na Reactjs](#p1)
+[Utambulisho wa Css kwenye JavaScript](#p2) 
+
+
+**Vifaa tutakavyo tumia**
+
+[ECMAScript 6 === ES6](#p3)
+[Github ===Git](#p4)
+[Vercel](#p5)
+[Contentful](#p6)
+
+**Mtiririko wa kazi**
+
+[Contentful kama hifathidata](#p7)
+[Github kama sehemu yakuandika nakuhifathi code](#p8)
+[Andaa Mazingira ya kuazisha Application ya React](#p9)
+[Vercel kama computer ya kuendeshea code](#p10)
+
+[Mitindo na matumizi ya vifaa vya react ulimwenguni](#p11)
+
+[Mitindo inayo athiri vifaa mbali mbali vya theme](#p12)
+
+
+
+**React na Contentful**
+
+[GraphQL kuleta kupitia Dirisha](#p13)
+
+
+
+
+
+
+
+## Utangulizi 
+
+kwa nini Javascript na Reactjs<a name="p1"></a>
+
+Tuta tumia moja ya **maktaba** mashuhuri sana ya **Javascript** inayo julikana kama **Reactjs** kwa urahisi kabisa tuta leta **yaliyomo** kwa kutumia **API** kutokea **Contentful** hadi kwenye application ambayo tutaitengeneza pamoja 
+
+Unaweza kutumia kifaa **chochote** kile na siyo lazima kujuwa **javascript** ilikuweza kufuatili kwani **lengo** lamakala haya **nikukusaidia** kuweza **kuanza** kwa **urahisi** bila vikwanzo, 
+
+lakini ingependeza kama unafahamu kidogo **Css**, **Javascript** na **sheria** za **Es6** lakini kama nilivyo kwisha sema **haithuru**. 
+
+**Framework** nyingi za kutengeza **static** website **"SSG"** nyuma ya pazia zinatumia maktaba ya **react** mf [Nextjs](https://nextjs.org), [Gatsby](https://gatsbyjs.com), [Docusaurus](https://docusaurus.io/), [Umijs](https://umijs.org) nk 
+
+Alafu zikaongeza manjonjo yake kwa hiyo kufahamu kwako kutumia **maktaba** hii kutakuweka sehemu zuri pale utakapo amuwa kutumia **framework**, na zaidi ya hapo makapuni na mashirika mengi makubwa yanatumia **maktaba** hii na kwenye jamii inafanya vizuri watumiaji niwengi hivyo kufanya iwe na machapisho mengi mazuri hata kwa **kiswahili** :
+Kwa kutumia react unaweza ku peleka project kuhifathiwa kwa mwenyeji yoyote yule anaye hifathidhi static application. 
+
+Hili ni jambo zuri upande wa ufanyaji kazi na ulizi, nawala haimaninishi kwamba tuta changanya **yaliyomo** **"content"** pamoja na **code** kwa maana yaku hardcode hapana kwani react inafahamu kutumia **api**. 
+
+
+Utambulisho wa Css kwenye JavaScript<a name="p2"></a>
+
+
+Wakati una endeleza webapp moja yajambo ambalo utahitaji kulifanyia uwamuzi mapema sana ni jinsi ambavyo utaweka na kuhudumia mitindo hususani ukizingatia kuna njia mbali mbali kama vile **inline CSS** hadi **Sass**, **Less** na zinginezo nyingi tu. 
+
+Moja ya hoja zakuvutia ni matumizi ya Css kwenye JavaScript kuondoa css kwenye kipengele chake yenyewe kwa kutumia JavaScript kuelezea mitindo kwa na mnaa ambayo inaweza kudumwishwa na kujulikana.
+
+Mitindo kwenye vipengele haiepukiki kirahisi, hasa kutokana na kukuwa kwa maktba na framework mbali mbali za JavaScript kama vile **React**, **Angular**, na **Vue**. Huku mashirika na makampuni mengi ya kichagua kutumia CSS-kwenye-JS kwenye uzalishishaji.
+
+Mitindo kwenye vipengele ni CSS-kwenye-JS ni chombo kinacho tumika kama daraja kwenye mwanya kati ya mitindo na kipengele.
+
+Vipengele vya mitindo vinajitegemea kwa hivyo huhitaji Kuwaza sana kuhusu majina yake kwani maktaba hushughulikia hilo kwa ajili yako
+
+Mitindo kwenye vipengele inaondoa mitindo isiyo tumika hata kama umeonyesha kwenye code zako.
+
+Unaweza kutumia css zakawawaida alafu yenyewe itaongeza viambishi awali kutokana na mchuuzi kama itahitajika 
+
 
 
 ### Vifaa tutakavyo tumia 
 
-ECMAScript 6 === ES6 
+ECMAScript 6 === ES6<a name="p3"></a>
 
 **JavaScript** ni alama ya biyashara ya [Oracle](https://www.oracle.com/id/index.html) ambayo waliirithi kutoka Sun. Kwa hiyo jina lililo rasimi la *javascript* ni **ECMAScript** jina hili linatoka kwenye shirika la kusimami viwango linalojulikana kama **Ecma** ambalo kaziyake nikusimamia viwango vya lugha hii. Tangu kuanzishwa kwa *ECMAScript's* jina la shirika limetoka kwenye kifupi cha ECMA na kua jina kamili la [ecma](https://www.ecma-international.org/) matoleo ya javascript hufafanuliwa kwa vipimo ambayo vinabeba jina la lugha mf toleo la kiwango cha kwanza cha javascript ni ECMAScript 1 tafsiri yake ni "ECMAScript Language Specification, Edition 1”. Unaweza kuandika kwa ufupi Es1  
 
