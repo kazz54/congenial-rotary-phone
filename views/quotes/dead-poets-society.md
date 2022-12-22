@@ -1,11 +1,11 @@
 ---
 layout    : post
-title     : Cms bila kichwa ni nini
+title     : React jinsi ya kutengeneza theme
 date      : 2021-11-22 08:15:15
-tags      : ['react', 'vercel']
+tags      : ['react', 'javaScript']
 ---
 
-## React na vifaa vya mitindo
+## React na vipengele vya mitindo
 Kwenye Makala haya nitakumbeza hatuwa kwa hatuwa tukitengeneza webapp pamoja, haitakua chochote ila **theme** siyo template nimesema **theme**. Unaweza [kuiona hapa](https://react-fetch-api-contentful.vercel.app/) chazo chake cha [kodi kipo hapa](https://github.com/devduara0/react-fetch-api-contentful). 
 <!--more-->
 
