@@ -2,7 +2,7 @@
 layout    : post
 title     : Marilyn Manson - Sweet Dreams
 date      : 2015-07-15 07:35:05
-tags      : ["git", "python"]
+tags      : ["git", "python3"]
 
 author    : marylin
 toc       : "toc/2015-07-marylin.njk"
