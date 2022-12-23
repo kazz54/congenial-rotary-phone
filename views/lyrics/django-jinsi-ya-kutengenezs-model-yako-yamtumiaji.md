@@ -9,8 +9,7 @@ tags      : ["django", "python3"]
 
 
 
-kwenye Django nje ya boksi mtumiaji hua anatambuliwa kwakutumia **jina la mtumiaji "username"**  
-kwenye makala haya tutakwenda kuangalia jinsi ambanyo unaweza kubadilisha utambulisho na uthibitishwaji wa mtumiaji na kutumia **barua pepe "email"** badala ya **jina la mtumiaji "username"** 
+kwenye Django nje ya boksi mtumiaji hua anatambuliwa kwa kutumia **jina la mtumiaji "username"**  kwenye makala haya tutakwenda kuangalia jinsi ambanyo unaweza kubadilisha utambulisho na uthibitishwaji wa mtumiaji na kutumia **barua pepe "email"** badala ya **jina la mtumiaji "username"** 
 
 Makala haya yana elezea hatua kwa hatua jinsi ambavyo unaweza kutengeneza model yako ya Watumiaji kwenye Django ili **barua pepe** iweze kutumika kama chaguo la msingi la **utambulishaji** na **uthibitishwaji** wa mtumiaji badala ya **jina la mtumiaji**.
 
