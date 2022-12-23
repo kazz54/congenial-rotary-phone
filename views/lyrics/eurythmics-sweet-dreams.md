@@ -2,7 +2,7 @@
 layout    : post
 title     : Marilyn Manson - Sweet Dreams
 date      : 2015-07-15 07:35:05
-tags      : ["industrial metal", "90s"]
+tags      : ["git", "python"]
 
 author    : marylin
 toc       : "toc/2015-07-marylin.njk"
