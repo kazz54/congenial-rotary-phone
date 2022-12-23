@@ -54,7 +54,7 @@ Hatua ziko sawa kwa zote:
 Inashauriwa kuweka modle yako ya mtumiaji wakati unaanza na project mypa ya Django. Kwani bila hiyo, unaweza kulazimika kutengeneza modle nyingine 
 (kama vile UserProfile) nakuiunganisha na modle ya mtumiaji ya Django kwa kutumia **"OneToOneField"** kama utahitaji kuweka field mpya kwenye modle.
 
-# Maandalizi ya Project
+## Maandalizi ya Project
 
 Aza na kutengeneza project mpya ya django pamoja na app ya watumiaji:
 
@@ -140,7 +140,7 @@ class UsersManagersTests(TestCase):
 
 ukisubutu kufanya **jaribio/test** kwa sasa lita feli usihamaki
 
-# Model Manager
+## Model Manager
 Kwanza, tuna hitaji kuongeza **Manager** wetu, kwa kufanya **subclassing** kutokea kwa **BaseUserManager**, 
 
 >> nikisema **Subclassing** tafsiri yake nikwamba na fafanua darasa jipya likiwa na mali zile zile za darasa la zamani pamoja na mabadiliko, kwenye kisa hiki inatumia barua pepe kama utambulisho wa kipekee badala ya jina la mtumiaji. 
@@ -196,7 +196,7 @@ class CustomUserManager(BaseUserManager):
 
 Fanya uamuzi wa njia gani unataka kutumia: **subclassing AbstractUser** au **AbstractBaseUser**
 
-# AbstractUser
+## AbstractUser
 ``sasisha accounts/models.py:``
 
 
@@ -234,7 +234,7 @@ Tuka bainisha kwamba **vitu** vyote kwenye **darasa** vinakuja kutokea kwenye **
 
 
 
-# AbstractBaseUser
+## AbstractBaseUser
 ``Sasisha accounts/models.py:``
 
 {% highlight "python" %}
@@ -270,7 +270,7 @@ Tukaongeza fields kwajili ya **email, is_staff, is_active, na date_joined**
 tukaweka **USERNAME_FIELD** -- ambayo inafafanua kwamba utambulisho wa kipekee wa **watumiaji "User"** model -- kuwa ni **barua pepe "email"** 
 tukaonyesha kwamba vitu vyote kwenye darasa vinakuja kutokea kwenye **CustomUserManager**
 
-# Settings
+## Settings
 
 Ongeza mstari ufutao kwenye faili la **settings.py** ili Django ifahamu kutumia darasa jipya la **User**:
 
@@ -348,7 +348,7 @@ OK
 Destroying test database for alias 'default'...
 {% endhighlight %}
 
-# Forms
+## Forms
 **Tutoe "subclass"** mafomu ya **UserCreationForm na UserChangeForm** ili ya weze kutumia model yetu ya **User** tuliyo itegeneza wenyewe.
 
 Tengeneza faili jipya kwenye director ya ```accounts``` liite **forms.py**:
@@ -375,7 +375,7 @@ class CustomUserChangeForm(UserChangeForm):
 
 
 {% endhighlight %}
-# Admin
+## Admin
 Mwambie admin atumie haya mafomu kwa kutoa "subclassing" **UserAdmin** kwenye accounts/admin.py:
 
 {% highlight "python" %}
