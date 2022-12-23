@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block widget_body %}
-  {% set posts = collections.posts |  reversed  %}
+  {% set posts = collections.posts |  reverse -%}
   <ul class="widget-list">
     {%- for post in posts -%}
     <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
