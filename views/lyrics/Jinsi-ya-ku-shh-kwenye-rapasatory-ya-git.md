@@ -5,7 +5,8 @@ date      : 2022-05-19 07:35:05
 tags      : ["git", "2010s"]
 --- 
 
-
+Jinsi ya kuanganishwa GitHub kwa kutumia SSH
+<!--more-->
 **Zingatia:** *kuanzaia* `March 15, 2022`. [GitHub](https://github.com) imeboresha ulinzi kwa kuacha kuendeleza ulivyokuwa mfumo usiyo bora waulinzi uliokua unatumia
 jina la mtumiaji pamoja na password ili kumthibitisha mtumiaji. Funguo za **DSA (ssh-dss)** hazitumiki tena. 
 Huwezi kuongeza funguo mpya za **DSA** kwenye **account** yako ya [GitHub.com](https://github.com)
