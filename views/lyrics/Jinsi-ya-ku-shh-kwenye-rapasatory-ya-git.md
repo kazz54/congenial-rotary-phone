@@ -5,7 +5,10 @@ date      : 2022-05-19 07:35:05
 tags      : ["git", "ssh"]
 --- 
 
-Jinsi ya kuanganishwa GitHub kwa kutumia SSH
+### Jinsi ya kuanganishwa GitHub kwa kutumia SSH
+Unaweza kuunganishwa **GitHub** kwa kutumia itifaki ya **shell** yenye usalama marufu kama **(SSH)** `"Secure Shell Protocol"`, 
+hii hutoa channel yenye usalama kwenye mtandao usiokua salama.
+
 <!--more-->
 **Zingatia:** *kuanzaia* `March 15, 2022`. [GitHub](https://github.com) imeboresha ulinzi kwa kuacha kuendeleza ulivyokuwa mfumo usiyo bora waulinzi uliokua unatumia
 jina la mtumiaji pamoja na password ili kumthibitisha mtumiaji. Funguo za **DSA (ssh-dss)** hazitumiki tena. 
@@ -16,16 +19,13 @@ Ili kuweza kuthibitishwa Github.com kwenye makala haya nita kuonyesha jinsi ya k
  
 
 
-### Jinsi ya kuanganishwa GitHub kwa kutumia SSH
-Unaweza kuunganishwa **GitHub** kwa kutumia itifaki ya **shell** yenye usalama marufu kama **(SSH)** `"Secure Shell Protocol"`, 
-hii hutoa channel yenye usalama kwenye mtandao usiokua salama.
 
 
 
 **Kuhusu SSH**
 
-kwa undandi kuhusu **SSH** unaweza angalia makala haya hapa, lakini kwa kisa hiki tutakumbushana kidogo
-kuhusu **itifaki** `"protocol"` hii ya **SSH**, unaweza kuanganishwa na kuthibitishwa kwenye **huduma na servers** 
+kwa kisa hiki tutakumbushana kidogo
+kuhusu **itifaki** hii ya **SSH**, unaweza kuanganishwa na kuthibitishwa kwenye **huduma na servers** 
 ambazo ziko mbali. 
 Kwa kutumia funguo za **SSH**, unaweza kuunganishwa **GitHub** bila kuweka jina lako la mtumiaji au token yako binafsi 
 inayo kuwezesha kufikia huduma mbalimbali kila unapotembelea **GitHub**.
@@ -47,7 +47,7 @@ apt install openssh-server
 
 {% endhighlight %}
 
-Katika hali ya kawaida, ifuatayo ni orotha ya majina ya funguo za **umma** zilizo wezeshwa GitHub. 
+Katika hali ya kawaida, ifuatayo ni orotha ya majina ya funguo za **umma** zilizo wezeshwa **GitHub**. 
 
 {% highlight "shell" %}
 id_rsa.pub
