@@ -2,7 +2,7 @@
 layout    : post
 title     : Django - Jinsi ya kutengeneza Model yako ya watumiaji 
 date      : 2022-05-22 07:35:05
-tags      : ["Python3", "Django"]
+tags      : ["django", "python3"]
 ---
 
 
