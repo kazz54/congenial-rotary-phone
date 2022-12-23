@@ -2,7 +2,7 @@
 layout    : post
 title     : GitHub - Jinsi ya ku ssh kwenye hadhina za git
 date      : 2022-05-19 07:35:05
-tags      : ["git", "2010s"]
+tags      : ["git", "ssh"]
 --- 
 
 Jinsi ya kuanganishwa GitHub kwa kutumia SSH
