@@ -1,11 +1,11 @@
 ---
 layout    : post
-title     : GitHub - Jinsi ya ku ssh kwenye hadhina za git
+title     : GitHub - Jinsi yaku ssh kwenye hadhina za git
 date      : 2022-05-19 07:35:05
 tags      : ["git", "ssh"]
 --- 
 
-### Jinsi ya kuanganishwa GitHub kwa kutumia SSH
+### Jinsi ya kuunganishwa GitHub kwa kutumia SSH
 Unaweza kuunganishwa **GitHub** kwa kutumia itifaki ya **shell** yenye usalama marufu kama **(SSH)** `"Secure Shell Protocol"`, 
 hii hutoa channel yenye usalama kwenye mtandao usiokua salama.
 
