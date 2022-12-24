@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
-date      : 2021-09-21 07:35:05
+date      : 2021-09-24 07:35:05
 
 tags      : ["ssh", "colab"]
 keywords  : ["ssh", "colab"]
