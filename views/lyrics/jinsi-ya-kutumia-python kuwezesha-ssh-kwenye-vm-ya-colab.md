@@ -8,14 +8,23 @@ keywords  : ["OST", "Queen of the Damned"]
 
 author    : marylin
 toc       : "toc/2015-07-marylin.njk"
+
+
+opengraphimage: "/images/adverts/one-page.png"
+
+related_link_ids :
+  - 15071535  # Sweet Dreams
+
+excerpt   : 
+  I am jaded, hiding from the day
 ---
 
 
----
+
 
 Ikiwa umemaliza kuangalia [aina ya data zilizojengwa ndani ya python](https://devduara0.github.io/python-jifunze-sheria-syntax-za-msingi-na-aina-ya-data) pamoja na function za python 
 
----
+
 
 niwakati mzuri sasa wakuangalia matumizi ya python kwa kutatua baathi ya changamoto
 kwa  kutumia ujuzi huu tuliyo nao mpaka sasa.
