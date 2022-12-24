@@ -16,21 +16,15 @@ related_link_ids :
   - 15071535  # Sweet Dreams
 
 excerpt   : 
-  I am jaded, hiding from the day
+  Kama ambavyo tunafahamu kuwa colab ni huduma ya latha flani ya Jupiter notebook "siyo juniper notebook"
+  kutoka google ambayo inatupatia huduma mbali mbali za komputer ikiwemo GPU za bure na kernel yake inatuwezesha kuandika lugha za Python pamoja na Swift.
+
 ---
 
 
 
 
-Ikiwa umemaliza kuangalia [aina ya data zilizojengwa ndani ya python](https://devduara0.github.io/python-jifunze-sheria-syntax-za-msingi-na-aina-ya-data) pamoja na function za python 
 
-
-
-niwakati mzuri sasa wakuangalia matumizi ya python kwa kutatua baathi ya changamoto
-kwa  kutumia ujuzi huu tuliyo nao mpaka sasa.
-
-Kama ambavyo tunafahamu kuwa colab ni huduma ya latha flani ya Jupiter notebook "siyo juniper notebook"
-kutoka google ambayo inatupatia huduma mbali mbali za komputer ikiwemo GPU za bure na kernel yake inatuwezesha kuandika lugha za Python pamoja na Swift.
 
 Ili kupata wepesi wakufanya shuhuli kathaa za kitawala kwenye hiyo computer yetu tuta tumia itifaki ya internet ambayo itatupatia **shell prompt** ambayo ina ulinzi maarufu kama **SSH  Secure Shell**.
 
