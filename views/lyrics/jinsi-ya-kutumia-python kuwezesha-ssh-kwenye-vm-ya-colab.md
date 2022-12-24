@@ -9,8 +9,6 @@ keywords  : ["OST", "Queen of the Damned"]
 author    : marylin
 
 
-opengraphimage: "/images/adverts/one-page.png"
-
 
 
 excerpt   : 
