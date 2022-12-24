@@ -1,13 +1,14 @@
+
 ---
 layout    : post
-title     : Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
-date      : 2015-07-15 07:35:05
+title     : Marilyn Manson - Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
+date      : 2015-07-25 07:35:05
 
 tags      : ["industrial metal", "90s"]
 keywords  : ["OST", "Queen of the Damned"]
-toc       : "toc/2015-07-marylin.njk"
-author    : marylin
 
+author    : marylin
+toc       : "toc/2015-07-marylin.njk"
 
 opengraphimage: "/images/adverts/one-page.png"
 
@@ -17,9 +18,6 @@ related_link_ids :
 excerpt   : 
   I am jaded, hiding from the day
 ---
-
-
-
 
 
 
