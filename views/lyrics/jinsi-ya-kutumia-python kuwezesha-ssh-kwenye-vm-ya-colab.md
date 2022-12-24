@@ -46,7 +46,9 @@ Tutakayo ya zungumzia ni pamoja na:
 
 
 
+## Utangulizi 
 
+**Daftari la Google colab kama computer**<a name="p1"></a>
 
 Kama ambavyo tunafahamu kuwa colab ni huduma ya latha flani ya Jupiter notebook "siyo juniper notebook"
 kutoka google ambayo inatupatia huduma mbali mbali za komputer ikiwemo GPU za bure na kernel yake inatuwezesha kuandika lugha za Python pamoja na Swift.
@@ -69,15 +71,18 @@ Wakati ambapo unahamu  yakuanza kuandika code zakusababisha hili tukio liwezekan
 
 Hii itatusaidia wakati tunaandika code kufanya maamuzi ambayo ni sahihi nakuelewa zaidi kwanini tufanya tunachokifanya wakati tunakifanya.
 
-# SSH  Secure Shell
+## SSH  Secure Shell
+
+
+**SSH Secure Shell**<a name="p2"></a>
 
 Kuna mbinu tofauti tofauti zinazotumika kufanya  **Usimbaji fiche** "encryption" 
 
- **Usimbaji fiche wa ulinganifu** "**Symmetrical encryption**"
+ **`Usimbaji fiche wa ulinganifu`** "**`Symmetrical encryption`**"
 
- **Usimbaji fiche wa asymmetrical** "**Asymmetrical encryption**"
+ `Usimbaji fiche wa asymmetrical` "`Asymmetrical encryption`"
 
-**Hashing**.
+`Hashing`.
 
 Hayo majina ya hizo mbinu yasikutishe kwa sasa, nita kuelezea kwa haraka ufanyaji kazi wa mbinu zote tatu, hususana  makala haya yatazingatia uwezeshaji wambinu  ya **Hashing** kwenye mazingira yetu ya **colab**
 
