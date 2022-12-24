@@ -12,7 +12,6 @@ toc       : "toc/2015-07-marylin.njk"
 
 
 ---
-![Crepe](https://i.ibb.co/RSmM151/andy-holmes-EOAKUQcs-FIU-unsplash.jpg)
 
 Ikiwa umemaliza kuangalia [aina ya data zilizojengwa ndani ya python](https://devduara0.github.io/python-jifunze-sheria-syntax-za-msingi-na-aina-ya-data) pamoja na function za python 
 
