@@ -3,14 +3,14 @@ layout    : post
 title     : Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
 date      : 2015-07-25 07:35:05
 
-tags      : ["industrial metal", "90s"]
+tags      : ["ssh", "colab"]
 keywords  : ["OST", "Queen of the Damned"]
 
 author    : marylin
 
 
 excerpt   : 
-  SSH ni nini, na jinsi yaku `ssh` **colab**
+  SSH ni nini, na jinsi yaku ssh kwenye daftari la colab
 ---
 
 
