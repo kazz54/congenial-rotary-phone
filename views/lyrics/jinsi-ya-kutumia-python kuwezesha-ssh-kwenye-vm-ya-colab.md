@@ -25,7 +25,7 @@ Tutakayo ya zungumzia ni pamoja na:
 
 
 
-[SSH Secure Shell](#p2)
+[SSH Secure Shell ni nini?](#p2)
 
 [Symmetric Encryption](#p3)
 
@@ -86,7 +86,9 @@ Kuna mbinu tofauti tofauti zinazotumika kufanya  **Usimbaji fiche** "encryption"
 
 Hayo majina ya hizo mbinu yasikutishe kwa sasa, nita kuelezea kwa haraka ufanyaji kazi wa mbinu zote tatu, hususana  makala haya yatazingatia uwezeshaji wambinu  ya **Hashing** kwenye mazingira yetu ya **colab**
 
-## Symmetric Encryption
+
+## SSH  Secure Shell
+**Symmetric Encryption**<a name="p3"></a>
 
 Hii ni aina ya encryption ambayo **funguo za siri** zinatumika kwenye encryption na decryption ya ujumbe kati ya  **mteja** na **server**. Kwa usahihi, yoyote mwenye ufunguo anaweza decrypt ujumbe unao hamishwa
  ![Crepe](https://i.ibb.co/PG0xxvL/Pics-Art-08-10-10-41-11.jpg)
@@ -125,7 +127,9 @@ arcfour256,arcfour128, aes128-cbc,
 aes192-cbc, aes256-cbc,arcfour
 ```
 
-## Asymmetric Encryption
+## SSH  Secure Shell
+
+**Asymmetric Encryption**<a name="p4"></a>
 
 Tofauti na **Symmetrical encryption**, **Asymmetrical encryption** inatumia funguo mbili zilizo tofauti kwajili ya  **encryption** na **decryption**. 
 
@@ -171,7 +175,9 @@ Kama mteja akifanikiwa ku  decrypt ujumbe,
 tafsiri yake nikwamba anayo **funguo binafsi** "private key"
 inayo takiwa kwajili ya uhusiano, Kipindi cha **SSH** kita anza.
 
-## Hashing
+## SSH  Secure Shell
+
+**Hashing**<a name="p5"></a>
 
 "One-way hashing" **Njia moja ya  hashing** ni aina mojawapo ya **cryptography** ambayo inatumika kwenye mauhusiano salama na Shell.
 
@@ -202,7 +208,7 @@ Kila **ujumbe** uliyo pitishwa nilazima uwe na **MAC**, ambayo ni **mahesabu** y
 **mlolongo wa namba za packets**, na **yaliyomo kwenye ujumbe**.
 Data za Packet ambazo zimekuwa **symmetrically encrypted** zitatumwa nnje na kumaliza sehemu ya mawasiliano ya packet.
 
-# Jinsi Ambanyo Ssh Infanya Kazi Na Hizi Mbinu za Encryption
+**Jinsi Ambanyo Ssh Infanya Kazi Na Hizi Mbinu za Encryption**<a name="p6"></a>
 Nikwakutumia model ya **mteja** na **mtoa huduma** marufu kama "**client-server model**" 
 kuruhusu **uthibitisho** 'authentication" wa mifumo miwili ambayo iko mbali "remote" nakufanya  **encryption** ya data ambazo zinapita baina yaoo.
 
@@ -224,7 +230,8 @@ Kuna hatua mbili kwenye kuanzisha mauhusiano:
  * Kwanza nilazima mifumo yote ikubaliane na Kiwango cha  encryption  ili kulinda mawasiliano ya badaye, 
  * na pili, mtumiaji lazima ajithibitishe mwenyewe. Kama hati zina mechi, basi mtumiaji atapewa  kipindi..
 
-## Usimbaji fiche kwenye kipindi cha mazungumzo
+**Usimbaji fiche kwenye kipindi cha mazungumzo**<a name="p7"></a>
+
 
 Mteja ana pojaribu kuunganishwa kwenye server kwa kupitia TCP,  server itawakilisha itifaki za encryption na matoleo husika ambayo yame wezeshwa.
 
@@ -270,7 +277,7 @@ wanaweza ku **symmetrically encrypt** kipindi chote cha SSH.
 Sasa kipindi salama cha encryption ya symmetrically ni imara, 
 watumiaji lazima wa thibitishwe.
 
-## Uthibitishaji wa watumiaji 
+**Uthibitishaji wa watumiaji**<a name="p8"></a>
 
 Hatuwa ya mwisho kabla mtumiaji hajaweza kuingia kwenye server 
 niku jithibitisha kwa hati zake. 
@@ -291,7 +298,11 @@ au ku **default passwords** nakuweza kuifikia **account** yako.
 kwenye makala haya tutatumia Nywila ili kuweze kuthibitisha nakuanzisha kipindi salama cha shell
 maarufu kama ssh secure Shell
 
-# Zingatia
+
+
+**Mahitaji kabla ya kuendelea**<a name="p9"></a>
+ 
+*Zingatia*
 
 Nimuhimu sana ukafahamu kwamba kutokana na mazingira
 ya kimtandao hatuna budi ila kutumia **Ngrok**.
@@ -303,7 +314,6 @@ Sita izungumzia ngrok kiundani kwani hasa nikiasi
 chakuipakua na kuiazisha program kwenye machine na uipatie bandari ya huduma ya mtandao, 
 kwenye kisa chetu itakua ni ssh.
 
-# Mahitaji kabla ya kuendelea 
 
 Siyo lazima lakini kama ni **mgeni** na **python** kabla huja endelea
 Ungeanzia hapa Kwanza ili uweze kuelewa kwa urahisi **code** ambazo tutaziandika
