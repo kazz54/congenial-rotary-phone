@@ -9,7 +9,8 @@ keywords  : ["OST", "Queen of the Damned"]
 author    : marylin
 
 
-
+excerpt   : 
+  I am jaded, hiding from the day
 ---
 
 
