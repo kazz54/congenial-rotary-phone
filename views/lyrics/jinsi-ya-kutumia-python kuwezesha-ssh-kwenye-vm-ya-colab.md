@@ -1,4 +1,3 @@
-
 ---
 layout    : post
 title     : Marilyn Manson - Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
