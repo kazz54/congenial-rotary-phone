@@ -74,7 +74,7 @@ Hii itatusaidia wakati tunaandika code kufanya maamuzi ambayo ni sahihi nakuelew
 ## SSH  Secure Shell
 
 
-**SSH Secure Shell**<a name="p2"></a>
+**SSH Secure Shell ni nini?**<a name="p2"></a>
 
 Kuna mbinu tofauti tofauti zinazotumika kufanya  **Usimbaji fiche** "encryption" 
 
@@ -277,7 +277,7 @@ wanaweza ku **symmetrically encrypt** kipindi chote cha SSH.
 Sasa kipindi salama cha encryption ya symmetrically ni imara, 
 watumiaji lazima wa thibitishwe.
 
-**Uthibitishaji wa watumiaji**<a name="p8"></a>
+## Uthibitishaji wa watumiaji<a name="p8"></a>
 
 Hatuwa ya mwisho kabla mtumiaji hajaweza kuingia kwenye server 
 niku jithibitisha kwa hati zake. 
@@ -300,7 +300,7 @@ maarufu kama ssh secure Shell
 
 
 
-**Mahitaji kabla ya kuendelea**<a name="p9"></a>
+## Mahitaji kabla ya kuendelea<a name="p9"></a>
  
 *Zingatia*
 
