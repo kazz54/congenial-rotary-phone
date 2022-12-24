@@ -10,7 +10,7 @@ author    : marylin
 
 
 excerpt   : 
-  I am jaded, hiding from the day
+  SSH ni nini, na jinsi yaku `ssh` **colab**
 ---
 
 
