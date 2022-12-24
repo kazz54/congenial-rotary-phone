@@ -7,13 +7,11 @@ tags      : ["industrial metal", "90s"]
 keywords  : ["OST", "Queen of the Damned"]
 
 author    : marylin
-toc       : "toc/2015-07-marylin.njk"
 
 
 opengraphimage: "/images/adverts/one-page.png"
 
-related_link_ids :
-  - 15071535  # Sweet Dreams
+
 
 excerpt   : 
   Kama ambavyo tunafahamu kuwa colab ni huduma ya latha flani ya Jupiter notebook "siyo juniper notebook"
