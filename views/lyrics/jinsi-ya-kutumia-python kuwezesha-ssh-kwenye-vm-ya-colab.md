@@ -1,10 +1,32 @@
-# Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
-
 ---
+layout    : post
+title     : Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
+date      : 2021-09-24 07:35:05
+
+tags      : ["industrial metal", "90s"]
+keywords  : ["OST", "Queen of the Damned"]
+
+author    : marylin
+
+
+opengraphimage: "/images/adverts/one-page.png"
+
+related_link_ids :
+  - 15071535  # Sweet Dreams
+
+excerpt   : 
+  I am jaded, hiding from the day
+---
+
+
+
+
+
+
 
 Ikiwa umemaliza kuangalia [aina ya data zilizojengwa ndani ya python](https://devduara0.github.io/python-jifunze-sheria-syntax-za-msingi-na-aina-ya-data) pamoja na function za python 
 
----
+
 
 niwakati mzuri sasa wakuangalia matumizi ya python kwa kutatua baathi ya changamoto
 kwa  kutumia ujuzi huu tuliyo nao mpaka sasa.
