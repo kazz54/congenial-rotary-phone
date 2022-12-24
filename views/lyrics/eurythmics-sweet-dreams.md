@@ -8,7 +8,7 @@ author    : marylin
 toc       : "toc/2015-07-marylin.njk"
 
 related_link_ids :
-  - 15072535  # Redeemer Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
+
   - 15074535  # Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
 
 ---
