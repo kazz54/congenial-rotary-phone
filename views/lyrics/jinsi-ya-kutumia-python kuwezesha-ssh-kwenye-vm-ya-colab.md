@@ -4,9 +4,9 @@ title     : Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
 date      : 2015-07-25 07:35:05
 
 tags      : ["ssh", "colab"]
-keywords  : ["OST", "Queen of the Damned"]
+keywords  : ["ssh", "colab"]
 
-author    : marylin
+author    : admin 
 
 
 excerpt   : 
@@ -350,6 +350,10 @@ drive.mount('/content/drive', force_remount=True)
 ![Crepe](https://i.ibb.co/ZSxgm86/Pics-Art-08-15-09-19-22.jpg)
 ![Crepe](https://i.ibb.co/TLvScQ4/Pics-Art-08-15-09-50-56.jpg)
 ![Crepe](https://i.ibb.co/4gPdcjq/Pics-Art-08-15-10-22-21.jpg)
+
+## Hitimisho<a name="p10"></a>
+
+Code kamili 
 
 ```python
 # nywila ya mtumiaji root kwenye variable
