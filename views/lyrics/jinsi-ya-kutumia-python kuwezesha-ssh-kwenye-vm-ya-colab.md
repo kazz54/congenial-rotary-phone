@@ -13,6 +13,40 @@ excerpt   :
   SSH ni nini, na jinsi yaku ssh kwenye daftari la colab
 ---
 
+Tutakayo ya zungumzia ni pamoja na:
+
+**Utangulizi** 
+
+[Daftari la Google colab kama computer](#p1)
+
+
+**SSH Secure Shell**
+
+
+
+
+[SSH Secure Shell](#p2)
+
+[Symmetric Encryption](#p3)
+
+[Asymmetric Encryption](#p4)
+
+[Hashing](#p5)
+
+[Jinsi Ambanyo Ssh Infanya Kazi Na Mbinu za Encryption](#p6)
+
+[Usimbaji fiche kwenye kipindi cha mazungumzo](#p7)
+
+[Uthibitishaji wa watumiaji](#p8)
+
+[Maandalizi na kuandika script ya kuwezesha SSH kwenye colab](#p9) 
+
+[Hitimisho](#p10) 
+
+
+
+
+
 
 Kama ambavyo tunafahamu kuwa colab ni huduma ya latha flani ya Jupiter notebook "siyo juniper notebook"
 kutoka google ambayo inatupatia huduma mbali mbali za komputer ikiwemo GPU za bure na kernel yake inatuwezesha kuandika lugha za Python pamoja na Swift.
