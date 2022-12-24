@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : Marilyn Manson - Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
+title     : Jinsi ya kutumia python kuwezesha ssh kwenye vm ya colab
 date      : 2015-07-25 07:35:05
 
 tags      : ["industrial metal", "90s"]
@@ -10,6 +10,9 @@ author    : marylin
 
 
 
+---
+
+---
 
 excerpt   : 
   Kama ambavyo tunafahamu kuwa colab ni huduma ya latha flani ya Jupiter notebook "siyo juniper notebook"
