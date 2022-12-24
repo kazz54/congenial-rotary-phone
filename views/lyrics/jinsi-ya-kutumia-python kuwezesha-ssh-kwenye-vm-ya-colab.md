@@ -208,7 +208,8 @@ Kila **ujumbe** uliyo pitishwa nilazima uwe na **MAC**, ambayo ni **mahesabu** y
 **mlolongo wa namba za packets**, na **yaliyomo kwenye ujumbe**.
 Data za Packet ambazo zimekuwa **symmetrically encrypted** zitatumwa nnje na kumaliza sehemu ya mawasiliano ya packet.
 
-**Jinsi Ambanyo Ssh Infanya Kazi Na Hizi Mbinu za Encryption**<a name="p6"></a>
+## Jinsi Ambanyo Ssh Infanya Kazi Na Hizi Mbinu za Encryption<a name="p6"></a>
+
 Nikwakutumia model ya **mteja** na **mtoa huduma** marufu kama "**client-server model**" 
 kuruhusu **uthibitisho** 'authentication" wa mifumo miwili ambayo iko mbali "remote" nakufanya  **encryption** ya data ambazo zinapita baina yaoo.
 
@@ -230,7 +231,7 @@ Kuna hatua mbili kwenye kuanzisha mauhusiano:
  * Kwanza nilazima mifumo yote ikubaliane na Kiwango cha  encryption  ili kulinda mawasiliano ya badaye, 
  * na pili, mtumiaji lazima ajithibitishe mwenyewe. Kama hati zina mechi, basi mtumiaji atapewa  kipindi..
 
-**Usimbaji fiche kwenye kipindi cha mazungumzo**<a name="p7"></a>
+## Usimbaji fiche kwenye kipindi cha mazungumzo<a name="p7"></a>
 
 
 Mteja ana pojaribu kuunganishwa kwenye server kwa kupitia TCP,  server itawakilisha itifaki za encryption na matoleo husika ambayo yame wezeshwa.
