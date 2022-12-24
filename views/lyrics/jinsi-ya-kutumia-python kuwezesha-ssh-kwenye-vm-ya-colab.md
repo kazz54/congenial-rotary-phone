@@ -12,11 +12,11 @@ author    : marylin
 
 ---
 
----
+
 Kama ambavyo tunafahamu kuwa colab ni huduma ya latha flani ya Jupiter notebook "siyo juniper notebook"
 kutoka google ambayo inatupatia huduma mbali mbali za komputer ikiwemo GPU za bure na kernel yake inatuwezesha kuandika lugha za Python pamoja na Swift.
----
 
+<!--more-->
 
 
 
