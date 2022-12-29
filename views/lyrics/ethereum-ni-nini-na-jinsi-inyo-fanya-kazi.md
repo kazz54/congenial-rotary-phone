@@ -102,9 +102,11 @@ Masharti lazima yawe **mahususi**, **wazi**, **ya husishe sheria**, **penati**, 
 
 Tuli sema hapo awali kwamba hii teknologia inafanyakazi kama makubaliano mengine yoyote yale lakini katika njia yaki digital na nyenye kuaminika zaidi.
 
-Kwa bahatimbaya, wakati mwingine watu hu ghalahiwa "tapeliwa" au kudanganywa na wafanya biyashara wao au washirika wao wa shughuli. -Hili ni moja kati ya mambo mengi ambayo mikataba janja ina rekebisha
+Kwa bahatimbaya, wakati mwingine watu hu ghalahiwa "tapeliwa" au kudanganywa na wafanya biyashara wao au washirika wao wa shughuli. **-Hili ni moja kati ya mambo mengi ambayo mikataba janja ina rekebisha**
 
-"Mikataba janja ina wezesha makubaliano na wasio aminika", tafsiri yake nikwamba pande zinazo husika hazihitaji kufahamiana kuweka uwaminifu na kujiamini kila upande unaweza kuweka ahadi au makubaliano kupitia blockchain. Ambayo itahakikisha mkataba hauta pitishwa kama hakutakua na utimilizaji wa masharti yaliyo elekenzwa.
+*"Mikataba janja ina wezesha makubaliano na wasio aminika"*, 
+
+tafsiri yake nikwamba pande zinazo husika hazihitaji kufahamiana kuweka uwaminifu na kujiamini kila upande unaweza kuweka ahadi au makubaliano kupitia blockchain. Ambayo itahakikisha mkataba hauta pitishwa kama hakutakua na utimilizaji wa masharti yaliyo elekenzwa.
 
 Hakutakua na mtu yoyote yule watatu au waamuzi wanao hitajika kuendesha au kuweka usalama kwenye mkataba, maana yake nikwamba kutakua na makosa machache yakibidamu na gharama za uendeshaji zitapungua. 
 
@@ -189,7 +191,7 @@ Njia kuu mbili ambazo Steemit inatumia mikataba janja
 
 **Steem Dollars**: hiki kifaa nikama deni una pewa ahadi ya kupewa steem zenye thamani ya kiasi cha dola moja mda flani huko mbele 
 
-Pamoja vipengele vyote hii vinafanya kazi kutengeneza mfumo wa ikolojia ambao una shawishi yaliyomo yenye viwango vya juu 
+Pamoja vipengele vyote hivi vinafanya kazi kutengeneza mfumo wa ikolojia ambao una shawishi yaliyomo yenye viwango vya juu 
 
 **Wavuti "browse"**
 Kama ambavyo imekuwa kwenye mitandao ya kijamii, mikataba janja kwenye wavuti inatoa uzoefu wa hali ya juu kabisa inapokuja kwenye swala lakuwaunga mkono watengenezaji tunao wakubali
