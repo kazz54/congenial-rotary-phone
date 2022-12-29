@@ -53,14 +53,14 @@ Kiasilia inaunga mkono mikataba janja "smart contracts", chombo muhimu nyuma ya 
 
 Ili kuweze kuelewa hii mikataba janja ni vyema tukaangali jinsi mifumo ambayo ina mamlaka yakuzisimamia inavyo fanya kazi
 
-Application kama gmail zinatuwezesha kutumia barua pepe au application kama pay pal inatuwezesha kutuma fedha.
+Application kama Gmail zinatuwezesha kutumia barua pepe au application kama Pay Pal inatuwezesha kutuma fedha.
 
-Hii ina manisha data zetu binafsi, tarifa za kiuchumi na mengineyo kwa kiasi kikubwa zime hifadhiwa kwenye computer za watu wengine kwenye mtandao wa internet kwenye server zinazo milikiwa na makampuni kama vile Google, Facebook au pay pal hata makala haya ya devduara0 yame hifadhiwa kwenye server ambayo inathibitiwa na mtu wa tatu 
+Hii ina manisha data zetu binafsi, tarifa za kiuchumi na mengineyo kwa kiasi kikubwa zime hifadhiwa kwenye computer za watu wengine kwenye mtandao wa internet kwenye server zinazo milikiwa na makampuni kama vile Google, Facebook au Pay Pal hata makala haya ya Devduara0 yame hifadhiwa kwenye server ambayo inathibitiwa na mtu wa tatu 
 
 Huu muundo unaweza kuwa tatizo kwa mujibu ya watetizi wa mfumo uliyo gatuliwa, ina manisha uthibiti mdogo wa moja kwa moja kwa watumiaji na huwacha wazi fursa ya kuthibitiwa, ambapo mtu watatu atakapo ingilia na kumzuia mtumiaji kufanya kitendo chochote kile, iwe niku nunua hisa au kutuma ujumbe kwenye mitandao ya kijamii au kuzuia kila kitu pamoja.
 
 
-Wazo la Ethereum nikubadili jinsi application's kwenye mtandao wa internet zinavyo fanya kazi leo hii, kwa kuwazawadia watumiaji umiliki mkubwa kwa kumbadilisha **mtu wa tatu** na **maktaba janja** ambazo zitakua zina jiendeshea kanuni zake yenyewe moja kwa moja 
+Wazo la Ethereum nikubadili jinsi application's kwenye mtandao wa internet zinavyo fanya kazi leo hii. Kwa kuwazawadia watumiaji umiliki mkubwa kwa kumbadilisha **mtu wa tatu** na **maktaba janja** ambazo zitakua zina jiendeshea kanuni zake yenyewe moja kwa moja 
 
 >>Wengi wakiwemo wa wekezaji kwenye mtandao wa internet wana amini mtandao wa internet mara zote ulikuwa na maana ya kugatuliwa .
 
