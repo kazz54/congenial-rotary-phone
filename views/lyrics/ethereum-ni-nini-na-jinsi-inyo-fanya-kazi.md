@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : Ethereum ni nini na jinsi inyo fanya kazi
-date      : 2021-12-29 11:00:05
+date      : 2022-12-29 11:00:05
 
 tags      : ["ethereum", "uchumi"]
 keywords  : ["ethereum", "smart contract", "blockchain"]
@@ -69,7 +69,7 @@ Wazo la Ethereum nikubadili jinsi application's kwenye mtandao wa internet zinav
 
 ## Smart contracts ni nini<a name="p2"></a>
 
-Mwaka 1994 kwa mara ya kwanza Nick Szabo ndiye aliye anza kupendekeza mikataba janja, mmarekani huyu ambaye ni mwana sayansi wa computer ndiye aliye vumbua fedha za kidigitali "bit gold" mwaka 1998 miaka kumi kabla ya uvumbuzi wa "Bitcoin" na kumekuwa na uvumi kwamba Szabo ndiyo **Satoshi Nakamoto** "muazilishi wa Bitcoin asiye fahamika" ingawaji mwenyewe amekanusha hilo.
+Mwaka 1994 kwa mara ya kwanza Nick Szabo ndiye aliye anza kupendekeza mikataba janja, mmarekani huyu ambaye ni mwana sayansi wa computer ndiye aliye vumbua fedha za kidigitali **"bit gold"** mwaka 1998 miaka kumi kabla ya uvumbuzi wa **"Bitcoin"** na kumekuwa na uvumi kwamba Szabo ndiyo **Satoshi Nakamoto** "muazilishi wa Bitcoin asiye fahamika" ingawaji mwenyewe amekanusha hilo.
 
 
 Mkataba janja ni application au programu ambayo inafanyakazi kwenye blockchain na imeundwa ili kufanya vitendo muhimu kutokana na makubaliano ya masharti moja kwa moja. Inafanyakazi kama makubaliano au mikataba yakawaida ambayo inatumika kununulia au kuuzia mali, gari, kubadilisha fedha na zaidi.., **lakini kidigitali**.
@@ -83,7 +83,7 @@ Pale ilitakapo tokea **tukio** lililo `ainishwa` au `muda wake kumalizika` kweny
 ## Sehemu tatu muhimu za mikataba janja<a name="p3"></a>
 
 Kama ilivyo kwenye makubaliano au mikataba mingine, mikataba janja inajumuisha vipengele vitatu muhimu 
-*watia saini*, *somo*, *masharti* kwa ufupi na zifafanua 
+**watia saini**, **somo**, **masharti**, kwa ufupi na zifafanua 
 
 **watia saini**
 Pande zote zinazo husika na makubaliano zita hitajika kuweka saini zao za kidigitali kwenye mkataba janja hii ita onyesha kukubaliana au kuto kukubadiliana na sheria na masharti yaliyo tajwa 
