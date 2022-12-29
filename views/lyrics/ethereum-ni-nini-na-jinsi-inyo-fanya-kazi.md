@@ -10,12 +10,13 @@ author    : admin
 
 
 excerpt   : 
-  ## Kila kitu unacho taka kujua kuhusu ethereum smart contract 
 
   Tukiondoa fedha za kidigitali Ubunifu mwingine ulio tapakaa ni mikataba janja "smart contracts" ambayo inafanya kazi na teknologia ya blockchain. Zina punguza kwa kiwango kikubwa kufanya kazi na makaratasi na zaidi zinasababisha uhakika na kuaminika kwa mikataba na shughuli zisizo za kuaminika kati ya pande mbili zinazo husika.
 ---
 
-Yaliyomo:
+*Kila kitu unacho taka kujua kuhusu ethereum smart contract* 
+
+## Yaliyomo:
 
 
 [Ethereum ni nini?](#p1)
