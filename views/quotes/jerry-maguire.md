@@ -90,6 +90,14 @@ hasa kama utakuwa na tabia ya kuchelewa kulipa, kufunga account yako ya zamani a
 >>Unaweza kuweka tarifa ambayo itakujulisha tarehe ya kulipa ili uweze kulipa kwa mda na kuepuka 
 kuzidisha matumizi ya kiwango cha mkopo
 
-**Interest and Fees**
+**Riba na Ada**
 
+Kwa sababu credit card ni mkopo wa mdaa mfupi, 
+utahitajika kulipa ulicho tumia pamoja na riba. 
+Riba pamoja na ada ambayo kampuni ya mkopo ina toza inatumika kufanya mahesabu ya asilimia za mwaka za kiwango 
+(APR) kiwango cha APR kikubwa juu ndiyo jinsi ambanyo ita gharimu kiwango chako cha mwezi hadi mwezi 
 
+Lazima ufahamu kwamba malipo ya card yako ni ya ada ya mwaka, 
+ada ya shughuli za kigeni, ada ya kuhamisha, ada ya utangulizi wa fedha, 
+ada ya malipo yaliyo cheleweshwa au ada ya malipo yaliyo rudishwa. 
+Kadri credit cards zinavyo kua na programu ya zawadi na ndiyo zinavyo zidi kutoa faida, na ndiyo jinsi ada ya mwaka inavyo zidi kuwa kubwa.
