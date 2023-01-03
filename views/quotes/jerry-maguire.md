@@ -1,4 +1,4 @@
-J---
+---
 layout    : post
 title     : Jerry Maguire
 date      : 2015-01-01 17:35:15
@@ -80,6 +80,13 @@ Vikwazo vikubwa vya kutumia credit cards ni pamoja na deni, alama ya mkopo na gh
 Unapofanya manunuzi na credit card unatumia fedha za benki siyo fedha zako. 
 Hizi fedha ni lazima zi lipwe pamoja na riba. 
 Kwa kiasi utahitajika kufanya malipo ya kiwango cha chini unacho daiwa kila mwezi.
+
+**Madhara ya Alama ya Mkopo**
+
+Kulipa bill zako kwa wakati na kuweka mizani ya credit card chini inaweza kusaidia kwenye alama zako za FICO. 
+Hata hivyo, matumizi mabaya ya credit card yanaweza kuharibu historia yako ya mikopi, 
+hasa kama utakuwa na tabia ya kuchelewa kulipa, kufunga account yako ya zamani au kufanya maombi ya mkopo ya mara kwa mara
+
 
 
 
