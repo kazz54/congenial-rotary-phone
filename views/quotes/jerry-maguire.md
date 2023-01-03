@@ -1,4 +1,4 @@
----
+J---
 layout    : post
 title     : Jerry Maguire
 date      : 2015-01-01 17:35:15
@@ -75,5 +75,12 @@ Baada ya Masaa 48 kadi ya mtumiaji thima yake inaongezeka hadi $500, baado ya si
 
 Vikwazo vikubwa vya kutumia credit cards ni pamoja na deni, alama ya mkopo na gharama 
 
-**Matumizi yanaweza kusabibisha deni**
+**Matumizi yanaweza kusabibisha Deni**
+
+Unapofanya manunuzi na credit card unatumia fedha za benki siyo fedha zako. 
+Hizi fedha ni lazima zi lipwe pamoja na riba. 
+Kwa kiasi utahitajika kufanya malipo ya kiwango cha chini unacho daiwa kila mwezi.
+
+
+
 
