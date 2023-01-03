@@ -87,7 +87,9 @@ Kulipa bill zako kwa wakati na kuweka mizani ya credit card chini inaweza kusaid
 Hata hivyo, matumizi mabaya ya credit card yanaweza kuharibu historia yako ya mikopi, 
 hasa kama utakuwa na tabia ya kuchelewa kulipa, kufunga account yako ya zamani au kufanya maombi ya mkopo ya mara kwa mara
 
+>>Unaweza kuweka tarifa ambayo itakujulisha tarehe ya kulipa ili uweze kulipa kwa mda na kuepuka 
+kuzidisha matumizi ya kiwango cha mkopo
 
-
+**Interest and Fees**
 
 
