@@ -53,7 +53,16 @@ Hapa tuta angalia kwa karibu faida na hasara zakufanya matumizi kwa kutumia cred
 **Kujenga Historiya ya Mkopo**
 
 Utumiaji wa Credit card unajitokeza kwenye report za mikopo. Ambayo inajumlisha pamoja na history chanya, kama vile ulipaji wa wakati, 
-kiasisi kidogo cha uwiano wa matumizi ya mkopo, vile vile vitu  kama vile ucheleweshaji wa malipo au uhalifu. Taarifa za report yako ya mkopo inatumika kufanya mahesabu ya alama zako za mkopo. Watumiaji wajibikaji wanaweza kuongeza alama zao kutokana na historia ya matumizi na malipo ya wakati, na kwa kuweka salio la kwenye card zao chini kuliko kiwango chao cha mwisho kwenye card.
+kiasisi kidogo cha uwiano wa matumizi ya mkopo, vile vile vitu hasi  kama vile ucheleweshaji wa malipo au uhalifu. Taarifa za report yako ya mkopo inatumika kufanya mahesabu ya alama zako za mkopo. Watumiaji wajibikaji wanaweza kuongeza alama zao kutokana na historia ya matumizi na malipo ya wakati, na kwa kuweka salio la kwenye card zao chini kuliko kiwango chao cha mwisho kwenye card.
+
+>>Makampuni mengi ya credit card hutoa bure offer ya kusimamia na kufuatilia faida ya card, 
+ili uweze kuangali maendeleo yako wakati unajenga mkopo.
 
 
+**Waranti na Ulinzi kwenye Manunuzi**
 
+Credit cards zingine zinaweza kutoa waranti au bima kutoka kwenye bithaa zilizo nunuliwa ambazo zinaenda zaidi ya zile zinazo tolewa na wauzaji reja reja au brand. 
+Kwa mfano kama bithaa iliyo nunuliwa na credit card ikiharibika baada ya waranti ya mtengenezaji kwisha, 
+ni vizuri kuwasiliana na kampuni la credit card kuangalia kama watakithi. Au unaweza ukawa na ulinzi wa manunuzi na bei ambao umejengwa ndani kusaidia iliuweze kubadilisha bidhaa ambazo zimeibiwa au kopotea au kurejesha fedha pale ambapo bithaa uliyo nunua inaunzwa sehemu nyingine kwa kiasi kidogo
+
+**Ulinzi juu ya Ubathilifu** 
