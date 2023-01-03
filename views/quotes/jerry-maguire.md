@@ -65,4 +65,15 @@ Credit cards zingine zinaweza kutoa waranti au bima kutoka kwenye bithaa zilizo 
 Kwa mfano kama bithaa iliyo nunuliwa na credit card ikiharibika baada ya waranti ya mtengenezaji kwisha, 
 ni vizuri kuwasiliana na kampuni la credit card kuangalia kama watakithi. Au unaweza ukawa na ulinzi wa manunuzi na bei ambao umejengwa ndani kusaidia iliuweze kubadilisha bidhaa ambazo zimeibiwa au kopotea au kurejesha fedha pale ambapo bithaa uliyo nunua inaunzwa sehemu nyingine kwa kiasi kidogo
 
-**Ulinzi juu ya Ubathilifu** 
+**Ulinzi juu ya Ulaghai** 
+
+Kama mteja ata repoti kuibiwa au kupotea ndani ya wakati kiasi cha $50 ndiyo thima ya juu ya mauzo baado ya card kupotea.
+Sheria ya usafirishaji fedha kieletronki inawapa wateja wa `debit card` ulizizi sawa kutokana na kupotea au kuibiwa, lakini pale tu mteja atakapo report ndani ya Masaa 48 baada ya kugunduwa. 
+Baada ya Masaa 48 kadi ya mtumiaji thima yake inaongezeka hadi $500, baado ya siku 60 hakuna kikomo, katika visa vingi `credit card` inatoa ulinzi mzuri zaidi ukilinganisha na debit cards 
+
+### Hasara zakutumia Credit Card
+
+Vikwazo vikubwa vya kutumia credit cards ni pamoja na deni, alama ya mkopo na gharama 
+
+**Matumizi yanaweza kusabibisha deni**
+
