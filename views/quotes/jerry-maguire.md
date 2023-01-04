@@ -107,7 +107,7 @@ Debit card ni kadi ya malipo ambayo inafanya malipo kwa kutoa fedha moja kwa moj
 badala ya mkopo kutoka bank au kwa mtoaji card. Debit card zina toa urahisi kama wa kwenye credit cards na ulinzi kwa 
 mtumiaji pale zinapotolewa na visa au master card.
 
->>Kuna aina mbili za debit cards ambazo hazi hitaji mtumiaji kua na checking or savings account, 
+>>Kuna aina mbili za debit cards ambazo hazi hitaji mtumiaji kua na checking au savings account, 
 na nyingine ni ya kiwango cha kawaida.
 
 **Standard debit cards**
