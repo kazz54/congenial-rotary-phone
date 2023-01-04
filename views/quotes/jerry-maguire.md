@@ -114,3 +114,11 @@ na nyingine ni ya kiwango cha kawaida.
 Kutoa kwenye account yako ya bank 
 
 **Electronic benefits transfer (EBT) cards**
+*"Kadi za usafirishaji faida za kielektroniki (EBT)."*
+Zinatolewa na nchi na shirikisho la mashirika kuwezesha watumiaji 
+walio fuzu kutumia faida zao kufanya manunuzi.
+
+
+**Prepaid debit cards**
+Zina wapa watu ambao hawana uwezo wakuifikia account ya bank njia yakufanya 
+manunuzi kieletronki mpaka kwenye kiwango ambacho kilikuwa kimewekwa kwenye card
