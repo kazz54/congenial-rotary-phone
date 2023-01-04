@@ -134,3 +134,12 @@ Wa uzaji reja reja wanafahamu kwamba watu huwa wanatumia zaidi pale wanapotumia 
 Kwa kutumia debit card watumiaji fedha kwa msukomo wanaweza kuepuka vishawishi vya mkopo na kubaki kwenye bajeti zao. 
 Na hii inaweza kukuondoa kutoka kwenye riba za juu za mikopo.
 
+**Ulinzi wa Ulaghai**
+
+Huko awali, credit card zilikuwa zinatoa ulinzi mzuri kutokana na ulaghai kuzidi debit cards, 
+baathi ya debit card zinazo tolewa na wasindikaji mikopo kama vile Visa na MasterCard zimeanza kutoa ulinzi kama ambao wananufaika nao watumiaji wa credit card. 
+Msingi ni kurepoti ulaghai au wizi maramoja pale unapo gundua umetokea
+dhima yako ya ununuzi wa ulaghai huamuliwa na mdaa ambao tukio lime ripotiwa. Ukingoja mdaa mrefu kabla ya kuripoti tukio bank kwamba card yako imetumika kufanya malipo ambayo huja yaithinisha inaweza kupelekea wewe kuwajibika na baathi au upotevu wote.
+
+Kwa vile debit card imeunganishwa moja kwa moja na account yako ya bank, manunuzi ya ubadhilifu yanaweza kusabibisha kukausha account yako au kusabibisha matumizi yaliyo pitiliza "overdraft". 
+Hii hamuwezi kutokea kwenye credit card kwa sababu hizi hulipwa badaye.
