@@ -122,3 +122,15 @@ walio fuzu kutumia faida zao kufanya manunuzi.
 **Prepaid debit cards**
 Zina wapa watu ambao hawana uwezo wakuifikia account ya bank njia yakufanya 
 manunuzi kieletronki mpaka kwenye kiwango ambacho kilikuwa kimewekwa kwenye card
+
+### Faida za kutumia Debit Card 
+Debit card zina faida na hasara kama ilivyo kwenye credit card 
+Hapa nitaorothesha kwa uchache baathi ya faida zake
+
+**Kwepa madeni**
+
+Debit card inatoa fedha ambazo mtumiaji tayari anazo na kuondoa hatari ya limbikizo la mkopo. 
+Wa uzaji reja reja wanafahamu kwamba watu huwa wanatumia zaidi pale wanapotumia plastic kuliko wakiwa wanalipa fedha taslimu. 
+Kwa kutumia debit card watumiaji fedha kwa msukomo wanaweza kuepuka vishawishi vya mkopo na kubaki kwenye bajeti zao. 
+Na hii inaweza kukuondoa kutoka kwenye riba za juu za mikopo.
+
