@@ -98,6 +98,19 @@ Riba pamoja na ada ambayo kampuni ya mkopo ina toza inatumika kufanya mahesabu y
 (APR) kiwango cha APR kikubwa juu ndiyo jinsi ambanyo ita gharimu kiwango chako cha mwezi hadi mwezi 
 
 Lazima ufahamu kwamba malipo ya card yako ni ya ada ya mwaka, 
-ada ya shughuli za kigeni, ada ya kuhamisha, ada ya utangulizi wa fedha, 
+ada ya muamala wa kigeni, ada ya kuhamisha, ada ya utangulizi wa fedha, 
 ada ya malipo yaliyo cheleweshwa au ada ya malipo yaliyo rudishwa. 
 Kadri credit cards zinavyo kua na programu ya zawadi na ndiyo zinavyo zidi kutoa faida, na ndiyo jinsi ada ya mwaka inavyo zidi kuwa kubwa.
+
+## Debit Card ni nini?
+Debit card ni kadi ya malipo ambayo inafanya malipo kwa kutoa fedha moja kwa moja kutoka kwenye account ya mtumiaji, 
+badala ya mkopo kutoka bank au kwa mtoaji card. Debit card zina toa urahisi kama wa kwenye credit cards na ulinzi kwa 
+mtumiaji pale zinapotolewa na visa au master card.
+
+>>Kuna aina mbili za debit cards ambazo hazi hitaji mtumiaji kua na checking or savings account, 
+na nyingine ni ya kiwango cha kawaida.
+
+**Standard debit cards**
+Kutoa kwenye account yako ya bank 
+
+**Electronic benefits transfer (EBT) cards**
