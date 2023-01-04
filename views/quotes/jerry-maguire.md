@@ -143,3 +143,40 @@ dhima yako ya ununuzi wa ulaghai huamuliwa na mdaa ambao tukio lime ripotiwa. Uk
 
 Kwa vile debit card imeunganishwa moja kwa moja na account yako ya bank, manunuzi ya ubadhilifu yanaweza kusabibisha kukausha account yako au kusabibisha matumizi yaliyo pitiliza "overdraft". 
 Hii hamuwezi kutokea kwenye credit card kwa sababu hizi hulipwa badaye.
+
+
+**Hakuna ada ya kila mwaka**
+
+
+Wakati ambapo credit card nyingi hutoza ada ya mwaka, debit cards hazifanyi hivyo, 
+na wala hazi tozI ada pale utakapo kuwa unatoa fedha kwenye ATM ya bank yako. 
+Kwa upande mwingine credit card zinaweza kutoza ada ya malipo ya awali na riba ambayo iko juu hatahivyo unaweza kulipa ada zingine ili 
+kudumisha account yako ya checking.
+
+malipo ya awali kutoka kwenye credit card hayana kipindi cha neema, badalayake riba zina anza kujitokeza mara moja
+
+
+### Hasara za kutumia Debit Card 
+
+Kama ilivyo kwenye credit card moja ya hasara za kutumia debit card ni 
+pamoja na athari za alama za mkopo na gharama 
+
+
+**Hakuna zawadi**
+
+Labda uwe na account ya checking ambayo zawadi zimewezeshwa vinginevyo huta pata point, maili, kurudishiwa fedha "cash back" 
+kwenye manunuzi ambayo yamefanywa na card yako ya debit, 
+kwa vile zawadi zinaweza kukusaidia kuokoa fedha kutokana na jinsi ambanyo unazikomboa unaweza ukawa una poteza pakubwa kwa kutumia debit card peke yake.
+
+**Huta Jenga Mkopo**
+
+Kujenga mkopo mzuri maana yake ni kuonyesha kwa viongozi kwamba unaweza kuwajibika kulipa fedha ambazo ume kopa. 
+Unapo fanya manunuzi na debit card ambayo imeunganishwa na account yako ya bank huna uwezo wa kufanya hivyo, 
+kwa hiyo kwa kutumia debit card haita kusaidia kuanzisha au Kujenga historia ya mkopo
+
+**Ada**
+
+Wakati ambapo debit cards hazina ada ya mwaka, unaweza kulipia ada zingine za kuwa na checking account. 
+Hizo zina weza kujumlisha ada ya matengenezo ya kila mwezi, ada ya kutumia zaidi "overdraft" pale utakapo tumia zaidi ya fedha ambazo zipo kwenye account yako, 
+ada ya bithaa zilizo rudishwa na ada za ATM za nje kama utatumia debit card kwenye bank nyingine au machine ya tasisi ya fedha 
+
