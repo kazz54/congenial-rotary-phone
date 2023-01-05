@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : Jerry Maguire
+title     : Utofauti kati ya debit card na credit card 
 date      : 2023-01-04 11:35:15
 tags      : ['bank', 'uchumi']
 ---
