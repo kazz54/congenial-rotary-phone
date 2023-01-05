@@ -9,7 +9,7 @@ You had me at Hello.
 
 <!--more-->
 
-## Utafauti kati ya Credit Cards na Debit Cards: Kwa juu juu
+## Utofauti kati ya Credit Cards na Debit Cards: Kwa juu juu
 
 Credit cards na debit cards kwa msingi zina funana, zikiwa ni card zenye digit 16 za namba, 
 tarehe ya kwisha mdaa wa matumizi, kifaa chenye smaku, na chip za EMV. 
