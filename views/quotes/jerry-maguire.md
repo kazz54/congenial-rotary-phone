@@ -142,7 +142,7 @@ Msingi ni kurepoti ulaghai au wizi maramoja pale unapo gundua umetokea
 dhima yako ya ununuzi wa ulaghai huamuliwa na mdaa ambao tukio lime ripotiwa. Ukingoja mdaa mrefu kabla ya kuripoti tukio bank kwamba card yako imetumika kufanya malipo ambayo huja yaithinisha inaweza kupelekea wewe kuwajibika na baathi au upotevu wote.
 
 Kwa vile debit card imeunganishwa moja kwa moja na account yako ya bank, manunuzi ya ubadhilifu yanaweza kusabibisha kukausha account yako au kusabibisha matumizi yaliyo pitiliza "overdraft". 
-Hii hamuwezi kutokea kwenye credit card kwa sababu hizi hulipwa badaye.
+Hii haiwezi kutokea kwenye credit card kwa sababu hizi hulipwa badaye.
 
 
 **Hakuna ada ya kila mwaka**
