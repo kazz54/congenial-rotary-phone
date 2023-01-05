@@ -1,5 +1,5 @@
 ---
-title: About me
+title: Kuhusu Sisi
 layout: page
 ---
 
