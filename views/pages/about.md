@@ -6,7 +6,7 @@ layout: page
 **Devduara0** ni tuvuti ambayo lengo lake niku chapisha 
 **makala** za jinsi ambayo unaweza kutumia **tekinologia** katika 
 mazingira yako ili **kurahisisha** shuhuli mbalimbali, hapa utapata **mbinu** 
-na **dondoo** mbali mbali za jinsi ambanyo unaweza kutumia **tekinologia**.
+na **dondoo** mbali mbali za jinsi ambanyo unaweza kutumia **tekinologia** na mifumo ya TEHAMA pamoja na elimu ya fedha.
 
 Tuliamua kuchagua lugha ya **kiswahili** kutokana na **uhaba** wa makala kamahizi kwa lugha hii **"Kiswahili"**. 
 
