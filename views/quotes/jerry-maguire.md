@@ -1,8 +1,8 @@
 ---
 layout    : post
 title     : Jerry Maguire
-date      : 2015-01-01 17:35:15
-tags      : ['subtitle', 'story']
+date      : 2023-01-04 11:35:15
+tags      : ['bank', 'uchumi']
 ---
 
 You had me at Hello.
