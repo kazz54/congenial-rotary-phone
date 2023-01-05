@@ -180,3 +180,48 @@ Wakati ambapo debit cards hazina ada ya mwaka, unaweza kulipia ada zingine za ku
 Hizo zina weza kujumlisha ada ya matengenezo ya kila mwezi, ada ya kutumia zaidi "overdraft" pale utakapo tumia zaidi ya fedha ambazo zipo kwenye account yako, 
 ada ya bithaa zilizo rudishwa na ada za ATM za nje kama utatumia debit card kwenye bank nyingine au machine ya tasisi ya fedha 
 
+## Je Debit Card ziko sawa na Credit Card?
+
+Wakati ambapo zinaonekana ziko sawa zote zikiwa ni card zenye digit 16, na tarehe ya mda wamwisho wa matumizi, 
+pamoja na logo ya brand kama vile Visa na MasterCard. `Credit Cards` na `Debit Cards ` utofauti wake mkubwa ni kwamba 
+debit cards zime unganishwa na account ya bank na hutoa fedha moja kwa moja kutoka kwenye account (kama hundi "check") 
+credit card zinakuruhusu kuweze kukopa fedha kutoka kwa mtoaji card mpaka kwenye kiwango flani na lazima zilipwe badaye kukiwa na kipengele cha kutonzwa riba 
+
+## Je Unaweza kupata zawadi na Debit Card?
+
+Katikati hali ya kawaida hapana, wakati ambapo debit cards hazipati alama au maili kwa kila manunuzi, 
+account ambayo inatolea fedha inaweza kumpatia mtumiaji manufaa kwa kubadilisha na kiasi fulani cha muamala. 
+**Standard debit card** zinatoa huduma ambayo inamuwezesha mtumiaji kusafirisha kiasi kidogo cha fedha kwenye **saving account** 
+huduma hii haipo kwa sasa kwenye Credit cards.
+
+## Je Credit Card zote zina toza riba?
+
+Wakati ambapo unaweza kuona matangazo ya riba 0%. 
+Credit Cards zote mwisho wasiku zina toza riba kwenye kiasi kina chobaki mwezi hadi mwezi. 
+Hii riba inatokana na kiwango cha asilimia ya kila mwaka (APR), 
+ilikuepuka kulipa riba kwa mdaa mrefu lipa salio lako lote kila mwezi.
+
+## Je kila mtu anaweza kuwa na Credit Card? 
+
+Watu wengi wanaweza kuomba na kupata credit card, lakini kama wana historia mbaya ya mkopo au hawana mkopo 
+credit card ambayo wana stahiki inaweza ikawa siyo muhimu. 
+Wale ambao hawana mkopo au wana mkopo "mbayaa" wa naweza kuomba 
+**Secure Credit Card** ambapo mkopo unalindwa na kiasi ambacho umehifadhi wakati unafungua card. 
+Kwa kadi za zawadi za kuvutia zaidi, alama za juu za mkopo zinahitajika.
+
+
+## Je Credit Card ni salama kuliko Debit Card?
+
+Credit Cards kwa kawaida hutoa ulinzi mkubwa zaidi wa watumiaji 
+kwenye manunuzi yanayo husiana na ulaghai kuliko Debit Card. 
+Ulinzi huu wa ulaghai hauwezi kuenea kwa urahisi kwenye debit card.
+
+## Hitimisho 
+
+Credit na debit cards zinaweza zikiwa kimuonekana zina funana, 
+lakini faida zake na hasara ziko tofauti. 
+Kama kutengeneza mkopo na fedha kwenye zawadi ni muhimu kwani, 
+basi Credit Card ni nyenzo muhimu kwenye safari yako ya uchumi. 
+Ikiwa unapendelea kuweka udhibiti mkali wa fedha zako, basi Debit kadi ndiyo uchaguzi mzuri. Haijalishi ni ipi umechaguwa hakikisha unafahamu ada inayo husishwa na kila account 
+
+
