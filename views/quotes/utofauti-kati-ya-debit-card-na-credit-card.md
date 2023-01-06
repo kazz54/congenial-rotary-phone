@@ -2,7 +2,7 @@
 layout    : post
 title     : Utofauti kati ya debit card na credit card 
 date      : 2023-01-04 11:35:15
-tags      : ['fedha', 'uchumi']
+tags      : ['mkopo', 'uchumi']
 ---
 
 You had me at Hello.
