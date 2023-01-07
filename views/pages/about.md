@@ -24,3 +24,4 @@ ili iwe **rahisi** kwa mtu **yoyote** yule amabaye anajua lughaa ya **kiswahili*
 <p>Let me put to you like this.<br/>
 If the secretary wanted me out of there,<br/>
 then things are really bad out here.</p>
+{% include "page/contact-form.njk" %}
