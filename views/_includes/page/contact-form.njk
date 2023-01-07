@@ -12,99 +12,54 @@
     <label class="label">From</label>
   </div>
 
+<form
+  action="https://formspree.io/p/1615048538327089110/f/contact"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email" />
+  </label>
 
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <button type="submit">Send</button>
+</form>
+
+<style>
+  /* Some nice boilerplate CSS to tidy up your form */
+  form {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-gap: 1rem;
+    text-align: left;
+    padding: 2rem 0;
+    margin: 0;
+  }
+  form label {
+    display: contents;
+  }
+  form input[type="email"],
+  form textarea,
+  form button {
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid currentColor;
+    background: none;
+    padding: 0.4rem 0.5rem;
+  }
+  form textarea {
+    resize: vertical;
+  }
+  form button {
+    justify-self: start;
+  }
+</style>
   
     
-      <p class="control is-expanded has-icons-left">
-        <input class="input" type="text" placeholder="Name">
-        <span class="icon is-small is-left">
-          <i class="fas fa-user"></i>
-        </span>
-      </p>
-    
-    
-      <p class="control is-expanded has-icons-left has-icons-right">
-        <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com">
-        <span class="icon is-small is-left">
-          <i class="fas fa-envelope"></i>
-        </span>
-        <span class="icon is-small is-right">
-          <i class="fas fa-check"></i>
-        </span>
-      </p>
-   
-  
-
-
-
-  
-  
-    
-      
-        <p class="control">
-          <a class="button is-static">
-            +44
-          </a>
-        </p>
-        <p class="control is-expanded">
-          <input class="input" type="tel" placeholder="Your phone number">
-        </p>
-      
-      <p class="help">Do not 
-
-
-  
-    <label class="label">Already a member?</label>
-  
-  
-    
-      
-        <label class="radio">
-          <input type="radio" name="member">
-          Yes
-        </label>
-        <label class="radio">
-          <input type="radio" name="member">
-          No
-        </label>
-      
-
-
-  
-    <label class="label">Subject</label>
-  
-  
-   
-      
-        <input class="input is-danger" type="text" placeholder="e.g. Partnership opportunity">
-      
-      <p class="help is-danger">
-        This field is required
-      </p>
-    
-  
-
-
-  
-    <label class="label">Question</label>
-  
-  
-      
-        <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
-      
- 
-
-
-  
-    <!-- Left empty for spacing -->
-  
-  
-    
-      
-        <button class="button is-primary">
-          Send message
-        </button>
-       </form>
       
     
  
