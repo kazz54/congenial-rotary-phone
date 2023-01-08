@@ -1,6 +1,6 @@
 ---
 title: Kuhusu Sisi
-layout: page
+layout: home
 ---
 
 **Devduara0** ni tuvuti ambayo lengo lake niku chapisha 
