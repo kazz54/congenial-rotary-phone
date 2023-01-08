@@ -19,9 +19,3 @@ ili iwe **rahisi** kwa mtu **yoyote** yule amabaye anajua lughaa ya **kiswahili*
 **kunufaika** nayo kwa namna moja au nyingine.
 </p>
 
-{% include "toc/social-accounts.html" %}
-
-<p>Let me put to you like this.<br/>
-If the secretary wanted me out of there,<br/>
-then things are really bad out here.</p>
-{% include "page/contact-form.njk" %}
