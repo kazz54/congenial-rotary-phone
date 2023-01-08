@@ -19,3 +19,4 @@ ili iwe **rahisi** kwa mtu **yoyote** yule amabaye anajua lughaa ya **kiswahili*
 **kunufaika** nayo kwa namna moja au nyingine.
 </p>
 
+{% include "page/contact-form.njk" %}
