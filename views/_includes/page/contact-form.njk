@@ -1,7 +1,18 @@
 {% set color = 'lime' %}
 
 <div class="widget-header {{ color }} lighten-4">
+{% block widget_header %}
+  <strong>Wasiliana nasi</strong>
+  <span class="fa fa-newspaper is-pulled-right"></span>
+{% endblock %}
+</div>
+{% block widget_body %}
 
+
+<form
+  action="https://formspree.io/p/1615048538327089110/f/contact"
+  method="POST"
+>
 <div class="field is-horizontal">
   <div class="field-label is-normal">
     <label class="label">From</label>
@@ -84,3 +95,7 @@
   </div>
 </div>
 </div>
+{% endblock %}
+</form>
+
+
