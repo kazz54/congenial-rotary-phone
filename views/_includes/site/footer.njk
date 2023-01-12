@@ -4,27 +4,18 @@
           is-white has-text-centered is-vcentered
           white z-depth-3 hoverable">
       <div class="column">
-        <nav class="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
-        <ul>
-        <li>
-       <span class="fab fa-instagram"></span>
-        <a  href="https://www.instagram.com/devduara0/"></a>
-       </li>
-        <li>
-       <span class="fab fa-github"></span>
-        <a href="https://github.com/epsi-rns"></a>
-        </li>
+        
+       {% include "toc/social-accounts.html" %}
        
-       <li>
         &copy; {{ metadata.now | date("Y") }}
-        </li>
-       </ul>
+        
+       
        
       
        
        
+     
      </div>
-     </div>
-    </nav>
+    </div>
   </footer>
 
