@@ -1,9 +1,12 @@
-{% extends "layouts/column-single.njk" %}
+{% include "page/contact-form.njk" %}
+{% extends "layouts/columns-double.njk" %}
 
-{% block main_color %}{{ color or 'grey' }}
-  
-    
-    
-    
-  
+{% block main_color %}{{ color or 'grey' }}{% endblock %}
+
+{% block aside %}
+  <aside class="column is-one-thirds">
+    {% include "toc/social-accounts.html" %}
+    {% include "widget/recent-posts.njk" %}
+    {% include "widget/tags.njk" %}
+  </aside>
 {% endblock %}
