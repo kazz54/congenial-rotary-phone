@@ -1,5 +1,7 @@
 
-{% extends "layouts/column-single.njk" %}
+{% extends "layouts/columns-double.njk" %}
+
+
 
 {% block main_color %}{{ color or 'blue-grey' }}{% endblock %}
 
@@ -16,9 +18,6 @@
   {% include "pagination/05-responsive.njk" %}
   {% include "pagination/06-screenreader.njk" %}
 {% endblock %}
-
-
-{% extends "layouts/columns-double.njk" %}
 
 
 
