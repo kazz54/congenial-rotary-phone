@@ -1,7 +1,13 @@
 
-
+{% extends "layouts/columns-double.njk" %}
 
 {% block main_color %}{{ color or 'grey' }}{% endblock %}
 
-{% include "page/contact-form.njk" %}
-
+{% block aside %}
+  <aside class="column is-one-thirds">
+    {% include "page/contact-form.njk" %}
+    {% include "widget/recent-posts.njk" %}
+    {% include "widget/tags.njk" %}
+    
+  </aside>
+{% endblock %}
