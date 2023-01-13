@@ -51,8 +51,11 @@ na ukafikia lengo hata kama uko kwenye Operating System tofauti na ya kwangu jam
 
 __Anzaa na kuangalia kama una python.__
 
+{% highlight "shell" %}
+
     python -V
     Python 3.6.9
+{% endhighlight %}
 
 hiyo "**`Python 3.6.9`**" ndiyo version ya **python** ambayo iko kwenye machine yangu
 inamaana nina uwezo wakusoma na kuandika program kwa kutumia lugha ya **python**.
@@ -62,11 +65,12 @@ __Andaa mazingira ya kuhifadhi app yako.__
 ili kuweka mpangilio mzuri wa mafaili nita tengeneza directory ambapo project yangu itakaa na nitaita **shambablog** na zaidi ya hapo nita tengeneza **virtual eviroment** ambayo nitaita **venv** ndani ya hiyo directory, nahii inamanisha kwamba namega kipande kidogo cha opareting system kwa jili ya hii amplication.
 
 mahali ambapo app yangu itakaa
-
+   
+    {% highlight "shell" %}
     mkdir -p projects/shambablog
 
     cd projects/shambablog/
-
+    {% endhighlight %}
 ili kuweza kutengeneza au kuanzisha **virtual environment** inatubidi tuwe na kifurushi kwajili ya **virtual environment** inategemea unaweza ukawa tayari unacho kifurushi cha **virtual environment** lakini kama huna una install kama hivi
 
     apt-get install python3-venv
