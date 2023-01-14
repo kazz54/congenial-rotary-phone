@@ -58,4 +58,5 @@ XRP inatumika kwenye bithaa zake ili kurahisisha ubadilishaji kati ya fedha ya a
 
 ### Ripple Kama Mtandao Hawala Wa Kidigitali 
 
-Ilikuelewa jinsi mfumo unavyo fanya kazi, zingatia muundo wa uhamishaji fedha pale ambapo pande zote mbili upande wa mwisho wa miamala yao wanatumia mtu wa tatu waliyo mpendelea kwa ajili ya kupokea fedha. Kwa wepesi. Ufanyaji kazi wa huduma za Ripple ni kama hawala wa kidigitali. Hawala ni njia isiyo rasmi ya kuhamisha fedha, hususani kuvusha mipakani. Bila kua na fedha za kiasili zozote zile zakuhamisha
+Ilikuelewa jinsi mfumo unavyo fanya kazi, zingatia muundo wa uhamishaji fedha pale ambapo pande zote mbili upande wa mwisho wa miamala yao wanatumia mtu wa tatu waliyo mpendelea kwa ajili ya kupokea fedha. 
+Kwa wepesi. Ufanyaji kazi wa huduma za Ripple ni kama hawala wa kidigitali. **Hawala** `ni njia isiyo rasmi ya kuhamisha fedha, hususani kuvusha mipakani. Bila kua na fedha za kiasili zozote zile zakuhamisha`.
