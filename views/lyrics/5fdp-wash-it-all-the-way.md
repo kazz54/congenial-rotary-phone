@@ -60,3 +60,32 @@ XRP inatumika kwenye bithaa zake ili kurahisisha ubadilishaji kati ya fedha ya a
 
 Ilikuelewa jinsi mfumo unavyo fanya kazi, zingatia muundo wa uhamishaji fedha pale ambapo pande zote mbili upande wa mwisho wa miamala yao wanatumia mtu wa tatu waliyo mpendelea kwa ajili ya kupokea fedha. 
 Kwa wepesi. Ufanyaji kazi wa huduma za Ripple ni kama hawala wa kidigitali. **Hawala** `ni njia isiyo rasmi ya kuhamisha fedha, hususani kuvusha mipakani. Bila kua na fedha za kiasili zozote zile zakuhamisha`.
+
+Tusema Lusekelo anataka kutuma Tsh10,000
+Kwa Masawe ambaye anaishi mji mwingine. Lusekelo atatoa hizo fedha zinazo takiwa zimfikie Masawe kupitia wakala wake Bupe. 
+Lusekelo pia ata toa nenosiri "password" ambayo Masawe atatakiwa kujibu kwa usahihi ili kuweze kupokea hizo fedha kwenye mji wake. 
+Bupe atamtaarifu wakala wa Masawe, Manka, kuhusiana na taarifa za muamala kwa undani ikijumlisha vitu kama vile 
+risiti, kiasi cha fedha kinacho takiwa kulipwa, na nenosiri. 
+Kama Masawe akijibu nenosiri lilo sahihi kwa Manka, Manka atampatia Tsh 10,000.
+
+Hata hivyo, fedha zinatoka kwenye account ya Manka inamanisha Bupe anadaiwa na Manka Tsh 10,000 
+(ambayo italipwa badaye) Manka anaweza kuweka taarifa kwenye kitabu cha journal au madeni 
+kwa kuorothesha madeni yote ambayo Bupe atatakiwa kulipa katika kipindi watakacho kuwa wamekubaliana.
+
+Au wa hesabiane miamala ambayo italeta usawa kwenye deni. 
+Mfn kama Manka angekuwa ni wakala wa Shayo na Shayo anahitaji kutuma kiasi cha 
+Tsh10,000 kwa Mwaki ambaye wakala wake ni Bupe 
+hii itaweka sawa kwa kufuta lile deni la Tsh 10, 000 
+kwa Manka kwa sababu Mwaki atalipwa kutoka kwenye account ya Bupe. 
+
+Ingawaji mtandao wa **Ripple** ni changamano kuliko mfano huu unaonyesha 
+kwa juu juu jinsi ambanyo mtandao wa **Ripple** unavyo fanya kazi. 
+Kutoka kwenye huo mfano hapo juu, 
+unaweza kuona kwamba uwaminifu unahitajika ilikuweza 
+kufanya miamala uaminifu kati ya Lusekelo na Bupe, Bupe na Manka, na Masawe na Manka.
+
+## Fedha za kidigitali za Ripple XRP 
+
+Fedha za kidigitali za **Ripple**, zinakuwa kama daraja kwa fedha zingine. Haibagui kati ya fedha zozote zile za fiat/na zakidigital, 
+na hii hurahisisha ubadilishaji wa fedha zozote zile kwa nyingine. 
+Fedha yoyote ile kwenye mfumo wa ikolojia una lango lake -- mfn **CADBluzelle (Canadian dollars — CAD)**, **BTCbitstamp (BTC)**, na **USDsnapswap (US $)**.
