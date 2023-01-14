@@ -6,7 +6,7 @@ tags      : ["metal", "2010s"]
 
 ---
   
-### Je mtandao wa **SWIFT** unaweza kuwa na mshindani mkubwa ambaye ni **Ripple**? 
+### Je mtandao wa **Ripple** unaweza kuwa na ushindani mkubwa thidi ya **SWIFT**? 
 
 
 Huku **SWIFT** ikichukua saa (au hata siku) kufuta muamala, 
