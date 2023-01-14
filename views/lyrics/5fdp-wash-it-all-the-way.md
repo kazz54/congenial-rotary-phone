@@ -6,7 +6,7 @@ tags      : ["metal", "2010s"]
 
 ---
   
-## Je mtandao wa **SWIFT** unaweza kuwa na mshindani mkubwa ambaye ni **Ripple**? 
+### Je mtandao wa **SWIFT** unaweza kuwa na mshindani mkubwa ambaye ni **Ripple**? 
 
 
 Huku **SWIFT** ikichukua saa (au hata siku) kufuta muamala, 
@@ -52,4 +52,10 @@ Mfumo wa malipo wa Ripple unakusudiwa kutumiwa hasa na benki lakini wawekezaji b
 ## Ndani ya Ripple 
 *ielewe Ripple*
 
- Ripple inafanya kazi katika mazingira ambayo chazo chake cha code kipo wazi "open-source" na jukwaa la rika-kwa-rika "peer-to-peer" lilo gatuliwa inaruhusu uhamishaji wa fedha zozete na hali yoyote, iwe ni yen, dollar, euro au fedha za kidigitali kama vile litecoin au bitcoin. Ripple ni mtandao wa malipo wa kimataifa na unahusisha mabank makubwa na taasisi za kifedha kama miongoni mwa wateja wake. XRP inatumika kwenye bithaa zake ili kurahisisha ubadilishaji kati ya fedha ya aina moja na nyingine
+Ripple inafanya kazi katika mazingira ambayo chazo chake cha code kipo wazi "open-source" na jukwaa la rika-kwa-rika "peer-to-peer" lilo gatuliwa inaruhusu uhamishaji wa fedha zozete na hali yoyote, iwe ni yen, dollar, euro au fedha za kidigitali kama vile litecoin au bitcoin. 
+Ripple ni mtandao wa malipo wa kimataifa na unahusisha mabenki makubwa na taasisi za kifedha kama miongoni mwa wateja wake. 
+XRP inatumika kwenye bithaa zake ili kurahisisha ubadilishaji kati ya fedha ya aina moja na nyingine
+
+### Ripple Kama Mtandao Hawala Wa Kidigitali 
+
+Ilikuelewa jinsi mfumo unavyo fanya kazi, zingatia muundo wa uhamishaji fedha pale ambapo pande zote mbili upande wa mwisho wa miamala yao wanatumia mtu wa tatu waliyo mpendelea kwa ajili ya kupokea fedha. Kwa wepesi. Ufanyaji kazi wa huduma za Ripple ni kama hawala wa kidigitali. Hawala ni njia isiyo rasmi ya kuhamisha fedha, hususani kuvusha mipakani. Bila kua na fedha za kiasili zozote zile zakuhamisha
