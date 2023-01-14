@@ -26,7 +26,7 @@ Ni kujibu hilo swali kwa kuangalia **Ripple** ni nini na inafanya vipi kazi.
 
 **Ripple** ni mtandao na itifaki ya malipo ya kidigitali inayo tokana na teknologia ya **blockchain** ikiwa na fedha zake za kidigitali, **XRP**. 
 Mchakato mkubwa wa **Ripple** ni kwenye kukamilisha malipo, kubadilisha mali na mfumo wa utumaji pesa, 
-kama kwenye mfumo wa **SWIFT** kwa ajili ya kutuma fedha kwa usalama kimataifa, ambao hutumiwa na mabank pamoja na watu wakati au vyombo vingine vya fedha vinavyo jihusisha na fedha tofauti tofauti.
+kama kwenye mfumo wa **SWIFT** kwa ajili ya kutuma fedha kwa usalama kimataifa, ambao hutumiwa na mabenki pamoja na watu wakati au vyombo vingine vya fedha vinavyo jihusisha na fedha tofauti tofauti.
 
 
 Token kuu ya fedha za kidigitali inayo tumika ni ile yenye alama ya **XRP**. 
@@ -78,7 +78,7 @@ Tsh10,000 kwa Mwaki ambaye wakala wake ni Bupe
 hii itaweka sawa kwa kufuta lile deni la Tsh 10, 000 
 kwa Manka kwa sababu Mwaki atalipwa kutoka kwenye account ya Bupe. 
 
-Ingawaji mtandao wa **Ripple** ni changamano kuliko mfano huu unaonyesha 
+Ingawaji mtandao wa **Ripple** ni changamano kuliko mfano huu, mfano huu bado unaonyesha 
 kwa juu juu jinsi ambanyo mtandao wa **Ripple** unavyo fanya kazi. 
 Kutoka kwenye huo mfano hapo juu, 
 unaweza kuona kwamba uwaminifu unahitajika ilikuweza 
