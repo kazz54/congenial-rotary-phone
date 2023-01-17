@@ -89,3 +89,13 @@ kufanya miamala uaminifu kati ya Lusekelo na Bupe, Bupe na Manka, na Masawe na M
 Fedha za kidigitali za **Ripple**, zinakuwa kama daraja kwa fedha zingine. Haibagui kati ya fedha zozote zile za fiat/na zakidigital, 
 na hii hurahisisha ubadilishaji wa fedha zozote zile kwa nyingine. 
 Fedha yoyote ile kwenye mfumo wa ikolojia una lango lake -- mfn **CADBluzelle (Canadian dollars — CAD)**, **BTCbitstamp (BTC)**, na **USDsnapswap (US $)**.
+
+Kama Masawe anahitaji bitcoins kama malipo kutoka kwa huduma inayo tolewa na Lusekelo. 
+Lusekelo hatakiwi kuwa ana miliki kiasi chochote kile cha bitcoin. Ana weza kutuma malipo kupitia mlango wake na Masawe akapokea bitcoin kwenye mlango wake. 
+Mlango moja hauhitajiki kuanzisha kiukamilifu muamala; Milango mingi inaweza kutumika, nakuunda mnyororo wa uaminifu kwa watumiaji wote.
+
+
+Ushikiliaji wa fedha kwenye lango ni hatari
+Kwani wahusika wa muamala wanaweza kukiuka wajibu wao wa kimkataba. "counterparty risk" kitu ambacho kipo kwenye mabank ya asili. Kama lango haliheshimu dhima yake, mtumiaji anaweza kupoteza thamani ya fedha ambazo zimeshikiliwa na lango. Watumiaji ambao hawana imani na lango wanaweza kuhamisha shughuli zao kwenye lango jingine wanalo liamini ambayo nayo inahusika na "wasioaminika"
+Kwa njia hii IOU itatekelezwa kupitia lango linaloaminika, au lango lililoidhinishwa na kustahili mikopo.
+Hatari ya ukiukaji wajibu wao wa kimkataba. "counterparty risk" haipo kwenye bitcoins (na altcoins nyingi) kwa sababu bitcoin ya mtumiaji sio IOU au dhima ya mtumiaji mwingine.
