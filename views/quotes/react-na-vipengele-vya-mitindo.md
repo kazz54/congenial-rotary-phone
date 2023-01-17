@@ -6,7 +6,7 @@ tags      : ['react', 'javaScript']
 ---
 
 ## React na vipengele vya mitindo
-![img](https://i.ibb.co/CsTvW74/Polish-20230117-161813754.png)
+![img](https://i.ibb.co/W349vsS/react-na-mitindo.png)
 Kwenye Makala haya nitakumbeza hatuwa kwa hatuwa tukitengeneza webapp pamoja, haitakua chochote ila **theme** siyo template nimesema **theme**. Kwa lengo la kujifuza **react** na **vifaa vya mitindo**. 
 
 **Theme** hii imelenga kufanya kazi kwenye vifaa vya mikononi **"Mobile first"**, kama fursa kwako kujifunza ningeshauri uchukue hatua moja mbele baada ya kutengeneza **Theme** hii, irekebishe kidogo ili iweze
