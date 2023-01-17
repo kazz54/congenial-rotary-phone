@@ -103,4 +103,31 @@ Hatari ya ukiukaji wajibu wao wa kimkataba. "**counterparty risk**" haipo kwenye
 
 Wa wekezaji na watumiaji wa Ripple inapaswa kufahamu kuwa ni lengo la 
 Kesi ya Tume (SEC) iliyoanza Desemba 2020. Shirika hilo linaishtaki kampuni hiyo na watendaji wake wakuu wawili kwa madai ya kutoa na kuuza dola bilioni 1.3 kwa dhamana zisizo na leseni kwa njia ya sarafu ya crypto ya XRP. SEC inasisitiza kuwa XRP inahesabiwa kama usalama na, kwa hivyo, SEC inaruhusiwa kuidhibiti.
-Ripple anasema sivyo ilivyo, kwani XRP badala yake ni njia ya kubadilishana, sarafu pepe inayotumika kufanya miamala ya kimataifa na ya ndani. Kesi ya SEC dhidi ya Ripple inaweza kumalizika mnamo 2023
+Ripple anasema sivyo ilivyo, kwani XRP badala yake ni njia ya kubadilishana, 
+sarafu pepe inayotumika kufanya miamala ya kimataifa na ya ndani. 
+Kesi ya SEC dhidi ya Ripple inaweza kumalizika mnamo 2023
+
+## Jinsi Ripple Inavyofanya Kazi
+
+Mtandao wa Ripple hauendeshwi na mfumo wa uthibitisho wa kazi (PoW) kama bitcoin au mfumo wa uthibitisho wa hisa (PoS) kama vile Nxt. 
+Badala yake, shughuli za malipo hutegemea itifaki ya makubaliano ili kuthibitisha salio la akaunti na miamala kwenye mfumo. 
+Makubaliano yanafanya kazi ili kuboresha uadilifu wa mfumo kwa kuzuia matumizi ya mara mbili.
+
+Ripple hufuatilia **IOU** zote katika sarafu fulani kwa mtumiaji au lango lolote. 
+Salio la **IOU** na mtiririko wa miamala unaotokea kati ya pochi/wallet za Ripple zinapatikana hadharani kwenye leja ya makubaliano ya Ripple. 
+ingawa historia ya miamala ya fedha inarekodiwa hadharani na kupatikana kwenye blockchain, data haizijaunganishwa na kitambulisho au akaunti ya mtu au biashara yoyote. 
+Hata hivyo, rekodi ya umma ya shughuli zote (yaani, blockchain) hufanya maelezo kuathiriwa na hatua za kufuta utambulisho.
+
+Mfumo wa malipo wa **Ripple** unakusudiwa kutumiwa na **benki**, ingawa **wawekezaji binafsi** wanaweza kukisia bei ya **XRP**.
+
+### Mazingatio Maalumu
+
+**Ripple** inaboresha baadhi ya vikwazo vinavyohusishwa na benki za asili. 
+Shughuli za malipo hutatuliwa ndani ya sekunde chache kwenye mtandao wa **Ripple** (ingawa mfumo huu unashughulikia mamilioni ya miamala mara kwa mara). 
+Hii ni tofauti na benki, ambayo inaweza kuchukua siku au wiki kadhaa kukamilisha **hauli ya kielektroniki** "wire transfer". 
+Ada ya kufanya miamala kwenye Ripple pia ni ndogo, na kiwango cha chini cha gharama ya ununuzi kinachohitajika kwa shughuli ya kawaida iliyowekwa ni 0.00001 XRP, 
+ikilinganishwa na ada kubwa zinazotozwa na benki kwa kufanya malipo ya mipakani.
+
+
+
+
