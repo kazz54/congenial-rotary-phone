@@ -7,7 +7,10 @@ tags      : ['react', 'javaScript']
 
 ## React na vipengele vya mitindo
 ![img](https://i.ibb.co/CsTvW74/Polish-20230117-161813754.png)
-Kwenye Makala haya nitakumbeza hatuwa kwa hatuwa tukitengeneza webapp pamoja, haitakua chochote ila **theme** siyo template nimesema **theme**. Unaweza [kuiona hapa](https://react-fetch-api-contentful.vercel.app/) chazo chake cha [kodi kipo hapa](https://github.com/devduara0/react-fetch-api-contentful). 
+Kwenye Makala haya nitakumbeza hatuwa kwa hatuwa tukitengeneza webapp pamoja, haitakua chochote ila **theme** siyo template nimesema **theme**. Kwa lengo la kujifuza **react** na **vifaa vya mitindo**. 
+
+**Theme** hii imelenga kufanya kazi kwenye vifaa vya mikononi **"Mobile first"**, kama fursa kwako kujifunza ningeshauri uchukue hatua moja mbele baada ya kutengeneza **Theme** hii, irekebishe kidogo ili iweze
+kufanya kazi vizuri kwenye **Desktop** vile vile. [kuiona hapa](https://react-fetch-api-contentful.vercel.app/) chazo chake cha [kodi kipo hapa](https://github.com/devduara0/react-fetch-api-contentful). 
 <!--more-->
 Tutakayo yapitia
 
@@ -1073,6 +1076,8 @@ Sasa nenda hadi vercel kuangalia DOM inaleta nini na muonekano na mwingiliano na
 Chazo cha kodi hadi hapa kinapatikana hapa kama [CH3](https://github.com/devduara0/react-fetch-api-contentful/tree/CH3)
 
 Kwa yote na yote niwakati wako waku jipima safari ilikuwaje kwa kuweka footer kutokea contentful hadi kwenye DOM umejaa mbinu na maujanja ambayo yatakuwezesha katika kazi hiyo na kama utakwama kwa namna yoyote ile na zoezi hilo kumbuka chazo cha code mwisho wa application kipo hapa kama [CH4](https://github.com/devduara0/react-fetch-api-contentful/tree/CH4)
+
+`Kama sehemu yakujipima jaribu kuboresha muonekana wa hii theme kwenye Desktop`
 
 ## Hitimisho<a name="p14"></a>
 
