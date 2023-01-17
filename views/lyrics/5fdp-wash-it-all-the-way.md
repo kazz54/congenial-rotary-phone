@@ -96,6 +96,11 @@ Mlango moja hauhitajiki kuanzisha kiukamilifu muamala; Milango mingi inaweza kut
 
 
 Ushikiliaji wa fedha kwenye lango ni hatari
-Kwani wahusika wa muamala wanaweza kukiuka wajibu wao wa kimkataba. "counterparty risk" kitu ambacho kipo kwenye mabank ya asili. Kama lango haliheshimu dhima yake, mtumiaji anaweza kupoteza thamani ya fedha ambazo zimeshikiliwa na lango. Watumiaji ambao hawana imani na lango wanaweza kuhamisha shughuli zao kwenye lango jingine wanalo liamini ambayo nayo inahusika na "wasioaminika"
-Kwa njia hii IOU itatekelezwa kupitia lango linaloaminika, au lango lililoidhinishwa na kustahili mikopo.
-Hatari ya ukiukaji wajibu wao wa kimkataba. "counterparty risk" haipo kwenye bitcoins (na altcoins nyingi) kwa sababu bitcoin ya mtumiaji sio IOU au dhima ya mtumiaji mwingine.
+Kwani wahusika wa muamala wanaweza kukiuka wajibu wao wa kimkataba. "**counterparty risk**" kitu ambacho kipo kwenye mabenki ya asili. Kama lango haliheshimu dhima yake, mtumiaji anaweza kupoteza thamani ya fedha ambazo zimeshikiliwa na lango. 
+Watumiaji ambao hawana imani na lango wanaweza kuhamisha shughuli zao kwenye lango jingine wanalo liamini ambayo nayo inahusika na "**wasioaminika**"
+Kwa njia hii **IOU** itatekelezwa kupitia lango linaloaminika, au lango lililoidhinishwa na kustahili mikopo.
+Hatari ya ukiukaji wajibu wao wa kimkataba. "**counterparty risk**" haipo kwenye bitcoins (na altcoins nyingi) kwa sababu bitcoin ya mtumiaji sio IOU au dhima ya mtumiaji mwingine.
+
+Wa wekezaji na watumiaji wa Ripple inapaswa kufahamu kuwa ni lengo la 
+Kesi ya Tume (SEC) iliyoanza Desemba 2020. Shirika hilo linaishtaki kampuni hiyo na watendaji wake wakuu wawili kwa madai ya kutoa na kuuza dola bilioni 1.3 kwa dhamana zisizo na leseni kwa njia ya sarafu ya crypto ya XRP. SEC inasisitiza kuwa XRP inahesabiwa kama usalama na, kwa hivyo, SEC inaruhusiwa kuidhibiti.
+Ripple anasema sivyo ilivyo, kwani XRP badala yake ni njia ya kubadilishana, sarafu pepe inayotumika kufanya miamala ya kimataifa na ya ndani. Kesi ya SEC dhidi ya Ripple inaweza kumalizika mnamo 2023
