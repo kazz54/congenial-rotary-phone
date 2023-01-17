@@ -130,4 +130,5 @@ ikilinganishwa na ada kubwa zinazotozwa na benki kwa kufanya malipo ya mipakani.
 
 
 
+Kufikia mwishoni mwa Agosti 2022, XRP moja ina thamani ya takriban $33.75, na Ripple ilikuwa sarafu ya saba kwa ukubwa katika fedha za kidigitali ikiwa na soko la zaidi ya $16.6 bilioni.
 
