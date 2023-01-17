@@ -2,7 +2,7 @@
 layout    : post
 title     : 5FDP - Wash It All The Way
 date      : 2023-01-14 07:35:05
-tags      : ["metal", "2010s"]
+tags      : ["ripple", "uchumi"]
 
 ---
   
