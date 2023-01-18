@@ -6,7 +6,7 @@ tags      : ['mkopo', 'uchumi']
 ---
 
 
-## Utofauti kati ya Credit Cards na Debit Cards: Kwa juu juu
+
 
 ![credit card](https://i.ibb.co/1sGt074/creditcard.jpg)
 
