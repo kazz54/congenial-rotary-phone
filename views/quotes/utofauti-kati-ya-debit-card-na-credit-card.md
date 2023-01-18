@@ -5,11 +5,13 @@ date      : 2023-01-04 11:35:15
 tags      : ['mkopo', 'uchumi']
 ---
 
-You had me at Hello.
+
+## Utofauti kati ya Credit Cards na Debit Cards: Kwa juu juu
+
+![credit card](https://i.ibb.co/1sGt074/creditcard.jpg)
 
 <!--more-->
 
-## Utofauti kati ya Credit Cards na Debit Cards: Kwa juu juu
 
 Credit cards na debit cards kwa msingi zina funana, zikiwa ni card zenye digit 16 za namba, 
 tarehe ya kwisha mdaa wa matumizi, kifaa chenye smaku, na chip za EMV. 
