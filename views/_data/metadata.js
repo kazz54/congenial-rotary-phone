@@ -15,9 +15,7 @@ module.exports = {
   "opengraph": {
     "languageCode" : "en-us",
     "image"        : "/assets/images/logo-gear-opengraph.png",
-    "postimage"    : "/assets/images/authors/broken-person.png",
-    "latitude"     : "-6.193665",
-    "longitude"    : "106.848558",
+    "postimage"    : "/assets/images/authors/devduara0.jpeg",
     "locality"     : "Dar es salaam",
     "countryName"  : "Tanzania"
   },
