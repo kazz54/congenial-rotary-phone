@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : 5FDP - Wash It All The Way
+title     : Ripple ni nini na jinsi inavyo fanya kazi 
 date      : 2023-01-14 07:35:05
 tags      : ["ripple", "uchumi"]
 
