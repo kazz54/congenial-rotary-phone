@@ -97,11 +97,11 @@ body {
 
 @media screen and (min-width: 769px), print {
   li.icon-previous a:after {
-    content: " Previous";
+    content: " Iliyotangulia";
   }
 
   li.icon-next a:before {
-    content: "Nyingine ";
+    content: "Ifuatayo";
   }
 
   li.icon-first a:after {
@@ -336,11 +336,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a.post-previous:after {
-  content: " Previous";
+  content: " Iliyotangulia";
 }
 
 a.post-next:before {
-  content: "Nyingine ";
+  content: "Ifuatayo";
 }
 
 a.post-previous:hover,
