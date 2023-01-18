@@ -2,7 +2,7 @@ module.exports = {
   "title" : "Jarida la tekinologoi.!",
   "author": "admin",
   "email" : "admin.devduara0@gmail.com",
-  "site"  : "https://eleventy-step.netlify.com",
+  "site"  : "https://congenial-rotary-phone-psi.vercel.app",
   // https://www.webstoemp.com/blog/from-jekyll-to-eleventy/
   now     : new Date(),
   "feed": {
