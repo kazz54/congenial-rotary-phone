@@ -1,7 +1,7 @@
 {
   "name": "devdora0-blog",
   "version": "5.0.1",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "description": "Makala, Habari na Dondoo za Teknologia .",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -12,8 +12,8 @@
     "url": "git://github.com/11ty/eleventy-base-blog.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
+    "name": "Jonathan Mrutu",
+    "email": "jonathan.mrutu@gmail.com",
     "url": "https://zachleat.com/"
   },
   "license": "MIT",
