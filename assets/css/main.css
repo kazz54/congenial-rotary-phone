@@ -101,7 +101,7 @@ body {
   }
 
   li.icon-next a:before {
-    content: "Next ";
+    content: "Nyingine ";
   }
 
   li.icon-first a:after {
@@ -340,7 +340,7 @@ a.post-previous:after {
 }
 
 a.post-next:before {
-  content: "Next ";
+  content: "Nyingine ";
 }
 
 a.post-previous:hover,
