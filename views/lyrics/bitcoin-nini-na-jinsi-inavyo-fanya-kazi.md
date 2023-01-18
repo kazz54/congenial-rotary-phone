@@ -5,7 +5,7 @@ date      : 2022-12-12 10:35:05
 tags      : ["bitcoin", "uchumi"]
 ---
 
-
+![Bitcoin](https://i.ibb.co/Vjgwj6h/bitcoin.jpg)
 
 Kama kichwa cha habari kinavyo jielezea makala haya lengo laka ni kutambulisha kwako juu ya tekinologia ya **fetha za kidigitali** ijulikanayo kama **Bitcoin** tukiangaliya history yake najinsi ilivyo badili ulimwengu wa uchumi na wala siyo kushawishi au kufundisha juu ya uwekezaji kwenye tekinologia hii.
 
