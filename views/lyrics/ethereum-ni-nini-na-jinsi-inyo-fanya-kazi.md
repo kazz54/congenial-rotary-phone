@@ -12,7 +12,7 @@ author    : admin
 
   ![ethereum](https://i.ibb.co/XYWg91d/ethereum.jpg)
   Tukiondoa fedha za kidigitali Ubunifu mwingine ulio tapakaa ni mikataba janja "smart contracts" ambayo inafanya kazi na teknologia ya blockchain. Zina punguza kwa kiwango kikubwa kufanya kazi na makaratasi na zaidi zinasababisha uhakika na kuaminika kwa mikataba na shughuli zisizo za kuaminika kati ya pande mbili zinazo husika.
-
+!--more-->
 *Kila kitu unacho taka kujua kuhusu ethereum smart contract* 
 
 ## Yaliyomo:
