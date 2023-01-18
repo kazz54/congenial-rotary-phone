@@ -11,14 +11,14 @@
       <a class="button is-small pagination-previous post-previous"
          href="{{ post.data.previous.url | url }}"
          title="{{ post.data.previous.title }}">
-        <span class="fas fa-chevron-left"></span>&nbsp;&nbsp;</a>
+        <span class="fas fa-chevron-left"></span>test;</a>
     {% endif %}
 
     {% if post.data.next %}
       <a class="button is-small pagination-next post-next"
          href="{{ post.data.next.url | url }}" 
          title="{{ post.data.next.title }}">&nbsp;&nbsp;
-        </a>
+        <span class="fas fa-chevron-right"></span></a>
     {% endif %}
 </nav>
 
