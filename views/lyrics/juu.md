@@ -379,8 +379,33 @@ return str(self.title)
 ```
 Mpaka hapa tulipofikia, umekwisha pata picha zuri ya **model** na **fields** pamoja na aina mbali mbali ya data ambazo zipo kwenye field. 
 
-kwenye **model** ya post **fields** za *author*, *categories* pamoja na ya *likes* ndiyo zinaweza kidogo zikakuchanganya 
+kwenye **model** ya `post` **fields** za `author`, `categories` pamoja na ya `likes` ndiyo zinaweza kidogo zikakuchanganya 
 kwa sababu aina ya data zilizokuwepo kwenyo hizo **field** nitofauti na field zingine tulizo ziangalia hebu tuangalie moja bada ya nyingine 
 tukiaza na field ya **author**
 
+**field** ya **`author`** ni **`ForeignKey`** kwasabu ni kiungo na **model** nyingine ambayo ni **`User`** ambayo ina toka kwenye maktaba za **`setting`** ambazo tulisha ziingiza hapo awali kwakutumia **`import`**. 
+Na ndiyo mana tume tumia **`on_delete=models.CASCADE`** ili endapo mtumiaji amefutwa basi na post zake zifute/delete kwa sababu kiungo hakipo.
 
+Kwenye field ya **categories** ambayo aina yake ni **`ManyToManyField`** kwa jili ya kua kiungo na **modole** ya **`Category`** tunataka post nyingi kenye Category na **`Category`**nyingi kwenye post.
+
+Na hiyo ya **likes** nayo ni kama ya **categories** hapa utofauti tume 
+tumia **`User`**, kwasababu tunataka user wengi wa weze kupenda post nyingi.
+
+Kwa maelekezo hayo basi nirahisi kuangalia **Model** hii ya **Comment** na uka 
+elewe kwa urahisi kabisa nini kinaendele. 
+
+```shell
+class Comment(models.Model):
+post = models.ForeignKey('Post', on_delete=models.CASCADE, related_name='comments')
+user = models.CharField(max_length=200)
+text = models.TextField()
+created_date = models.DateTimeField(default=timezone.now)
+approved_comment = models.BooleanField(default=False)
+
+def approve(self):
+self.approved_comment = True
+self.save()
+
+def __str__(self):
+return self.text
+```
