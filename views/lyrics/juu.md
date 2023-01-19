@@ -64,6 +64,48 @@ hiyo "**`Python 3.6.9`**" ndiyo version ya **python** ambayo iko kwenye machine 
 inamaana nina uwezo wakusoma na kuandika program kwa kutumia lugha ya **python**.
 
 
+__Andaa mazingira ya kuhifadhi app yako.__
+
+ili kuweka mpangilio mzuri wa mafaili nita tengeneza directory ambapo project yangu itakaa na nitaita **shambablog** na zaidi ya hapo nita tengeneza **virtual eviroment** ambayo nitaita **venv** ndani ya hiyo directory, nahii inamanisha kwamba namega kipande kidogo cha opareting system kwa jili ya hii amplication.
+
+mahali ambapo app yangu itakaa
+
+{% highlight "shell" %}
+
+mkdir -p projects/shambablog
+
+cd projects/shambablog/
+
+{% endhighlight %}
+
+
+ili kuweza kutengeneza au kuanzisha **virtual environment** inatubidi tuwe na kifurushi kwajili ya **virtual environment** 
+inategemea unaweza ukawa tayari unacho kifurushi cha **virtual environment** lakini kama huna una install kama hivi
+
+{% highlight "shell" %}
+
+apt-get install python3-venv
+
+{% endhighlight %}
+
+na tengeneza **virtual environment**, naita **venv** unaweza ukaita vyoyete vile
+
+{% highlight "shell" %}
+
+python3 -m venv venv
+
+{% endhighlight %}
+
+activate **virtual environment**
+
+{% highlight "shell" %}
+
+source venv/bin/activate
+
+{% endhighlight %}
+
+kuazia sasa **vifurushi** **"package"**​ zote za **python** tutakazo install na kuzifanyia kazi zitakua mahususi kwajili ya mazingira/environment hii **venv** 
+
 
 {% highlight "python" %}
 # Application definition
