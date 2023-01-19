@@ -112,7 +112,7 @@ kuvifanyia kazi vitakua mahususi kwajili ya mazingira/environment hii **venv**
 
 
 
-## Instalation Ya Mfumo wa Django
+### Installation Ya Mfumo wa Django
 
 nita install framework ya **Django** version **`3.0.10`** kwama wakati na andaa makala haya
 
