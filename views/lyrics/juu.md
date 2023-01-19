@@ -210,14 +210,8 @@ pip3 install pillow
 {% endhighlight %}
 
 
-Sasa tutarudi kwenye faili letu la `settings.py` kwajili ya kuifahamisha **django** uwepo wa app ya **blog** 
-pamoja na setting zingine kama vile mdaa na wapi tuna kusudia kuhifadhi mafaili fungua `settings.py` kwa kufanya hivi
 
-{% highlight "python" %}
 
-pip3 install pillow
-
-{% endhighlight %}
 
 
 Sasa tutarudi kwenye faili letu la `settings.py` kwajili ya kuifahamisha **django** uwepo wa app ya **blog** pamoja na setting zingine 
@@ -248,3 +242,20 @@ INSTALLED_APPS = [
 **Django** nnje ya boksi ina tegemea kukuta mafaili ya **html** ndani ya directory ya app 
 kwa mantiki hiyo **django** inatarajia kuona **`blog/templates`** alafu **templates** mfn **`index.html`** nk, 
 mimi nita badilisha huo mtazamo kwa kuitoa `templates directory` nje na kuiweka juu kwa kufanya hivi 
+
+{% highlight "python" %}
+
+'DIRS': [os.path.join(BASE_DIR, 'templates')],
+{% endhighlight %}
+
+undoa neno **`UTC`** badala yake weka
+
+{% highlight "python" %}
+
+TIME_ZONE = 'Africa/Dar_es_Salaam'
+{% endhighlight %}
+
+App yetu itakua ina mafaili mbali mbali kamavile `picha`, `css`, `javascript` nk
+**django** tayari inakuja ikiwa imewezeshwa kutoa huduma ya haya mafaili pale inapohitajika kama ukiangalia hapo kwenye 
+**`INSTALLED_APPS`** utaona **`django.contrib.staticfiles`** hiyo ndiyo app inayo tuwezesha tunacho takiwa sisi kufanya 
+nikuonyesha tu wapi hayo mafaili kwenye app yetu yanapatika kwa hiyo badili na iwe hivi.
