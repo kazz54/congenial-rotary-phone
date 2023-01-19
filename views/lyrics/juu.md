@@ -334,3 +334,16 @@ Nimeaza nakuingiza maktaba mbali mbali ambazo nita zitumia,
 kwakutumia neno **`import`**
 
 
+**`class Subscriber(models.Model)`**: huu mstari una onyesha **model** yetu ni **kitu** 
+
+**`class`** **"darasa"** ni neno maalumu ambalo lina ashiria kwamba tunatengeneza **kitu**
+
+neno **`Subscriber`** hili ni jina la **model** yetu tunge weza kuita jinalolote lile lakini inabidi kua makini nakuto tumia tarakimu malumu na kutoacha nafasi.
+
+neno **`models.Model`** inamanisha kwamba **Subscriber** ni **Django** model kwa hiyo **Django** inafahamu jinsi ya kuhifadhi kwenye **hifadhidata**
+
+Na endelea na kuonyesha fields zinazo tengeneza **model** ya **Subscriber** ikiwa ni **`email`** pamoja na **`timestamp`** hizi ndiyo filds zikatazo tengeneza **model** yangu, 
+
+chamsingi ni ku zipatia aina hizi field ambapo kwenye **Email** aina niliyo toa kwenye hiyo **field** ni **`EmailField`** na neno **`unique=True`** nikatika hali ya kuhakisha kwamba baruapepe hazijirudii.
+
+
