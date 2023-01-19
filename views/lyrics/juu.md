@@ -52,11 +52,29 @@ na ukafikia lengo hata kama uko kwenye Operating System tofauti na ya kwangu jam
 
 __Anzaa na kuangalia kama una python.__
 
+{% highlight "python" %}
 
 python -V
 Python 3.6.9
+
+{% endhighlight %}
+
 
 hiyo "**`Python 3.6.9`**" ndiyo version ya **python** ambayo iko kwenye machine yangu
 inamaana nina uwezo wakusoma na kuandika program kwa kutumia lugha ya **python**.
 
 
+
+{% highlight "python" %}
+# Application definition
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'accounts',
+]
+{% endhighlight %}
