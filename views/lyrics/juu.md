@@ -285,12 +285,52 @@ mkdir media
 mkdir templates
 {% endhighlight %}
 
+### Django model
+
 Sasa tupo tayari kuandika program kwa ajili ya **kitu (object)**, 
-swali ni kwamba **kitu** che nyewe ni nini? na jibu ni **post** kwenye hii app tunataka watumiaji wa app waweze kuandika na kuchapisha makala yao online. 
-Sasa hizo post**(kitu)** zinasifagani? kabla sija jibu hili swali hebu tuangalie mfano wa **kitu** kingine ambacho wewe na mimi tunakijua na **kitu** 
-hicho siyo kingine bali ni **kitabu**, **kitabu** kwa haraka haraka kina sifa zifutazo `jarida, kichwa cha habari, jina la kitabu, mtunzi mwaka kiliyo chapisha orotha ya sura mbali mbali nk` 
+swali ni kwamba **kitu** che nyewe ni nini? na jibu ni **post** / **"makala"** kwenye hii app tunataka watumiaji wa app waweze kuandika na kuchapisha **makala** yao online. 
+Sasa hizo post "makala" **(kitu)** zinasifagani? kabla sija jibu hili swali hebu tuangalie mfano wa **kitu** kingine ambacho wewe na mimi tunakijua na **kitu** 
+hicho siyo kingine bali ni **kitabu**, `kitabu` kwa haraka haraka kina sifa zifutazo `jarida, kichwa cha habari, jina la kitabu, mtunzi mwaka kiliyo chapisha orotha ya sura mbali mbali nk` 
 tukiwa bado tuna twasira ya kitabu hebu tuangalie kwenye **post** ambazo watumiaji wetu watakua wanaandika zitakua zina undwa na nini? `kichwa cha habari, jina la muandishi habari ye nyewe nk`, 
 aha kwa hiyo kama vitu kama hivyo ndiyo vinatupatia **kitu** ambacho tunakita **post** hebu tuangalie hivyo **vitu** vya hicho **kitu** **Post** tunawezaje kuviprogram kwa kutumia **python** 
 na mtindo wa ku program **kitu** kwa lugha nyingine **oop (object orieted programing)**. Bahatizuri **Django** anakitu ambacho kinaitwa `Model` 
 kita tusadia kuprogram **kitu**
+
+`Model` kwenye upande wa **Django** ni **kitu** cha namna ya kipekee kina hifadhiwa kwenye **hifadhidata/database** na **hifadhidata** ni mkusanyiko wa data hapa ndiyo sehemu ambayo utahifathi tarifa za watumiaji, posts nk...
+
+kama ukiangalia kwenye `settings.py` utaona kunatarifa za **hifadhidata**. 
+**Django** inkuja ikiwa imesha wezesha na `sqlite3` ambayo kwa mazingira ya maabara na majaribio inatosha lakini kama utahitaji kubadilisha 
+**hifadhidata** una weza kufanya hivyo ila mimi kwenye lab hii sitabadili nitaiyacha **sqlite3**. 
+
+Katika hali ya kawaida ili kutumia **meza** na **safu** za **hifadhidata** inabidi ku andike **SQL** command lakini kwa kutumia **Model** 
+hatu hitaji kufahamu **SQL** kwani **Django** inatumia **ORM** hii ina tuwezesha sisi kundika **madarasa** kwenye **python** 
+ambayo yanaendana na **safu** pamoja na **meza** za kwenye **hifadhidata** ukiwa unatumia **ORM** yale **madarasa** 
+unayo yatengeneza yanayo wakilisha **meza** za **hifadhidata** yanajulikana kama **Models** na kwenye **Django** hua yanaishi kwenye faili linalo julikana kama `models.py`
+
+{% highlight "shell" %}
+
+nano blog/models.py
+
+{% endhighlight %}
+
+Hapa sasa nitaanza kuonyesha `madarasa` yangu
+
+{% highlight "python" %}
+
+from django.conf import settings
+from django.db import models
+from django.utils import timezone
+User = settings.AUTH_USER_MODEL
+
+class Subscriber(models.Model):
+	email = models.EmailField(unique=True)
+	timestamp = models.DateTimeField(auto_now_add = True)
+
+	def __str__(self):
+		return self.email 
+{% endhighlight %}
+
+Nimeaza nakuingiza maktaba mbali mbali ambazo nita zitumia, 
+kwakutumia neno **`import`**
+
 
