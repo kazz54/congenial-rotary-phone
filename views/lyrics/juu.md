@@ -109,7 +109,49 @@ kuazia sasa **vifurushi** vyote vya **python** tutakavyo install na
 kuvifanyia kazi vitakua mahususi kwajili ya mazingira/environment hii **venv** 
 
 
+
+
+
+## Instalation Ya Mfumo wa Django
+
+nita install framework ya **Django** version **`3.0.10`** kwama wakati na andaa makala haya
+
+pip3 install Django==3.0.10
+
+Kama utahitaji kufanya installation ya version mpya zaidi utafanya hivi
+
 {% highlight "python" %}
+
+pip3 install Django
+
+{% endhighlight %}
+
+**Tengeneza project ya Django.**
+
+Nita tumia nyenzo inayo julikana kama `django-admin` kutengeneza hii project ambayo nita ita `habari_zashamba`. 
+nyezo hii inafanya kazi kwenye terminal na kazi yake hasa ni kurahisisha kazi za kitawala. 
+
+{% highlight "python" %}
+
+django-admin startproject habari_zashamba .
+
+{% endhighlight %}
+
+Ukiangalia mpangilio wa mafaili yako utakuta kitu kama hiki.
+
+```
+shambablog/
+│
+├── habari_zashamba/
+│ ├── __init__.py
+│ ├── settings.py
+│ ├── urls.py
+│ └── wsgi.py
+│
+├── venv/
+│
+└── manage.py
+```
 
 # Application definition
 
