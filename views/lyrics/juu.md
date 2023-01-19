@@ -435,6 +435,80 @@ blog/migrations/0001_initial.py
 
 ```
 
+Tumefanikiwa kuandika faili la **maigration** ambalo liko kwenye **`blog/migrations/0001_initial.py`** ili kuziweka hizo tarifa ambazo ziko kwenye faili la **migration** kwenye **hifadhidata** fanya hivi
+
+python3 manage.py migrate
+
+Sihaba kama unaona kitu kama hiki. 
+
+```shell
+Operations to perform:
+Apply all migrations: admin, auth, blog, contenttypes, sessions
+Running migrations:
+Applying contenttypes.0001_initial... OK
+Applying auth.0001_initial... OK
+Applying admin.0001_initial... OK
+Applying admin.0002_logentry_remove_auto_add... OK
+Applying admin.0003_logentry_add_action_flag_choices... OK
+Applying contenttypes.0002_remove_content_type_name... OK
+Applying auth.0002_alter_permission_name_max_length... OK
+Applying auth.0003_alter_user_email_max_length... OK
+Applying auth.0004_alter_user_username_opts... OK
+Applying auth.0005_alter_user_last_login_null... OK
+Applying auth.0006_require_contenttypes_0002... OK
+Applying auth.0007_alter_validators_add_error_messages... OK
+Applying auth.0008_alter_user_username_max_length... OK
+Applying auth.0009_alter_user_last_name_max_length... OK
+Applying auth.0010_alter_group_name_max_length... OK
+Applying auth.0011_update_proxy_permissions... OK
+Applying blog.0001_initial... OK
+Applying sessions.0001_initial... OK
+
+``` 
+Sasa **Model** zetu zipo kwenye **hifadhidata** inamanisha kwamba sasa tunaweza kuanza kuandika **post** "makala". 
+Naili kuweza kuandika hizo **post** inabidi kuingia kwenye webapp ya **Django** kama mtumiaji mwenye mamlaka ya **usimamizi** **"admin"**
 
 
+## Django Admin 
+wakati tuna tengeneza project tulitumia **`django-admin startproject`** hi inatuwezesha sisi kutumia **admin** moja kwa moja. tunacho takiwa kufanya ni kumtengeneza mtumiaji ambaye tuna mpa mamlaka ya **usimamizi**/**"admin"** kwa ku weka command hi kwenye terminal
+
+python3 manage.py createsuperuser
+
+```shell
+Username (leave blank to use 'root'): admin
+Email address: admin@internal.labnet
+Password:
+Password (again):
+Superuser created successfully.
+```
+Username hapo unaweza kuweka jina jingine lakini mimi nimeweka **admin** kwasababu ya kiwango 'standard' 
+
+sasa azisha webapp yako 
+
+```python
+python3 manage.py runserver 0.0.0.0:3000
+```
+Nadhani kitu chakwaza ulicho gundua nikwamba sasa hivi lile onyo la **migrations** halipo. Lakini cha msingi kabisa nataka uwende kwenye 
+kivinjari chako alafu ufungue http://ip:3000/admin utatakiwa kuweka jina la mtumiaji uliye mtengeneza hapo awali pamoja na nywila. Utakapo ingia utaona kitu kama hiki.
+
+![django-admin1](https://images.ctfassets.net/9heip63yijn8/2oa96DYXmNTHwevpSyp7O8/dba93eb615f5f1a6183831b7390aac87/2020-11-22_21_32_56-Site_administration___Django_site_admin_____Firefox_Developer_Edition.png) 
+Ili zile **Models** tulizo zitengeneza tuweze kuzitumia inabidi tuzi orotheshe hapa kwa kuziandikisha kwenye faili hili **`blog/admin.py`** hebu lifungue tuanze kuziandikisha hizi **Models**. 
+
+```shell
+nano blog/admin.py
+```
+
+```shell
+from django.contrib import admin
+from .models import Post,Subscriber,Category
+
+admin.site.register(Post)
+admin.site.register(Category)
+admin.site.register(Subscriber)
+```
+Kama ambavyo unaona tume agiza **'import'** **models** tunazo hitaji kutumia, alafu namalizia na kuziandikisha. Uki save faili lako alafu ukirudi kwenye http://ip:3000/admin uka refresh kivinjari chako bila shaka utaona kitu kama hiki
+![django-admin2](https://images.ctfassets.net/9heip63yijn8/4une6KKY4qROJGm7oBD2MT/dbc6422eebf25aaf80bfa851b5998ea8/2020-11-18_11_31_14-Site_administration___Django_site_admin_____Firefox_Developer_Edition.png)
+
+Endelea na Kutengeneza **categories** kama ifuatavyo: 
+![2020-11-18 11 39 11-Add category Django site admin ](https://images.ctfassets.net/9heip63yijn8/1RjWRIthx1gMTKJzemCMhd/163604f11292c1328c1915e704a49ec1/2020-11-18_11_39_11-Add_category___Django_site_admin_____Firefox_Developer_Edition.png)
 
