@@ -512,3 +512,67 @@ Kama ambavyo unaona tume agiza **'import'** **models** tunazo hitaji kutumia, al
 Endelea na Kutengeneza **categories** kama ifuatavyo: 
 ![2020-11-18 11 39 11-Add category Django site admin ](https://images.ctfassets.net/9heip63yijn8/1RjWRIthx1gMTKJzemCMhd/163604f11292c1328c1915e704a49ec1/2020-11-18_11_39_11-Add_category___Django_site_admin_____Firefox_Developer_Edition.png)
 
+
+Nita tengeneza jumla ya **categories** nne.
+![category to change Django site admin](https://images.ctfassets.net/9heip63yijn8/d9yBibli25BtVpUNLUMvt/1a4a81f3026af8be2fff770d0bd8bfdd/2020-11-18_11_40_08-Select_category_to_change___Django_site_admin_____Firefox_Developer_Edition.png)Tengeneza post, usijali kuhusu hiyo field ya **likes** kwa sasa 
+![Add post Django site admin](https://images.ctfassets.net/9heip63yijn8/5uRRMcfGIsnFAoGYBuo37F/9760345f172c15fb3b17fc7b94e6d3f7/2020-11-18_14_11_14-Add_post___Django_site_admin_____Firefox_Developer_Edition.png)
+Nime tengeneza jumla ya post tano, tatu nime zi publish mbili sija zi publish kwa lengo la kujifunza
+![2020-11-18 14 43 34-Select post to change Django site admin](https://images.ctfassets.net/9heip63yijn8/5VQdZ8kWx4pDHNmMIX1wm/492385ec8818268630dc187d022c4170/2020-11-18_14_43_34-Select_post_to_change___Django_site_admin_____Firefox_Developer_Edition.png)
+
+Kuna umhimu wa kuangaliya kwaundani jinsi ambavyo **Django** ina jiunganisha na kuhifadhi data kwenye **hifadhidata** ili kufikia lengo hilo 
+basi nilazima nikutambulishe kwenye **Kuulizaset**/**"QuerySet"**
+
+### Kuulizaset ni nini?
+
+**Kuulizaset** hasa kiini, ni orotha ya **vitu** kwenye **Model** husika, **kuulizaset** kuna turuhusu `kusoma`, `kuchuja` na `kupanga` data kwenye **hifadhidata**
+
+Nitaanza na kuanzisha **console** ya **Django** haina utofauti sana na ile ya **python** lakini hii inatupa nyenzo nyingi ambazo ni maksusi kwa **Django** kwenye terminal yako fanya hivi.
+
+```python 
+python3 manage.py shell
+```
+
+```shell
+Python 3.6.9 (default, Oct 8 2020, 12:12:24)
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> 
+```
+Sasa tunamwingiliano na **console** ya **Django**, kuthibitisha hilo nita agiza maktaba ya `models` ya `Post`.
+
+```python 
+from blog.models import Post 
+```
+
+Nita **ulizaset** kwaku orothesha **post** zote tulizotengeneza 
+
+```shell
+Post.objects.all()
+<QuerySet [<Post: Ufugaji wa n'gombe wa maziwa>, <Post: Ulimaji wa mboga mboga>, <Post: Ufugaji wa kuku>, <Post: Uwandaji wa shamba la mpunga kwa kutumia trector>, <Post: Matumizi ya dawa za ukulia wa dudu kwenye mashamba ya kahawa>]>
+```
+
+ilikutengeneza **post** mpaka sasa hivi nilazima uwe kama mtumiaji mwenye mamlaka ya **usimamizi**, nakuhusu **msimamizi** ndiyo mtumiaji pekee tuliye naye mpaka sasa hivi, mimi nili muita **"admin"** kuthibitisha hilo basi nita *soma* orotha ya watumiaji wote tuliyonao kwa kufanya hivi 
+```shell
+from django.contrib.auth.models import User
+
+User.objects.all()
+<QuerySet [<User: admin>]>
+```
+Ili niweze kumtumia huyu mtumiaji itabidi nitengeneze mfano wamtumiaji
+```
+mimi = User.objects.get(username='admin')
+```
+kuthibitisha kwamba sasa na mamlaka hayo nitatengeneza post moja kama mtumiaji
+```
+Post.objects.create(author=mimi, title='Ulimaji wa zabibu', text='Ulimaji wa kisasa wazabibu mkoani dodoma.')
+<Post: Ulimaji wa zabibu>
+```
+*Tuchuje* post tunazotaka zionekane mathalani tuorotheshe post ambazo kwenye kichwa cha habari 'title' kuna neno *ufugaji*
+```
+Post.objects.filter(title__contains='ufugaji')
+<QuerySet [<Post: Ufugaji wa n'gombe wa maziwa>, <Post: Ufugaji wa kuku>]>
+```
+
+
+
