@@ -539,7 +539,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 (InteractiveConsole)
 >>> 
 ```
-Sasa tunamwingiliano na **console** ya **Django**, kuthibitisha hilo nita agiza maktaba ya `models` ya `Post`.
+Sasa tunamwingiliano na **console** ya **Django**, kuthibitisha hilo nita agiza maktaba ya `models` **kitu** cha `Post`.
 
 ```python 
 from blog.models import Post 
@@ -552,27 +552,83 @@ Post.objects.all()
 <QuerySet [<Post: Ufugaji wa n'gombe wa maziwa>, <Post: Ulimaji wa mboga mboga>, <Post: Ufugaji wa kuku>, <Post: Uwandaji wa shamba la mpunga kwa kutumia trector>, <Post: Matumizi ya dawa za ukulia wa dudu kwenye mashamba ya kahawa>]>
 ```
 
-ilikutengeneza **post** mpaka sasa hivi nilazima uwe kama mtumiaji mwenye mamlaka ya **usimamizi**, nakuhusu **msimamizi** ndiyo mtumiaji pekee tuliye naye mpaka sasa hivi, mimi nili muita **"admin"** kuthibitisha hilo basi nita *soma* orotha ya watumiaji wote tuliyonao kwa kufanya hivi 
-```shell
+ilikutengeneza **post** mpaka sasa hivi nilazima uwe kama mtumiaji mwenye mamlaka ya `usimamizi`, nakuhusu `msimamizi` ndiyo mtumiaji pekee tuliye naye mpaka sasa hivi, mimi nili muita **"admin"** kuthibitisha hilo basi nita 
+`soma` orotha ya watumiaji wote tuliyonao kwa kufanya hivi 
+
+```python 
 from django.contrib.auth.models import User
 
 User.objects.all()
 <QuerySet [<User: admin>]>
 ```
-Ili niweze kumtumia huyu mtumiaji itabidi nitengeneze mfano wamtumiaji
-```
+Ili niweze kumtumia huyu `mtumiaji` itabidi nitengeneze mfano wa `mtumiaji`
+```python 
 mimi = User.objects.get(username='admin')
 ```
 kuthibitisha kwamba sasa na mamlaka hayo nitatengeneza post moja kama mtumiaji
-```
+```python 
 Post.objects.create(author=mimi, title='Ulimaji wa zabibu', text='Ulimaji wa kisasa wazabibu mkoani dodoma.')
 <Post: Ulimaji wa zabibu>
 ```
-*Tuchuje* post tunazotaka zionekane mathalani tuorotheshe post ambazo kwenye kichwa cha habari 'title' kuna neno *ufugaji*
-```
+
+`Tuchuje` post tunazotaka zionekane mathalani tuorotheshe post ambazo kwenye `kichwa cha habari` kuna neno **ufugaji**
+
+```python 
 Post.objects.filter(title__contains='ufugaji')
 <QuerySet [<Post: Ufugaji wa n'gombe wa maziwa>, <Post: Ufugaji wa kuku>]>
 ```
 
+Tunaweza **kuulizaset** kwa lengo laku `panga` orotha yetu, mfn tunataka ku ona post zote ambazo zime chapishwa "published" 
+lakini zile post za mwisho kuchapishwa ndiyo ziwe zakwanza kuonekana.
+ 
+```python 
+from django.utils import timezone
+Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+<QuerySet [<Post: Ufugaji wa n'gombe wa maziwa>, <Post: Ulimaji wa mboga mboga>, <Post: Ufugaji wa kuku>]>
+```
+Ukitaka kutoka kwenye **console** utafanya hivi
+
+```python 
+exit()
+``` 
+Tumeona uwezo na nguvu ya **kuulizaset** **"QuerySet"** tukiwa nahayo maarifa ya kutumia hiyo zana katika mkoba wa nyenzo zetu 
+hebu tuone nijinsi gani tunaweza kuandika `kazi` kwenye `mtazamo` **"views"** ambazo zitaenda kuchukua data kutoka kwenye 
+**hifadhidata** na kuzionyesha kwenye ukurasa wetu wa **html** 
+
+### Django Views
+
+Kwenye app yetu ya blog tuta tengeneza **mtazamo** **"views"** za aina mbili
+tuta kua na `mtazamo` ambao unaorothesha **post** zote ambazo zimechapishwa, 
+alfatu tutakua na `mtazamo` ambao una onyesha **post** moja iliyo chapishwa kwa undani.
 
 
+Wakati ambapo majina ya hii `mitazamo` yanaweza kua kitu chochote kile **mtazamo** 
+wangu amboa utakua una onyesha orotha ya post zote zilizo chapishwa nita uita `post_index` 
+na ndiyo utakua ukurasa wa mbele wa webbapp yetu
+
+**mtazamo** wa post moja kwa undani nitauita `post_detail`
+
+Tuanze kutengeneza hii `mitazamo` kwaku fungua faili hili
+
+```shell
+nano blog/views.py
+``` 
+Kwaza kabisa nimeanza na kuagiza kifurushi cha `django.shortcuts` ambacho kinakusanya **kazi** za usaidizi na 
+**madarsa** ambayo yanajitanua kwenye `MVT`, 
+hapa nimechomoa kifurushi ambacho kitatuwezesha **kutoa** **"render"** html. 
+Pamoja na itakayoita **pata()** **"get()"** au **404** "*hai patikani*" 
+
+```python 
+from django.shortcuts import render, get_object_or_404
+```
+Kwajili ya majira nime agiza maktaba ya `timezone`
+
+```python 
+from django.utils import timezone
+```
+Angalia jinsi ambavyo na agiza **Model** ya **Post** hiyo nukta inamanisha **model** ya **Post** 
+inapatikana kwenye directory moja na faili la **mtazamo** `views.py`.
+
+```python 
+from .models import Post
+```
