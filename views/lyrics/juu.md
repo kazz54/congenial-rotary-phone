@@ -116,7 +116,11 @@ kuvifanyia kazi vitakua mahususi kwajili ya mazingira/environment hii **venv**
 
 nita install framework ya **Django** version **`3.0.10`** kwama wakati na andaa makala haya
 
+{% highlight "python" %}
+
 pip3 install Django==3.0.10
+
+{% endhighlight %}
 
 Kama utahitaji kufanya installation ya version mpya zaidi utafanya hivi
 
@@ -153,4 +157,27 @@ shambablog/
 └── manage.py
 ```
 
+Usihamaki kwa wingi wa hayo mafaili na nini yanatakiwa kufanyaa, kilajambo litakua wazi, kwa sasa nataka afugue faili la `settings.py` faili hili ndiyo
+linakua na setting za application yako ya **Django**.
 
+{% highlight "shell" %}
+
+nano habari_zashamba/settings.py
+	
+{% endhighlight %}
+
+hapa nataka ubadilishe iwe kama hivi.
+
+{% highlight "python" %}
+
+ALLOWED_HOSTS = ['*']
+
+{% endhighlight %}
+lengo niku weza kuipata application yangu kwenye mtandao wangu wa ndani **LAN**. 
+
+sasa save faili alafu fanya hivi. 
+
+{% highlight "python" %}
+python3 manage.py runserver 0.0.0.0:3000
+
+{% endhighlight %}
