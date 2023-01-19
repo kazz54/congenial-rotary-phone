@@ -259,3 +259,38 @@ App yetu itakua ina mafaili mbali mbali kamavile `picha`, `css`, `javascript` nk
 **django** tayari inakuja ikiwa imewezeshwa kutoa huduma ya haya mafaili pale inapohitajika kama ukiangalia hapo kwenye 
 **`INSTALLED_APPS`** utaona **`django.contrib.staticfiles`** hiyo ndiyo app inayo tuwezesha tunacho takiwa sisi kufanya 
 nikuonyesha tu wapi hayo mafaili kwenye app yetu yanapatika kwa hiyo badili na iwe hivi.
+
+{% highlight "python" %}
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+os.path.join(BASE_DIR, 'habari_zashamba/static')
+]
+{% endhighlight %}
+
+Mwisho na malizia na setting za `pillow` kwajili ya mafaili ambayo watumiaji wa app 
+watakua wame pakia/upload.
+
+{% highlight "python" %}
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/' 
+{% endhighlight %}
+
+Kwa sasa unaweza uka save hili faili, alafu tengeneza hizo directory ulizozionyesha
+
+{% highlight "shell" %}
+mkdir habari_zashamba/static
+mkdir media
+mkdir templates
+{% endhighlight %}
+
+Sasa tupo tayari kuandika program kwa ajili ya **kitu (object)**, 
+swali ni kwamba **kitu** che nyewe ni nini? na jibu ni **post** kwenye hii app tunataka watumiaji wa app waweze kuandika na kuchapisha makala yao online. 
+Sasa hizo post**(kitu)** zinasifagani? kabla sija jibu hili swali hebu tuangalie mfano wa **kitu** kingine ambacho wewe na mimi tunakijua na **kitu** 
+hicho siyo kingine bali ni **kitabu**, **kitabu** kwa haraka haraka kina sifa zifutazo `jarida, kichwa cha habari, jina la kitabu, mtunzi mwaka kiliyo chapisha orotha ya sura mbali mbali nk` 
+tukiwa bado tuna twasira ya kitabu hebu tuangalie kwenye **post** ambazo watumiaji wetu watakua wanaandika zitakua zina undwa na nini? `kichwa cha habari, jina la muandishi habari ye nyewe nk`, 
+aha kwa hiyo kama vitu kama hivyo ndiyo vinatupatia **kitu** ambacho tunakita **post** hebu tuangalie hivyo **vitu** vya hicho **kitu** **Post** tunawezaje kuviprogram kwa kutumia **python** 
+na mtindo wa ku program **kitu** kwa lugha nyingine **oop (object orieted programing)**. Bahatizuri **Django** anakitu ambacho kinaitwa `Model` 
+kita tusadia kuprogram **kitu**
+
