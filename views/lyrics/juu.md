@@ -104,10 +104,13 @@ source venv/bin/activate
 
 {% endhighlight %}
 
-kuazia sasa **vifurushi** **"package"**​ zote za **python** tutakazo install na kuzifanyia kazi zitakua mahususi kwajili ya mazingira/environment hii **venv** 
+
+kuazia sasa **vifurushi** vyote vya **python** tutakavyo install na 
+kuvifanyia kazi vitakua mahususi kwajili ya mazingira/environment hii **venv** 
 
 
 {% highlight "python" %}
+
 # Application definition
 
 INSTALLED_APPS = [
