@@ -29,12 +29,34 @@ Hatakama hujawahi kuandika **program** yoyoteile bado unaweza
 kufuatilia maelekezo haya na ukafanikiwa kuandika **webapp**, kwa sababu **makala** 
 haya nime ya andaa mahususi kwa ajili ya mtu ambaye hajawahi kuandika **program** lakini anataka **kujifuza** basi hii itakuwa nimoja ya sehumu zuri **kuazia**.
 
-Nime chagua framework ya **Django** kwa sababu ina kuja **pamoja na Batteries** hivyo kuifanya kua rahisi kuitumia hasa kama nimara yako ya kwanza kukutana na **programu** **"porograming"**, na zaidi inatumia **python** moja ya **lugha** za **programing** ambazo ni rahisi kueleweka na kufanya nayo kazi lakini kikubwa zaidi inatumika sehemu nyingi sana huku iki jichukulia umaarufu kwenye **AI** na **machine learning** kama unataka kujikita katika eneo hilo basi kufahamu **python** kunakua ni wajibu.
+Nime chagua framework ya **Django** kwa sababu ina kuja na **Batteries** hivyo kuifanya kua rahisi kuitumia hasa kama nimara yako ya kwanza kukutana na **"porograming"**, na zaidi inatumia **python** moja ya **lugha** za **programing** ambazo ni rahisi kueleweka na kufanya nayo kazi lakini 
+kikubwa zaidi inatumika sehemu nyingi sana huku iki jichukulia umaarufu kwenye **AI** na **machine learning** kama unataka kujikita katika eneo hilo basi kufahamu **python** kunakua ni wajibu.
 
 **webapp** tutakayo **iendeleza** hususani kwenye makala haya inakua ni sehemu ya **kuanzia**, ichukulie kama **sahani iliyo chemshaw** kutokea hapo tutaanza kutengeneza vipengele vingi.
 
 **Webapp** tutakayo itengeneza
 
-![django-bootstrap2ed](//images.ctfassets.net/9heip63yijn8/QYB7FUnMpu419SvQnEgUT/decca3d614aecb2c838fdd43cd41f6e2/django-bootstrap2ed.png)
+![django-bootstrap2ed](https://images.ctfassets.net/9heip63yijn8/QYB7FUnMpu419SvQnEgUT/decca3d614aecb2c838fdd43cd41f6e2/django-bootstrap2ed.png)
 
 **code** za **webpp** hii zina [patikana hapa](https://github.com/devduara0/farmers-blog)
+
+**Django** inatumia usanifu wa **MVT** ukifutilia makala haya hadi mwisho siyo tu kwamba utakuwa umetengeneza webapp, 
+lakini utakua umejifuza jinsi ya **kufanya installation ya framework ya django**
+jinsi ya kuazisha project ya django kuifanyia setting naku install app.
+utajifuza Model utajua jinsi ya kuandi model zako na kuuliza set
+utaweza kuitawala app yako ya django kama umtumiaji mwenye mamlaka ya utawala
+utaweza kuandika muonekano kwa kuulizaset utatengeneza na kuelewa URLs.
+
+Nitakua natumia machine ambayo ina Operating System ya **Ubuntu 18.04** jina la code "**Bionic Beaver**", lakini bado unaweza kufutatilia 
+na ukafikia lengo hata kama uko kwenye Operating System tofauti na ya kwangu jambo lakuzingatiya nikwamba **python** iwe imekua installed kwenye hiyo Operating System ambayo unataka/unatumia. 
+
+__Anzaa na kuangalia kama una python.__
+
+
+python -V
+Python 3.6.9
+
+hiyo "**`Python 3.6.9`**" ndiyo version ya **python** ambayo iko kwenye machine yangu
+inamaana nina uwezo wakusoma na kuandika program kwa kutumia lugha ya **python**.
+
+
