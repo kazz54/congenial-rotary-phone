@@ -346,4 +346,41 @@ Na endelea na kuonyesha fields zinazo tengeneza **model** ya **Subscriber** ikiw
 
 chamsingi ni ku zipatia aina hizi field ambapo kwenye **Email** aina niliyo toa kwenye hiyo **field** ni **`EmailField`** na neno **`unique=True`** nikatika hali ya kuhakisha kwamba baruapepe hazijirudii.
 
+fild nyingine ni **timestamp** jina lingeweza kua chochotekile lakini jambo lamsingi ni aina ya **field** ambapo nimesema kua ni **`DateTimeField`** **"fild ya tarehe"** **`(auto_now_add = True)`** 
+hii inamanisha kila **kitu** cha **Subscriber** kikiwa kimetengenenzwa basi tarehe ya mda kilipo ongenza iwepo.
+
+```shell
+class Category(models.Model):
+name = models.CharField(max_length=20)
+
+def __str__(self):
+return str(self.name) 
+```
+Kwenye upande wa **model** ya **Category** **"jamii"** kumbuka jina lingeweza kua kitu chochote kile, hapa ni meweka field moja tu ambayo nimeita **`name`** lakini muhimu zaidi ni aina ya hiyo field ambayo ni **`CharField`** tuta tumia kutuzia **`jina`** /**`name`**. 
+
+```shell
+class Post(models.Model):
+
+author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='author')
+title = models.CharField(max_length=200)
+text = models.TextField()
+cover = models.ImageField(upload_to='images/')
+created_date = models.DateTimeField(default=timezone.now)
+published_date = models.DateTimeField(blank=True, null=True)
+categories = models.ManyToManyField('Category', related_name='posts')	
+likes = models.ManyToManyField(User, default=None, blank=True, related_name='likes')
+
+def publish(self):
+self.published_date = timezone.now()
+self.save()
+
+def __str__(self):
+return str(self.title)
+```
+Mpaka hapa tulipofikia, umekwisha pata picha zuri ya **model** na **fields** pamoja na aina mbali mbali ya data ambazo zipo kwenye field. 
+
+kwenye **model** ya post **fields** za *author*, *categories* pamoja na ya *likes* ndiyo zinaweza kidogo zikakuchanganya 
+kwa sababu aina ya data zilizokuwepo kwenyo hizo **field** nitofauti na field zingine tulizo ziangalia hebu tuangalie moja bada ya nyingine 
+tukiaza na field ya **author**
+
 
