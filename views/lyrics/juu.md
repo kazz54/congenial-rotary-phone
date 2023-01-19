@@ -632,3 +632,30 @@ inapatikana kwenye directory moja na faili la **mtazamo** `views.py`.
 ```python 
 from .models import Post
 ```
+Na anza kutengeneza **kazi** `def` naipa jina la `post_index` inachukua **ombi** **"request"** alafu ita **rudisha** **"return"** thamani iliyo ipata kwakuita **kazi** nyingine 
+**kutoa** **"render"** ambayo hii nayo ina chukua **ombi** **"request"** ita **toa** template ya **html** 
+`blog/post_index.html`. Na `{'posts': posts}` kwa sasa chukulia kama ni **kuulizaset** 
+nime iweka kwenye `variable`, ili tuweze kuitumia kwenye `template` kwa urahisi.
+Kazi yake ni `kuchuja` **post** nipate zile zilizo **chapishwa tu**, 
+alafu ni zi orotheshe kwa `kupanga` kutokana na tarehe ya kutangulia kuchapishwa
+
+```python 
+def post_index(request):
+posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+return render(request, 'blog/post_index.html', {'posts': posts})
+``` 
+Hapa kwajili ya post kwaundani naendelea **kuulizaset** safari hii nataka **Post** 
+pamoja na **funguo ya msingi** **"primary key"** `pk` ambayo ndiyo nimeipitisha kwenye 
+**hoja** za **kazi** kwa hiyo hilo ndiyo litakua **ombi** **"request"** ili 
+**kurudisha** **"return"** **kazi** ya **kutoa** **"render"** ambayo inachuka **ombi** **"request"** itarudisha `html` 
+tukiwa tumepitisha kamusi ya muktadha ambayo itakwenda kutumika kwenye template.
+
+```python 
+def post_detail(request, pk):
+post = get_object_or_404(Post, pk=pk)
+return render(request, 'blog/post_detail.html', {'post': post}) 
+``` 
+Sasa tuna hiyo **mitazamo** yetu **"views"** ili hii **mitazamo** 
+iweze kuitwa na hatimaye kuitikia **ombi** inabidi kuifahamishe `URLs.py` uwepo wa **mitazamo**. 
+Wakati ambapo tunaelekea huko kwenye **URLs** kumbuka kwamba bado hatuja tengeneza directories kwajili ya template zetu za **html** tutafanya hivyo badae 
+
