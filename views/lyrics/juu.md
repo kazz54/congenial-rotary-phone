@@ -182,11 +182,69 @@ python3 manage.py runserver 0.0.0.0:3000
 
 {% endhighlight %}
 
-Nime azisha Web server inayokuja na **Django** kwenye network interface zote kwa kutumia `manage.py` hi niyezo nyingine kwa jili ya kurahisisha utawala, 
-nyezo hi hua inapatikana baada yakutengeneza project.
+Nime azisha Web server inayokuja na **Django** kwenye network interface zote kwa kutumia `manage.py` hii niyezo nyingine kwa jili ya kurahisisha utawala, 
+nyezo hii hua inapatikana baada yakutengeneza project.
 
-Kwasasa usihofu kuhusu hilo oyo unalo liona kuhusu **Migrations**, tuta angalia **Migrations** kwaundani mda si mrefu.
+Kwa sasa usihofu kuhusu hilo oyo unalo liona kuhusu **Migrations**, tuta angalia **Migrations** kwa undani mdaa si mrefu.
 ![django-output](https://images.ctfassets.net/9heip63yijn8/3RzSCW0MpHF2F54YOQNqPn/d4c2945a1fd0b10ebbe52cab2c95eb49/2020-11-21_13_13_12-192.168.1.10_-_PuTTY.png)
 
 Mhimu kwa sasa ni kuazisha kivinjari chako nakwenda http://ip:3000 utaona kitu kama hiki
 
+![p1](https://images.ctfassets.net/9heip63yijn8/7fphNn9DAVR5lNUYDPxx3O/f72d2d3b5fc330647708cb621b8680f3/2020-11-17_17_04_36-Django__the_Web_framework_for_perfectionists_with_deadlines._____Firefox_Developer.png)
+Mpaka hapatulipo fikia inamanisha sasa tunaweza kuanza kuandika **Webapp**, nitatumia nyezo ya `manage.py` kwa lengo lakunitengenezea mafaili na kunipangilia directory ambazo nitatumia kwenye hii app. 
+
+Kumbuka tulikua na uwezo wakuandika haya mafaili na hizi directory wenyewe lakini kama nyenzo ya kurahisisha ipo kwanini tusi itumie, 
+na ndiyo hicho ninacho kifanya hapa.
+
+{% highlight "python" %}
+python3 manage.py startapp blog
+{% endhighlight %}
+
+Tumesha fanya mandalizi ya mafaili na directory za app kabla sija ielekeza framework yetu ya **django** juu ya uwepo wa app inayo itwa **blog** 
+inatubidi tuongeze maktaba nyingine ya **python** ambayo itatusaidia kwenye usindikaji wa picha maktaba hii ni maarufu kwa jina la `pillow` kuipata maktaba hii fanya hivi.
+
+{% highlight "python" %}
+
+pip3 install pillow
+
+{% endhighlight %}
+
+
+Sasa tutarudi kwenye faili letu la `settings.py` kwajili ya kuifahamisha **django** uwepo wa app ya **blog** 
+pamoja na setting zingine kama vile mdaa na wapi tuna kusudia kuhifadhi mafaili fungua `settings.py` kwa kufanya hivi
+
+{% highlight "python" %}
+
+pip3 install pillow
+
+{% endhighlight %}
+
+
+Sasa tutarudi kwenye faili letu la `settings.py` kwajili ya kuifahamisha **django** uwepo wa app ya **blog** pamoja na setting zingine 
+kama vile mdaa na wapi tuna kusudia kuhifadhi mafaili fungua `settings.py` kwa kufanya hivi
+
+{% highlight "shell" %}
+
+nano habari_zashamba/settings.py
+
+{% endhighlight %}
+
+Kwenye **`INSTALLED_APPS`** weka **blog** na hiyo ndiyo jinsi ya kuitambulisha **django** uwepo wa hiyo app ya **blog**
+
+{% highlight "python" %}
+
+INSTALLED_APPS = [
+'django.contrib.admin',
+'django.contrib.auth',
+'django.contrib.contenttypes',
+'django.contrib.sessions',
+'django.contrib.messages',
+'django.contrib.staticfiles',
+'blog',
+]
+{% endhighlight %}
+
+
+**Django** nnje ya boksi ina tegemea kukuta mafaili ya **html** ndani ya directory ya app 
+kwa mantiki hiyo **django** inatarajia kuona **`blog/templates`** alafu **templates** mfn **`index.html`** nk, 
+mimi nita badilisha huo mtazamo kwa kuitoa `templates directory` nje na kuiweka juu kwa kufanya hivi 
