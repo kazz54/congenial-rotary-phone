@@ -386,10 +386,10 @@ tukiaza na field ya **author**
 **field** ya **`author`** ni **`ForeignKey`** kwasabu ni kiungo na **model** nyingine ambayo ni **`User`** ambayo ina toka kwenye maktaba za **`setting`** ambazo tulisha ziingiza hapo awali kwakutumia **`import`**. 
 Na ndiyo mana tume tumia **`on_delete=models.CASCADE`** ili endapo mtumiaji amefutwa basi na post zake zifute/delete kwa sababu kiungo hakipo.
 
-Kwenye field ya **categories** ambayo aina yake ni **`ManyToManyField`** kwa jili ya kua kiungo na **modole** ya `Category` tunataka post nyingi kwenye `Category` na **`Category`**nyingi kwenye `post`.
+Kwenye field ya **categories** ambayo aina yake ni **`ManyToManyField`** kwa jili ya kua kiungo na **modole** ya `Category` tunataka post nyingi kwenye `Category` na `Category` nyingi kwenye `post`.
 
 Na hiyo ya `likes` nayo ni kama ya **categories** hapa utofauti tume 
-tumia **`User`**, kwasababu tunataka "watumiaji" `user` wengi wa weze kupenda **post** nyingi.
+tumia **`User`**, kwasababu tunataka "watumiaji" `user` wengi wa weze kupenda `post` nyingi.
 
 Kwa maelekezo hayo basi nirahisi kuangalia **Model** hii ya **Comment** na uka 
 elewe kwa urahisi kabisa nini kinaendele. 
@@ -409,6 +409,32 @@ self.save()
 def __str__(self):
 return self.text
 ```
-Kwa vile sasa tumesha tengeneza **`classes`** **"`madarasa`"** niwakati muafaka
-wa kuiamrisha **Django** **ORM** itutengeneze **hifadhidata**. 
-Kama tulivyo ona nnje ya boksi **Django** inakuja na **SQLite** na ndiyo hiyo nitakayo itumia, Kumbuka kwamba **Django** **ORM** ina tumia lugha ya **SQL** kwa hiyo **hifadhidata** yoyote ile ambayo inatumia **SQL** kama vile PostgreSQL, MySQL nk zinaweza kufanya kazi na **Django**
+Kwa vile sasa tumesha tengeneza `classes` "`madarasa`" niwakati muafaka
+wa kuiamrisha kwa kutumia **Django** **ORM** itutengeneze **hifadhidata**. 
+Kama tulivyo ona nnje ya boksi **Django** inakuja na **SQLite** na ndiyo hiyo nitakayo itumia, 
+Kumbuka kwamba **Django** **ORM** ina tumia lugha ya **SQL** kwa hiyo **hifadhidata** yoyote ile ambayo inatumia 
+**SQL** kama vile PostgreSQL, MySQL nk zinaweza kufanya kazi na **Django**
+
+**Weka model kwenye hifadhidata**
+
+Sasa tunakwenda kuweka hayo **"madarasa"** **classes** kwenye **hifadhidata** kwakutengeneza faili la **"migration"** faili hili ndilo lenye **madarasa** pamoja na sheria zinayo iambia **Django** mabadiliko gani yanatakiwa yafanyike kwenye **hifadhidata** 
+
+ili kulitengeneza hilo faili la **"migration"** hakikisha ukiwa ndani ya directory ya **`projects/shambablog`** unaandika
+
+```python
+python3 manage.py makemigrations
+```
+
+```shell
+Migrations for 'blog':
+blog/migrations/0001_initial.py
+- Create model Category
+- Create model Subscriber
+- Create model Post
+- Create model Comment
+
+```
+
+
+
+
