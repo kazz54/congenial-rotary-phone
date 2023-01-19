@@ -181,3 +181,12 @@ sasa save faili alafu fanya hivi.
 python3 manage.py runserver 0.0.0.0:3000
 
 {% endhighlight %}
+
+Nime azisha Web server inayokuja na **Django** kwenye network interface zote kwa kutumia `manage.py` hi niyezo nyingine kwa jili ya kurahisisha utawala, 
+nyezo hi hua inapatikana baada yakutengeneza project.
+
+Kwasasa usihofu kuhusu hilo oyo unalo liona kuhusu **Migrations**, tuta angalia **Migrations** kwaundani mda si mrefu.
+![django-output](https://images.ctfassets.net/9heip63yijn8/3RzSCW0MpHF2F54YOQNqPn/d4c2945a1fd0b10ebbe52cab2c95eb49/2020-11-21_13_13_12-192.168.1.10_-_PuTTY.png)
+
+Mhimu kwa sasa ni kuazisha kivinjari chako nakwenda http://ip:3000 utaona kitu kama hiki
+
