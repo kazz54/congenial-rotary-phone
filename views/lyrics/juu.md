@@ -52,12 +52,11 @@ na ukafikia lengo hata kama uko kwenye Operating System tofauti na ya kwangu jam
 
 __Anzaa na kuangalia kama una python.__
 
-{% highlight "python" %}
 
+```python 
 python -V
 Python 3.6.9
-
-{% endhighlight %}
+```
 
 
 hiyo "**`Python 3.6.9`**" ndiyo version ya **python** ambayo iko kwenye machine yangu
@@ -70,39 +69,36 @@ ili kuweka mpangilio mzuri wa mafaili nita tengeneza directory ambapo project ya
 
 mahali ambapo app yangu itakaa
 
-{% highlight "shell" %}
+```shell
 
 mkdir -p projects/shambablog
 
 cd projects/shambablog/
-
-{% endhighlight %}
+```
 
 
 ili kuweza kutengeneza au kuanzisha **virtual environment** inatubidi tuwe na kifurushi kwajili ya **virtual environment** 
 inategemea unaweza ukawa tayari unacho kifurushi cha **virtual environment** lakini kama huna una install kama hivi
 
-{% highlight "shell" %}
-
+```shell
 apt-get install python3-venv
-
-{% endhighlight %}
+```
 
 na tengeneza **virtual environment**, naita **venv** unaweza ukaita vyoyete vile
 
-{% highlight "shell" %}
 
+```shell
 python3 -m venv venv
 
-{% endhighlight %}
+```
 
 activate **virtual environment**
 
-{% highlight "shell" %}
 
+```shell
 source venv/bin/activate
+```
 
-{% endhighlight %}
 
 
 kuazia sasa **vifurushi** vyote vya **python** tutakavyo install na 
@@ -116,34 +112,29 @@ kuvifanyia kazi vitakua mahususi kwajili ya mazingira/environment hii **venv**
 
 nita install framework ya **Django** version **`3.0.10`** kwama wakati na andaa makala haya
 
-{% highlight "python" %}
-
+```python 
 pip3 install Django==3.0.10
-
-{% endhighlight %}
+```
 
 Kama utahitaji kufanya installation ya version mpya zaidi utafanya hivi
 
-{% highlight "python" %}
-
+```python 
 pip3 install Django
-
-{% endhighlight %}
+```
 
 **Tengeneza project ya Django.**
 
 Nita tumia nyenzo inayo julikana kama `django-admin` kutengeneza hii project ambayo nita ita `habari_zashamba`. 
 nyezo hii inafanya kazi kwenye terminal na kazi yake hasa ni kurahisisha kazi za kitawala. 
 
-{% highlight "python" %}
-
+```python 
 django-admin startproject habari_zashamba .
+```
 
-{% endhighlight %}
 
 Ukiangalia mpangilio wa mafaili yako utakuta kitu kama hiki.
 
-```
+```shell
 shambablog/
 │
 ├── habari_zashamba/
@@ -160,27 +151,23 @@ shambablog/
 Usihamaki kwa wingi wa hayo mafaili na nini yanatakiwa kufanyaa, kilajambo litakua wazi, kwa sasa nataka afugue faili la `settings.py` faili hili ndiyo
 linakua na setting za application yako ya **Django**.
 
-{% highlight "shell" %}
-
+```shell
 nano habari_zashamba/settings.py
-	
-{% endhighlight %}
+```
 
 hapa nataka ubadilishe iwe kama hivi.
 
-{% highlight "python" %}
 
+```python 
 ALLOWED_HOSTS = ['*']
-
-{% endhighlight %}
+```
 lengo niku weza kuipata application yangu kwenye mtandao wangu wa ndani **LAN**. 
 
 sasa save faili alafu fanya hivi. 
 
-{% highlight "python" %}
+```python 
 python3 manage.py runserver 0.0.0.0:3000
-
-{% endhighlight %}
+```
 
 Nime azisha Web server inayokuja na **Django** kwenye network interface zote kwa kutumia `manage.py` hii niyezo nyingine kwa jili ya kurahisisha utawala, 
 nyezo hii hua inapatikana baada yakutengeneza project.
@@ -196,18 +183,17 @@ Mpaka hapatulipo fikia inamanisha sasa tunaweza kuanza kuandika **Webapp**, nita
 Kumbuka tulikua na uwezo wakuandika haya mafaili na hizi directory wenyewe lakini kama nyenzo ya kurahisisha ipo kwanini tusi itumie, 
 na ndiyo hicho ninacho kifanya hapa.
 
-{% highlight "python" %}
+```python 
 python3 manage.py startapp blog
-{% endhighlight %}
+```
 
 Tumesha fanya mandalizi ya mafaili na directory za app kabla sija ielekeza framework yetu ya **django** juu ya uwepo wa app inayo itwa **blog** 
 inatubidi tuongeze maktaba nyingine ya **python** ambayo itatusaidia kwenye usindikaji wa picha maktaba hii ni maarufu kwa jina la `pillow` kuipata maktaba hii fanya hivi.
 
-{% highlight "python" %}
-
+```python 
 pip3 install pillow
+```
 
-{% endhighlight %}
 
 
 
@@ -217,15 +203,14 @@ pip3 install pillow
 Sasa tutarudi kwenye faili letu la `settings.py` kwajili ya kuifahamisha **django** uwepo wa app ya **blog** pamoja na setting zingine 
 kama vile mdaa na wapi tuna kusudia kuhifadhi mafaili fungua `settings.py` kwa kufanya hivi
 
-{% highlight "shell" %}
 
+```shell
 nano habari_zashamba/settings.py
-
-{% endhighlight %}
+```
 
 Kwenye **`INSTALLED_APPS`** weka **blog** na hiyo ndiyo jinsi ya kuitambulisha **django** uwepo wa hiyo app ya **blog**
 
-{% highlight "python" %}
+```python 
 
 INSTALLED_APPS = [
 'django.contrib.admin',
@@ -236,7 +221,7 @@ INSTALLED_APPS = [
 'django.contrib.staticfiles',
 'blog',
 ]
-{% endhighlight %}
+```
 
 
 **Django** nnje ya boksi ina tegemea kukuta mafaili ya **html** ndani ya directory ya app 
