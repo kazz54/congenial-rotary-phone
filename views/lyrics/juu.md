@@ -134,7 +134,7 @@ django-admin startproject habari_zashamba .
 
 Ukiangalia mpangilio wa mafaili yako utakuta kitu kama hiki.
 
-```shell
+```
 shambablog/
 │
 ├── habari_zashamba/
@@ -228,47 +228,46 @@ INSTALLED_APPS = [
 kwa mantiki hiyo **django** inatarajia kuona **`blog/templates`** alafu **templates** mfn **`index.html`** nk, 
 mimi nita badilisha huo mtazamo kwa kuitoa `templates directory` nje na kuiweka juu kwa kufanya hivi 
 
-{% highlight "python" %}
-
+```python 
 'DIRS': [os.path.join(BASE_DIR, 'templates')],
-{% endhighlight %}
+```
 
 undoa neno **`UTC`** badala yake weka
 
-{% highlight "python" %}
 
+```python 
 TIME_ZONE = 'Africa/Dar_es_Salaam'
-{% endhighlight %}
+```
 
 App yetu itakua ina mafaili mbali mbali kamavile `picha`, `css`, `javascript` nk
 **django** tayari inakuja ikiwa imewezeshwa kutoa huduma ya haya mafaili pale inapohitajika kama ukiangalia hapo kwenye 
 **`INSTALLED_APPS`** utaona **`django.contrib.staticfiles`** hiyo ndiyo app inayo tuwezesha tunacho takiwa sisi kufanya 
 nikuonyesha tu wapi hayo mafaili kwenye app yetu yanapatika kwa hiyo badili na iwe hivi.
 
-{% highlight "python" %}
+```python 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
 os.path.join(BASE_DIR, 'habari_zashamba/static')
 ]
-{% endhighlight %}
+```
 
 Mwisho na malizia na setting za `pillow` kwajili ya mafaili ambayo watumiaji wa app 
 watakua wame pakia/upload.
 
-{% highlight "python" %}
 
+```python 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/' 
-{% endhighlight %}
+```
 
 Kwa sasa unaweza uka save hili faili, alafu tengeneza hizo directory ulizozionyesha
 
-{% highlight "shell" %}
+```shell
 mkdir habari_zashamba/static
 mkdir media
 mkdir templates
-{% endhighlight %}
+```
 
 ### Django model
 
@@ -379,7 +378,7 @@ tumia **`User`**, kwasababu tunataka "watumiaji" `user` wengi wa weze kupenda `p
 Kwa maelekezo hayo basi nirahisi kuangalia **Model** hii ya **Comment** na uka 
 elewe kwa urahisi kabisa nini kinaendele. 
 
-```shell
+```python 
 class Comment(models.Model):
 post = models.ForeignKey('Post', on_delete=models.CASCADE, related_name='comments')
 user = models.CharField(max_length=200)
@@ -422,11 +421,12 @@ blog/migrations/0001_initial.py
 
 Tumefanikiwa kuandika faili la **maigration** ambalo liko kwenye **`blog/migrations/0001_initial.py`** ili kuziweka hizo tarifa ambazo ziko kwenye faili la **migration** kwenye **hifadhidata** fanya hivi
 
+```python 
 python3 manage.py migrate
-
+```
 Sihaba kama unaona kitu kama hiki. 
 
-```shell
+```python 
 Operations to perform:
 Apply all migrations: admin, auth, blog, contenttypes, sessions
 Running migrations:
@@ -483,7 +483,7 @@ Ili zile **Models** tulizo zitengeneza tuweze kuzitumia inabidi tuzi orotheshe h
 nano blog/admin.py
 ```
 
-```shell
+```python 
 from django.contrib import admin
 from .models import Post,Subscriber,Category
 
@@ -532,7 +532,7 @@ from blog.models import Post
 
 Nita **ulizaset** kwaku orothesha **post** zote tulizotengeneza 
 
-```shell
+```python 
 Post.objects.all()
 <QuerySet [<Post: Ufugaji wa n'gombe wa maziwa>, <Post: Ulimaji wa mboga mboga>, <Post: Ufugaji wa kuku>, <Post: Uwandaji wa shamba la mpunga kwa kutumia trector>, <Post: Matumizi ya dawa za ukulia wa dudu kwenye mashamba ya kahawa>]>
 ```
@@ -600,8 +600,8 @@ nano blog/views.py
 ``` 
 Kwaza kabisa nimeanza na kuagiza kifurushi cha `django.shortcuts` ambacho kinakusanya **kazi** za usaidizi na 
 **madarsa** ambayo yanajitanua kwenye `MVT`, 
-hapa nimechomoa kifurushi ambacho kitatuwezesha **kutoa** **"render"** html. 
-Pamoja na itakayoita **pata()** **"get()"** au **404** "*hai patikani*" 
+hapa nimechomoa kifurushi ambacho kitatuwezesha **kutoa** html. 
+Pamoja na itakayoita **pata()**  au **404** "**hai patikani**" 
 
 ```python 
 from django.shortcuts import render, get_object_or_404
@@ -642,5 +642,41 @@ return render(request, 'blog/post_detail.html', {'post': post})
 ``` 
 Sasa tuna hiyo **mitazamo** yetu **"views"** ili hii **mitazamo** 
 iweze kuitwa na hatimaye kuitikia **ombi** inabidi kuifahamishe `URLs.py` uwepo wa **mitazamo**. 
-Wakati ambapo tunaelekea huko kwenye **URLs** kumbuka kwamba bado hatuja tengeneza directories kwajili ya template zetu za **html** tutafanya hivyo badae 
+
+
+### Django URLs
+
+Anza na kutengeneza faili la `urls.py` ndani ya directory ya app yako hili faili hua halitengenenzwi na `manage.py startapp`
+
+```shell
+nano blog/urls.py
+``` 
+Nitaanza **nakuagiza** **kazi** ya **njia** na **mitazamo** **"views"** yetu kutoka kwenye directory hii ya 
+*blog* ambapo faili hili nalo lipo ndiyo maana ya hiyo nukta hapo. 
+
+``` 
+from django.urls import path
+from . import views
+``` 
+
+naonyesha **muundo** **"patterns"** wa **URLs** zangu, 
+bilashaka umegundua kwamba **mtazamo** **"views"** wa `post_index` ndiyo mzizi wa *Urls* zangu ndiyo itakuwa ukurasa wetu wa mbele.
+Kwenye **mtazamo** **"views"** wa `post_detail` hapa tunataka `url` iwe `post/1`, `post/2`, nk kutegeme na **ufunguo gani wa msingi** **"pk"** ume pitishwa kwenye **URL** 
+ndiyo mana tukaweka `<int:pk>` kuijulisha **Django** kwamba thamani **"value"** inayo pita kwenye **URL** ni **nambari** **"integer"** na jina la `variable` yake ni `pk`
+
+```python 
+urlpatterns = [
+path('', views.post_index, name='post_index'),
+path('post/<int:pk>/', views.post_detail, name='post_detail'),
+
+]
+``` 
+
+Kwenye framework ya **Django** unapotengeza project kwa kutumia `django-admin startproject` na faili la **urls** hua linatengenezwa 
+kama una kumbaka ndiyo mana tuliweza kwenda `http://ip:3000/admin` ukitumia `manage.py startapp` haitengenezi faili la `urls.py` kwenye directory ya app. 
+
+Mimi huwa napendelea kusafisha vitu kidogo, inapendeza kila *app* ikawa na faili lake la **urls** alafu hili faili la **urls** ambalo liko kwenye **project** lika tupia *ndoana* kuli kamatia lile la kwenye **app** na ndiyo hicho ninacho kwenda kukifanya hapa.
+
+Nita anza na kufungua faili la `urls` la kwenye `project`
+
 
