@@ -776,12 +776,7 @@ Na sema **inaendelea** **"extends"** alafu na onyesha kutokea wapi, wala sija sa
 cha habari.
 
 
-{% highlight "python" %}
-{% extends 'blog/base.html' %}
-{% load static %}
-{% block content %}
-<h1>Machapisho ya Blogs</h1>
-{% endhighlight %}
+
 
 sitaki kuzungumzia habari za *bootstrap* kwa sababu haikua lengo la makala haya. Lakini chakuzingatia ni hicho **kitanzi** hapo kwenye **post**, kama una kumbuka kwenye **template** yetu tuliipa **orotha** ya **posts** kwenye `variable` tuliyo ita `posts` sasa ili kuionyesha hiyo `variable` kwenye **html**, ina tulazimu kwenye **django** tuweka curly brackets mbili na jina la *variable* likiwa ndani, lakini kwa vile hii ni **orotha** nimeipiga **kitanzi** ndani ya hiki **kitanzi** ndiyo napata **post** moja moja. Na chochote kile utakacho weka hapo kati ya `{% for %}` na `{% endfor %}` kitatokea kwenye kila **kitu** kilicho kuwepo kwenye **orotha**
 
