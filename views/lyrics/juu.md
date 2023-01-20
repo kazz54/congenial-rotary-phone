@@ -712,4 +712,59 @@ Kwenye directory yangu ya **templates** ambayo nili itengeneza hapo awali nita t
 ```shell
 mkdir templates/blog
 ```
-    
+crossorigin="anonymous"></script>
+</body>
+</html>
+```
+**post_index.html**
+
+Sasa tutengeneze **template** kwajili ya ukurasa wetu wambele, kumbuka kwamba ukurasa huu ni **muendelezo** wa **base.html**
+```
+nano templates/blog/post_index.html
+```
+Na sema **inaendelea** **"extends"** alafu na onyesha kutokea wapi, wala sija sahau kwamba tuna mafaili yaliyo **tuli** **"static"** ambayo tutayahitaji, na fungulia **yaliyomo** **"content"** na weka kichwa
+cha habari.
+```
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+<h1>Machapisho ya Blogs</h1>
+```
+
+sitaki kuzungumzia habari za *bootstrap* kwa sababu haikua lengo la makala haya. Lakini chakuzingatia ni hicho **kitanzi** hapo kwenye **post**, kama una kumbuka kwenye **template** yetu tuliipa **orotha** ya **posts** kwenye `variable` tuliyo ita `posts` sasa ili kuionyesha hiyo `variable` kwenye **html**, ina tulazimu kwenye **django** tuweka curly brackets mbili na jina la *variable* likiwa ndani, lakini kwa vile hii ni **orotha** nimeipiga **kitanzi** ndani ya hiki **kitanzi** ndiyo napata **post** moja moja. Na chochote kile utakacho weka hapo kati ya `{% for %}` na `{% endfor %}` kitatokea kwenye kila **kitu** kilicho kuwepo kwenye **orotha**
+
+nikitumia nukta alafu nikaweka curly brackets mbili hapa ni kwajili ya sifa zingine za **yaliyomo** kama hapa na taka kichwa cha habari cha post `{{ post.title }}`.
+
+Hali kathalika na weka `<a href="{%` kiungo kati ya ukurasa huu na ukurasa wa `post_detail`
+kwa kutumia tag za **template** ya **Django**  tuna taka kutenge ne zewa  `url` hasa ukizinga tia **Django** anatarajia **URL** kwenye `blog/urls.py` ambayo **inaitwa** **"name"** = `post_detail` ndiyo maana hapo kati sikuacha kuioyesha `post_detail`  namalizia na `pk=post.pk` **funguo yamsingi** nilisha izungumzia wakati tuna tengeneza **muonekano** siyo kazi kujua kwanini nime iweka hapo 
+```
+<div class="row">
+{% for post in posts %}
+
+   <div class="col-md-4">
+        <div class="card mb-2">
+
+            <img class="card-img-top" src="{{ post.cover.url}}" class="img-fluid img-thumbnail" alt="{{ post.title }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ post.title }}</h5>
+                <p class="card-text">{{ post.text | slice:":40" }}</p>
+
+                <a href="{% url 'post_detail' pk=post.pk %}" 
+                   class="btn btn-success">
+                    Soma zaidi
+                </a>
+
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+``` 
+**post_detail.html** 
+
+ nahapa sasa na weke `post_detail`
+
+ ```
+ nano templates/blog/post_detail.html
+```    
