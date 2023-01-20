@@ -672,11 +672,44 @@ path('post/<int:pk>/', views.post_detail, name='post_detail'),
 ]
 ``` 
 
-Kwenye framework ya **Django** unapotengeza project kwa kutumia `django-admin startproject` na faili la **urls** hua linatengenezwa 
+Kwenye framework ya **Django** unapotengeza project kwa kutumia `django-admin startproject` na faili la `urls` hua linatengenezwa 
 kama una kumbaka ndiyo mana tuliweza kwenda `http://ip:3000/admin` ukitumia `manage.py startapp` haitengenezi faili la `urls.py` kwenye directory ya app. 
 
-Mimi huwa napendelea kusafisha vitu kidogo, inapendeza kila *app* ikawa na faili lake la **urls** alafu hili faili la **urls** ambalo liko kwenye **project** lika tupia *ndoana* kuli kamatia lile la kwenye **app** na ndiyo hicho ninacho kwenda kukifanya hapa.
+Mimi huwa napendelea kusafisha vitu kidogo, inapendeza kila *app* ikawa na faili lake la `urls` alafu hili faili la **urls** ambalo liko kwenye **project** lika tupia *ndoana* kuli kamatia lile la kwenye **app** na ndiyo hicho ninacho kwenda kukifanya hapa.
 
 Nita anza na kufungua faili la `urls` la kwenye `project`
 
 
+```shell
+nano habari_zashamba/urls.py
+```
+ili app yetu iweze kuhudumia mafaili ya *picha*, *javascript* na css yaliyo **tuli** **"static"** ni budi tuka **agiza** **vifurushi** vya **settings** pamoja na **static** *lakini* **kama** *tu* tutakua tuna tafuta **utatuzi** **"debug"**. 
+Kwenye **urls** naongezea **kifurushi** mhimu sana **ni pamoja na** **"include"** hiki kina saidiana na **kifurushi** cha **njia** **"path"** matokeo yake yanaonekana hapo kwenye **muondo wa url** **"urlpatterns"** tunaposema kilakitu baada ya **domain** kita hudumiwa na faili la **urls** ambalo liko kwenye **app** ya **blog**
+```python 
+from django.contrib import admin
+from django.conf import settings
+from django.urls import path, include
+from django.conf.urls.static import static
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls')),
+]
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+```
+Sasa hivi tuna **URLs** mbili kwenye **app** yetu
+1. **http://ip:3000/:** ukurasa wa mbele **post_index**
+2. **http://ip:3000/post/1:** ukurasa wa post moja kwandani **post_detail**
+
+Ukijaribu kuperuzi hizo Url huwezi kuzipata, na hii inasababishwa na kuto kua na html template. Sasa hu nimda muafaka wakuangalia wakuzitengeneza hizo templates.
+
+## Django Templates
+
+**Django** kama framework ina hitaji njia nyepisi ya kukabiliana na kurasa ambazo zina tengenezwa **kwa nguvu** **"dynamically"**, na moja ya njia ambazo zimekua ni nyepesi za kukabiliana na hilo ni kutengeneza **templates**. **Templates** inakua na badhi ya sehemu ambazo zinakua ni **tuli** **"static"** lakini zinapokea **syntax** maalumu ambazo zina elezea yale **yaliyomo** ya **nguvu** **"dynamic"** yata inginzwa je. Unaweza ukaiwezesha project yako ya **django** na **template** engines moja au zaid au hata bila moja, **Django** nnje ya boksi inakuja na **Django template language (DTL)** na hi ndiyo tutakayo tumia kwenye **template** zetu.
+
+Kwenye directory yangu ya **templates** ambayo nili itengeneza hapo awali nita tengeneza directory nyingine ambayo nitaita **blog** ambayo itakuwa na **templates** zote za hii app.
+```shell
+mkdir templates/blog
+```
+    
