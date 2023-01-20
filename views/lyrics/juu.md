@@ -291,16 +291,16 @@ hatu hitaji kufahamu **SQL** kwani **Django** inatumia **ORM** hii ina tuwezesha
 ambayo yanaendana na **safu** pamoja na **meza** za kwenye **hifadhidata** ukiwa unatumia **ORM** yale **madarasa** 
 unayo yatengeneza yanayo wakilisha **meza** za **hifadhidata** yanajulikana kama **Models** na kwenye **Django** hua yanaishi kwenye faili linalo julikana kama `models.py`
 
-{% highlight "shell" %}
 
+
+
+```shell
 nano blog/models.py
-
-{% endhighlight %}
+```
 
 Hapa sasa nitaanza kuonyesha `madarasa` yangu
 
-{% highlight "python" %}
-
+```python 
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
@@ -312,7 +312,7 @@ class Subscriber(models.Model):
 
 	def __str__(self):
 		return self.email 
-{% endhighlight %}
+```
 
 Nimeaza nakuingiza maktaba mbali mbali ambazo nita zitumia, 
 kwakutumia neno **`import`**
@@ -457,7 +457,9 @@ Naili kuweza kuandika hizo **post** inabidi kuingia kwenye webapp ya **Django** 
 ## Django Admin 
 wakati tuna tengeneza project tulitumia **`django-admin startproject`** hi inatuwezesha sisi kutumia **admin** moja kwa moja. tunacho takiwa kufanya ni kumtengeneza mtumiaji ambaye tuna mpa mamlaka ya **usimamizi**/**"admin"** kwa ku weka command hi kwenye terminal
 
+```python 
 python3 manage.py createsuperuser
+```
 
 ```shell
 Username (leave blank to use 'root'): admin
@@ -654,7 +656,7 @@ nano blog/urls.py
 Nitaanza **nakuagiza** **kazi** ya **njia** na **mitazamo** **"views"** yetu kutoka kwenye directory hii ya 
 *blog* ambapo faili hili nalo lipo ndiyo maana ya hiyo nukta hapo. 
 
-``` 
+```python 
 from django.urls import path
 from . import views
 ``` 
@@ -768,7 +770,7 @@ kumbuka ku save faili.
 **post_index.html**
 
 Sasa tutengeneze **template** kwajili ya ukurasa wetu wambele, kumbuka kwamba ukurasa huu ni **muendelezo** wa **base.html**
-```
+```shell
 nano templates/blog/post_index.html
 ```
 Na sema **inaendelea** **"extends"** alafu na onyesha kutokea wapi, wala sija sahau kwamba tuna mafaili yaliyo **tuli** **"static"** ambayo tutayahitaji, na fungulia **yaliyomo** **"content"** na weka kichwa
@@ -786,7 +788,7 @@ nikitumia nukta alafu nikaweka curly brackets mbili hapa ni kwajili ya sifa zing
 
 Hali kathalika na weka `<a href="{%` kiungo kati ya ukurasa huu na ukurasa wa `post_detail`
 kwa kutumia tag za **template** ya **Django**  tuna taka kutenge ne zewa  `url` hasa ukizinga tia **Django** anatarajia **URL** kwenye `blog/urls.py` ambayo **inaitwa** **"name"** = `post_detail` ndiyo maana hapo kati sikuacha kuioyesha `post_detail`  namalizia na `pk=post.pk` **funguo yamsingi** nilisha izungumzia wakati tuna tengeneza **muonekano** siyo kazi kujua kwanini nime iweka hapo 
-```
+```html
 <div class="row">
 {% for post in posts %}
 
