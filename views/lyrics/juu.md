@@ -782,7 +782,7 @@ sitaki kuzungumzia habari za *bootstrap* kwa sababu haikua lengo la makala haya.
 
 nikitumia nukta alafu nikaweka curly brackets mbili hapa ni kwajili ya sifa zingine za **yaliyomo** kama hapa na taka kichwa cha habari cha post `{{ post.title }}`.
 
-Hali kathalika na weka `<a href="{%` kiungo kati ya ukurasa huu na ukurasa wa `post_detail`
+Hali kathalika na weka `<a href= kiungo kati ya ukurasa huu na ukurasa wa `post_detail`
 kwa kutumia tag za **template** ya **Django**  tuna taka kutenge ne zewa  `url` hasa ukizinga tia **Django** anatarajia **URL** kwenye `blog/urls.py` ambayo **inaitwa** **"name"** = `post_detail` ndiyo maana hapo kati sikuacha kuioyesha `post_detail`  namalizia na `pk=post.pk` **funguo yamsingi** nilisha izungumzia wakati tuna tengeneza **muonekano** siyo kazi kujua kwanini nime iweka hapo 
 ```html
 <div class="row">
