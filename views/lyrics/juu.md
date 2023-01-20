@@ -342,7 +342,7 @@ return str(self.name)
 ```
 Kwenye upande wa **model** ya **Category** **"jamii"** kumbuka jina lingeweza kua kitu chochote kile, hapa ni meweka field moja tu ambayo nimeita **`name`** lakini muhimu zaidi ni aina ya hiyo field ambayo ni **`CharField`** tuta tumia kutuzia **`jina`** /**`name`**. 
 
-```shell
+```python 
 class Post(models.Model):
 
 author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='author')
@@ -723,7 +723,8 @@ ndani ya hiyo directory nita tengeneza faili la `base.html`
 nano templates/blog/base.html
 ```
 Naaza na kuipa app yetu uwezo wa kuyahudumia yale mafaili ambayo ni **tuli** kamavile **picha**, **css** na **javascript**, **yaliyomo** yoyote yale ambayo hayahitaji **ombi** kwenye **muktadha** na yana funana kwa kila **mtumiaji**.
-```html
+
+```python 
 {% load static %}
 ```
 Naendelea na **tag** zagu za kawaida za **html**,
@@ -747,7 +748,7 @@ na **agiza** **font awesome** pamoja na **css** framework ya *bootstrap* alafu n
 <body>
 ```
 Natupia tag nyingine hasa ninacho taka **ni pamoja na navbar**, ambayo ipo kwenye directory inaitwa **sehemu** 
-```html
+```python 
 <!-- NavBar -->
   {% include 'sehemu/_navbar.html' %}
 ```
@@ -775,7 +776,7 @@ nano templates/blog/post_index.html
 ```
 Na sema **inaendelea** **"extends"** alafu na onyesha kutokea wapi, wala sija sahau kwamba tuna mafaili yaliyo **tuli** **"static"** ambayo tutayahitaji, na fungulia **yaliyomo** **"content"** na weka kichwa
 cha habari.
-```html
+```python 
 {% extends 'blog/base.html' %}
 {% load static %}
 {% block content %}
