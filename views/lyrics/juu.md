@@ -724,9 +724,7 @@ nano templates/blog/base.html
 ```
 Naaza na kuipa app yetu uwezo wa kuyahudumia yale mafaili ambayo ni **tuli** kamavile **picha**, **css** na **javascript**, **yaliyomo** yoyote yale ambayo hayahitaji **ombi** kwenye **muktadha** na yana funana kwa kila **mtumiaji**.
 
-```python 
-{% load static %}
-```
+
 Naendelea na **tag** zagu za kawaida za **html**,
 ```html
 <!DOCTYPE html>
@@ -776,6 +774,7 @@ nano templates/blog/post_index.html
 ```
 Na sema **inaendelea** **"extends"** alafu na onyesha kutokea wapi, wala sija sahau kwamba tuna mafaili yaliyo **tuli** **"static"** ambayo tutayahitaji, na fungulia **yaliyomo** **"content"** na weka kichwa
 cha habari.
+
 ```python 
 {% extends 'blog/base.html' %}
 {% load static %}
