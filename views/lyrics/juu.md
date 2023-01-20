@@ -712,10 +712,59 @@ Kwenye directory yangu ya **templates** ambayo nili itengeneza hapo awali nita t
 ```shell
 mkdir templates/blog
 ```
-crossorigin="anonymous"></script>
+
+ndani ya hiyo directory nita tengeneza faili la `base.html`
+
+**base template** zinasadia pale ambapo unataka uwena na tarifa au mpangilio unao funana zaidi ya sehemu moja na hutaki kurudia rudia kuweka tarifa hizo hizo kwenye kila faili, nakama ikitokea kuna mabadiliko basi mabadiliko hayo uta yafanya kwenye faili moja tu badala ya kwenda kwenye kila faili.
+
+```shell
+nano templates/blog/base.html
+```
+Naaza na kuipa app yetu uwezo wa kuyahudumia yale mafaili ambayo ni **tuli** kamavile **picha**, **css** na **javascript**, **yaliyomo** yoyote yale ambayo hayahitaji **ombi** kwenye **muktadha** na yana funana kwa kila **mtumiaji**.
+```html
+{% load static %}
+```
+Naendelea na **tag** zagu za kawaida za **html**,
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+```
+
+na **agiza** **font awesome** pamoja na **css** framework ya *bootstrap* alafu na onyesha faili langu la **mitindo**, zingatia mpangilio vinginevyo **mitindo** yako inaweza ikazidiwa.
+```html
+<!-- Font Awesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Bootstrap -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+```
+Natupia tag nyingine hasa ninacho taka **ni pamoja na navbar**, ambayo ipo kwenye directory inaitwa **sehemu** 
+```html
+<!-- NavBar -->
+  {% include 'sehemu/_navbar.html' %}
+```
+hapo ndipo tutakapo weka **yaliyomo** na yatatokea kwenye **template** zingine
+```html
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+```
+Namalizia na kuagiza **javascript**, alafu na funga **tag** ya **html**
+kumbuka ku save faili.
+```html
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
 ```
+
 **post_index.html**
 
 Sasa tutengeneze **template** kwajili ya ukurasa wetu wambele, kumbuka kwamba ukurasa huu ni **muendelezo** wa **base.html**
@@ -724,7 +773,7 @@ nano templates/blog/post_index.html
 ```
 Na sema **inaendelea** **"extends"** alafu na onyesha kutokea wapi, wala sija sahau kwamba tuna mafaili yaliyo **tuli** **"static"** ambayo tutayahitaji, na fungulia **yaliyomo** **"content"** na weka kichwa
 cha habari.
-```
+```html
 {% extends 'blog/base.html' %}
 {% load static %}
 {% block content %}
