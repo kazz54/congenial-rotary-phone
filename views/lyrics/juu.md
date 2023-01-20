@@ -775,7 +775,7 @@ nano templates/blog/post_index.html
 Na sema **inaendelea** **"extends"** alafu na onyesha kutokea wapi, wala sija sahau kwamba tuna mafaili yaliyo **tuli** **"static"** ambayo tutayahitaji, na fungulia **yaliyomo** **"content"** na weka kichwa
 cha habari.
 
-```python 
+```html
 {% extends 'blog/base.html' %}
 {% load static %}
 {% block content %}
