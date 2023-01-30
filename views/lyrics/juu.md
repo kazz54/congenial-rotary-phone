@@ -746,16 +746,7 @@ na **agiza** **font awesome** pamoja na **css** framework ya *bootstrap* alafu n
 <body>
 ```
 Natupia tag nyingine hasa ninacho taka **ni pamoja na navbar**, ambayo ipo kwenye directory inaitwa **sehemu** 
-```python 
-<!-- NavBar -->
-  {% include 'sehemu/_navbar.html' %}
-```
-hapo ndipo tutakapo weka **yaliyomo** na yatatokea kwenye **template** zingine
-```html
-<div class="container">
-    {% block content %}{% endblock %}
-</div>
-```
+
 Namalizia na kuagiza **javascript**, alafu na funga **tag** ya **html**
 kumbuka ku save faili.
 ```html
