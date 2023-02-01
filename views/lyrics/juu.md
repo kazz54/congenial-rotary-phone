@@ -711,7 +711,7 @@ Ukijaribu kuperuzi hizo Url huwezi kuzipata, na hii inasababishwa na kuto kua na
 **Django** kama framework ina hitaji njia nyepisi ya kukabiliana na kurasa ambazo zina tengenezwa **kwa nguvu** **"dynamically"**, na moja ya njia ambazo zimekua ni nyepesi za kukabiliana na hilo ni kutengeneza **templates**. **Templates** inakua na badhi ya sehemu ambazo zinakua ni **tuli** **"static"** lakini zinapokea **syntax** maalumu ambazo zina elezea yale **yaliyomo** ya **nguvu** **"dynamic"** yata inginzwa je. Unaweza ukaiwezesha project yako ya **django** na **template** engines moja au zaid au hata bila moja, **Django** nnje ya boksi inakuja na **Django template language (DTL)** na hi ndiyo tutakayo tumia kwenye **template** zetu.
 
 Kwenye directory yangu ya **templates** ambayo nili itengeneza hapo awali nita tengeneza directory nyingine ambayo nitaita **blog** ambayo itakuwa na **templates** zote za hii app.
-```shell
+```
 mkdir templates/blog
 ```
 
@@ -723,5 +723,15 @@ ndani ya hiyo directory nita tengeneza faili la `base.html`
 nano templates/blog/base.html
 ```
 Naaza na kuipa app yetu uwezo wa kuyahudumia yale mafaili ambayo ni **tuli** kamavile **picha**, **css** na **javascript**, **yaliyomo** yoyote yale ambayo hayahitaji **ombi** kwenye **muktadha** na yana funana kwa kila **mtumiaji**.
-
-
+```python 
+{% load static %}
+```
+Naendelea na **tag** zagu za kawaida za **html**,
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+```
