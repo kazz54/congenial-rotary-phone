@@ -1,6 +1,6 @@
 {
   "name": "devdora0-blog",
-  "version": "5.0.1",
+  "version": "5.0.0",
   "description": "Makala, Habari na Dondoo za Teknologia .",
   "scripts": {
     "build": "eleventy",
