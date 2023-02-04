@@ -1,7 +1,7 @@
 ---
 layout    : post
-title     : Utofauti kati ya wallets za kidigitali na sehemu zakubadilishia fedha za kidigitali
-date      : 2023-01-16 12:54:05
+title     : Utofauti kati ya wallets za kidigitali na sehemu zakubadilishia fedha
+date      : 2023-02-16 12:54:05
 tags      : ["wallet", "uchumi"]
 
 ---
@@ -39,7 +39,7 @@ au fedha za asili kama dolla ya Marekani nk.
 
 ### Kuna aina tatu za sehemu ya kubadilishia:
 
-**Madalali**: tovuti ambazo zina wawezesha watu kununua fedha za kidigitali kwa bei aliyo weka na dalali.
+**Madalali**: tovuti ambazo zina wawezesha watu kununua fedha za kidigitali kwa bei iliyo wekwa na dalali.
 
 
 **Jukwaa la kufanyia biyashara**: tovuti zenye jukwaa lakufanyia biyashara husaidia kuwaunganisha wateja na wauzaji na kuchukua ada kwenye kila shughuli 
