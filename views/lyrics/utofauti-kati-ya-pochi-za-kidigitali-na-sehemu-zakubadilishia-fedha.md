@@ -44,21 +44,22 @@ Kuna aina tatu za sehemu ya kubadilishia:
 
 
 
-**Madalali**: tovuti ambazo zina wawezesha watu kununua fedha za kidigitali kwa bei iliyo na dalali.
+**Madalali**: tovuti ambazo zina wawezesha watu kununua fedha za kidigitali kwa bei iliyo wekwa na dalali.
 
 
 **Jukwaa la kufanyia biyashara**: tovuti zenye jukwaa lakufanyia biyashara husaidia kuwaunganisha wateja na wauzaji na kuchukua ada kwenye kila shughuli 
 
 
 
-**Biyashara ya moja kwa moja**: mifumo kama hii huwezesha moja kwa moja biyashara ya ubadilishaji kati ya mtu na mtu moja kwa moja masoko ya namna hii bei yake ya soko hubadili badilika:
-KuCoin
-
-Binance
-
-Coinbase
+**Biyashara ya moja kwa moja**: mifumo kama hii huwezesha moja kwa moja biyashara ya ubadilishaji kati ya mtu na mtu moja kwa moja masoko ya namna hii bei yake ya soko hubadili badilika mf:
+KuCoin, Binance, Coinbase, nk.
 
 
 
+**Uchaguzi mbadala**
 
-Kuna aina tatu za sehemu ya kubadilishia:
+
+*Uchaguzi mbadala wa pochi zinazo tokana na software ni pamoja na*:
+
+
+**zinazo tokana na hardware** pochi zina hifadhi funguo zako za faragha kwenye chombo cha hardware kama USB. Pochi hizi za hardware hufanya shughuli zake kwenye mtandao wa internet lakini hazi hifadhi funguo zako za faragha kwenye mtandao wa internet kama zile za software. 
