@@ -23,15 +23,6 @@ au zaidi kufatilia salio pale unapo fanya uhamisho au kupata fedha zaid za kidig
 ambazo hutumika kupokea fedha na funguo zako za faragha hutumika kuweka saini kwenye shughuli ambayo huthibisha kwamba wewe ni mmiliki wa fuguo ya umma ambayo ina tumika kupokea fedha 
 
 
-*Una chaguzi tatu zakutilia umakini kwenye pochi za software* 
-
-Kuna pochi ambazo unaweza download/pakuwa kwenye computer. Na kuitumia pochi kwenye computer ambayo uli downlod hiyo software.
-
-Kuna pochi ambazo zina fanya kazi mawinguni ( internet ). Na hii inamanisha unaweza kuzipata mahili popote. 
-Vile vile hii inamanisha kwamba funguo yako ya faragha itakuwa imehifadhiwa kwenye mtandao wa internet na kufanya kuwa hatarini kwenye mashambulio na udukuzi.
-
-
-Kuna pochi ambazo zinafanya kazi kama app kwenye simu uziri kuhusi hii nikwamba unaweza kuitumia popotepale utakapokuwa unafanya manunuzi.
 
 ### Matumizi ya sehemu zakubadilishia na hatari yake
 
@@ -40,11 +31,9 @@ Utofauti mkubwa kati ya fedha za kidigitali na sehemu zakubadilishia
 Nikwamba sehemu zakubadilishia kusudi lake siyo kuweka au kuhifadhi fedha za kidigitali bali lengo kubwa la sehemu za kubadilishia nikukupa sehemu yakuweza kununua, kuuza na kubadili fedha za kidigitali 
 au fedha za asili kama dolla ya Marekani nk.
 
-Kuna aina tatu za sehemu ya kubadilishia:
+### Kuna aina tatu za sehemu ya kubadilishia:
 
-
-
-**Madalali**: tovuti ambazo zina wawezesha watu kununua fedha za kidigitali kwa bei iliyo wekwa na dalali.
+**Madalali**: tovuti ambazo zina wawezesha watu kununua fedha za kidigitali kwa bei aliyo weka na dalali.
 
 
 **Jukwaa la kufanyia biyashara**: tovuti zenye jukwaa lakufanyia biyashara husaidia kuwaunganisha wateja na wauzaji na kuchukua ada kwenye kila shughuli 
@@ -54,12 +43,27 @@ Kuna aina tatu za sehemu ya kubadilishia:
 **Biyashara ya moja kwa moja**: mifumo kama hii huwezesha moja kwa moja biyashara ya ubadilishaji kati ya mtu na mtu moja kwa moja masoko ya namna hii bei yake ya soko hubadili badilika mf:
 KuCoin, Binance, Coinbase, nk.
 
-
-
 **Uchaguzi mbadala**
 
 
 *Uchaguzi mbadala wa pochi zinazo tokana na software ni pamoja na*:
 
 
-**zinazo tokana na hardware** pochi zina hifadhi funguo zako za faragha kwenye chombo cha hardware kama USB. Pochi hizi za hardware hufanya shughuli zake kwenye mtandao wa internet lakini hazi hifadhi funguo zako za faragha kwenye mtandao wa internet kama zile za software. 
+**zinazo tokana na hardware** pochi zina hifadhi funguo zako za faragha kwenye chombo cha hardware kama USB. 
+Pochi hizi za hardware hufanya shughuli zake kwenye mtandao wa internet lakini hazi hifadhi funguo zako za faragha kwenye mtandao wa internet kama zile za software. 
+
+
+**zinazo tokana na karatasi**: ni aina ya pochi ya kuchapisha. Utaweka funguo yako ya faragha na ya umma kwenye karatasi na ku hifadhi. 
+Ili uwe na uwezo wa kupokea na kutuma fedha za kidigitali. 
+Funguo yako ya faragha inaweza kuwa nenosiri na funguo ya umma inaweza kuwa adresi ya barua pepe yako.
+
+
+### Ipi ni salama 
+
+
+Baada ya kulinganisha pochi za kidigitali na sehemu zakubadilishia fedha za kidigitali 
+**pochi** zina zingatiwa kuwa salama zaidi kuhifadhi fedha za kidigitali kuliko sehemu zakubadilishia hasa 
+kwavile sehemu zakubadilishia zina tegemea mtu wa tatu ambaye hana thamana kama fedha zako za kidigitali zitakuwa salama.
+
+
+**Pochi za hardware** zina kuwa ni chaguo bora kwenye swala la **usalama** lakini zinaweza kuwa na mapungufu yake kama unahitaji kuzitumia kila siku.
