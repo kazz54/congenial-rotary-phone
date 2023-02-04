@@ -1,5 +1,11 @@
+---
+layout    : post
+title     : Utofauti kati ya wallets za kidigitali na sehemu zakubadilishia fedha za kidigitali
+date      : 2023-01-16 12:54:05
+tags      : ["wallet", "uchumi"]
 
-
+---
+  
 
 Tutaangali utofauti kati ya pochi za crypto na sehemu zakubadilishia crypto huku tukiangalia faida na hasara 
 kwa lengo lakuelewa utofauti zao.
