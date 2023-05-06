@@ -19,7 +19,7 @@ excerpt   :
 ---
 
 
-```html
+```python
 <div class="container">
     {% block content %}{% endblock %}
 </div>
