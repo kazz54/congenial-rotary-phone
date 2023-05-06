@@ -1,0 +1,8 @@
+
+
+
+```html
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+```
