@@ -19,8 +19,8 @@ excerpt   :
 ---
 
 
-```python
+```
 <div class="container">
-    {% block content %}{% endblock %}
+{% block content %}{% endblock %}
 </div>
 ```
