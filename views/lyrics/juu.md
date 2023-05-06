@@ -21,11 +21,7 @@ excerpt   :
 ---
 
 
-```js
-<div class="container">
-{% block content %}{% endblock %}
-</div>
-```
+
 
 
 ```python
@@ -121,7 +117,7 @@ def get_ngrok_url(name, local=False):
 public_url, public_port = urllib.parse.urlparse(get_ngrok_url('ssh')).netloc.split(':')
 print('To SSH into this colab instance, run the following command on your local machine:')
 print('ssh root@{} -p {}'.format(public_url, public_port))
-<div class="container">
+
 {% block content %}{% endblock %}
-</div>
+
 ```
