@@ -19,7 +19,7 @@ excerpt   :
 ---
 
 
-```
+```js
 <div class="container">
 {% block content %}{% endblock %}
 </div>
