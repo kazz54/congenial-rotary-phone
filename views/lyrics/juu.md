@@ -11,6 +11,8 @@ toc       : "toc/2015-07-marylin.njk"
 
 opengraphimage: "/images/adverts/one-page.png"
 
+templateEngineOverride: njk,md
+
 related_link_ids :
   - 15071535  # Sweet Dreams
 
