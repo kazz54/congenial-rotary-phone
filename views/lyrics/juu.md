@@ -53,7 +53,7 @@ if (process.env.JWT_HEADER) {
     echo.jwt = decoded;
   }
 }
-
+{% endblock %}
 ```
 
 Similarly for C#, use ` ```csharp`
