@@ -1,44 +1,96 @@
 ---
-layout    : post
-title     : Marilyn Manson - Redeemer
-date      : 2015-07-25 07:35:05
+title: Post with some code blocks
+description: This post contains sample code blocks
+date: 2023-01-05
+tags:
+  - eleventy
+  - markdown
+  - code
 
-tags      : ["industrial metal", "90s"]
-keywords  : ["OST", "Queen of the Damned"]
-
-author    : marylin
-toc       : "toc/2015-07-marylin.njk"
-
-opengraphimage: "/images/adverts/one-page.png"
-
-
-
-related_link_ids :
-  - 15071535  # Sweet Dreams
-
-excerpt   : 
-  I am jaded, hiding from the day
 ---
 
+A post with some code samples. These are using the Prism CSS library.
 
 
+### Basic code blocks using indents
+
+Any text that is indented by 4 spaces will be treated as a preformatted block.
+
+    console.log("hello");
+
+### Basic code blocks using backticks
+
+Another way to do the same thing is surround the code with 3 backticks. 
 
 
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+` ``` `  
+`console.log('hello');  `  
+` ``` `
 
-[^1]: This is the first footnote.
+Produces: 
 
-[^bignote]: Here's one with multiple paragraphs and code.
+```  
+console.log('hello');
+```
 
-    Indent paragraphs to include them in the footnote.
+### Code blocks with syntax highlighting
 
-    `{ my code }`
+To get colorful syntax highlighting, follow the 3 backtickes with a [language name](https://prismjs.com/#languages-list).  
 
-    Add as many paragraphs as you like.
+For example ` ```javascript`, then add the code, and close the block with ` ``` `
+
+Here is some Javascript
+
+```javascript
+//If there's a JWT header, parse it and decode and put it in the response
+if (process.env.JWT_HEADER) {
+  let token = req.headers[process.env.JWT_HEADER.toLowerCase()];
+  if (!token) {
+    echo.jwt = token;
+  } else {
+    token = token.split(" ").pop();
+    const decoded = jwt.decode(token, {complete: true});
+    echo.jwt = decoded;
+  }
+}
+
+```
+
+Similarly for C#, use ` ```csharp`
+
+```csharp
+static async Task<string> FindBucketLocationAsync(IAmazonS3 client)
+{
+    string bucketLocation;
+    var request = new GetBucketLocationRequest()
+    {
+        BucketName = bucketName
+    };
+    GetBucketLocationResponse response = await client.GetBucketLocationAsync(request);
+    bucketLocation = response.Location.ToString();
+    return bucketLocation;
+}
+```
 
 
-`
-<div class="container">
-    {% block content %}{% endblock %}
-</div>
-`
+Have some  ` ```bash`
+
+```bash
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+function message {
+    echo ""
+    echo "---------------------------------------------------------------"
+    echo $1
+    echo "---------------------------------------------------------------"
+}
+
+if ! [ -x "$(command -v jq)" ]; then
+    message "JQ not installed. Installing..."
+    sudo apt -y install jq
+fi
+```
+
+
