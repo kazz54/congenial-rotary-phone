@@ -110,7 +110,7 @@ kuvifanyia kazi vitakua mahususi kwajili ya mazingira/environment hii **venv**
 
 ### Installation Ya Mfumo wa Django
 
-nita install framework ya **Django** version **`3.0.10`** kwama wakati na andaa makala haya
+nita install framework ya **Django** version *3.0.10* kwama wakati na andaa makala haya
 
 ```python 
 pip3 install Django==3.0.10
@@ -124,7 +124,7 @@ pip3 install Django
 
 **Tengeneza project ya Django.**
 
-Nita tumia nyenzo inayo julikana kama `django-admin` kutengeneza hii project ambayo nita ita `habari_zashamba`. 
+Nita tumia nyenzo inayo julikana kama *django-admin* kutengeneza hii project ambayo nita ita *habari_zashamba*. 
 nyezo hii inafanya kazi kwenye terminal na kazi yake hasa ni kurahisisha kazi za kitawala. 
 
 ```python 
@@ -148,7 +148,7 @@ shambablog/
 └── manage.py
 ```
 
-Usihamaki kwa wingi wa hayo mafaili na nini yanatakiwa kufanyaa, kilajambo litakua wazi, kwa sasa nataka afugue faili la `settings.py` faili hili ndiyo
+Usihamaki kwa wingi wa hayo mafaili na nini yanatakiwa kufanyaa, kilajambo litakua wazi, kwa sasa nataka afugue faili la *settings.py* faili hili ndiyo
 linakua na setting za application yako ya **Django**.
 
 ```shell
@@ -169,7 +169,7 @@ sasa save faili alafu fanya hivi.
 python3 manage.py runserver 0.0.0.0:3000
 ```
 
-Nime azisha Web server inayokuja na **Django** kwenye network interface zote kwa kutumia `manage.py` hii niyezo nyingine kwa jili ya kurahisisha utawala, 
+Nime azisha Web server inayokuja na **Django** kwenye network interface zote kwa kutumia *manage.py* hii niyezo nyingine kwa jili ya kurahisisha utawala, 
 nyezo hii hua inapatikana baada yakutengeneza project.
 
 Kwa sasa usihofu kuhusu hilo oyo unalo liona kuhusu **Migrations**, tuta angalia **Migrations** kwa undani mdaa si mrefu.
@@ -200,15 +200,15 @@ pip3 install pillow
 
 
 
-Sasa tutarudi kwenye faili letu la `settings.py` kwajili ya kuifahamisha **django** uwepo wa app ya **blog** pamoja na setting zingine 
-kama vile mdaa na wapi tuna kusudia kuhifadhi mafaili fungua `settings.py` kwa kufanya hivi
+Sasa tutarudi kwenye faili letu la *settings.py* kwajili ya kuifahamisha **django** uwepo wa app ya **blog** pamoja na setting zingine 
+kama vile mdaa na wapi tuna kusudia kuhifadhi mafaili fungua *settings.py* kwa kufanya hivi
 
 
 ```shell
 nano habari_zashamba/settings.py
 ```
 
-Kwenye **`INSTALLED_APPS`** weka **blog** na hiyo ndiyo jinsi ya kuitambulisha **django** uwepo wa hiyo app ya **blog**
+Kwenye *INSTALLED_APPS* weka **blog** na hiyo ndiyo jinsi ya kuitambulisha **django** uwepo wa hiyo app ya **blog**
 
 ```python 
 
@@ -225,23 +225,23 @@ INSTALLED_APPS = [
 
 
 **Django** nnje ya boksi ina tegemea kukuta mafaili ya **html** ndani ya directory ya app 
-kwa mantiki hiyo **django** inatarajia kuona **`blog/templates`** alafu **templates** mfn **`index.html`** nk, 
-mimi nita badilisha huo mtazamo kwa kuitoa `templates directory` nje na kuiweka juu kwa kufanya hivi 
+kwa mantiki hiyo **django** inatarajia kuona *blog/templates* alafu **templates** mfn *index.html* nk, 
+mimi nita badilisha huo mtazamo kwa kuitoa *templates directory* nje na kuiweka juu kwa kufanya hivi 
 
 ```python 
 'DIRS': [os.path.join(BASE_DIR, 'templates')],
 ```
 
-undoa neno **`UTC`** badala yake weka
+undoa neno *UTC* badala yake weka
 
 
 ```python 
 TIME_ZONE = 'Africa/Dar_es_Salaam'
 ```
 
-App yetu itakua ina mafaili mbali mbali kamavile `picha`, `css`, `javascript` nk
+App yetu itakua ina mafaili mbali mbali kamavile *picha*, *css*, *javascript* nk
 **django** tayari inakuja ikiwa imewezeshwa kutoa huduma ya haya mafaili pale inapohitajika kama ukiangalia hapo kwenye 
-**`INSTALLED_APPS`** utaona **`django.contrib.staticfiles`** hiyo ndiyo app inayo tuwezesha tunacho takiwa sisi kufanya 
+*INSTALLED_APPS* utaona *django.contrib.staticfiles* hiyo ndiyo app inayo tuwezesha tunacho takiwa sisi kufanya 
 nikuonyesha tu wapi hayo mafaili kwenye app yetu yanapatika kwa hiyo badili na iwe hivi.
 
 ```python 
@@ -252,7 +252,7 @@ os.path.join(BASE_DIR, 'habari_zashamba/static')
 ]
 ```
 
-Mwisho na malizia na setting za `pillow` kwajili ya mafaili ambayo watumiaji wa app 
+Mwisho na malizia na setting za *pillow* kwajili ya mafaili ambayo watumiaji wa app 
 watakua wame pakia/upload.
 
 
@@ -274,22 +274,22 @@ mkdir templates
 Sasa tupo tayari kuandika program kwa ajili ya **kitu (object)**, 
 swali ni kwamba **kitu** che nyewe ni nini? na jibu ni **post** / **"makala"** kwenye hii app tunataka watumiaji wa app waweze kuandika na kuchapisha **makala** yao online. 
 Sasa hizo post "makala" **(kitu)** zinasifagani? kabla sija jibu hili swali hebu tuangalie mfano wa **kitu** kingine ambacho wewe na mimi tunakijua na **kitu** 
-hicho siyo kingine bali ni **kitabu**, `kitabu` kwa haraka haraka kina sifa zifutazo `jarida, kichwa cha habari, jina la kitabu, mtunzi mwaka kiliyo chapisha orotha ya sura mbali mbali nk` 
-tukiwa bado tuna twasira ya kitabu hebu tuangalie kwenye **post** ambazo watumiaji wetu watakua wanaandika zitakua zina undwa na nini? `kichwa cha habari, jina la muandishi habari ye nyewe nk`, 
+hicho siyo kingine bali ni **kitabu**, *kitabu* kwa haraka haraka kina sifa zifutazo *jarida, kichwa cha habari, jina la kitabu, mtunzi mwaka kiliyo chapisha orotha ya sura mbali mbali nk* 
+tukiwa bado tuna twasira ya kitabu hebu tuangalie kwenye **post** ambazo watumiaji wetu watakua wanaandika zitakua zina undwa na nini? *kichwa cha habari, jina la muandishi habari ye nyewe nk*, 
 aha kwa hiyo kama vitu kama hivyo ndiyo vinatupatia **kitu** ambacho tunakita **post** hebu tuangalie hivyo **vitu** vya hicho **kitu** **Post** tunawezaje kuviprogram kwa kutumia **python** 
 na mtindo wa ku program **kitu** kwa lugha nyingine **oop (object orieted programing)**. Bahatizuri **Django** anakitu ambacho kinaitwa `Model` 
 kita tusadia kuprogram **kitu**
 
-`Model` kwenye upande wa **Django** ni **kitu** cha namna ya kipekee kina hifadhiwa kwenye **hifadhidata/database** na **hifadhidata** ni mkusanyiko wa data hapa ndiyo sehemu ambayo utahifathi tarifa za watumiaji, posts nk...
+*Model* kwenye upande wa **Django** ni **kitu** cha namna ya kipekee kina hifadhiwa kwenye **hifadhidata/database** na **hifadhidata** ni mkusanyiko wa data hapa ndiyo sehemu ambayo utahifathi tarifa za watumiaji, posts nk...
 
-kama ukiangalia kwenye `settings.py` utaona kunatarifa za **hifadhidata**. 
-**Django** inkuja ikiwa imesha wezesha na `sqlite3` ambayo kwa mazingira ya maabara na majaribio inatosha lakini kama utahitaji kubadilisha 
+kama ukiangalia kwenye *settings.py* utaona kunatarifa za **hifadhidata**. 
+**Django** inkuja ikiwa imesha wezesha na *sqlite3* ambayo kwa mazingira ya maabara na majaribio inatosha lakini kama utahitaji kubadilisha 
 **hifadhidata** una weza kufanya hivyo ila mimi kwenye lab hii sitabadili nitaiyacha **sqlite3**. 
 
 Katika hali ya kawaida ili kutumia **meza** na **safu** za **hifadhidata** inabidi ku andike **SQL** command lakini kwa kutumia **Model** 
 hatu hitaji kufahamu **SQL** kwani **Django** inatumia **ORM** hii ina tuwezesha sisi kundika **madarasa** kwenye **python** 
 ambayo yanaendana na **safu** pamoja na **meza** za kwenye **hifadhidata** ukiwa unatumia **ORM** yale **madarasa** 
-unayo yatengeneza yanayo wakilisha **meza** za **hifadhidata** yanajulikana kama **Models** na kwenye **Django** hua yanaishi kwenye faili linalo julikana kama `models.py`
+unayo yatengeneza yanayo wakilisha **meza** za **hifadhidata** yanajulikana kama **Models** na kwenye **Django** hua yanaishi kwenye faili linalo julikana kama *models.py*
 
 
 
@@ -298,7 +298,7 @@ unayo yatengeneza yanayo wakilisha **meza** za **hifadhidata** yanajulikana kama
 nano blog/models.py
 ```
 
-Hapa sasa nitaanza kuonyesha `madarasa` yangu
+Hapa sasa nitaanza kuonyesha *madarasa* yangu
 
 ```python 
 from django.conf import settings
@@ -315,22 +315,22 @@ class Subscriber(models.Model):
 ```
 
 Nimeaza nakuingiza maktaba mbali mbali ambazo nita zitumia, 
-kwakutumia neno **`import`**
+kwakutumia neno *import*
 
 
-**`class Subscriber(models.Model)`**: huu mstari una onyesha **model** yetu ni **kitu** 
+*class Subscriber(models.Model)*: huu mstari una onyesha **model** yetu ni **kitu** 
 
-**`class`** **"darasa"** ni neno maalumu ambalo lina ashiria kwamba tunatengeneza **kitu**
+*class* **"darasa"** ni neno maalumu ambalo lina ashiria kwamba tunatengeneza **kitu**
 
-neno **`Subscriber`** hili ni jina la **model** yetu tunge weza kuita jinalolote lile lakini inabidi kua makini nakuto tumia tarakimu malumu na kutoacha nafasi.
+neno *Subscriber* hili ni jina la **model** yetu tunge weza kuita jinalolote lile lakini inabidi kua makini nakuto tumia tarakimu malumu na kutoacha nafasi.
 
-neno **`models.Model`** inamanisha kwamba **Subscriber** ni **Django** model kwa hiyo **Django** inafahamu jinsi ya kuhifadhi kwenye **hifadhidata**
+neno *models.Model* inamanisha kwamba **Subscriber** ni **Django** model kwa hiyo **Django** inafahamu jinsi ya kuhifadhi kwenye **hifadhidata**
 
-Na endelea na kuonyesha fields zinazo tengeneza **model** ya **Subscriber** ikiwa ni **`email`** pamoja na **`timestamp`** hizi ndiyo filds zikatazo tengeneza **model** yangu, 
+Na endelea na kuonyesha fields zinazo tengeneza **model** ya **Subscriber** ikiwa ni *email* pamoja na *timestamp* hizi ndiyo filds zikatazo tengeneza **model** yangu, 
 
-chamsingi ni ku zipatia aina hizi field ambapo kwenye **Email** aina niliyo toa kwenye hiyo **field** ni **`EmailField`** na neno **`unique=True`** nikatika hali ya kuhakisha kwamba baruapepe hazijirudii.
+chamsingi ni ku zipatia aina hizi field ambapo kwenye **Email** aina niliyo toa kwenye hiyo **field** ni *EmailField* na neno *unique=True* nikatika hali ya kuhakisha kwamba baruapepe hazijirudii.
 
-fild nyingine ni **timestamp** jina lingeweza kua chochotekile lakini jambo lamsingi ni aina ya **field** ambapo nimesema kua ni **`DateTimeField`** **"fild ya tarehe"** **`(auto_now_add = True)`** 
+fild nyingine ni **timestamp** jina lingeweza kua chochotekile lakini jambo lamsingi ni aina ya **field** ambapo nimesema kua ni *DateTimeField* **"fild ya tarehe"** *(auto_now_add = True)* 
 hii inamanisha kila **kitu** cha **Subscriber** kikiwa kimetengenenzwa basi tarehe ya mda kilipo ongenza iwepo.
 
 ```shell
@@ -340,7 +340,7 @@ name = models.CharField(max_length=20)
 def __str__(self):
 return str(self.name) 
 ```
-Kwenye upande wa **model** ya **Category** **"jamii"** kumbuka jina lingeweza kua kitu chochote kile, hapa ni meweka field moja tu ambayo nimeita **`name`** lakini muhimu zaidi ni aina ya hiyo field ambayo ni **`CharField`** tuta tumia kutuzia **`jina`** /**`name`**. 
+Kwenye upande wa **model** ya **Category** **"jamii"** kumbuka jina lingeweza kua kitu chochote kile, hapa ni meweka field moja tu ambayo nimeita *name* lakini muhimu zaidi ni aina ya hiyo field ambayo ni *CharField* tuta tumia kutuzia *jina* /*name*. 
 
 ```python 
 class Post(models.Model):
@@ -363,17 +363,17 @@ return str(self.title)
 ```
 Mpaka hapa tulipofikia, umekwisha pata picha zuri ya **model** na **fields** pamoja na aina mbali mbali ya data ambazo zipo kwenye field. 
 
-kwenye **model** ya `post` **fields** za `author`, `categories` pamoja na ya `likes` ndiyo zinaweza kidogo zikakuchanganya 
+kwenye **model** ya *post* **fields** za *author*, *categories* pamoja na ya *likes* ndiyo zinaweza kidogo zikakuchanganya 
 kwa sababu aina ya data zilizokuwepo kwenyo hizo **field** nitofauti na field zingine tulizo ziangalia hebu tuangalie moja bada ya nyingine 
 tukiaza na field ya **author**
 
-**field** ya **`author`** ni **`ForeignKey`** kwasabu ni kiungo na **model** nyingine ambayo ni **`User`** ambayo ina toka kwenye maktaba za **`setting`** ambazo tulisha ziingiza hapo awali kwakutumia **`import`**. 
-Na ndiyo mana tume tumia **`on_delete=models.CASCADE`** ili endapo mtumiaji amefutwa basi na post zake zifute/delete kwa sababu kiungo hakipo.
+**field** ya *author* ni *ForeignKey* kwasabu ni kiungo na **model** nyingine ambayo ni *User* ambayo ina toka kwenye maktaba za *setting* ambazo tulisha ziingiza hapo awali kwakutumia *import*. 
+Na ndiyo mana tume tumia *on_delete=models.CASCADE* ili endapo mtumiaji amefutwa basi na post zake zifute/delete kwa sababu kiungo hakipo.
 
-Kwenye field ya **categories** ambayo aina yake ni **`ManyToManyField`** kwa jili ya kua kiungo na **modole** ya `Category` tunataka post nyingi kwenye `Category` na `Category` nyingi kwenye `post`.
+Kwenye field ya **categories** ambayo aina yake ni *ManyToManyField* kwa jili ya kua kiungo na **modole** ya *Category* tunataka post nyingi kwenye *Category* na *Category* nyingi kwenye *post*.
 
-Na hiyo ya `likes` nayo ni kama ya **categories** hapa utofauti tume 
-tumia **`User`**, kwasababu tunataka "watumiaji" `user` wengi wa weze kupenda `post` nyingi.
+Na hiyo ya *likes* nayo ni kama ya **categories** hapa utofauti tume 
+tumia *User*, kwasababu tunataka "watumiaji" wengi wa weze kupenda *post* nyingi.
 
 Kwa maelekezo hayo basi nirahisi kuangalia **Model** hii ya **Comment** na uka 
 elewe kwa urahisi kabisa nini kinaendele. 
@@ -393,7 +393,7 @@ self.save()
 def __str__(self):
 return self.text
 ```
-Kwa vile sasa tumesha tengeneza `classes` "`madarasa`" niwakati muafaka
+Kwa vile sasa tumesha tengeneza *classes* "*madarasa*" niwakati muafaka
 wa kuiamrisha kwa kutumia **Django** **ORM** itutengeneze **hifadhidata**. 
 Kama tulivyo ona nnje ya boksi **Django** inakuja na **SQLite** na ndiyo hiyo nitakayo itumia, 
 Kumbuka kwamba **Django** **ORM** ina tumia lugha ya **SQL** kwa hiyo **hifadhidata** yoyote ile ambayo inatumia 
@@ -403,7 +403,7 @@ Kumbuka kwamba **Django** **ORM** ina tumia lugha ya **SQL** kwa hiyo **hifadhid
 
 Sasa tunakwenda kuweka hayo **"madarasa"** **classes** kwenye **hifadhidata** kwakutengeneza faili la **"migration"** faili hili ndilo lenye **madarasa** pamoja na sheria zinayo iambia **Django** mabadiliko gani yanatakiwa yafanyike kwenye **hifadhidata** 
 
-ili kulitengeneza hilo faili la **"migration"** hakikisha ukiwa ndani ya directory ya **`projects/shambablog`** unaandika
+ili kulitengeneza hilo faili la **"migration"** hakikisha ukiwa ndani ya directory ya *projects/shambablog* unaandika
 
 ```python
 python3 manage.py makemigrations
@@ -419,7 +419,7 @@ blog/migrations/0001_initial.py
 
 ```
 
-Tumefanikiwa kuandika faili la **maigration** ambalo liko kwenye **`blog/migrations/0001_initial.py`** ili kuziweka hizo tarifa ambazo ziko kwenye faili la **migration** kwenye **hifadhidata** fanya hivi
+Tumefanikiwa kuandika faili la **maigration** ambalo liko kwenye *blog/migrations/0001_initial.py* ili kuziweka hizo tarifa ambazo ziko kwenye faili la **migration** kwenye **hifadhidata** fanya hivi
 
 ```python 
 python3 manage.py migrate
@@ -455,7 +455,7 @@ Naili kuweza kuandika hizo **post** inabidi kuingia kwenye webapp ya **Django** 
 
 
 ## Django Admin 
-wakati tuna tengeneza project tulitumia **`django-admin startproject`** hi inatuwezesha sisi kutumia **admin** moja kwa moja. tunacho takiwa kufanya ni kumtengeneza mtumiaji ambaye tuna mpa mamlaka ya **usimamizi**/**"admin"** kwa ku weka command hi kwenye terminal
+wakati tuna tengeneza project tulitumia *django-admin startproject* hi inatuwezesha sisi kutumia **admin** moja kwa moja. tunacho takiwa kufanya ni kumtengeneza mtumiaji ambaye tuna mpa mamlaka ya **usimamizi**/**"admin"** kwa ku weka command hi kwenye terminal
 
 ```python 
 python3 manage.py createsuperuser
@@ -511,7 +511,7 @@ basi nilazima nikutambulishe kwenye **Kuulizaset**/**"QuerySet"**
 
 ### Kuulizaset ni nini?
 
-**Kuulizaset** hasa kiini, ni orotha ya **vitu** kwenye **Model** husika, **kuulizaset** kuna turuhusu `kusoma`, `kuchuja` na `kupanga` data kwenye **hifadhidata**
+**Kuulizaset** hasa kiini, ni orotha ya **vitu** kwenye **Model** husika, **kuulizaset** kuna turuhusu *kusoma*, *kuchuja* na *kupanga* data kwenye **hifadhidata**
 
 Nitaanza na kuanzisha **console** ya **Django** haina utofauti sana na ile ya **python** lakini hii inatupa nyenzo nyingi ambazo ni maksusi kwa **Django** kwenye terminal yako fanya hivi.
 
@@ -539,8 +539,8 @@ Post.objects.all()
 <QuerySet [<Post: Ufugaji wa n'gombe wa maziwa>, <Post: Ulimaji wa mboga mboga>, <Post: Ufugaji wa kuku>, <Post: Uwandaji wa shamba la mpunga kwa kutumia trector>, <Post: Matumizi ya dawa za ukulia wa dudu kwenye mashamba ya kahawa>]>
 ```
 
-ilikutengeneza **post** mpaka sasa hivi nilazima uwe kama mtumiaji mwenye mamlaka ya `usimamizi`, nakuhusu `msimamizi` ndiyo mtumiaji pekee tuliye naye mpaka sasa hivi, mimi nili muita **"admin"** kuthibitisha hilo basi nita 
-`soma` orotha ya watumiaji wote tuliyonao kwa kufanya hivi 
+ilikutengeneza **post** mpaka sasa hivi nilazima uwe kama mtumiaji mwenye mamlaka ya *usimamizi*, nakuhusu *msimamizi* ndiyo mtumiaji pekee tuliye naye mpaka sasa hivi, mimi nili muita **"admin"** kuthibitisha hilo basi nita 
+*soma* orotha ya watumiaji wote tuliyonao kwa kufanya hivi 
 
 ```python 
 from django.contrib.auth.models import User
@@ -548,7 +548,7 @@ from django.contrib.auth.models import User
 User.objects.all()
 <QuerySet [<User: admin>]>
 ```
-Ili niweze kumtumia huyu `mtumiaji` itabidi nitengeneze mfano wa `mtumiaji`
+Ili niweze kumtumia huyu *mtumiaji* itabidi nitengeneze mfano wa *mtumiaji*
 ```python 
 mimi = User.objects.get(username='admin')
 ```
@@ -558,14 +558,14 @@ Post.objects.create(author=mimi, title='Ulimaji wa zabibu', text='Ulimaji wa kis
 <Post: Ulimaji wa zabibu>
 ```
 
-`Tuchuje` post tunazotaka zionekane mathalani tuorotheshe post ambazo kwenye `kichwa cha habari` kuna neno **ufugaji**
+*Tuchuje* post tunazotaka zionekane mathalani tuorotheshe post ambazo kwenye *kichwa cha habari* kuna neno **ufugaji**
 
 ```python 
 Post.objects.filter(title__contains='ufugaji')
 <QuerySet [<Post: Ufugaji wa n'gombe wa maziwa>, <Post: Ufugaji wa kuku>]>
 ```
 
-Tunaweza **kuulizaset** kwa lengo laku `panga` orotha yetu, mfn tunataka ku ona post zote ambazo zime chapishwa "published" 
+Tunaweza **kuulizaset** kwa lengo laku *panga* orotha yetu, mfn tunataka ku ona post zote ambazo zime chapishwa "published" 
 lakini zile post za mwisho kuchapishwa ndiyo ziwe zakwanza kuonekana.
  
 ```python 
@@ -579,7 +579,7 @@ Ukitaka kutoka kwenye **console** utafanya hivi
 exit()
 ``` 
 Tumeona uwezo na nguvu ya **kuulizaset** **"QuerySet"** tukiwa nahayo maarifa ya kutumia hiyo zana katika mkoba wa nyenzo zetu 
-hebu tuone nijinsi gani tunaweza kuandika `kazi` kwenye `mtazamo` **"views"** ambazo zitaenda kuchukua data kutoka kwenye 
+hebu tuone nijinsi gani tunaweza kuandika *kazi* kwenye *mtazamo* **"views"** ambazo zitaenda kuchukua data kutoka kwenye 
 **hifadhidata** na kuzionyesha kwenye ukurasa wetu wa **html** 
 
 ### Django Views
