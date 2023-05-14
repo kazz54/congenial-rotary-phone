@@ -35,21 +35,21 @@ Kama utahitaji kutumia **barua pepe**, utahitaji kutengeneza Model yako ya mtumi
 
 **Chaguzi:**
 
-``AbstractUser``: Tumia uchaguzi huu kama umerithika na **fields** ambazo tayari zipo kwenye modle ya mtumiaji na unahitaji kuondoa field ya **jina la mtumiaji**.
+*AbstractUser*: Tumia uchaguzi huu kama umerithika na **fields** ambazo tayari zipo kwenye modle ya mtumiaji na unahitaji kuondoa field ya **jina la mtumiaji**.
 
-``AbstractBaseUser``: Tumia uchaguzi huu kama unataka kutengeneza modle yako ya mtumiaji kutokea mwazo, hii itakua ni modle mpya kabisa yakwako  kuazia mwazo.
+*AbstractBaseUser*: Tumia uchaguzi huu kama unataka kutengeneza modle yako ya mtumiaji kutokea mwazo, hii itakua ni modle mpya kabisa yakwako  kuazia mwazo.
 
-Tuta angalia chaguzi zote mbili kwenye makala haya ``AbstractUser`` pamoja na ``AbstractBaseUser``.
+Tuta angalia chaguzi zote mbili kwenye makala haya *AbstractUser* pamoja na *AbstractBaseUser*.
 
 Hatua ziko sawa kwa zote:
 
-1.) **Tengeneza Model yako ya ``mtumiaji na Manager``**
+1.) **Tengeneza Model yako ya** *mtumiaji na Manager*
 
-2.) **Sasisha ``settings.py``**
+2.) **Sasisha** *settings.py*
 
-3.) **Binafsisha form ya ``UserCreationForm`` na ``UserChangeForm``**
+3.) **Binafsisha form ya** *UserCreationForm* na *UserChangeForm*
 
-4.) **Sasisha ``admin``**
+4.) **Sasisha** *admin*
 
 Inashauriwa kuweka modle yako ya mtumiaji wakati unaanza na project mypa ya Django. Kwani bila hiyo, unaweza kulazimika kutengeneza modle nyingine 
 (kama vile UserProfile) nakuiunganisha na modle ya mtumiaji ya Django kwa kutumia **"OneToOneField"** kama utahitaji kuweka field mpya kwenye modle.
@@ -58,7 +58,7 @@ Inashauriwa kuweka modle yako ya mtumiaji wakati unaanza na project mypa ya Djan
 
 Aza na kutengeneza project mpya ya django pamoja na app ya watumiaji:
 
-{% highlight "shell" %}
+```shell
 mkdir Django-usajili-na-uthibitisho-mfumo && cd Django-usajili-na-uthibitisho-mfumo
 python3 -m venv venv
 source venv/bin/activate
@@ -66,14 +66,14 @@ python3 -m pip install --upgrade pip
 pip3 install Django
 django-admin startproject watumiaji_django .
 python3 manage.py startapp accounts
-{% endhighlight %}
+```
 
-Jisikie huru kwa kubadilisha ``virtualenv`` na ``Pip`` kwajili ya ``Poetry`` au ``Pipenv``.
+Jisikie huru kwa kubadilisha *virtualenv* na *Pip* kwajili ya *Poetry* au *Pipenv*.
 
 Usi fanye **uhamiaji "migrations"** kwanza. Kumbuka: Nilazima utengeneza modle yako ya watumiaji kabla ya kufanya uhamiaji kwa mara ya kwanza.
 
-Ongeza hii **app mpya** kwenye orotha ya ``INSTALLED_APPS`` kwenye ``settings.py``:
-{% highlight "python" %}
+Ongeza hii **app mpya** kwenye orotha ya *INSTALLED_APPS* kwenye *settings.py*:
+```python
 # Application definition
 
 INSTALLED_APPS = [
@@ -85,7 +85,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
 ]
-{% endhighlight %}
+```
 ## Majaribio
 
 Tuanze kwanza na mbinu ya majaribio:
