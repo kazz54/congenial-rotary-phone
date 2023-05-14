@@ -89,11 +89,11 @@ INSTALLED_APPS = [
 ## Majaribio
 
 Tuanze kwanza na mbinu ya majaribio:
-{% highlight "shell" %}
+```shell
 nano accounts/tests.py
-{% endhighlight %}
+```
 Alafu weka
-{% highlight "python" %}
+```python
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 
@@ -136,7 +136,7 @@ class UsersManagersTests(TestCase):
         with self.assertRaises(ValueError):
             User.objects.create_superuser(
                 email='super@user.com', password='foo', is_superuser=False)
-{% endhighlight %}  
+```  
 
 ukisubutu kufanya **jaribio/test** kwa sasa lita feli usihamaki
 
@@ -147,13 +147,13 @@ Kwanza, tuna hitaji kuongeza **Manager** wetu, kwa kufanya **subclassing** kutok
 
 tengeneza faili la **managers.py** ndani ya directory ya **accounts**:
 
-{% highlight "shell" %} 
+```shell 
 nano accounts/managers.py
-{% endhighlight %}
+```
 
 Weka
 
-{% highlight "python" %}
+```python
 from django.contrib.auth.base_user import BaseUserManager
 from django.utils.translation import ugettext_lazy as _
 
@@ -189,7 +189,7 @@ class CustomUserManager(BaseUserManager):
             raise ValueError(_('Superuser must have is_superuser=True.'))
         return self.create_user(email, password, **extra_fields)
         
-{% endhighlight %}
+```
 # Model ya mtumiaji 
 
 *User Model*
@@ -197,10 +197,10 @@ class CustomUserManager(BaseUserManager):
 Fanya uamuzi wa njia gani unataka kutumia: **subclassing AbstractUser** au **AbstractBaseUser**
 
 ## AbstractUser
-``sasisha accounts/models.py:``
+*sasisha accounts/models.py:*
 
 
-{% highlight "python" %}
+```python
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
@@ -219,7 +219,7 @@ class User(AbstractUser):
 
     def __str__(self):
         return self.email
-{% endhighlight %}        
+```        
 Kilicho fanyika hapo:
 
 Tumetengeneza **darasa** jipya ambalo tumelipa jina la **User** ambalo **linatokea "subclasses"** **AbstractUser**
@@ -235,9 +235,9 @@ Tuka bainisha kwamba **vitu** vyote kwenye **darasa** vinakuja kutokea kwenye **
 
 
 ## AbstractBaseUser
-``Sasisha accounts/models.py:``
+*Sasisha accounts/models.py:*
 
-{% highlight "python" %}
+```python
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
 from django.db import models
 from django.utils import timezone
@@ -259,7 +259,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.email
-{% endhighlight %}
+```
 
 
 
@@ -274,13 +274,13 @@ tukaonyesha kwamba vitu vyote kwenye darasa vinakuja kutokea kwenye **CustomUser
 
 Ongeza mstari ufutao kwenye faili la **settings.py** ili Django ifahamu kutumia darasa jipya la **User**:
 
-``AUTH_USER_MODEL = 'accounts.User'``
+*AUTH_USER_MODEL = 'accounts.User'*
 
 Sasa unaweza kutengeneza na kufanya **uhamiaji "migrations"**, ambao utatengeneza hifadhidata mpya ambayo inatumi **model** yetu ya **watumiaji "User"**, kabla ya kufanya hivyo hebutuangalie nijinsigani **uhamiaji** utaonekana bila kufanya **uhamiaji** kwa kupitisha kibera cha --dry-run:
 
-{% highlight "shell" %}
+```shell
 python3 manage.py makemigrations --dry-run --verbosity 3
-{% endhighlight %}
+```
 
 Bilashaka ume weza kuona kitu kama hiki
 
