@@ -284,7 +284,7 @@ python3 manage.py makemigrations --dry-run --verbosity 3
 
 Bilashaka ume weza kuona kitu kama hiki
 
-{% highlight "python" %}
+```python
 class Migration(migrations.Migration):
 
     initial = True
@@ -313,30 +313,30 @@ class Migration(migrations.Migration):
             },
         ),
     ]
-{% endhighlight %}
+```
 
 Sasa unaweza kutengeneza na kuanzisha uhamiaji 
 
-{% highlight "shell" %}
+```shell
 python3 manage.py makemigrations
 python3 manage.py migrate
-{% endhighlight %}
+```
 
-Unaweza kuitumia hii model ya **mtumiaji "User"** kama kumbukumbu kwa kutumia ```get_user_model()``` au ```settings.AUTH_USER_MODEL```.
+Unaweza kuitumia hii model ya **mtumiaji "User"** kama kumbukumbu kwa kutumia *get_user_model()* au *settings.AUTH_USER_MODEL*.
 
-Wakati unampotengeneza account ya **mtumiaji mkuu "superuser"**, Utahitajika kuweka ``barua pepe badala ya jina la mtumiaji``:
+Wakati unampotengeneza account ya **mtumiaji mkuu "superuser"**, Utahitajika kuweka *barua pepe badala ya jina la mtumiaji*:
 
-{% highlight "shell" %}
+```python
 (env)$ python3 manage.py createsuperuser
 Email address: test@test.com
 Password:
 Password (again):
 Superuser created successfully.
-{% endhighlight %}
+```
 
 hakikisha **jaribio "test"** linafaulu
 
-{% highlight "shell" %}
+```shell
 (env)$ python manage.py test
 Creating test database for alias 'default'...
 System check identified no issues (0 silenced).
@@ -346,15 +346,15 @@ Ran 2 tests in 0.299s
 
 OK
 Destroying test database for alias 'default'...
-{% endhighlight %}
+```
 
 ## Forms
 **Tutoe "subclass"** mafomu ya **UserCreationForm na UserChangeForm** ili ya weze kutumia model yetu ya **User** tuliyo itegeneza wenyewe.
 
-Tengeneza faili jipya kwenye director ya ```accounts``` liite **forms.py**:
+Tengeneza faili jipya kwenye director ya *accounts* liite **forms.py**:
 
 
-{% highlight "python" %}
+```python
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
 
 from .models import User
@@ -374,11 +374,11 @@ class CustomUserChangeForm(UserChangeForm):
         fields = ('email',)
 
 
-{% endhighlight %}
+```
 ## Admin
 Mwambie admin atumie haya mafomu kwa kutoa "subclassing" **UserAdmin** kwenye accounts/admin.py:
 
-{% highlight "python" %}
+```python
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 
@@ -407,7 +407,7 @@ class CustomUserAdmin(UserAdmin):
 
 
 admin.site.register(User, CustomUserAdmin)
-{% endhighlight %}
+```
 Ili kuweza kuongeza na kubadilisha watumiaji itakubidi uazisha server na uingie kwenye site ya admin.
 
 ![admin_add_user](https://i.ibb.co/k8VDd35/2022-04-23-02-51-51-Add-user-Django-site-admin-Brave.png)
