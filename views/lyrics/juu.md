@@ -59,7 +59,7 @@ Python 3.6.9
 ```
 
 
-hiyo "**`Python 3.6.9`**" ndiyo version ya **python** ambayo iko kwenye machine yangu
+hiyo *"Python 3.6.9"* ndiyo version ya **python** ambayo iko kwenye machine yangu
 inamaana nina uwezo wakusoma na kuandika program kwa kutumia lugha ya **python**.
 
 
