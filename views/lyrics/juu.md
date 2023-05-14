@@ -479,7 +479,7 @@ Nadhani kitu chakwaza ulicho gundua nikwamba sasa hivi lile onyo la **migrations
 kivinjari chako alafu ufungue http://ip:3000/admin utatakiwa kuweka jina la mtumiaji uliye mtengeneza hapo awali pamoja na nywila. Utakapo ingia utaona kitu kama hiki.
 
 ![django-admin1](https://images.ctfassets.net/9heip63yijn8/2oa96DYXmNTHwevpSyp7O8/dba93eb615f5f1a6183831b7390aac87/2020-11-22_21_32_56-Site_administration___Django_site_admin_____Firefox_Developer_Edition.png) 
-Ili zile **Models** tulizo zitengeneza tuweze kuzitumia inabidi tuzi orotheshe hapa kwa kuziandikisha kwenye faili hili **`blog/admin.py`** hebu lifungue tuanze kuziandikisha hizi **Models**. 
+Ili zile **Models** tulizo zitengeneza tuweze kuzitumia inabidi tuzi orotheshe hapa kwa kuziandikisha kwenye faili hili *blog/admin.py* hebu lifungue tuanze kuziandikisha hizi **Models**. 
 
 ```shell
 nano blog/admin.py
@@ -526,7 +526,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 (InteractiveConsole)
 >>> 
 ```
-Sasa tunamwingiliano na **console** ya **Django**, kuthibitisha hilo nita agiza maktaba ya `models` **kitu** cha `Post`.
+Sasa tunamwingiliano na **console** ya **Django**, kuthibitisha hilo nita agiza maktaba ya *models* **kitu** cha *Post*.
 
 ```python 
 from blog.models import Post 
@@ -585,46 +585,46 @@ hebu tuone nijinsi gani tunaweza kuandika *kazi* kwenye *mtazamo* **"views"** am
 ### Django Views
 
 Kwenye app yetu ya blog tuta tengeneza **mtazamo** **"views"** za aina mbili
-tuta kua na `mtazamo` ambao unaorothesha **post** zote ambazo zimechapishwa, 
-alfatu tutakua na `mtazamo` ambao una onyesha **post** moja iliyo chapishwa kwa undani.
+tuta kua na *mtazamo* ambao unaorothesha **post** zote ambazo zimechapishwa, 
+alfatu tutakua na *mtazamo* ambao una onyesha **post** moja iliyo chapishwa kwa undani.
 
 
-Wakati ambapo majina ya hii `mitazamo` yanaweza kua kitu chochote kile **mtazamo** 
-wangu amboa utakua una onyesha orotha ya post zote zilizo chapishwa nita uita `post_index` 
+Wakati ambapo majina ya hii *mitazamo* yanaweza kua kitu chochote kile **mtazamo** 
+wangu amboa utakua una onyesha orotha ya post zote zilizo chapishwa nita uita *post_index* 
 na ndiyo utakua ukurasa wa mbele wa webbapp yetu
 
-**mtazamo** wa post moja kwa undani nitauita `post_detail`
+**mtazamo** wa post moja kwa undani nitauita *post_detail*
 
-Tuanze kutengeneza hii `mitazamo` kwaku fungua faili hili
+Tuanze kutengeneza hii *mitazamo* kwaku fungua faili hili
 
 ```shell
 nano blog/views.py
 ``` 
-Kwaza kabisa nimeanza na kuagiza kifurushi cha `django.shortcuts` ambacho kinakusanya **kazi** za usaidizi na 
-**madarsa** ambayo yanajitanua kwenye `MVT`, 
+Kwaza kabisa nimeanza na kuagiza kifurushi cha *django.shortcuts* ambacho kinakusanya **kazi** za usaidizi na 
+**madarsa** ambayo yanajitanua kwenye *MVT*, 
 hapa nimechomoa kifurushi ambacho kitatuwezesha **kutoa** html. 
 Pamoja na itakayoita **pata()**  au **404** "**hai patikani**" 
 
 ```python 
 from django.shortcuts import render, get_object_or_404
 ```
-Kwajili ya majira nime agiza maktaba ya `timezone`
+Kwajili ya majira nime agiza maktaba ya *timezone*
 
 ```python 
 from django.utils import timezone
 ```
 Angalia jinsi ambavyo na agiza **Model** ya **Post** hiyo nukta inamanisha **model** ya **Post** 
-inapatikana kwenye directory moja na faili la **mtazamo** `views.py`.
+inapatikana kwenye directory moja na faili la **mtazamo** *views.py*.
 
 ```python 
 from .models import Post
 ```
-Na anza kutengeneza **kazi** `def` naipa jina la `post_index` inachukua **ombi** **"request"** alafu ita **rudisha** **"return"** thamani iliyo ipata kwakuita **kazi** nyingine 
+Na anza kutengeneza **kazi** *def* naipa jina la *post_index* inachukua **ombi** **"request"** alafu ita **rudisha** **"return"** thamani iliyo ipata kwakuita **kazi** nyingine 
 **kutoa** **"render"** ambayo hii nayo ina chukua **ombi** **"request"** ita **toa** template ya **html** 
-`blog/post_index.html`. Na `{'posts': posts}` kwa sasa chukulia kama ni **kuulizaset** 
-nime iweka kwenye `variable`, ili tuweze kuitumia kwenye `template` kwa urahisi.
-Kazi yake ni `kuchuja` **post** nipate zile zilizo **chapishwa tu**, 
-alafu ni zi orotheshe kwa `kupanga` kutokana na tarehe ya kutangulia kuchapishwa
+*blog/post_index.html*. Na *{'posts': posts}* kwa sasa chukulia kama ni **kuulizaset** 
+nime iweka kwenye *variable*, ili tuweze kuitumia kwenye *template* kwa urahisi.
+Kazi yake ni *kuchuja* **post** nipate zile zilizo **chapishwa tu**, 
+alafu ni zi orotheshe kwa *kupanga* kutokana na tarehe ya kutangulia kuchapishwa
 
 ```python 
 def post_index(request):
@@ -632,9 +632,9 @@ posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('publis
 return render(request, 'blog/post_index.html', {'posts': posts})
 ``` 
 Hapa kwajili ya post kwaundani naendelea **kuulizaset** safari hii nataka **Post** 
-pamoja na **funguo ya msingi** **"primary key"** `pk` ambayo ndiyo nimeipitisha kwenye 
+pamoja na **funguo ya msingi** **"primary key"** *pk* ambayo ndiyo nimeipitisha kwenye 
 **hoja** za **kazi** kwa hiyo hilo ndiyo litakua **ombi** **"request"** ili 
-**kurudisha** **"return"** **kazi** ya **kutoa** **"render"** ambayo inachuka **ombi** **"request"** itarudisha `html` 
+**kurudisha** **"return"** **kazi** ya **kutoa** **"render"** ambayo inachuka **ombi** **"request"** itarudisha *html*
 tukiwa tumepitisha kamusi ya muktadha ambayo itakwenda kutumika kwenye template.
 
 ```python 
@@ -643,12 +643,12 @@ post = get_object_or_404(Post, pk=pk)
 return render(request, 'blog/post_detail.html', {'post': post}) 
 ``` 
 Sasa tuna hiyo **mitazamo** yetu **"views"** ili hii **mitazamo** 
-iweze kuitwa na hatimaye kuitikia **ombi** inabidi kuifahamishe `URLs.py` uwepo wa **mitazamo**. 
+iweze kuitwa na hatimaye kuitikia **ombi** inabidi kuifahamishe *URLs.py* uwepo wa **mitazamo**. 
 
 
 ### Django URLs
 
-Anza na kutengeneza faili la `urls.py` ndani ya directory ya app yako hili faili hua halitengenenzwi na `manage.py startapp`
+Anza na kutengeneza faili la *urls.py* ndani ya directory ya app yako hili faili hua halitengenenzwi na *manage.py startapp*
 
 ```shell
 nano blog/urls.py
@@ -662,9 +662,9 @@ from . import views
 ``` 
 
 naonyesha **muundo** **"patterns"** wa **URLs** zangu, 
-bilashaka umegundua kwamba **mtazamo** **"views"** wa `post_index` ndiyo mzizi wa *Urls* zangu ndiyo itakuwa ukurasa wetu wa mbele.
-Kwenye **mtazamo** **"views"** wa `post_detail` hapa tunataka `url` iwe `post/1`, `post/2`, nk kutegeme na **ufunguo gani wa msingi** **"pk"** ume pitishwa kwenye **URL** 
-ndiyo mana tukaweka `<int:pk>` kuijulisha **Django** kwamba thamani **"value"** inayo pita kwenye **URL** ni **nambari** **"integer"** na jina la `variable` yake ni `pk`
+bilashaka umegundua kwamba **mtazamo** **"views"** wa *post_index* ndiyo mzizi wa *Urls* zangu ndiyo itakuwa ukurasa wetu wa mbele.
+Kwenye **mtazamo** **"views"** wa *post_detail* hapa tunataka *url* iwe *post/1*, *post/2*, nk kutegeme na **ufunguo gani wa msingi** **"pk"** ume pitishwa kwenye **URL** 
+ndiyo mana tukaweka *<int:pk>* kuijulisha **Django** kwamba thamani **"value"** inayo pita kwenye **URL** ni **nambari** **"integer"** na jina la *variable* yake ni *pk*
 
 ```python 
 urlpatterns = [
@@ -674,12 +674,12 @@ path('post/<int:pk>/', views.post_detail, name='post_detail'),
 ]
 ``` 
 
-Kwenye framework ya **Django** unapotengeza project kwa kutumia `django-admin startproject` na faili la `urls` hua linatengenezwa 
-kama una kumbaka ndiyo mana tuliweza kwenda `http://ip:3000/admin` ukitumia `manage.py startapp` haitengenezi faili la `urls.py` kwenye directory ya app. 
+Kwenye framework ya **Django** unapotengeza project kwa kutumia *django-admin startproject* na faili la *urls* hua linatengenezwa 
+kama una kumbaka ndiyo mana tuliweza kwenda *http://ip:3000/admin* ukitumia *manage.py startapp* haitengenezi faili la *urls.py* kwenye directory ya app. 
 
-Mimi huwa napendelea kusafisha vitu kidogo, inapendeza kila *app* ikawa na faili lake la `urls` alafu hili faili la **urls** ambalo liko kwenye **project** lika tupia *ndoana* kuli kamatia lile la kwenye **app** na ndiyo hicho ninacho kwenda kukifanya hapa.
+Mimi huwa napendelea kusafisha vitu kidogo, inapendeza kila *app* ikawa na faili lake la *urls* alafu hili faili la **urls** ambalo liko kwenye **project** lika tupia *ndoana* kuli kamatia lile la kwenye **app** na ndiyo hicho ninacho kwenda kukifanya hapa.
 
-Nita anza na kufungua faili la `urls` la kwenye `project`
+Nita anza na kufungua faili la *urls* la kwenye *project*
 
 
 ```shell
@@ -715,7 +715,7 @@ Kwenye directory yangu ya **templates** ambayo nili itengeneza hapo awali nita t
 mkdir templates/blog
 ```
 
-ndani ya hiyo directory nita tengeneza faili la `base.html`
+ndani ya hiyo directory nita tengeneza faili la *base.html*
 
 **base template** zinasadia pale ambapo unataka uwena na tarifa au mpangilio unao funana zaidi ya sehemu moja na hutaki kurudia rudia kuweka tarifa hizo hizo kwenye kila faili, nakama ikitokea kuna mabadiliko basi mabadiliko hayo uta yafanya kwenye faili moja tu badala ya kwenda kwenye kila faili.
 
@@ -778,12 +778,12 @@ cha habari.
 
 
 
-sitaki kuzungumzia habari za *bootstrap* kwa sababu haikua lengo la makala haya. Lakini chakuzingatia ni hicho **kitanzi** hapo kwenye **post**, kama una kumbuka kwenye **template** yetu tuliipa **orotha** ya **posts** kwenye `variable` tuliyo ita `posts` sasa ili kuionyesha hiyo `variable` kwenye **html**, ina tulazimu kwenye **django** tuweka curly brackets mbili na jina la *variable* likiwa ndani, lakini kwa vile hii ni **orotha** nimeipiga **kitanzi** ndani ya hiki **kitanzi** ndiyo napata **post** moja moja. Na chochote kile utakacho weka hapo kati ya `{% for %}` na `{% endfor %}` kitatokea kwenye kila **kitu** kilicho kuwepo kwenye **orotha**
+sitaki kuzungumzia habari za *bootstrap* kwa sababu haikua lengo la makala haya. Lakini chakuzingatia ni hicho **kitanzi** hapo kwenye **post**, kama una kumbuka kwenye **template** yetu tuliipa **orotha** ya **posts** kwenye *variable* tuliyo ita *posts* sasa ili kuionyesha hiyo *variable* kwenye **html**, ina tulazimu kwenye **django** tuweka curly brackets mbili na jina la *variable* likiwa ndani, lakini kwa vile hii ni **orotha** nimeipiga **kitanzi** ndani ya hiki **kitanzi** ndiyo napata **post** moja moja. Na chochote kile utakacho weka hapo kati ya *{% for %}* na *{% endfor %}* kitatokea kwenye kila **kitu** kilicho kuwepo kwenye **orotha**
 
-nikitumia nukta alafu nikaweka curly brackets mbili hapa ni kwajili ya sifa zingine za **yaliyomo** kama hapa na taka kichwa cha habari cha post `{{ post.title }}`.
+nikitumia nukta alafu nikaweka curly brackets mbili hapa ni kwajili ya sifa zingine za **yaliyomo** kama hapa na taka kichwa cha habari cha post *{{ post.title }}*.
 
-Hali kathalika na weka `<a href= kiungo kati ya ukurasa huu na ukurasa wa `post_detail`
-kwa kutumia tag za **template** ya **Django**  tuna taka kutenge ne zewa  `url` hasa ukizinga tia **Django** anatarajia **URL** kwenye `blog/urls.py` ambayo **inaitwa** **"name"** = `post_detail` ndiyo maana hapo kati sikuacha kuioyesha `post_detail`  namalizia na `pk=post.pk` **funguo yamsingi** nilisha izungumzia wakati tuna tengeneza **muonekano** siyo kazi kujua kwanini nime iweka hapo 
+Hali kathalika na weka *<a href=* kiungo kati ya ukurasa huu na ukurasa wa *post_detail*
+kwa kutumia tag za **template** ya **Django**  tuna taka kutenge ne zewa  *url* hasa ukizinga tia **Django** anatarajia **URL** kwenye *blog/urls.py* ambayo **inaitwa** **"name"** = *post_detail* ndiyo maana hapo kati sikuacha kuioyesha *post_detail*  namalizia na *pk=post.pk* **funguo yamsingi** nilisha izungumzia wakati tuna tengeneza **muonekano** siyo kazi kujua kwanini nime iweka hapo 
 ```html
 <div class="row">
 {% for post in posts %}
@@ -810,7 +810,7 @@ kwa kutumia tag za **template** ya **Django**  tuna taka kutenge ne zewa  `url` 
 ``` 
 **post_detail.html** 
 
- nahapa sasa na weke `post_detail`
+ nahapa sasa na weke *post_detail*
 
  ```
  nano templates/blog/post_detail.html
