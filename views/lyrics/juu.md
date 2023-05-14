@@ -23,7 +23,7 @@ It's haunting me
 <!--more-->
 
 Kwenye **makala** haya tuta kwenda kuandika **webapp** kwa kutumia
-**lugha** ya **programing** inayo julikana kama **python** kwa usaidizi wa **mfumo** **"framework"** unao julikana kama **Django**. 
+**lugha** ya **programing** inayo julikana kama **python** kwa usaidizi wa **mfumo** unao julikana kama **Django**. 
 
 Hatakama hujawahi kuandika **program** yoyoteile bado unaweza 
 kufuatilia maelekezo haya na ukafanikiwa kuandika **webapp**, kwa sababu **makala** 
